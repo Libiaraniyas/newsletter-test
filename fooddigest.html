@@ -410,10 +410,24 @@
     }).join('');
   }
 
-  // True when served by Netlify (function endpoint exists)
-  function onNetlify() {
-    return location.hostname.endsWith('.netlify.app') ||
-           location.hostname === 'localhost' && location.port === '8888';
+  // True when served by Netlify (function endpoint exists).
+  // Covers: *.netlify.app, *.netlify.live (deploy previews), netlify dev (localhost:8888),
+  // and custom domains on Netlify (detected via the x-nf-request-id response header probe).
+  var _onNetlifyCache = null;
+  async function onNetlify() {
+    if (_onNetlifyCache !== null) return _onNetlifyCache;
+    if (location.hostname.endsWith('.netlify.app') ||
+        location.hostname.endsWith('.netlify.live') ||
+        (location.hostname === 'localhost' && location.port === '8888')) {
+      return (_onNetlifyCache = true);
+    }
+    try {
+      var probe = await fetch('/.netlify/functions/fetch-news', { method: 'HEAD' });
+      _onNetlifyCache = probe.status !== 404;
+    } catch (_) {
+      _onNetlifyCache = false;
+    }
+    return _onNetlifyCache;
   }
 
   var PROMPT =
@@ -500,7 +514,7 @@
     showSkeletons(8);
 
     try {
-      var articles = await (onNetlify() ? fetchViaFunction(apiKey) : fetchDirect(apiKey));
+      var articles = await ((await onNetlify()) ? fetchViaFunction(apiKey) : fetchDirect(apiKey));
       if (!Array.isArray(articles) || articles.length === 0) {
         throw new Error('No articles returned. Try again.');
       }
