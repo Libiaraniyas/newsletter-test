@@ -410,7 +410,79 @@
     }).join('');
   }
 
-  // ── Main: fetch news from Claude API
+  // True when served by Netlify (function endpoint exists)
+  function onNetlify() {
+    return location.hostname.endsWith('.netlify.app') ||
+           location.hostname === 'localhost' && location.port === '8888';
+  }
+
+  var PROMPT =
+    'Search the web for the 8 most important and recent news articles about: "' + TOPIC + '".\n' +
+    'Return a JSON array where each item has:\n' +
+    '- title: headline in English\n' +
+    '- summary: 2-3 sentence summary in English\n' +
+    '- source: publication name\n' +
+    '- date: publication date\n' +
+    '- url: link to original article\n\n' +
+    'Return only valid JSON, no markdown, no extra text.';
+
+  // Path A: Netlify Function (API key stays server-side)
+  async function fetchViaFunction(apiKey) {
+    var res = await fetch('/.netlify/functions/fetch-news', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ apiKey: apiKey, topic: TOPIC })
+    });
+    var payload = await res.json().catch(function() { return {}; });
+    if (!res.ok) throw new Error(payload.error || 'Function error: HTTP ' + res.status);
+    if (!Array.isArray(payload)) throw new Error('Unexpected response from function.');
+    return payload;
+  }
+
+  // Path B: direct browser call (GitHub Pages / any static host over HTTPS)
+  async function fetchDirect(apiKey) {
+    var res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json',
+        'x-api-key': apiKey,
+        'anthropic-version': '2023-06-01',
+        'anthropic-beta': 'web-search-2025-03-05',
+        'anthropic-dangerous-direct-browser-calls': 'true'
+      },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 4096,
+        tools: [{ type: 'web_search_20250305', name: 'web_search', max_uses: 5 }],
+        messages: [{ role: 'user', content: PROMPT }]
+      })
+    });
+
+    if (!res.ok) {
+      var err = await res.json().catch(function() { return {}; });
+      throw new Error(err?.error?.message || 'Anthropic API error: HTTP ' + res.status);
+    }
+
+    var data = await res.json();
+    var textBlocks = (data.content || []).filter(function(b) {
+      return b.type === 'text' && b.text && b.text.trim();
+    });
+
+    for (var i = textBlocks.length - 1; i >= 0; i--) {
+      var raw = textBlocks[i].text.trim()
+        .replace(/^```(?:json)?\s*/im, '').replace(/\s*```\s*$/im, '').trim();
+      var s = raw.indexOf('['), e = raw.lastIndexOf(']');
+      if (s !== -1 && e > s) {
+        try {
+          var parsed = JSON.parse(raw.slice(s, e + 1));
+          if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+        } catch (_) {}
+      }
+    }
+    throw new Error('Could not parse articles from response. Try again.');
+  }
+
+  // ── Main: fetch news (auto-selects path based on host)
   async function fetchNews() {
     var apiKey = apiKeyEl.value.trim();
     if (!apiKey) {
@@ -421,7 +493,6 @@
 
     saveKey(apiKey);
 
-    // Loading state
     btnEl.disabled = true;
     btnIcon.textContent = '⏳';
     btnLabel.textContent = 'Fetching…';
@@ -429,84 +500,9 @@
     showSkeletons(8);
 
     try {
-      var prompt =
-        'Search the web for the 8 most important and recent news articles about: "' + TOPIC + '".\n' +
-        'Return a JSON array where each item has:\n' +
-        '- title: headline in English\n' +
-        '- summary: 2-3 sentence summary in English\n' +
-        '- source: publication name\n' +
-        '- date: publication date\n' +
-        '- url: link to original article\n\n' +
-        'Return only valid JSON, no markdown, no extra text.';
-
-      var res = await fetch('https://api.anthropic.com/v1/messages', {
-        method: 'POST',
-        headers: {
-          'content-type': 'application/json',
-          'x-api-key': apiKey,
-          'anthropic-version': '2023-06-01',
-          'anthropic-beta': 'web-search-2025-03-05',
-          'anthropic-dangerous-direct-browser-calls': 'true'
-        },
-        body: JSON.stringify({
-          model: 'claude-sonnet-4-20250514',
-          max_tokens: 4096,
-          tools: [{
-            type: 'web_search_20250305',
-            name: 'web_search',
-            max_uses: 5
-          }],
-          messages: [{ role: 'user', content: prompt }]
-        })
-      });
-
-      if (!res.ok) {
-        var errBody = await res.json().catch(function() { return {}; });
-        throw new Error(
-          (errBody && errBody.error && errBody.error.message)
-            ? errBody.error.message
-            : 'HTTP ' + res.status + ' ' + res.statusText
-        );
-      }
-
-      var data = await res.json();
-
-      // Collect all non-empty text blocks; Claude may emit multiple
-      // (preamble text + final JSON) when web_search is used.
-      var textBlocks = (data.content || []).filter(function(b) {
-        return b.type === 'text' && b.text && b.text.trim();
-      });
-
-      if (textBlocks.length === 0) {
-        throw new Error('Claude returned no text. The model may have only called tools without producing a final response.');
-      }
-
-      // Try to extract a valid JSON array, scanning blocks from last to first
-      var articles = null;
-      for (var i = textBlocks.length - 1; i >= 0; i--) {
-        var raw = textBlocks[i].text.trim();
-
-        // Strip markdown code fences (```json ... ```)
-        raw = raw.replace(/^```(?:json)?\s*/im, '').replace(/\s*```\s*$/im, '').trim();
-
-        // Find the outermost [ ... ] array
-        var start = raw.indexOf('[');
-        var end   = raw.lastIndexOf(']');
-        if (start !== -1 && end > start) {
-          try {
-            var parsed = JSON.parse(raw.slice(start, end + 1));
-            if (Array.isArray(parsed) && parsed.length > 0) {
-              articles = parsed;
-              break;
-            }
-          } catch (_) {
-            // try the previous text block
-          }
-        }
-      }
-
-      if (!articles || !Array.isArray(articles)) {
-        throw new Error('Could not parse a valid article list from the response. Try again.');
+      var articles = await (onNetlify() ? fetchViaFunction(apiKey) : fetchDirect(apiKey));
+      if (!Array.isArray(articles) || articles.length === 0) {
+        throw new Error('No articles returned. Try again.');
       }
 
       renderArticles(articles);
