@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Industry Daily Digest</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --green-dark:  #1b6b3a;
+      --green-mid:   #2d9e5a;
+      --green-light: #e6f4ec;
+      --bg:          #f1f5f1;
+      --card:        #ffffff;
+      --text-1:      #111827;
+      --text-2:      #4b5563;
+      --text-3:      #9ca3af;
+      --border:      #e5e7eb;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+                   'Helvetica Neue', Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text-1);
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    .header {
+      background: linear-gradient(135deg, var(--green-dark) 0%, var(--green-mid) 100%);
+      color: #fff;
+      padding: 2.25rem 1.5rem 2rem;
+      text-align: center;
+    }
+    .header-eyebrow {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      opacity: 0.7;
+      margin-bottom: 0.45rem;
+    }
+    .header h1 {
+      font-size: 2.1rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      line-height: 1.15;
+    }
+    .header-sub {
+      margin-top: 0.45rem;
+      font-size: 0.88rem;
+      opacity: 0.78;
+    }
+    .topic-badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.18);
+      border: 1px solid rgba(255,255,255,0.35);
+      border-radius: 999px;
+      padding: 0.15rem 0.65rem;
+      font-weight: 700;
+      font-size: 0.8rem;
+      margin-left: 0.3rem;
+    }
+
+    /* ── Setup bar ── */
+    .setup-bar {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      padding: 0.875rem 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.75rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+    }
+    .setup-bar label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-2);
+      white-space: nowrap;
+    }
+    #api-key {
+      flex: 1;
+      min-width: 180px;
+      max-width: 370px;
+      padding: 0.5rem 0.75rem;
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.875rem;
+      font-family: monospace;
+      outline: none;
+      color: var(--text-1);
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    #api-key:focus {
+      border-color: var(--green-mid);
+      box-shadow: 0 0 0 3px rgba(45,158,90,0.13);
+    }
+    #api-key::placeholder { color: var(--text-3); }
+
+    .btn {
+      background: var(--green-dark);
+      color: #fff;
+      border: none;
+      padding: 0.55rem 1.3rem;
+      border-radius: 8px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: background 0.15s, transform 0.1s;
+    }
+    .btn:hover:not(:disabled) { background: var(--green-mid); }
+    .btn:active:not(:disabled) { transform: scale(0.97); }
+    .btn:disabled { opacity: 0.45; cursor: not-allowed; }
+    .btn-clear {
+      background: transparent;
+      color: var(--text-3);
+      border: 1.5px solid var(--border);
+      padding: 0.5rem 0.85rem;
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+    .btn-clear:hover:not(:disabled) { background: #fef2f2; color: #dc2626; border-color: #fca5a5; }
+
+    /* ── Status line ── */
+    .status {
+      text-align: center;
+      padding: 0.55rem 1rem;
+      font-size: 0.8rem;
+      color: var(--text-3);
+      min-height: 2rem;
+      transition: color 0.2s;
+    }
+    .status.loading { color: var(--green-mid); font-style: italic; }
+    .status.error   { color: #dc2626; }
+    .status.ok      { color: var(--green-dark); }
+
+    /* ── Grid ── */
+    .container {
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 0.25rem 1.5rem 3.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+      gap: 1.25rem;
+    }
+
+    /* ── Article card ── */
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.35rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.55rem;
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
+    }
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.09);
+    }
+    .card-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 0.5rem;
+    }
+    .card-source {
+      font-size: 0.67rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      color: var(--green-dark);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .card-date {
+      font-size: 0.7rem;
+      color: var(--text-3);
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .card-title {
+      font-size: 0.995rem;
+      font-weight: 700;
+      line-height: 1.42;
+      color: var(--text-1);
+    }
+    .card-summary {
+      font-size: 0.845rem;
+      color: var(--text-2);
+      line-height: 1.68;
+      flex: 1;
+    }
+    .card-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--green-dark);
+      text-decoration: none;
+      margin-top: 0.2rem;
+      transition: gap 0.15s;
+    }
+    .card-link:hover { gap: 0.45rem; text-decoration: underline; }
+    .card-divider {
+      height: 1px;
+      background: var(--green-light);
+      margin: 0.1rem 0;
+    }
+
+    /* ── Skeleton ── */
+    .skeleton-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.35rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+    .skel {
+      border-radius: 5px;
+      background: linear-gradient(
+        90deg,
+        #efefef 25%,
+        #e4e4e4 50%,
+        #efefef 75%
+      );
+      background-size: 200% 100%;
+      animation: shimmer 1.5s ease-in-out infinite;
+    }
+    @keyframes shimmer {
+      0%   { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+
+    /* ── Empty / error states ── */
+    .state-box {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 5rem 1rem;
+    }
+    .state-icon { font-size: 2.8rem; margin-bottom: 0.75rem; }
+    .state-box h2 { font-size: 1.1rem; color: var(--text-2); margin-bottom: 0.4rem; }
+    .state-box p  { font-size: 0.875rem; color: var(--text-3); max-width: 360px; margin: 0 auto; }
+
+    /* ── Responsive ── */
+    @media (max-width: 520px) {
+      .header h1   { font-size: 1.55rem; }
+      .setup-bar   { padding: 0.75rem 1rem; }
+      .container   { padding: 0.25rem 0.9rem 2.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-eyebrow">Daily News Digest</div>
+  <h1>Food Industry News</h1>
+  <p class="header-sub">
+    Powered by Claude + live web search
+    <span class="topic-badge" id="topic-badge"></span>
+  </p>
+</header>
+
+<div class="setup-bar">
+  <label for="api-key">Anthropic API Key</label>
+  <input
+    type="password"
+    id="api-key"
+    placeholder="sk-ant-…"
+    autocomplete="off"
+    spellcheck="false"
+  />
+  <button class="btn btn-clear" id="clear-key-btn" title="Clear saved key">Clear key</button>
+  <button class="btn" id="refresh-btn">
+    <span id="btn-icon">&#8635;</span>
+    <span id="btn-label">Refresh News</span>
+  </button>
+</div>
+
+<div class="status" id="status"></div>
+
+<div class="container">
+  <div class="grid" id="grid">
+    <div class="state-box">
+      <div class="state-icon">&#128240;</div>
+      <h2>No articles loaded yet</h2>
+      <p>Paste your Anthropic API key above, then click <strong>Refresh News</strong> to fetch the latest stories.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  // TO CUSTOMIZE: change the TOPIC variable below
+  const TOPIC = "food industry";
+
+  const LS_KEY = 'anthropic_api_key';
+
+  // ── DOM refs
+  const apiKeyEl   = document.getElementById('api-key');
+  const clearKeyEl = document.getElementById('clear-key-btn');
+  const btnEl      = document.getElementById('refresh-btn');
+  const btnIcon    = document.getElementById('btn-icon');
+  const btnLabel   = document.getElementById('btn-label');
+  const statusEl   = document.getElementById('status');
+  const gridEl     = document.getElementById('grid');
+
+  // Populate topic badge
+  document.getElementById('topic-badge').textContent =
+    TOPIC.charAt(0).toUpperCase() + TOPIC.slice(1);
+
+  // ── API key persistence
+  (function loadSavedKey() {
+    const saved = localStorage.getItem(LS_KEY);
+    if (saved) apiKeyEl.value = saved;
+  })();
+
+  function saveKey(key) {
+    if (key) localStorage.setItem(LS_KEY, key);
+    else      localStorage.removeItem(LS_KEY);
+  }
+
+  clearKeyEl.addEventListener('click', function() {
+    apiKeyEl.value = '';
+    saveKey('');
+    apiKeyEl.focus();
+  });
+
+  // ── Utility: safe HTML escaping
+  function esc(str) {
+    const d = document.createElement('div');
+    d.textContent = String(str ?? '');
+    return d.innerHTML;
+  }
+
+  // ── Utility: validate URL (only allow http/https)
+  function safeUrl(url) {
+    const s = String(url ?? '').trim();
+    return /^https?:\/\//i.test(s) ? s : '#';
+  }
+
+  // ── Status display
+  function setStatus(msg, cls) {
+    statusEl.textContent = msg;
+    statusEl.className = 'status' + (cls ? ' ' + cls : '');
+  }
+
+  // ── Skeleton placeholders while loading
+  function showSkeletons(count) {
+    count = count || 8;
+    gridEl.innerHTML = Array.from({ length: count }, () => `
+      <div class="skeleton-card">
+        <div style="display:flex;justify-content:space-between;gap:.5rem">
+          <div class="skel" style="height:10px;width:30%"></div>
+          <div class="skel" style="height:10px;width:16%"></div>
+        </div>
+        <div class="skel" style="height:19px;width:90%"></div>
+        <div class="skel" style="height:19px;width:72%"></div>
+        <div class="skel" style="height:13px;width:100%"></div>
+        <div class="skel" style="height:13px;width:100%"></div>
+        <div class="skel" style="height:13px;width:58%"></div>
+        <div class="skel" style="height:12px;width:24%"></div>
+      </div>`).join('');
+  }
+
+  // ── Render article cards
+  function renderArticles(articles) {
+    if (!Array.isArray(articles) || articles.length === 0) {
+      gridEl.innerHTML = `<div class="state-box">
+        <div class="state-icon">&#128235;</div>
+        <h2>No articles found</h2>
+        <p>No results returned. Try refreshing again.</p>
+      </div>`;
+      return;
+    }
+
+    gridEl.innerHTML = articles.map(function(a) {
+      var url = a.url ? safeUrl(a.url) : '';
+      return `
+        <div class="card">
+          <div class="card-meta">
+            <span class="card-source">${esc(a.source)}</span>
+            <span class="card-date">${esc(a.date)}</span>
+          </div>
+          <div class="card-divider"></div>
+          <div class="card-title">${esc(a.title)}</div>
+          <div class="card-summary">${esc(a.summary)}</div>
+          ${url && url !== '#'
+            ? `<a class="card-link" href="${url}" target="_blank" rel="noopener noreferrer">
+                 Read more &#8594;
+               </a>`
+            : ''}
+        </div>`;
+    }).join('');
+  }
+
+  // ── Main: fetch news from Claude API
+  async function fetchNews() {
+    var apiKey = apiKeyEl.value.trim();
+    if (!apiKey) {
+      setStatus('Please enter your Anthropic API key first.', 'error');
+      apiKeyEl.focus();
+      return;
+    }
+
+    saveKey(apiKey);
+
+    // Loading state
+    btnEl.disabled = true;
+    btnIcon.textContent = '⏳';
+    btnLabel.textContent = 'Fetching…';
+    setStatus('Searching the web for the latest ' + TOPIC + ' news…', 'loading');
+    showSkeletons(8);
+
+    try {
+      var prompt =
+        'Search the web for the 8 most important and recent news articles about: "' + TOPIC + '".\n' +
+        'Return a JSON array where each item has:\n' +
+        '- title: headline in English\n' +
+        '- summary: 2-3 sentence summary in English\n' +
+        '- source: publication name\n' +
+        '- date: publication date\n' +
+        '- url: link to original article\n\n' +
+        'Return only valid JSON, no markdown, no extra text.';
+
+      var res = await fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/json',
+          'x-api-key': apiKey,
+          'anthropic-version': '2023-06-01',
+          'anthropic-beta': 'web-search-2025-03-05',
+          'anthropic-dangerous-direct-browser-calls': 'true'
+        },
+        body: JSON.stringify({
+          model: 'claude-sonnet-4-20250514',
+          max_tokens: 4096,
+          tools: [{
+            type: 'web_search_20250305',
+            name: 'web_search',
+            max_uses: 5
+          }],
+          messages: [{ role: 'user', content: prompt }]
+        })
+      });
+
+      if (!res.ok) {
+        var errBody = await res.json().catch(function() { return {}; });
+        throw new Error(
+          (errBody && errBody.error && errBody.error.message)
+            ? errBody.error.message
+            : 'HTTP ' + res.status + ' ' + res.statusText
+        );
+      }
+
+      var data = await res.json();
+
+      // Collect all non-empty text blocks; Claude may emit multiple
+      // (preamble text + final JSON) when web_search is used.
+      var textBlocks = (data.content || []).filter(function(b) {
+        return b.type === 'text' && b.text && b.text.trim();
+      });
+
+      if (textBlocks.length === 0) {
+        throw new Error('Claude returned no text. The model may have only called tools without producing a final response.');
+      }
+
+      // Try to extract a valid JSON array, scanning blocks from last to first
+      var articles = null;
+      for (var i = textBlocks.length - 1; i >= 0; i--) {
+        var raw = textBlocks[i].text.trim();
+
+        // Strip markdown code fences (```json ... ```)
+        raw = raw.replace(/^```(?:json)?\s*/im, '').replace(/\s*```\s*$/im, '').trim();
+
+        // Find the outermost [ ... ] array
+        var start = raw.indexOf('[');
+        var end   = raw.lastIndexOf(']');
+        if (start !== -1 && end > start) {
+          try {
+            var parsed = JSON.parse(raw.slice(start, end + 1));
+            if (Array.isArray(parsed) && parsed.length > 0) {
+              articles = parsed;
+              break;
+            }
+          } catch (_) {
+            // try the previous text block
+          }
+        }
+      }
+
+      if (!articles || !Array.isArray(articles)) {
+        throw new Error('Could not parse a valid article list from the response. Try again.');
+      }
+
+      renderArticles(articles);
+      setStatus(
+        articles.length + ' article' + (articles.length !== 1 ? 's' : '') +
+        ' loaded · ' + new Date().toLocaleTimeString(),
+        'ok'
+      );
+
+    } catch (err) {
+      console.error('[Food Digest]', err);
+      gridEl.innerHTML = `<div class="state-box">
+        <div class="state-icon">&#9888;&#65039;</div>
+        <h2>Failed to load articles</h2>
+        <p>${esc(err.message)}</p>
+      </div>`;
+      setStatus('Error — ' + err.message, 'error');
+    } finally {
+      btnEl.disabled = false;
+      btnIcon.innerHTML = '&#8635;';
+      btnLabel.textContent = 'Refresh News';
+    }
+  }
+
+  // ── Event listeners
+  btnEl.addEventListener('click', fetchNews);
+  apiKeyEl.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') fetchNews();
+  });
+</script>
+</body>
+</html>
