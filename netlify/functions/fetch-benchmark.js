@@ -3,9 +3,9 @@ exports.handler = async function(event) {
     return { statusCode: 405, body: JSON.stringify({ error: 'Method not allowed' }) };
   }
 
-  let apiKey, stage, quarter, year;
+  let apiKey, stage, quarter, year, sourceLinks;
   try {
-    ({ apiKey, stage, quarter, year } = JSON.parse(event.body || '{}'));
+    ({ apiKey, stage, quarter, year, sourceLinks } = JSON.parse(event.body || '{}'));
   } catch {
     return { statusCode: 400, body: JSON.stringify({ error: 'Invalid JSON body' }) };
   }
@@ -23,6 +23,26 @@ exports.handler = async function(event) {
   const QUARTER = quarter; // e.g. "Q1"
   const YEAR = year;       // e.g. "2026"
 
+  function buildSourceSection(links) {
+    if (!links || !Object.keys(links).length) return '';
+    const entries = Object.keys(links).map(function(co) {
+      const s = links[co] || {};
+      const parts = [];
+      if (s.earningsCall)  parts.push('  - Earnings Call: '   + s.earningsCall);
+      if (s.filing)        parts.push('  - 10-Q/Filing: '     + s.filing);
+      if (s.analystReport) parts.push('  - Analyst Report: '  + s.analystReport);
+      return parts.length ? co + ':\n' + parts.join('\n') : null;
+    }).filter(Boolean);
+    if (!entries.length) return '';
+    return '### PRE-PROVIDED SOURCE URLs — FETCH THESE FIRST\n' +
+      'The following specific document URLs have been pre-supplied for certain companies. ' +
+      'You MUST web_fetch each of these URLs directly for the relevant company BEFORE using web_search. ' +
+      'Use web_search only to fill gaps where no URL has been provided, or where a provided URL fails to load.\n\n' +
+      entries.join('\n\n') + '\n\n';
+  }
+
+  const sourceSection = buildSourceSection(sourceLinks || {});
+
   const macroPrompt = `You are an expert equity research analyst. Synthesize ${QUARTER} ${YEAR} *macro* themes across:
 
 CPG companies: Unilever, Mondelez, Nestlé, PepsiCo, Coca-Cola Company, Danone, Barry Callebaut, Keurig Dr Pepper, General Mills, Hershey Company, Kraft Heinz
@@ -36,7 +56,7 @@ Appliances companies: SharkNinja, Haier
 - Analyst reports from Barclays, Jefferies, and Goldman Sachs (page/section numbers)
 - Additional relevant and reliable sources that provide verifiable macroeconomic commentary
 
-### CRITICAL: You must use web_search and web_fetch to find and READ the actual source documents for each company before making any claim. Do NOT rely on general knowledge about these companies. If you cannot find or access a verifiable ${QUARTER} ${YEAR} source for a company, explicitly state "NOT VERIFIED" for that company and exclude it from the analysis rather than guessing.
+${sourceSection}### CRITICAL: You must use web_search and web_fetch to find and READ the actual source documents for each company before making any claim. Do NOT rely on general knowledge about these companies. If you cannot find or access a verifiable ${QUARTER} ${YEAR} source for a company, explicitly state "NOT VERIFIED" for that company and exclude it from the analysis rather than guessing.
 
 ### Focus of Analysis (Strict)
 Extract only macro environment themes:
@@ -79,7 +99,7 @@ Appliances companies: SharkNinja, Haier
 
 Audience: senior leadership. Tone: formal, decision-oriented.
 
-### CRITICAL: Use web_search and web_fetch to read actual ${QUARTER} ${YEAR} sources. Never fabricate. Mark "NOT VERIFIED" if a source cannot be found/accessed for a company.
+${sourceSection}### CRITICAL: Use web_search and web_fetch to read actual ${QUARTER} ${YEAR} sources. Never fabricate. Mark "NOT VERIFIED" if a source cannot be found/accessed for a company.
 
 ### Allowed Sources
 Same as macro stage (CALL/PRES/FILING/Analyst reports — Barclays, Jefferies, Goldman Sachs)

@@ -384,6 +384,27 @@
       margin-bottom: 0.5rem;
     }
 
+    /* ── Company source links card ── */
+    .links-toggle { cursor: pointer; user-select: none; }
+    .links-chevron { margin-left: auto; font-size: 0.85rem; color: var(--text-3); white-space: nowrap; flex-shrink: 0; }
+    .links-table-wrap { overflow-x: auto; margin-top: 0.5rem; }
+    .links-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; min-width: 680px; }
+    .links-table th {
+      background: var(--bg); text-align: left; padding: 0.45rem 0.65rem;
+      font-size: 0.72rem; font-weight: 700; color: var(--text-2);
+      border-bottom: 2px solid var(--border); white-space: nowrap;
+    }
+    .links-table td { padding: 0.35rem 0.65rem; border-bottom: 1px solid var(--border); vertical-align: middle; }
+    .links-table tr:last-child td { border-bottom: none; }
+    .links-co-name { font-weight: 600; font-size: 0.82rem; white-space: nowrap; color: var(--text-1); }
+    .links-url-input {
+      width: 100%; min-width: 150px; border: 1px solid var(--border); border-radius: 5px;
+      padding: 0.3rem 0.5rem; font-size: 0.76rem; font-family: inherit; outline: none;
+      background: #fff; color: var(--text-1);
+    }
+    .links-url-input:focus { border-color: var(--accent); }
+    .links-url-input::placeholder { color: var(--text-3); }
+
     @media(max-width: 700px) {
       .deep-dive-body { grid-template-columns: 1fr; }
       .deep-dive-col { border-right: none; border-bottom: 1px solid var(--border); }
@@ -416,6 +437,39 @@
 </div>
 
 <div class="main">
+
+  <!-- Company Source Links -->
+  <div class="stage-card" id="links-card">
+    <div class="links-toggle" id="links-toggle">
+      <div class="stage-header" style="margin-bottom:0; cursor:pointer;">
+        <span class="stage-badge" style="background:#6b7280;">Optional</span>
+        <div>
+          <div class="stage-title">📎 Company Source Links</div>
+          <div class="stage-desc">Pre-fill specific document URLs per company — Claude fetches these first, uses web search only to fill gaps.</div>
+        </div>
+        <span class="links-chevron" id="links-chevron">▶ Expand</span>
+      </div>
+    </div>
+    <div id="links-body" style="display:none; margin-top:1rem;">
+      <div class="links-table-wrap">
+        <table class="links-table">
+          <thead>
+            <tr>
+              <th>Company</th>
+              <th>Earnings Call URL</th>
+              <th>10-Q / Filing URL</th>
+              <th>Analyst Report URL</th>
+            </tr>
+          </thead>
+          <tbody id="links-tbody"></tbody>
+        </table>
+      </div>
+      <div style="margin-top:0.75rem; display:flex; gap:0.75rem; align-items:center; flex-wrap:wrap;">
+        <button class="btn btn-ghost btn-sm" id="save-links-btn">💾 Save Links</button>
+        <span id="links-save-status" style="font-size:0.8rem; color:var(--green);"></span>
+      </div>
+    </div>
+  </div>
 
   <!-- Stage A -->
   <div class="stage-card" id="stage-a-card">
@@ -492,6 +546,13 @@
   var macroApproved = false;
   var strategicApproved = false;
 
+  var LS_LINKS = 'benchmark_source_links';
+  var BENCHMARK_COMPANIES = [
+    'Unilever', 'Mondelez', 'Nestlé', 'PepsiCo', 'Coca-Cola Company',
+    'Danone', 'Barry Callebaut', 'Keurig Dr Pepper', 'General Mills',
+    'Hershey Company', 'Kraft Heinz', 'SharkNinja', 'Haier'
+  ];
+
   /* ── Quarter/Year selectors ── */
   (function initSelectors() {
     var qSel = document.getElementById('sel-quarter');
@@ -534,6 +595,49 @@
     return u;
   }
 
+  /* ── Company Source Links ── */
+  function loadSourceLinks() {
+    try { return JSON.parse(localStorage.getItem(LS_LINKS) || '{}'); } catch (e) { return {}; }
+  }
+
+  function renderLinksTable() {
+    var saved = loadSourceLinks();
+    document.getElementById('links-tbody').innerHTML = BENCHMARK_COMPANIES.map(function(co) {
+      var s = saved[co] || {};
+      return '<tr>' +
+        '<td class="links-co-name">' + esc(co) + '</td>' +
+        '<td><input class="links-url-input" data-co="' + esc(co) + '" data-type="earningsCall"  type="url" placeholder="https://…" value="' + esc(s.earningsCall  || '') + '" /></td>' +
+        '<td><input class="links-url-input" data-co="' + esc(co) + '" data-type="filing"        type="url" placeholder="https://…" value="' + esc(s.filing        || '') + '" /></td>' +
+        '<td><input class="links-url-input" data-co="' + esc(co) + '" data-type="analystReport" type="url" placeholder="https://…" value="' + esc(s.analystReport || '') + '" /></td>' +
+        '</tr>';
+    }).join('');
+  }
+
+  (function initLinksCard() {
+    renderLinksTable();
+    var toggle  = document.getElementById('links-toggle');
+    var body    = document.getElementById('links-body');
+    var chevron = document.getElementById('links-chevron');
+    toggle.addEventListener('click', function() {
+      var open = body.style.display !== 'none';
+      body.style.display = open ? 'none' : 'block';
+      chevron.textContent = open ? '▶ Expand' : '▼ Collapse';
+    });
+    document.getElementById('save-links-btn').addEventListener('click', function() {
+      var links = {};
+      document.querySelectorAll('.links-url-input').forEach(function(inp) {
+        var co  = inp.getAttribute('data-co');
+        var typ = inp.getAttribute('data-type');
+        var val = inp.value.trim();
+        if (val) { if (!links[co]) links[co] = {}; links[co][typ] = val; }
+      });
+      localStorage.setItem(LS_LINKS, JSON.stringify(links));
+      var st = document.getElementById('links-save-status');
+      st.textContent = '✓ Links saved';
+      setTimeout(function() { st.textContent = ''; }, 2500);
+    });
+  })();
+
   function setStatus(prefix, state, text) {
     var dot = document.getElementById('dot-' + prefix);
     var span = document.getElementById('status-' + prefix + '-text');
@@ -555,11 +659,11 @@
     return location.hostname.endsWith('.netlify.app') || location.hostname === 'localhost';
   }
 
-  async function callFunction(stage, apiKey, quarter, year) {
+  async function callFunction(stage, apiKey, quarter, year, sourceLinks) {
     var res = await fetch('/.netlify/functions/fetch-benchmark', {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ apiKey: apiKey, stage: stage, quarter: quarter, year: year })
+      body: JSON.stringify({ apiKey: apiKey, stage: stage, quarter: quarter, year: year, sourceLinks: sourceLinks || {} })
     });
     var payload = await res.json().catch(function() { return {}; });
     if (!res.ok) throw new Error(payload.error || 'Function error: HTTP ' + res.status);
@@ -849,7 +953,7 @@
     document.getElementById('results-macro').classList.remove('visible');
 
     try {
-      var data = await callFunction('macro', key, quarter, year);
+      var data = await callFunction('macro', key, quarter, year, loadSourceLinks());
       macroData = data;
       setStatus('macro', 'done', 'Analysis complete — review and approve below');
       renderMacroResults(data);
@@ -878,7 +982,7 @@
     document.getElementById('results-strategic').classList.remove('visible');
 
     try {
-      var data = await callFunction('strategic', key, quarter, year);
+      var data = await callFunction('strategic', key, quarter, year, loadSourceLinks());
       strategicData = data;
       setStatus('strategic', 'done', 'Analysis complete — review and approve below');
       renderStrategicResults(data);
