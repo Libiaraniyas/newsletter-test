@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quarterly Benchmark Report</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy:        #0f2044;
+      --navy-mid:    #1a3a6e;
+      --accent:      #2563eb;
+      --accent-lt:   #dbeafe;
+      --green:       #16a34a;
+      --green-lt:    #dcfce7;
+      --amber:       #d97706;
+      --amber-lt:    #fef3c7;
+      --red:         #dc2626;
+      --red-lt:      #fee2e2;
+      --bg:          #f0f4f8;
+      --card:        #ffffff;
+      --border:      #e2e8f0;
+      --text-1:      #0f172a;
+      --text-2:      #475569;
+      --text-3:      #94a3b8;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text-1);
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    .header {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%);
+      color: #fff;
+      padding: 2rem 1.5rem 1.75rem;
+      text-align: center;
+    }
+    .header-back {
+      display: inline-block;
+      color: rgba(255,255,255,0.7);
+      text-decoration: none;
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+      letter-spacing: 0.5px;
+    }
+    .header-back:hover { color: #fff; }
+    .header h1 {
+      font-size: 1.9rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    .header-sub {
+      margin-top: 0.4rem;
+      font-size: 0.9rem;
+      opacity: 0.75;
+    }
+
+    /* ── Setup bar ── */
+    .setup-bar {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      padding: 0.85rem 1.25rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    .setup-bar label { font-size: 0.8rem; color: var(--text-2); white-space: nowrap; }
+    .setup-bar input[type="password"],
+    .setup-bar input[type="text"],
+    .setup-bar select {
+      padding: 0.4rem 0.65rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 0.85rem;
+      outline: none;
+      background: #fff;
+      color: var(--text-1);
+    }
+    .setup-bar input[type="password"] { width: 220px; }
+    .setup-bar select { cursor: pointer; }
+    .sep { width: 1px; height: 24px; background: var(--border); margin: 0 0.2rem; }
+
+    /* ── Buttons ── */
+    .btn {
+      padding: 0.45rem 1.1rem;
+      border: none;
+      border-radius: 7px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.15s, transform 0.1s;
+      white-space: nowrap;
+    }
+    .btn:active { transform: scale(0.97); }
+    .btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
+    .btn-primary { background: var(--accent); color: #fff; }
+    .btn-primary:hover:not(:disabled) { opacity: 0.88; }
+    .btn-success { background: var(--green); color: #fff; }
+    .btn-success:hover:not(:disabled) { opacity: 0.88; }
+    .btn-ghost { background: transparent; color: var(--text-2); border: 1px solid var(--border); }
+    .btn-ghost:hover:not(:disabled) { background: var(--bg); }
+    .btn-sm { padding: 0.3rem 0.7rem; font-size: 0.78rem; }
+
+    /* ── Main content ── */
+    .main { max-width: 1100px; margin: 0 auto; padding: 1.5rem; }
+
+    /* ── Stage cards ── */
+    .stage-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.25rem;
+    }
+    .stage-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+    .stage-badge {
+      background: var(--accent);
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 0.25rem 0.65rem;
+      border-radius: 100px;
+    }
+    .stage-badge.b { background: var(--green); }
+    .stage-title { font-size: 1.05rem; font-weight: 700; }
+    .stage-desc { font-size: 0.85rem; color: var(--text-2); margin-top: 0.2rem; }
+
+    .status-row {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 0.75rem;
+      font-size: 0.83rem;
+    }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--text-3); flex-shrink: 0; }
+    .dot.running { background: var(--amber); animation: pulse 1s infinite; }
+    .dot.done { background: var(--green); }
+    .dot.error { background: var(--red); }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+    /* ── Error box ── */
+    .error-box {
+      background: var(--red-lt);
+      border: 1px solid #fca5a5;
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      font-size: 0.85rem;
+      color: #7f1d1d;
+      margin-top: 0.75rem;
+      display: none;
+    }
+
+    /* ── Results panel ── */
+    .results-panel {
+      margin-top: 1rem;
+      display: none;
+    }
+    .results-panel.visible { display: block; }
+
+    .panel-section {
+      margin-bottom: 1.5rem;
+    }
+    .panel-section-title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--text-3);
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* ── Verification pills ── */
+    .verif-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+    .verif-pill {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.75rem;
+      padding: 0.25rem 0.6rem;
+      border-radius: 100px;
+      font-weight: 600;
+    }
+    .verif-pill.ok { background: var(--green-lt); color: #14532d; }
+    .verif-pill.fail { background: var(--red-lt); color: #7f1d1d; }
+    .verif-pill .icon { font-size: 0.7rem; }
+
+    /* ── Executive synthesis ── */
+    .synth-list { list-style: none; }
+    .synth-item {
+      padding: 0.75rem;
+      border-radius: 8px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      margin-bottom: 0.5rem;
+    }
+    .synth-theme { font-weight: 700; font-size: 0.9rem; margin-bottom: 0.25rem; }
+    .synth-action { font-size: 0.82rem; color: var(--accent); margin-bottom: 0.2rem; font-style: italic; }
+    .synth-citation { font-size: 0.75rem; color: var(--text-3); font-family: monospace; }
+
+    /* ── Theme frequency table ── */
+    .theme-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .theme-table th {
+      background: var(--bg);
+      text-align: left;
+      padding: 0.5rem 0.75rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--text-2);
+      border-bottom: 2px solid var(--border);
+    }
+    .theme-table td {
+      padding: 0.65rem 0.75rem;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+    .theme-table tr:last-child td { border-bottom: none; }
+    .theme-table tr:hover td { background: var(--accent-lt); }
+    .mention-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      font-weight: 800;
+      font-size: 0.85rem;
+      color: #fff;
+      background: var(--accent);
+    }
+    .mention-badge.high { background: var(--green); }
+    .mention-badge.med { background: var(--amber); }
+    .company-chips { display: flex; flex-wrap: wrap; gap: 0.25rem; margin-top: 0.3rem; }
+    .company-chip {
+      background: var(--accent-lt);
+      color: var(--accent);
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.15rem 0.45rem;
+      border-radius: 4px;
+    }
+
+    /* ── Approval checkboxes ── */
+    .approve-col { width: 60px; text-align: center; }
+    .approve-cb { width: 18px; height: 18px; cursor: pointer; accent-color: var(--green); }
+
+    /* ── Deep-dive cards ── */
+    .deep-dive-card {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 0.75rem;
+    }
+    .deep-dive-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem 1rem;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+    }
+    .deep-dive-type {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      background: var(--navy);
+      color: #fff;
+      padding: 0.2rem 0.55rem;
+      border-radius: 4px;
+    }
+    .deep-dive-company { font-weight: 700; font-size: 0.9rem; }
+    .deep-dive-title { font-size: 0.82rem; color: var(--text-2); }
+    .deep-dive-body {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 0;
+    }
+    .deep-dive-col {
+      padding: 0.75rem 1rem;
+      font-size: 0.83rem;
+      border-right: 1px solid var(--border);
+      line-height: 1.6;
+    }
+    .deep-dive-col:last-child { border-right: none; }
+    .deep-dive-col-title {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-3);
+      margin-bottom: 0.4rem;
+    }
+    .status-chip {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      margin-top: 0.5rem;
+    }
+    .status-chip.announced { background: var(--amber-lt); color: #78350f; }
+    .status-chip.completed { background: var(--green-lt); color: #14532d; }
+    .status-chip.progress { background: var(--accent-lt); color: #1e40af; }
+    .status-chip.regulatory { background: #f3e8ff; color: #6b21a8; }
+
+    /* ── Action row ── */
+    .action-row {
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+      margin-top: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+    .action-row .hint { font-size: 0.8rem; color: var(--text-3); margin-left: auto; }
+
+    /* ── Spinner ── */
+    .spinner {
+      display: inline-block;
+      width: 16px; height: 16px;
+      border: 2px solid rgba(255,255,255,0.3);
+      border-top-color: #fff;
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      vertical-align: middle;
+      margin-right: 0.4rem;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Source log toggle ── */
+    .source-log-toggle {
+      font-size: 0.8rem;
+      color: var(--accent);
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 0;
+      text-decoration: underline;
+    }
+    .source-log-table { width: 100%; border-collapse: collapse; font-size: 0.78rem; margin-top: 0.5rem; }
+    .source-log-table th {
+      background: var(--bg);
+      padding: 0.4rem 0.5rem;
+      text-align: left;
+      font-weight: 700;
+      border-bottom: 1px solid var(--border);
+      color: var(--text-2);
+    }
+    .source-log-table td { padding: 0.4rem 0.5rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+    .source-log-table a { color: var(--accent); text-decoration: none; }
+    .source-log-table a:hover { text-decoration: underline; }
+    .source-log-table .quote-cell { font-style: italic; color: var(--text-2); max-width: 280px; }
+
+    /* ── Select all row ── */
+    .select-all-row {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.82rem;
+      color: var(--text-2);
+      margin-bottom: 0.5rem;
+    }
+
+    @media(max-width: 700px) {
+      .deep-dive-body { grid-template-columns: 1fr; }
+      .deep-dive-col { border-right: none; border-bottom: 1px solid var(--border); }
+      .setup-bar input[type="password"] { width: 160px; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <a href="fooddigest.html" class="header-back">← Food Industry Digest</a>
+  <h1>Quarterly Benchmark Report</h1>
+  <p class="header-sub">Cross-sector macro &amp; strategic analysis · 13 companies</p>
+</header>
+
+<div class="setup-bar">
+  <label for="api-key">Anthropic API Key</label>
+  <input type="password" id="api-key" placeholder="sk-ant-…" autocomplete="off" spellcheck="false" />
+  <button class="btn btn-ghost btn-sm" id="clear-key-btn" title="Clear saved key">Clear key</button>
+  <div class="sep"></div>
+  <label for="sel-quarter">Quarter</label>
+  <select id="sel-quarter">
+    <option value="Q1">Q1</option>
+    <option value="Q2">Q2</option>
+    <option value="Q3">Q3</option>
+    <option value="Q4">Q4</option>
+  </select>
+  <label for="sel-year">Year</label>
+  <select id="sel-year"></select>
+</div>
+
+<div class="main">
+
+  <!-- Stage A -->
+  <div class="stage-card" id="stage-a-card">
+    <div class="stage-header">
+      <span class="stage-badge">Stage A</span>
+      <div>
+        <div class="stage-title">Macro Themes Analysis</div>
+        <div class="stage-desc">Input cost inflation, FX, trade policy, consumer demand, supply chain, labor markets — sourced from real earnings calls &amp; filings.</div>
+      </div>
+    </div>
+
+    <div style="display:flex; gap:0.75rem; flex-wrap:wrap; align-items:center;">
+      <button class="btn btn-primary" id="run-macro-btn">🔍 Run Macro Themes Analysis</button>
+      <div class="status-row" id="status-macro">
+        <div class="dot" id="dot-macro"></div>
+        <span id="status-macro-text">Ready</span>
+      </div>
+    </div>
+
+    <div class="error-box" id="error-macro"></div>
+    <div class="results-panel" id="results-macro"></div>
+  </div>
+
+  <!-- Stage B -->
+  <div class="stage-card" id="stage-b-card" style="opacity:0.5; pointer-events:none;">
+    <div class="stage-header">
+      <span class="stage-badge b">Stage B</span>
+      <div>
+        <div class="stage-title">Strategic Themes + Deep Dives</div>
+        <div class="stage-desc">M&amp;A, separations, restructuring, pricing pivots, digital initiatives, geographic expansion — ~20 deep-dive cases.</div>
+      </div>
+    </div>
+
+    <div style="display:flex; gap:0.75rem; flex-wrap:wrap; align-items:center;">
+      <button class="btn btn-success" id="run-strategic-btn" disabled>🔍 Run Strategic Themes Analysis</button>
+      <div class="status-row" id="status-strategic">
+        <div class="dot" id="dot-strategic"></div>
+        <span id="status-strategic-text">Waiting for Stage A approval</span>
+      </div>
+    </div>
+
+    <div class="error-box" id="error-strategic"></div>
+    <div class="results-panel" id="results-strategic"></div>
+  </div>
+
+  <!-- PowerPoint -->
+  <div class="stage-card" id="stage-pptx-card" style="opacity:0.5; pointer-events:none;">
+    <div class="stage-header">
+      <span class="stage-badge" style="background:#7c3aed;">Stage C</span>
+      <div>
+        <div class="stage-title">Generate PowerPoint</div>
+        <div class="stage-desc">Builds a 23-slide deck matching the Benchmark Report template — only approved themes and cases are included.</div>
+      </div>
+    </div>
+    <div style="display:flex; gap:0.75rem; flex-wrap:wrap; align-items:center;">
+      <button class="btn btn-ghost" id="download-pptx-btn" disabled>📥 Download PowerPoint</button>
+      <span id="pptx-hint" style="font-size:0.8rem;color:var(--text-3);">Available after both stages are approved</span>
+    </div>
+    <div class="error-box" id="error-pptx"></div>
+  </div>
+
+</div><!-- /main -->
+
+<script>
+(function() {
+  'use strict';
+
+  var LS_KEY = 'anthropic_api_key';
+  var LS_QUARTER = 'benchmark_quarter';
+  var LS_YEAR = 'benchmark_year';
+
+  var macroData = null;
+  var strategicData = null;
+  var macroApproved = false;
+  var strategicApproved = false;
+
+  /* ── Quarter/Year selectors ── */
+  (function initSelectors() {
+    var qSel = document.getElementById('sel-quarter');
+    var ySel = document.getElementById('sel-year');
+    var currentYear = 2026;
+    for (var y = currentYear; y >= currentYear - 3; y--) {
+      var opt = document.createElement('option');
+      opt.value = String(y);
+      opt.textContent = String(y);
+      ySel.appendChild(opt);
+    }
+    var savedQ = localStorage.getItem(LS_QUARTER);
+    var savedY = localStorage.getItem(LS_YEAR);
+    if (savedQ) qSel.value = savedQ;
+    if (savedY) ySel.value = savedY;
+    qSel.addEventListener('change', function() { localStorage.setItem(LS_QUARTER, qSel.value); });
+    ySel.addEventListener('change', function() { localStorage.setItem(LS_YEAR, ySel.value); });
+  })();
+
+  /* ── API key ── */
+  var keyInput = document.getElementById('api-key');
+  var savedKey = localStorage.getItem(LS_KEY);
+  if (savedKey) keyInput.value = savedKey;
+  keyInput.addEventListener('change', function() {
+    if (keyInput.value.trim()) localStorage.setItem(LS_KEY, keyInput.value.trim());
+  });
+  document.getElementById('clear-key-btn').addEventListener('click', function() {
+    keyInput.value = '';
+    localStorage.removeItem(LS_KEY);
+  });
+
+  /* ── Helpers ── */
+  function esc(s) {
+    if (s == null) return '';
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  function safeUrl(u) {
+    if (!u || !/^https?:\/\//i.test(u)) return '#';
+    return u;
+  }
+
+  function setStatus(prefix, state, text) {
+    var dot = document.getElementById('dot-' + prefix);
+    var span = document.getElementById('status-' + prefix + '-text');
+    dot.className = 'dot' + (state ? ' ' + state : '');
+    span.textContent = text;
+  }
+
+  function showError(prefix, msg) {
+    var el = document.getElementById('error-' + prefix);
+    el.textContent = msg;
+    el.style.display = 'block';
+  }
+
+  function hideError(prefix) {
+    document.getElementById('error-' + prefix).style.display = 'none';
+  }
+
+  function onNetlify() {
+    return location.hostname.endsWith('.netlify.app') || location.hostname === 'localhost';
+  }
+
+  async function callFunction(stage, apiKey, quarter, year) {
+    var res = await fetch('/.netlify/functions/fetch-benchmark', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ apiKey: apiKey, stage: stage, quarter: quarter, year: year })
+    });
+    var payload = await res.json().catch(function() { return {}; });
+    if (!res.ok) throw new Error(payload.error || 'Function error: HTTP ' + res.status);
+    return payload;
+  }
+
+  /* ── Verification status renderer ── */
+  function renderVerifStatus(status) {
+    var html = '<div class="verif-grid">';
+    Object.keys(status || {}).forEach(function(co) {
+      var ok = status[co] === 'VERIFIED';
+      html += '<div class="verif-pill ' + (ok ? 'ok' : 'fail') + '">';
+      html += '<span class="icon">' + (ok ? '✓' : '✗') + '</span>';
+      html += esc(co);
+      if (!ok) html += ' <span style="font-weight:400;opacity:0.7">(' + esc(status[co].replace('NOT VERIFIED - ','')) + ')</span>';
+      html += '</div>';
+    });
+    html += '</div>';
+    return html;
+  }
+
+  /* ── Source log renderer ── */
+  function renderSourceLog(sources, panelId) {
+    if (!sources || !sources.length) return '<em style="color:var(--text-3);font-size:0.82rem;">No sources logged.</em>';
+    var id = 'srclog-' + panelId;
+    var html = '<button class="source-log-toggle" onclick="toggleSourceLog(\'' + id + '\')">Show ' + sources.length + ' sources</button>';
+    html += '<div id="' + id + '" style="display:none;">';
+    html += '<table class="source-log-table"><thead><tr>';
+    ['Ref', 'Company', 'Type', 'Title', 'Date', 'Quote'].forEach(function(h) {
+      html += '<th>' + h + '</th>';
+    });
+    html += '</tr></thead><tbody>';
+    sources.forEach(function(s) {
+      html += '<tr>';
+      html += '<td><code>' + esc(s.ref_code) + '</code></td>';
+      html += '<td>' + esc(s.company) + '</td>';
+      html += '<td>' + esc(s.source_type) + '</td>';
+      html += '<td>';
+      if (s.url && /^https?:\/\//i.test(s.url)) {
+        html += '<a href="' + esc(safeUrl(s.url)) + '" target="_blank" rel="noopener">' + esc(s.title) + '</a>';
+      } else {
+        html += esc(s.title);
+      }
+      if (s.locator) html += ' <span style="color:var(--text-3)">@' + esc(s.locator) + '</span>';
+      html += '</td>';
+      html += '<td>' + esc(s.date) + '</td>';
+      html += '<td class="quote-cell">' + esc(s.quote ? (s.quote.length > 120 ? s.quote.slice(0, 120) + '…' : s.quote) : '') + '</td>';
+      html += '</tr>';
+    });
+    html += '</tbody></table></div>';
+    return html;
+  }
+
+  window.toggleSourceLog = function(id) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    el.style.display = el.style.display === 'none' ? 'block' : 'none';
+  };
+
+  /* ── Macro results renderer ── */
+  function renderMacroResults(data) {
+    var panel = document.getElementById('results-macro');
+    var html = '';
+
+    // Verification
+    html += '<div class="panel-section">';
+    html += '<div class="panel-section-title">Source Verification — ' + Object.keys(data.verification_status || {}).length + ' companies</div>';
+    html += renderVerifStatus(data.verification_status);
+    html += '</div>';
+
+    // Theme frequency with approval
+    var themes = data.theme_frequency_table || [];
+    html += '<div class="panel-section">';
+    html += '<div class="panel-section-title">Macro Theme Frequency Table</div>';
+    html += '<div class="select-all-row">';
+    html += '<input type="checkbox" id="macro-select-all" class="approve-cb" onchange="macroSelectAll(this.checked)" />';
+    html += '<label for="macro-select-all" style="cursor:pointer;">Select / deselect all themes for presentation</label>';
+    html += '</div>';
+    html += '<table class="theme-table"><thead><tr>';
+    html += '<th class="approve-col">Include</th><th>Theme</th><th>Mentions</th><th>Summary</th><th>Companies</th>';
+    html += '</tr></thead><tbody>';
+    themes.forEach(function(t, i) {
+      var cnt = t.mention_count || t.company_count || 0;
+      var cls = cnt >= 7 ? 'high' : cnt >= 4 ? 'med' : '';
+      html += '<tr>';
+      html += '<td class="approve-col"><input type="checkbox" class="approve-cb macro-theme-cb" data-idx="' + i + '" id="macro-cb-' + i + '" /></td>';
+      html += '<td><strong>' + esc(t.theme) + '</strong></td>';
+      html += '<td><span class="mention-badge ' + cls + '">' + cnt + '</span></td>';
+      html += '<td>' + esc(t.summary) + '</td>';
+      html += '<td><div class="company-chips">';
+      (t.companies || []).forEach(function(c) { html += '<span class="company-chip">' + esc(c) + '</span>'; });
+      html += '</div></td>';
+      html += '</tr>';
+    });
+    html += '</tbody></table>';
+    html += '</div>';
+
+    // Executive synthesis
+    var synth = data.executive_synthesis || [];
+    html += '<div class="panel-section">';
+    html += '<div class="panel-section-title">Executive Synthesis (' + synth.length + ' themes)</div>';
+    html += '<ul class="synth-list">';
+    synth.forEach(function(s) {
+      html += '<li class="synth-item">';
+      html += '<div class="synth-theme">' + esc(s.theme) + '</div>';
+      if (s.action) html += '<div class="synth-action">' + esc(s.action) + '</div>';
+      if (s.citation) html += '<div class="synth-citation">' + esc(s.citation) + '</div>';
+      html += '</li>';
+    });
+    html += '</ul>';
+    html += '</div>';
+
+    // Source log
+    html += '<div class="panel-section">';
+    html += '<div class="panel-section-title">Source Log</div>';
+    html += renderSourceLog(data.source_log, 'macro');
+    html += '</div>';
+
+    // Approve action
+    html += '<div class="action-row">';
+    html += '<button class="btn btn-success" onclick="approveMacro()">✓ Approve Stage A &amp; Unlock Stage B</button>';
+    html += '<span class="hint">Check themes above, then approve to proceed</span>';
+    html += '</div>';
+
+    panel.innerHTML = html;
+    panel.classList.add('visible');
+  }
+
+  window.macroSelectAll = function(checked) {
+    document.querySelectorAll('.macro-theme-cb').forEach(function(cb) { cb.checked = checked; });
+  };
+
+  window.approveMacro = function() {
+    macroApproved = true;
+    setStatus('macro', 'done', 'Stage A approved');
+    // Unlock Stage B
+    var bCard = document.getElementById('stage-b-card');
+    bCard.style.opacity = '1';
+    bCard.style.pointerEvents = '';
+    document.getElementById('run-strategic-btn').disabled = false;
+    setStatus('strategic', '', 'Ready — click to run Strategic Analysis');
+    bCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
+  /* ── Strategic results renderer ── */
+  function renderStrategicResults(data) {
+    var panel = document.getElementById('results-strategic');
+    var html = '';
+
+    // Verification
+    html += '<div class="panel-section">';
+    html += '<div class="panel-section-title">Source Verification</div>';
+    html += renderVerifStatus(data.verification_status);
+    html += '</div>';
+
+    // Theme frequency
+    var themes = data.theme_frequency_table || [];
+    html += '<div class="panel-section">';
+    html += '<div class="panel-section-title">Strategic Theme Frequency Table</div>';
+    html += '<div class="select-all-row">';
+    html += '<input type="checkbox" id="strategic-select-all" class="approve-cb" onchange="strategicSelectAll(this.checked)" />';
+    html += '<label for="strategic-select-all" style="cursor:pointer;">Select / deselect all themes</label>';
+    html += '</div>';
+    html += '<table class="theme-table"><thead><tr>';
+    html += '<th class="approve-col">Include</th><th>Theme</th><th>Companies</th><th>Summary</th>';
+    html += '</tr></thead><tbody>';
+    themes.forEach(function(t, i) {
+      var cnt = t.company_count || t.mention_count || 0;
+      var cls = cnt >= 7 ? 'high' : cnt >= 4 ? 'med' : '';
+      html += '<tr>';
+      html += '<td class="approve-col"><input type="checkbox" class="approve-cb strategic-theme-cb" data-idx="' + i + '" id="strategic-cb-' + i + '" /></td>';
+      html += '<td><strong>' + esc(t.theme) + '</strong></td>';
+      html += '<td><span class="mention-badge ' + cls + '">' + cnt + '</span></td>';
+      html += '<td>' + esc(t.summary) + '</td>';
+      html += '</tr>';
+    });
+    html += '</tbody></table>';
+    html += '</div>';
+
+    // Executive synthesis
+    var synth = data.executive_synthesis || [];
+    html += '<div class="panel-section">';
+    html += '<div class="panel-section-title">Strategic Executive Synthesis</div>';
+    html += '<ul class="synth-list">';
+    synth.forEach(function(s) {
+      html += '<li class="synth-item">';
+      html += '<div class="synth-theme">' + esc(s.theme) + '</div>';
+      if (s.action) html += '<div class="synth-action">' + esc(s.action) + '</div>';
+      if (s.regional_nuance) html += '<div style="font-size:0.8rem;color:var(--text-2);margin-top:0.2rem;">' + esc(s.regional_nuance) + '</div>';
+      if (s.citation) html += '<div class="synth-citation">' + esc(s.citation) + '</div>';
+      html += '</li>';
+    });
+    html += '</ul>';
+    html += '</div>';
+
+    // Deep dives
+    var dives = data.deep_dive_cases || [];
+    html += '<div class="panel-section">';
+    html += '<div class="panel-section-title">Deep Dive Cases (' + dives.length + ')</div>';
+    html += '<div class="select-all-row">';
+    html += '<input type="checkbox" id="dive-select-all" class="approve-cb" onchange="diveSelectAll(this.checked)" />';
+    html += '<label for="dive-select-all" style="cursor:pointer;">Select / deselect all deep dives</label>';
+    html += '</div>';
+    dives.forEach(function(d, i) {
+      var statusCls = {
+        'announced': 'announced',
+        'regulatory review': 'regulatory',
+        'in-progress': 'progress',
+        'completed': 'completed'
+      }[d.execution_status] || 'announced';
+      html += '<div class="deep-dive-card">';
+      html += '<div class="deep-dive-header">';
+      html += '<input type="checkbox" class="approve-cb dive-cb" data-idx="' + i + '" id="dive-cb-' + i + '" />';
+      html += '<span class="deep-dive-type">' + esc(d.initiative_type) + '</span>';
+      html += '<div>';
+      html += '<div class="deep-dive-company">' + esc(d.company) + '</div>';
+      html += '<div class="deep-dive-title">' + esc(d.title) + '</div>';
+      html += '</div>';
+      html += '<span class="status-chip ' + statusCls + '" style="margin-left:auto;">' + esc(d.execution_status) + '</span>';
+      html += '</div>';
+      html += '<div class="deep-dive-body">';
+      html += '<div class="deep-dive-col"><div class="deep-dive-col-title">What has been announced</div>' + esc(d.what_announced) + '</div>';
+      html += '<div class="deep-dive-col"><div class="deep-dive-col-title">Strategic Rationale</div>' + esc(d.strategic_rationale);
+      if (d.execution_risks) html += '<br><br><strong style="font-size:0.75rem;color:var(--red);">Risks:</strong> ' + esc(d.execution_risks);
+      html += '</div>';
+      html += '<div class="deep-dive-col"><div class="deep-dive-col-title">Financial Impact</div>' + esc(d.financial_impact) + '</div>';
+      html += '</div>';
+      html += '</div>';
+    });
+    html += '</div>';
+
+    // Source log
+    html += '<div class="panel-section">';
+    html += '<div class="panel-section-title">Source Log</div>';
+    html += renderSourceLog(data.source_log, 'strategic');
+    html += '</div>';
+
+    // Approve action
+    html += '<div class="action-row">';
+    html += '<button class="btn btn-success" onclick="approveStrategic()">✓ Approve Stage B &amp; Unlock PowerPoint</button>';
+    html += '<span class="hint">Select themes and deep dives to include, then approve</span>';
+    html += '</div>';
+
+    panel.innerHTML = html;
+    panel.classList.add('visible');
+  }
+
+  window.strategicSelectAll = function(checked) {
+    document.querySelectorAll('.strategic-theme-cb').forEach(function(cb) { cb.checked = checked; });
+  };
+
+  window.diveSelectAll = function(checked) {
+    document.querySelectorAll('.dive-cb').forEach(function(cb) { cb.checked = checked; });
+  };
+
+  window.approveStrategic = function() {
+    strategicApproved = true;
+    setStatus('strategic', 'done', 'Stage B approved');
+    var pCard = document.getElementById('stage-pptx-card');
+    pCard.style.opacity = '1';
+    pCard.style.pointerEvents = '';
+    var dlBtn = document.getElementById('download-pptx-btn');
+    dlBtn.disabled = false;
+    dlBtn.className = 'btn btn-primary';
+    document.getElementById('pptx-hint').textContent = 'Click to download the generated PowerPoint';
+    pCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
+  /* ── Run Macro ── */
+  document.getElementById('run-macro-btn').addEventListener('click', async function() {
+    var key = keyInput.value.trim();
+    if (!key) { showError('macro', 'Please enter your Anthropic API key.'); return; }
+    if (!onNetlify()) {
+      showError('macro', 'This feature requires Netlify deployment (/.netlify/functions/fetch-benchmark). Open the site via your Netlify URL.');
+      return;
+    }
+    if (key) localStorage.setItem(LS_KEY, key);
+
+    var quarter = document.getElementById('sel-quarter').value;
+    var year = document.getElementById('sel-year').value;
+
+    hideError('macro');
+    setStatus('macro', 'running', 'Searching earnings calls & filings for all 13 companies…');
+    var btn = this;
+    btn.disabled = true;
+    btn.innerHTML = '<span class="spinner"></span>Analyzing…';
+    document.getElementById('results-macro').classList.remove('visible');
+
+    try {
+      var data = await callFunction('macro', key, quarter, year);
+      macroData = data;
+      setStatus('macro', 'done', 'Analysis complete — review and approve below');
+      renderMacroResults(data);
+    } catch (err) {
+      setStatus('macro', 'error', 'Error');
+      showError('macro', err.message || String(err));
+    } finally {
+      btn.disabled = false;
+      btn.textContent = '🔍 Re-run Macro Analysis';
+    }
+  });
+
+  /* ── Run Strategic ── */
+  document.getElementById('run-strategic-btn').addEventListener('click', async function() {
+    var key = keyInput.value.trim();
+    if (!key) { showError('strategic', 'Please enter your Anthropic API key.'); return; }
+
+    var quarter = document.getElementById('sel-quarter').value;
+    var year = document.getElementById('sel-year').value;
+
+    hideError('strategic');
+    setStatus('strategic', 'running', 'Researching strategic moves for all 13 companies…');
+    var btn = this;
+    btn.disabled = true;
+    btn.innerHTML = '<span class="spinner"></span>Analyzing…';
+    document.getElementById('results-strategic').classList.remove('visible');
+
+    try {
+      var data = await callFunction('strategic', key, quarter, year);
+      strategicData = data;
+      setStatus('strategic', 'done', 'Analysis complete — review and approve below');
+      renderStrategicResults(data);
+    } catch (err) {
+      setStatus('strategic', 'error', 'Error');
+      showError('strategic', err.message || String(err));
+    } finally {
+      btn.disabled = false;
+      btn.textContent = '🔍 Re-run Strategic Analysis';
+    }
+  });
+
+  /* ── PowerPoint download ── */
+  document.getElementById('download-pptx-btn').addEventListener('click', function() {
+    if (!macroData || !strategicData) {
+      showError('pptx', 'Both stages must be completed before generating PowerPoint.');
+      return;
+    }
+
+    // Collect approved themes and cases
+    var approvedMacroThemes = [];
+    document.querySelectorAll('.macro-theme-cb:checked').forEach(function(cb) {
+      var idx = parseInt(cb.dataset.idx, 10);
+      if (macroData.theme_frequency_table && macroData.theme_frequency_table[idx]) {
+        approvedMacroThemes.push(macroData.theme_frequency_table[idx]);
+      }
+    });
+
+    var approvedStrategicThemes = [];
+    document.querySelectorAll('.strategic-theme-cb:checked').forEach(function(cb) {
+      var idx = parseInt(cb.dataset.idx, 10);
+      if (strategicData.theme_frequency_table && strategicData.theme_frequency_table[idx]) {
+        approvedStrategicThemes.push(strategicData.theme_frequency_table[idx]);
+      }
+    });
+
+    var approvedDives = [];
+    document.querySelectorAll('.dive-cb:checked').forEach(function(cb) {
+      var idx = parseInt(cb.dataset.idx, 10);
+      if (strategicData.deep_dive_cases && strategicData.deep_dive_cases[idx]) {
+        approvedDives.push(strategicData.deep_dive_cases[idx]);
+      }
+    });
+
+    var quarter = document.getElementById('sel-quarter').value;
+    var year = document.getElementById('sel-year').value;
+
+    var payload = {
+      quarter: quarter,
+      year: year,
+      macro: {
+        executive_synthesis: macroData.executive_synthesis || [],
+        theme_frequency_table: approvedMacroThemes,
+        source_log: macroData.source_log || [],
+        verification_status: macroData.verification_status || {}
+      },
+      strategic: {
+        executive_synthesis: strategicData.executive_synthesis || [],
+        theme_frequency_table: approvedStrategicThemes,
+        deep_dive_cases: approvedDives,
+        source_log: strategicData.source_log || [],
+        verification_status: strategicData.verification_status || {}
+      }
+    };
+
+    // Download as JSON for now (Python PPTX generator reads this)
+    var blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = 'benchmark-' + quarter + '-' + year + '-approved.json';
+    a.click();
+    URL.revokeObjectURL(url);
+
+    document.getElementById('error-pptx').style.display = 'none';
+    document.getElementById('pptx-hint').textContent =
+      'JSON downloaded. Run: python3 generate_pptx.py benchmark-' + quarter + '-' + year + '-approved.json';
+  });
+
+})();
+</script>
+</body>
+</html>
