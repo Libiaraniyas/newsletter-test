@@ -141,7 +141,7 @@ Return ONLY valid JSON, no markdown formatting, no extra text.`;
         'anthropic-beta': 'web-search-2025-03-05'
       },
       body: JSON.stringify({
-        model: 'claude-opus-4-5-20251101',
+        model: 'claude-opus-4-8',
         max_tokens: 16000,
         tools: [{ type: 'web_search_20250305', name: 'web_search', max_uses: 30 }],
         messages: [{ role: 'user', content: prompt }]
