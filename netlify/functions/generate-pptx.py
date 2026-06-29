@@ -4,7 +4,7 @@ import io
 
 def handler(event, context):
     cors = {
-        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Origin": "https://news-digest-ag1.pages.dev",
         "Access-Control-Allow-Headers": "Content-Type",
         "Access-Control-Allow-Methods": "POST, OPTIONS",
     }
