@@ -216,7 +216,7 @@ Each case must be evidenced in the provided sources only — no inference from o
       body: JSON.stringify({
         model: 'claude-opus-4-8',
         max_tokens: 16000,
-        tools: [{ type: 'web_fetch_20250305', name: 'web_fetch' }],
+        tools: [{ type: 'web_fetch_20250910', name: 'web_fetch' }],
         messages: [{ role: 'user', content: prompt }]
       })
     });
