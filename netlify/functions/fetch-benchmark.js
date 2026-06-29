@@ -1,49 +1,57 @@
-exports.handler = async function(event) {
-  var corsHeaders = {
+function corsHeaders() {
+  return {
     'Access-Control-Allow-Origin': 'https://news-digest-ag1.pages.dev',
+    'Access-Control-Allow-Methods': 'POST, OPTIONS',
     'Access-Control-Allow-Headers': 'Content-Type',
-    'Access-Control-Allow-Methods': 'POST, OPTIONS'
+    'Content-Type': 'application/json'
   };
+}
 
-  if (event.httpMethod === 'OPTIONS') {
-    return { statusCode: 200, headers: corsHeaders, body: '' };
-  }
-  if (event.httpMethod !== 'POST') {
-    return { statusCode: 405, headers: corsHeaders, body: JSON.stringify({ error: 'Method not allowed' }) };
-  }
+function resp(statusCode, body) {
+  return { statusCode: statusCode, headers: corsHeaders(), body: JSON.stringify(body) };
+}
 
-  let apiKey, stage, quarter, year, companies;
+exports.handler = async function(event) {
   try {
-    ({ apiKey, stage, quarter, year, companies } = JSON.parse(event.body || '{}'));
-  } catch {
-    return { statusCode: 400, headers: corsHeaders, body: JSON.stringify({ error: 'Invalid JSON body' }) };
-  }
+    if (event.httpMethod === 'OPTIONS') {
+      return { statusCode: 200, headers: corsHeaders(), body: '' };
+    }
+    if (event.httpMethod !== 'POST') {
+      return resp(405, { error: 'Method not allowed' });
+    }
 
-  if (!apiKey) return { statusCode: 400, headers: corsHeaders, body: JSON.stringify({ error: 'apiKey is required' }) };
-  if (!stage || !['macro', 'strategic'].includes(stage)) {
-    return { statusCode: 400, headers: corsHeaders, body: JSON.stringify({ error: 'stage must be "macro" or "strategic"' }) };
-  }
-  if (!quarter || !year) return { statusCode: 400, headers: corsHeaders, body: JSON.stringify({ error: 'quarter and year are required' }) };
-  if (!companies || !Array.isArray(companies) || !companies.length) {
-    return { statusCode: 400, headers: corsHeaders, body: JSON.stringify({ error: 'companies array is required' }) };
-  }
+    let apiKey, stage, quarter, year, companies;
+    try {
+      ({ apiKey, stage, quarter, year, companies } = JSON.parse(event.body || '{}'));
+    } catch {
+      return resp(400, { error: 'Invalid JSON body' });
+    }
 
-  const QUARTER = quarter;
-  const YEAR = year;
+    if (!apiKey) return resp(400, { error: 'apiKey is required' });
+    if (!stage || !['macro', 'strategic'].includes(stage)) {
+      return resp(400, { error: 'stage must be "macro" or "strategic"' });
+    }
+    if (!quarter || !year) return resp(400, { error: 'quarter and year are required' });
+    if (!companies || !Array.isArray(companies) || !companies.length) {
+      return resp(400, { error: 'companies array is required' });
+    }
 
-  const cpg = companies.filter(c => c.group !== 'Appliances').map(c => c.name).join(', ');
-  const appliances = companies.filter(c => c.group === 'Appliances').map(c => c.name).join(', ');
+    const QUARTER = quarter;
+    const YEAR = year;
 
-  const COMPANY_SOURCES = companies.map(function(c) {
-    const parts = [];
-    if (c.earningsCallUrl)  parts.push('earningsCall: ' + c.earningsCallUrl);
-    if (c.presentationUrl)  parts.push('presentation: ' + c.presentationUrl);
-    if (c.filingUrl)        parts.push('filing: ' + c.filingUrl);
-    if (!parts.length) return c.name + ': [NO URLS PROVIDED — SKIP THIS COMPANY]';
-    return c.name + ': [' + parts.join('], [') + ']';
-  }).join('\n');
+    const cpg = companies.filter(c => c.group !== 'Appliances').map(c => c.name).join(', ');
+    const appliances = companies.filter(c => c.group === 'Appliances').map(c => c.name).join(', ');
 
-  const macroPrompt =
+    const COMPANY_SOURCES = companies.map(function(c) {
+      const parts = [];
+      if (c.earningsCallUrl)  parts.push('earningsCall: ' + c.earningsCallUrl);
+      if (c.presentationUrl)  parts.push('presentation: ' + c.presentationUrl);
+      if (c.filingUrl)        parts.push('filing: ' + c.filingUrl);
+      if (!parts.length) return c.name + ': [NO URLS PROVIDED — SKIP THIS COMPANY]';
+      return c.name + ': [' + parts.join('], [') + ']';
+    }).join('\n');
+
+    const macroPrompt =
 `You are an expert equity research analyst. Synthesize ${QUARTER} ${YEAR} macro themes across:
 
 CPG companies: ${cpg}
@@ -115,7 +123,7 @@ No speculation. No fabrication. Flag conflicting data explicitly.
   }
 }`;
 
-  const strategicPrompt =
+    const strategicPrompt =
 `You are an expert equity research analyst. Synthesize ${QUARTER} ${YEAR} Strategic themes across:
 
 CPG companies: ${cpg}
@@ -201,63 +209,55 @@ Each case must be evidenced in the provided sources only — no inference from o
   }
 }`;
 
-  const prompt = stage === 'macro' ? macroPrompt : strategicPrompt;
+    const prompt = stage === 'macro' ? macroPrompt : strategicPrompt;
 
-  let upstream;
-  try {
-    upstream = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {
-        'content-type': 'application/json',
-        'x-api-key': apiKey,
-        'anthropic-version': '2023-06-01',
-        'anthropic-beta': 'web-search-2025-03-05'
-      },
-      body: JSON.stringify({
-        model: 'claude-opus-4-8',
-        max_tokens: 16000,
-        tools: [{ type: 'web_fetch_20250910', name: 'web_fetch' }],
-        messages: [{ role: 'user', content: prompt }]
-      })
-    });
-  } catch (err) {
-    return { statusCode: 502, headers: corsHeaders, body: JSON.stringify({ error: 'Failed to reach Anthropic API: ' + err.message }) };
-  }
-
-  if (!upstream.ok) {
-    const err = await upstream.json().catch(() => ({}));
-    return {
-      statusCode: upstream.status,
-      headers: corsHeaders,
-      body: JSON.stringify({ error: (err && err.error && err.error.message) || ('Anthropic API error ' + upstream.status) })
-    };
-  }
-
-  const data = await upstream.json();
-  const textBlocks = (data.content || []).filter(b => b.type === 'text' && b.text && b.text.trim());
-
-  for (let i = textBlocks.length - 1; i >= 0; i--) {
-    let raw = textBlocks[i].text.trim()
-      .replace(/^```(?:json)?\s*/im, '').replace(/\s*```\s*$/im, '').trim();
-    const start = raw.indexOf('{');
-    const end = raw.lastIndexOf('}');
-    if (start !== -1 && end > start) {
-      try {
-        const result = JSON.parse(raw.slice(start, end + 1));
-        if (result && typeof result === 'object') {
-          return {
-            statusCode: 200,
-            headers: Object.assign({ 'content-type': 'application/json' }, corsHeaders),
-            body: JSON.stringify(result)
-          };
-        }
-      } catch (_) {}
+    let upstream;
+    try {
+      upstream = await fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/json',
+          'x-api-key': apiKey,
+          'anthropic-version': '2023-06-01',
+          'anthropic-beta': 'web-search-2025-03-05'
+        },
+        body: JSON.stringify({
+          model: 'claude-opus-4-8',
+          max_tokens: 16000,
+          tools: [{ type: 'web_fetch_20250910', name: 'web_fetch' }],
+          messages: [{ role: 'user', content: prompt }]
+        })
+      });
+    } catch (err) {
+      return resp(502, { error: 'Failed to reach Anthropic API: ' + err.message });
     }
-  }
 
-  return {
-    statusCode: 500,
-    headers: corsHeaders,
-    body: JSON.stringify({ error: 'Could not parse structured JSON from the Claude response. Try again.' })
-  };
+    if (!upstream.ok) {
+      const err = await upstream.json().catch(() => ({}));
+      return resp(upstream.status, { error: (err && err.error && err.error.message) || ('Anthropic API error ' + upstream.status) });
+    }
+
+    const data = await upstream.json();
+    const textBlocks = (data.content || []).filter(b => b.type === 'text' && b.text && b.text.trim());
+
+    for (let i = textBlocks.length - 1; i >= 0; i--) {
+      let raw = textBlocks[i].text.trim()
+        .replace(/^```(?:json)?\s*/im, '').replace(/\s*```\s*$/im, '').trim();
+      const start = raw.indexOf('{');
+      const end = raw.lastIndexOf('}');
+      if (start !== -1 && end > start) {
+        try {
+          const result = JSON.parse(raw.slice(start, end + 1));
+          if (result && typeof result === 'object') {
+            return resp(200, result);
+          }
+        } catch (_) {}
+      }
+    }
+
+    return resp(500, { error: 'Could not parse structured JSON from the Claude response. Try again.' });
+
+  } catch (err) {
+    return resp(500, { error: 'Unhandled error: ' + err.message });
+  }
 };
