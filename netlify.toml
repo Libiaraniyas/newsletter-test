@@ -8,4 +8,9 @@
 
 [functions]
   directory = "netlify/functions"
+
+[functions."fetch-news"]
+  node_bundler = "esbuild"
+
+[functions."fetch-benchmark"]
   node_bundler = "esbuild"
