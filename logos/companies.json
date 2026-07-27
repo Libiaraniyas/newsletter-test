@@ -6,5 +6,9 @@
   {
     "name": "PEPSICO",
     "logo": "logos/pepsico.png"
+  },
+  {
+    "name": "Hershey’s",
+    "logo": "logos/hersheys.png"
   }
 ]
