@@ -10,5 +10,9 @@
   {
     "name": "Hershey’s",
     "logo": "logos/hersheys.png"
+  },
+  {
+    "name": "Keurig Dr Pepper",
+    "logo": "logos/keurigdrpepper.png"
   }
 ]
