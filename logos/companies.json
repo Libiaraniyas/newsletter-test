@@ -26,5 +26,9 @@
   {
     "name": "General Mills",
     "logo": "logos/generalmills.png"
+  },
+  {
+    "name": "Danone",
+    "logo": "logos/danone.png"
   }
 ]
