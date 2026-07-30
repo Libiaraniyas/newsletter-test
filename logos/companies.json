@@ -34,5 +34,9 @@
   {
     "name": "Coca Cola",
     "logo": "logos/cocacola.png"
+  },
+  {
+    "name": "Kraft Heinz",
+    "logo": "logos/kraftheinz.png"
   }
 ]
