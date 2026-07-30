@@ -18,5 +18,9 @@
   {
     "name": "UNILEVER",
     "logo": "logos/unilever.png"
+  },
+  {
+    "name": "Mondelez",
+    "logo": "logos/mondelez.png"
   }
 ]
