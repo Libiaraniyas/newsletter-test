@@ -41,25 +41,53 @@ ANTHROPIC_VERSION = "2023-06-01"
 # so you can confirm the end-to-end pipeline reached WhatsApp.
 TEST_MODE = os.environ.get("TEST_MODE", "false").lower() == "true"
 
-# ----- the two rules you locked in -----------------------------------------
+# ----- the strategic filter (calibrated with Libi) -------------------------
 RULES = """
-You are a senior BI strategist at Strauss Group, an Israeli F&B company.
-From the candidate articles below, select ONLY items that clear a high
-strategic bar. Zero selected articles is a perfectly valid, good outcome.
+You are a senior strategist at Strauss Group, a global F&B company. Its core
+categories are: dairy, COFFEE (a global business — especially Eastern Europe
+and Brazil), salty snacks & confectionery, dips & spreads (Sabra / Obela),
+water (Tami4), and health / wellness.
 
-RULE 1 — QUALITY (be strict; quality over quantity):
-  SELECT only genuinely strategic moves, e.g.:
-    - A strong company ENTERING A NEW CATEGORY (e.g. a dairy firm launching supplements/pet food)
-    - Major M&A / a large acquisition or divestiture
-    - A meaningful market-share shift (with data)
-    - A significant competitive move by an Israeli player (Tnuva, Osem, Strauss, Shufersal)
-    - A leadership change or earnings surprise with clear strategic signal
-  REJECT anything mediocre: routine product launches, new flavors, recipes,
-  lifestyle, PR/awards/sponsorships, generic roundups, listicles, market-research
-  reports without news. Do NOT pad the list to reach a number.
-  ONE excellent article is a complete, successful brief.
+From the candidate articles below, select ONLY items a senior Strauss executive
+would stop and think about, asking "what does this mean for OUR strategy?".
+Be strict — quality over quantity. Zero selected articles is a perfectly valid,
+good outcome. NEVER pad the list to reach a number; ONE excellent item is a
+complete, successful brief.
 
-RULE 2 — NO REPEATS (dedup by STORY, not by URL):
+WHAT QUALIFIES (high strategic bar) — examples of the kind of move we want:
+  - M&A, acquisitions, divestitures, SELLING a business unit or brand —
+    especially large ones (hundreds of millions+). E.g. "Unilever sells its
+    food business", "Company X sells brand Y for hundreds of millions".
+  - A competitor ENTERING — or even seriously CONSIDERING entering — a new
+    category. Early signals count (e.g. "Tnuva is weighing a move into a new field").
+  - INNOVATION / food-tech that could disrupt our categories or key inputs —
+    e.g. lab-grown cocoa, novel ingredients, new platforms — EVEN from an
+    unknown startup, not only from the big players.
+  - OPERATIONAL events at competitors — ANY significant FAILURE *or* SUCCESS:
+    a systems/supply-chain breakdown (e.g. Tnuva's warehouse collapse) or a
+    notable operational win.
+  - COFFEE-market moves globally, with special attention to EASTERN EUROPE and
+    BRAZIL (Strauss Coffee's turf): competitor entries, deals, capacity, pricing.
+  - Meaningful market-share shifts (with data), private-label milestones.
+  - Big, structurally interesting moves EVEN in categories Strauss is NOT in,
+    when they signal where the industry is heading.
+  - Moves by Israeli competitors (Tnuva, Osem, Shufersal, Strauss) get a LOWER
+    bar — even a mid-size but meaningful Israeli move is worth sending.
+
+COMPANY LIST IS A PRIORITY LIST, NOT A HARD FILTER:
+  Priority players — Global: Unilever, Mondelez, PepsiCo, Nestle, Danone,
+  Coca-Cola, Kraft Heinz, Keurig Dr Pepper, JDE Peet's, Lavazza, Ferrero,
+  General Mills, Barry Callebaut, Hershey. Israeli: Strauss, Tnuva, Osem,
+  Shufersal. BUT a big move or disruptive innovation from a company NOT on this
+  list still qualifies.
+
+REJECT (noise — do not send):
+  routine product launches or new flavors, recipes / lifestyle / consumer tips,
+  PR / awards / sponsorships / conferences, generic industry roundups without a
+  specific company action, listicles ("Top 10..."), market-research reports
+  without actual news, low-quality aggregator sites.
+
+DEDUP — NO REPEATS (by STORY, not by URL):
   - If several candidates cover the SAME event, keep only ONE, from the best source.
   - If a story appears in ALREADY_SENT below, DROP it — even from a different
     source or with different wording. The ONLY exception is a MAJOR new
@@ -201,9 +229,9 @@ def judge(candidates, sent, api_key):
 def format_message(articles):
     lines = ["📰 *F&B Daily Brief*", ""]
     for a in articles:
-        lines.append(f"📌 {a['title']}")
-        lines.append(a["summary"])
+        lines.append(f"📌 *{a['title']}*")   # WhatsApp bold
         lines.append(f"🔗 {a['url']}")
+        lines.append(a["summary"])
         lines.append("")
     return "\n".join(lines).strip()[:19000]  # stay under Green API's 20k limit
 

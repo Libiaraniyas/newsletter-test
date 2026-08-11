@@ -1,15 +1,19 @@
 name: F&B Daily Brief
 
-# PROOF OF CONCEPT: manual trigger only.
-# Press "Run workflow" in the Actions tab to run it on demand.
-# The scheduled (4x/day) trigger is added once the POC is approved.
+# Runs 3x/day on a schedule, and can also be triggered manually.
+# On a quiet day nothing is sent (no empty WhatsApp message).
 on:
+  schedule:
+    # GitHub cron is UTC. These map to Israel local time (currently UTC+3):
+    - cron: "0 5 * * *"    # 08:00 Israel
+    - cron: "0 10 * * *"   # 13:00 Israel
+    - cron: "0 15 * * *"   # 18:00 Israel
   workflow_dispatch:
     inputs:
       test_mode:
-        description: "Send a heartbeat message even if no strategic news qualifies"
+        description: "Send a heartbeat message even if no strategic news qualifies (for testing only)"
         type: boolean
-        default: true
+        default: false
 
 permissions:
   contents: write   # so the run can commit the updated memory file (sent.json)
