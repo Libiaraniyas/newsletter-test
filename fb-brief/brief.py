@@ -210,7 +210,51 @@ def drop_known_urls(candidates, sent):
 
 
 # ----- 3. judge with Claude (structured JSON) ------------------------------
-def judge(candidates, sent, api_key):
+def _extract_articles(data):
+    """Pull the articles list out of the tool response, recovering the common
+    malformed shapes the model sometimes emits (a JSON-encoded string, or the
+    whole payload nested one level deeper). Returns a list, or None if the
+    response is malformed and should be retried."""
+    raw = None
+    for block in data.get("content", []):
+        if block.get("type") == "tool_use" and block.get("name") == "submit_brief":
+            raw = block.get("input", {}).get("articles", [])
+            break
+    # The model occasionally stringifies the array — recover it.
+    if isinstance(raw, str):
+        try:
+            raw = json.loads(raw)
+        except (ValueError, TypeError):
+            return None
+    # ...or wraps it as {"articles": [...]} one level too deep.
+    if isinstance(raw, dict):
+        raw = raw.get("articles", raw)
+    if not isinstance(raw, list):
+        return None
+
+    articles = []
+    for item in raw:
+        if isinstance(item, str):
+            try:
+                item = json.loads(item)
+            except (ValueError, TypeError):
+                continue
+        if not isinstance(item, dict):
+            continue
+        title = str(item.get("title", "")).strip()
+        url = str(item.get("url", "")).strip()
+        if not title or not url:
+            continue
+        articles.append({
+            "title": title,
+            "url": url,
+            "summary": str(item.get("summary", "")).strip(),
+            "story_key": str(item.get("story_key", "")).strip() or title.lower(),
+        })
+    return articles
+
+
+def judge(candidates, sent, api_key, attempts=3):
     already_sent = [{"story_key": s.get("story_key", ""), "title": s.get("title", "")} for s in sent]
     prompt = (
         RULES
@@ -226,46 +270,27 @@ def judge(candidates, sent, api_key):
         "tool_choice": {"type": "tool", "name": "submit_brief"},
         "messages": [{"role": "user", "content": prompt}],
     }
-    resp = requests.post(
-        "https://api.anthropic.com/v1/messages",
-        headers={
-            "x-api-key": api_key,
-            "anthropic-version": ANTHROPIC_VERSION,
-            "content-type": "application/json",
-        },
-        json=body,
-        timeout=120,
-    )
-    if resp.status_code != 200:
-        log(f"  ✗ Anthropic API error {resp.status_code}: {resp.text[:500]}")
-        resp.raise_for_status()
+    for attempt in range(1, attempts + 1):
+        resp = requests.post(
+            "https://api.anthropic.com/v1/messages",
+            headers={
+                "x-api-key": api_key,
+                "anthropic-version": ANTHROPIC_VERSION,
+                "content-type": "application/json",
+            },
+            json=body,
+            timeout=120,
+        )
+        if resp.status_code != 200:
+            log(f"  ✗ Anthropic API error {resp.status_code}: {resp.text[:500]}")
+            resp.raise_for_status()
 
-    data = resp.json()
-    raw = []
-    for block in data.get("content", []):
-        if block.get("type") == "tool_use" and block.get("name") == "submit_brief":
-            raw = block["input"].get("articles", [])
-            break
-    if not isinstance(raw, list):
-        log(f"  ⚠️  model returned non-list articles ({type(raw).__name__}); ignoring")
-        return []
-
-    articles = []
-    for item in raw:
-        if not isinstance(item, dict):
-            log(f"  ⚠️  skipping malformed item: {str(item)[:80]}")
-            continue
-        title = str(item.get("title", "")).strip()
-        url = str(item.get("url", "")).strip()
-        if not title or not url:
-            continue
-        articles.append({
-            "title": title,
-            "url": url,
-            "summary": str(item.get("summary", "")).strip(),
-            "story_key": str(item.get("story_key", "")).strip() or title.lower(),
-        })
-    return articles
+        articles = _extract_articles(resp.json())
+        if articles is not None:
+            return articles
+        log(f"  ⚠️  malformed model response (attempt {attempt}/{attempts})"
+            + (" — retrying" if attempt < attempts else " — giving up"))
+    return []
 
 
 # ----- 4. format -----------------------------------------------------------
