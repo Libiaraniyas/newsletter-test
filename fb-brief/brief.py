@@ -162,10 +162,6 @@ def drop_known_urls(candidates, sent):
 # ----- 3. judge with Claude (structured JSON) ------------------------------
 def judge(candidates, sent, api_key):
     already_sent = [{"story_key": s.get("story_key", ""), "title": s.get("title", "")} for s in sent]
-    payload = {
-        "candidates": candidates,
-        "already_sent": already_sent,
-    }
     prompt = (
         RULES
         + "\n\nALREADY_SENT (do not repeat these stories):\n"
