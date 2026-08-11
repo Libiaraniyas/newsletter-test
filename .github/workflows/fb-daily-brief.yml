@@ -1,0 +1,52 @@
+name: F&B Daily Brief
+
+# PROOF OF CONCEPT: manual trigger only.
+# Press "Run workflow" in the Actions tab to run it on demand.
+# The scheduled (4x/day) trigger is added once the POC is approved.
+on:
+  workflow_dispatch:
+    inputs:
+      test_mode:
+        description: "Send a heartbeat message even if no strategic news qualifies"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write   # so the run can commit the updated memory file (sent.json)
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r fb-brief/requirements.txt
+
+      - name: Run the brief
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GREEN_API_INSTANCE: ${{ secrets.GREEN_API_INSTANCE }}
+          GREEN_API_TOKEN: ${{ secrets.GREEN_API_TOKEN }}
+          GREEN_API_CHAT_ID: ${{ secrets.GREEN_API_CHAT_ID }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL || 'claude-sonnet-5' }}
+          TEST_MODE: ${{ inputs.test_mode }}
+        run: python fb-brief/brief.py
+
+      - name: Persist memory (sent.json)
+        run: |
+          if [ -n "$(git status --porcelain fb-brief/sent.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add fb-brief/sent.json
+            git commit -m "chore: update F&B brief memory [skip ci]"
+            git push
+          else
+            echo "No memory changes to commit."
+          fi
