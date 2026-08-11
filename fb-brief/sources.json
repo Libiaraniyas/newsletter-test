@@ -18,5 +18,9 @@
   {
     "name": "Globes (Israel business)",
     "url": "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1725"
+  },
+  {
+    "name": "TheMarker (Israel business, Hebrew)",
+    "url": "https://www.themarker.com/cmlink/1.145"
   }
 ]

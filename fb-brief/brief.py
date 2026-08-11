@@ -35,7 +35,8 @@ SENT_FILE = HERE / "sent.json"
 LOOKBACK_HOURS = 48          # only consider articles newer than this
 MAX_PER_FEED = 8             # cap candidates per feed (protect against huge feeds)
 FEED_TIMEOUT = 20            # seconds per feed — a hung host can't stall the run
-USER_AGENT = "Mozilla/5.0 (compatible; FBBriefBot/1.0)"
+USER_AGENT = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
 MEMORY_DAYS = 14             # how long a story stays "already sent"
 CLAUDE_MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5")
 ANTHROPIC_VERSION = "2023-06-01"
