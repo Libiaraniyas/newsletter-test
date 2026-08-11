@@ -1,0 +1,14 @@
+[
+  {
+    "name": "FoodNavigator (International)",
+    "url": "https://www.foodnavigator.com/Info/FoodNavigator-RSS"
+  },
+  {
+    "name": "Food Dive (US)",
+    "url": "https://www.fooddive.com/feeds/news/"
+  },
+  {
+    "name": "Ynet Economy (Hebrew)",
+    "url": "http://www.ynet.co.il/Integration/StoryRss6.xml"
+  }
+]
