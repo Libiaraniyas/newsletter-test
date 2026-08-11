@@ -12,15 +12,11 @@
     "url": "http://www.ynet.co.il/Integration/StoryRss6.xml"
   },
   {
-    "name": "Calcalist (Hebrew)",
-    "url": "https://www.calcalist.co.il/GeneralRSS/0,16335,L-8,00.xml"
-  },
-  {
     "name": "BeverageDaily",
     "url": "https://www.beveragedaily.com/Info/BeverageDaily-RSS"
   },
   {
-    "name": "FoodBev Media",
-    "url": "https://www.foodbev.com/feed/"
+    "name": "Globes (Israel business)",
+    "url": "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1725"
   }
 ]

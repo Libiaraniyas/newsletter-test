@@ -14,6 +14,10 @@ on:
         description: "Send a heartbeat message even if no strategic news qualifies (for testing only)"
         type: boolean
         default: false
+      dry_run:
+        description: "Only test which feeds are alive — no Claude call, no WhatsApp"
+        type: boolean
+        default: false
 
 permissions:
   contents: write   # so the run can commit the updated memory file (sent.json)
@@ -41,6 +45,7 @@ jobs:
           GREEN_API_CHAT_ID: ${{ secrets.GREEN_API_CHAT_ID }}
           CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL || 'claude-sonnet-5' }}
           TEST_MODE: ${{ inputs.test_mode }}
+          DRY_RUN: ${{ inputs.dry_run }}
         run: python fb-brief/brief.py
 
       - name: Persist memory (sent.json)

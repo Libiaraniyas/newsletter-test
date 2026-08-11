@@ -20,6 +20,7 @@ import os
 import sys
 import html
 import re
+import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -33,6 +34,8 @@ SENT_FILE = HERE / "sent.json"
 # ----- tunables ------------------------------------------------------------
 LOOKBACK_HOURS = 48          # only consider articles newer than this
 MAX_PER_FEED = 8             # cap candidates per feed (protect against huge feeds)
+FEED_TIMEOUT = 20            # seconds per feed — a hung host can't stall the run
+USER_AGENT = "Mozilla/5.0 (compatible; FBBriefBot/1.0)"
 MEMORY_DAYS = 14             # how long a story stays "already sent"
 CLAUDE_MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5")
 ANTHROPIC_VERSION = "2023-06-01"
@@ -40,6 +43,17 @@ ANTHROPIC_VERSION = "2023-06-01"
 # In TEST_MODE, when zero articles qualify we still send a short heartbeat
 # so you can confirm the end-to-end pipeline reached WhatsApp.
 TEST_MODE = os.environ.get("TEST_MODE", "false").lower() == "true"
+
+# In DRY_RUN, only collect and print candidates — no Claude call, no WhatsApp.
+# Used to verify which feeds are alive without messaging anyone.
+DRY_RUN = os.environ.get("DRY_RUN", "false").lower() == "true"
+
+# In NO_SEND, run the full pipeline incl. Claude selection but skip WhatsApp and
+# memory — for safely inspecting what the model picks without messaging anyone.
+NO_SEND = os.environ.get("NO_SEND", "false").lower() == "true"
+
+# Hard safety cap on how many messages one run can send (a brief, not a feed dump).
+MAX_ARTICLES = 5
 
 # ----- the strategic filter (calibrated with Libi) -------------------------
 RULES = """
@@ -52,7 +66,8 @@ From the candidate articles below, select ONLY items a senior Strauss executive
 would stop and think about, asking "what does this mean for OUR strategy?".
 Be strict — quality over quantity. Zero selected articles is a perfectly valid,
 good outcome. NEVER pad the list to reach a number; ONE excellent item is a
-complete, successful brief.
+complete, successful brief. Select AT MOST 5 items, and usually 0–3 — if you are
+choosing more than 5, your bar is too low.
 
 WHAT QUALIFIES (high strategic bar) — examples of the kind of move we want:
   - M&A, acquisitions, divestitures, SELLING a business unit or brand —
@@ -94,9 +109,14 @@ DEDUP — NO REPEATS (by STORY, not by URL):
     development (e.g. "Tnuva lost 5% market share because of the crisis").
     A new angle, a reworded headline, or a minor update does NOT qualify.
 
-OUTPUT:
+The Strauss perspective above is ONLY for deciding WHICH articles to select.
+It must NOT appear in the summary text.
+
+OUTPUT (short and factual — NO analysis):
   - Titles in English, Title Case. If the source is Hebrew, translate the title.
-  - summary = exactly two sentences: what happened, then what it means strategically.
+  - summary = a short, factual summary of what the article itself reports, at most
+    two sentences (~2 lines). Do NOT add strategic implications, do NOT mention
+    Strauss, and do NOT write "what this means for us" — just summarize the news.
   - story_key = a short stable slug for the underlying story (e.g. "tnuva-vitamins-entry"),
     used to avoid repeating this story in future runs.
 """
@@ -113,7 +133,7 @@ SUBMIT_TOOL = {
                     "type": "object",
                     "properties": {
                         "title": {"type": "string", "description": "English, Title Case"},
-                        "summary": {"type": "string", "description": "Exactly two sentences: what happened + strategic implication"},
+                        "summary": {"type": "string", "description": "Short factual summary of the article, at most two sentences. No strategic analysis, no mention of Strauss."},
                         "url": {"type": "string", "description": "The exact source URL, copied from the candidate"},
                         "story_key": {"type": "string", "description": "Short stable slug for the underlying story"},
                     },
@@ -150,11 +170,13 @@ def collect_candidates(sources):
     for src in sources:
         name, url = src["name"], src["url"]
         try:
-            feed = feedparser.parse(url)
+            resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=FEED_TIMEOUT)
+            resp.raise_for_status()
+            feed = feedparser.parse(resp.content)
         except Exception as e:  # noqa: BLE001
-            log(f"  ⚠️  {name}: failed to parse ({e})")
+            log(f"  ⚠️  {name}: fetch failed ({e})")
             continue
-        if getattr(feed, "bozo", False) and not feed.entries:
+        if not feed.entries:
             log(f"  ⚠️  {name}: no entries / broken feed")
             continue
 
@@ -199,7 +221,7 @@ def judge(candidates, sent, api_key):
     )
     body = {
         "model": CLAUDE_MODEL,
-        "max_tokens": 1500,
+        "max_tokens": 3000,
         "tools": [SUBMIT_TOOL],
         "tool_choice": {"type": "tool", "name": "submit_brief"},
         "messages": [{"role": "user", "content": prompt}],
@@ -219,21 +241,41 @@ def judge(candidates, sent, api_key):
         resp.raise_for_status()
 
     data = resp.json()
+    raw = []
     for block in data.get("content", []):
         if block.get("type") == "tool_use" and block.get("name") == "submit_brief":
-            return block["input"].get("articles", [])
-    return []
+            raw = block["input"].get("articles", [])
+            break
+    if not isinstance(raw, list):
+        log(f"  ⚠️  model returned non-list articles ({type(raw).__name__}); ignoring")
+        return []
+
+    articles = []
+    for item in raw:
+        if not isinstance(item, dict):
+            log(f"  ⚠️  skipping malformed item: {str(item)[:80]}")
+            continue
+        title = str(item.get("title", "")).strip()
+        url = str(item.get("url", "")).strip()
+        if not title or not url:
+            continue
+        articles.append({
+            "title": title,
+            "url": url,
+            "summary": str(item.get("summary", "")).strip(),
+            "story_key": str(item.get("story_key", "")).strip() or title.lower(),
+        })
+    return articles
 
 
 # ----- 4. format -----------------------------------------------------------
-def format_message(articles):
-    lines = ["📰 *F&B Daily Brief*", ""]
-    for a in articles:
-        lines.append(f"📌 *{a['title']}*")   # WhatsApp bold
-        lines.append(f"🔗 {a['url']}")
-        lines.append(a["summary"])
-        lines.append("")
-    return "\n".join(lines).strip()[:19000]  # stay under Green API's 20k limit
+def format_article(a):
+    # One WhatsApp message per article: bold title, link, then a 2-line summary.
+    return (
+        f"📌 *{a['title']}*\n"
+        f"🔗 {a['url']}\n\n"
+        f"{a['summary']}"
+    )[:19000]  # stay under Green API's 20k limit
 
 
 # ----- 5. send via Green API ----------------------------------------------
@@ -273,11 +315,6 @@ def update_memory(sent, new_articles):
 
 
 def main():
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        log("✗ ANTHROPIC_API_KEY is not set — add it as a GitHub Secret.")
-        sys.exit(1)
-
     sources = load_json(SOURCES_FILE, [])
     sent = load_json(SENT_FILE, [])
 
@@ -286,29 +323,50 @@ def main():
     candidates = drop_known_urls(candidates, sent)
     log(f"   → {len(candidates)} candidate article(s) after URL dedup\n")
 
+    if DRY_RUN:
+        log("DRY_RUN — feeds only, no Claude call, no WhatsApp. Candidates:")
+        for c in candidates:
+            log(f"   • [{c['source']}] {c['title'][:90]}")
+        log("\n✅ Dry run done.")
+        return
+
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        log("✗ ANTHROPIC_API_KEY is not set — add it as a GitHub Secret.")
+        sys.exit(1)
+
     if not candidates:
         log("No candidates at all — nothing to judge.")
         articles = []
     else:
         log("② Asking Claude to select strategic stories...")
         articles = judge(candidates, sent, api_key)
-        log(f"   → Claude selected {len(articles)} article(s)\n")
+        log(f"   → Claude selected {len(articles)} valid article(s)\n")
+
+    if len(articles) > MAX_ARTICLES:
+        log(f"   ↳ capping {len(articles)} → {MAX_ARTICLES} (safety valve)")
+        articles = articles[:MAX_ARTICLES]
 
     if not articles:
         log("☕ No strategic news this run.")
-        if TEST_MODE:
+        if TEST_MODE and not NO_SEND:
             log("   (TEST_MODE) sending heartbeat so you can see the pipeline works.")
             send_whatsapp("✅ בדיקת F&B Brief: הצינור עובד מקצה לקצה. אין כתבות אסטרטגיות כרגע ☕")
         return
 
     log("③ Selected articles:")
     for a in articles:
-        log(f"   • {a['title']}  [{a.get('story_key','')}]")
-    log("")
+        log(f"   • {a['title']}  [{a.get('story_key', '')}]")
 
-    message = format_message(articles)
-    log("④ Sending to WhatsApp...")
-    send_whatsapp(message)
+    if NO_SEND:
+        log("NO_SEND — skipping WhatsApp + memory (diagnostic only).")
+        return
+
+    log(f"④ Sending {len(articles)} separate WhatsApp message(s)...")
+    for i, a in enumerate(articles):
+        if i:
+            time.sleep(2)   # pace messages so Green API keeps order / avoids rate limits
+        send_whatsapp(format_article(a))
     update_memory(sent, articles)
     log("\n✅ Done.")
 
