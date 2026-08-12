@@ -4,10 +4,11 @@ name: F&B Daily Brief
 # On a quiet day nothing is sent (no empty WhatsApp message).
 on:
   schedule:
-    # GitHub cron is UTC. These map to Israel local time (currently UTC+3):
-    - cron: "0 5 * * *"    # 08:00 Israel
-    - cron: "0 10 * * *"   # 13:00 Israel
-    - cron: "0 15 * * *"   # 18:00 Israel
+    # GitHub cron is UTC. These map to Israel local time (currently UTC+3, summer).
+    # GitHub may delay a scheduled run by up to ~1h, so it fires at or after these.
+    - cron: "0 6 * * *"    # 09:00 Israel (morning)
+    - cron: "0 10 * * *"   # 13:00 Israel (midday)
+    - cron: "0 15 * * *"   # 18:00 Israel (evening)
   workflow_dispatch:
     inputs:
       test_mode:
