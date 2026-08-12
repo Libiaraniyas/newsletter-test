@@ -33,7 +33,7 @@ SENT_FILE = HERE / "sent.json"
 
 # ----- tunables ------------------------------------------------------------
 LOOKBACK_HOURS = 48          # only consider articles newer than this
-MAX_PER_FEED = 8             # cap candidates per feed (protect against huge feeds)
+MAX_PER_FEED = 15            # cap candidates per feed (protect against huge feeds)
 FEED_TIMEOUT = 20            # seconds per feed — a hung host can't stall the run
 USER_AGENT = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
               "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
