@@ -31,6 +31,9 @@ HERE = Path(__file__).resolve().parent
 SOURCES_FILE = HERE / "sources.json"
 SENT_FILE = HERE / "sent.json"
 MONTHLY_DIR = HERE / "monthly"
+# Maps each sent WhatsApp message id -> its article, so a later ⭐ reaction can be
+# resolved to the article (reactions may arrive days after the message).
+MSGMAP_FILE = MONTHLY_DIR / "msgmap.json"
 # Shared source of truth for the ACTIVE month. NOT the calendar month — the site
 # and this engine both read it, and it only advances when the "End month" button
 # is pressed (a few days into the next month is normal). Bootstraps to the
@@ -133,6 +136,8 @@ OUTPUT for every item (short and factual — NO analysis):
   - story_key = a short stable slug in English/ASCII for the underlying story
     (e.g. "tnuva-vitamins-entry") — this is an internal key, always English,
     used to avoid repeating this story in future runs.
+  - category = which newsletter section it belongs to — one of:
+    "macro" | "mna" | "market" | "tech" (EVERY item, brief and pool, gets one).
 
 ======================================================================
 SECOND TASK — THE MONTHLY POOL (broader, categorized)
@@ -151,6 +156,11 @@ Pool rules:
 These items go into the "pool" array (shown on the site, NOT sent to WhatsApp).
 """
 
+_CATEGORY_PROP = {
+    "type": "string",
+    "enum": ["macro", "mna", "market", "tech"],
+    "description": "One category key (which newsletter section this belongs to)",
+}
 _ITEM_PROPS = {
     "title": {"type": "string", "description": "Headline in the article's own language"},
     "summary": {"type": "string", "description": "Factual summary, at most two sentences, in the article's language. No strategic analysis, no mention of Strauss."},
@@ -166,11 +176,11 @@ SUBMIT_TOOL = {
         "properties": {
             "brief": {
                 "type": "array",
-                "description": "Strict strategic picks — sent to WhatsApp.",
+                "description": "Strict strategic picks — sent to WhatsApp. Also categorized (so a starred item lands in the right newsletter section).",
                 "items": {
                     "type": "object",
-                    "properties": dict(_ITEM_PROPS),
-                    "required": ["title", "summary", "url", "story_key"],
+                    "properties": dict(_ITEM_PROPS, category=_CATEGORY_PROP),
+                    "required": ["title", "summary", "url", "story_key", "category"],
                 },
             },
             "pool": {
@@ -178,11 +188,7 @@ SUBMIT_TOOL = {
                 "description": "Broader, categorized picks for the monthly newsletter — shown on the site.",
                 "items": {
                     "type": "object",
-                    "properties": dict(_ITEM_PROPS, category={
-                        "type": "string",
-                        "enum": ["macro", "mna", "market", "tech"],
-                        "description": "One category key",
-                    }),
+                    "properties": dict(_ITEM_PROPS, category=_CATEGORY_PROP),
                     "required": ["title", "summary", "url", "story_key", "category"],
                 },
             },
@@ -312,7 +318,7 @@ def _extract_result(data):
             return None
     if not isinstance(payload, dict):
         return None
-    brief = _clean_items(payload.get("brief", []), want_category=False)
+    brief = _clean_items(payload.get("brief", []), want_category=True)
     pool = _clean_items(payload.get("pool", []), want_category=True)
     if brief is None or pool is None:
         return None
@@ -376,6 +382,33 @@ def fetch_og_image(url):
     except Exception:  # noqa: BLE001
         pass
     return ""
+
+
+def save_msgmap(entries):
+    """Record {idMessage: article} for sent brief messages, so the reaction
+    poller can resolve a ⭐ back to its article. Prunes entries older than 45 days."""
+    if not entries:
+        return
+    now = datetime.now(timezone.utc)
+    MONTHLY_DIR.mkdir(exist_ok=True)
+    data = load_json(MSGMAP_FILE, {})
+    if not isinstance(data, dict):
+        data = {}
+    cutoff = now - timedelta(days=45)
+    data = {
+        mid: v for mid, v in data.items()
+        if _parse_dt(v.get("sent_at"), now) >= cutoff
+    }
+    data.update(entries)
+    MSGMAP_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    log(f"  ✓ message map updated ({len(data)} ids tracked)")
+
+
+def _parse_dt(s, default):
+    try:
+        return datetime.fromisoformat(s)
+    except (TypeError, ValueError):
+        return default
 
 
 def current_month():
@@ -445,6 +478,10 @@ def send_whatsapp(text):
         log(f"  ✗ Green API error {resp.status_code}: {resp.text[:500]}")
         resp.raise_for_status()
     log("  ✓ WhatsApp message sent")
+    try:
+        return str(resp.json().get("idMessage", "") or "")
+    except Exception:  # noqa: BLE001
+        return ""
 
 
 # ----- 6. memory -----------------------------------------------------------
@@ -535,10 +572,22 @@ def main():
         return
 
     log(f"\n⑤ Sending {len(brief)} separate WhatsApp message(s)...")
+    now = datetime.now(timezone.utc)
+    msgmap = {}
     for i, a in enumerate(brief):
         if i:
             time.sleep(2)   # pace messages so Green API keeps order / avoids rate limits
-        send_whatsapp(format_article(a))
+        mid = send_whatsapp(format_article(a))
+        if mid:
+            msgmap[mid] = {
+                "url": a["url"],
+                "title": a["title"],
+                "summary": a["summary"],
+                "story_key": a.get("story_key", ""),
+                "category": a.get("category", "market"),
+                "sent_at": now.isoformat(),
+            }
+    save_msgmap(msgmap)
     update_memory(sent, brief)
     log("\n✅ Done.")
 
