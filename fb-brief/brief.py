@@ -114,11 +114,16 @@ The Strauss perspective above is ONLY for deciding WHICH articles to select.
 It must NOT appear in the summary text.
 
 OUTPUT (short and factual — NO analysis):
-  - Titles in English, Title Case. If the source is Hebrew, translate the title.
+  - LANGUAGE — match the source article: write BOTH the title and the summary in
+    the SAME language the article is written in. Hebrew article -> Hebrew title and
+    Hebrew summary; English article -> English title and English summary. Do NOT
+    translate. (Use Title Case only for English titles.)
+  - title = the article's own headline, in its original language.
   - summary = a short, factual summary of what the article itself reports, at most
-    two sentences (~2 lines). Do NOT add strategic implications, do NOT mention
-    Strauss, and do NOT write "what this means for us" — just summarize the news.
-  - story_key = a short stable slug for the underlying story (e.g. "tnuva-vitamins-entry"),
+    two sentences (~2 lines), in the article's language. Do NOT add strategic
+    implications, do NOT mention Strauss, do NOT write "what this means for us".
+  - story_key = a short stable slug in English/ASCII for the underlying story
+    (e.g. "tnuva-vitamins-entry") — this is an internal key, always English,
     used to avoid repeating this story in future runs.
 """
 
