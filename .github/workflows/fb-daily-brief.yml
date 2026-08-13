@@ -49,14 +49,14 @@ jobs:
           DRY_RUN: ${{ inputs.dry_run }}
         run: python fb-brief/brief.py
 
-      - name: Persist memory (sent.json)
+      - name: Persist memory + monthly pool
         run: |
-          if [ -n "$(git status --porcelain fb-brief/sent.json)" ]; then
+          git add fb-brief/sent.json fb-brief/monthly 2>/dev/null || true
+          if [ -n "$(git status --porcelain fb-brief/sent.json fb-brief/monthly)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add fb-brief/sent.json
-            git commit -m "chore: update F&B brief memory [skip ci]"
+            git commit -m "chore: update F&B brief memory + monthly pool [skip ci]"
             git push
           else
-            echo "No memory changes to commit."
+            echo "No memory/pool changes to commit."
           fi
