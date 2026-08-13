@@ -40,10 +40,19 @@ def pool_path():
 
 def receive():
     r = requests.get(f"{BASE}/receiveNotification/{TOKEN}", timeout=40)
-    if r.status_code == 200:
-        return r.json()   # None/empty when the queue is drained
-    log(f"  ⚠️  receiveNotification HTTP {r.status_code}: {r.text[:200]}")
-    return None
+    if r.status_code != 200:
+        log(f"  ⚠️  receiveNotification HTTP {r.status_code}: {r.text[:200]}")
+        return None
+    # Green API returns an EMPTY body (or the literal `null`) when the queue is
+    # drained — r.json() on an empty string raises, so guard before parsing.
+    text = (r.text or "").strip()
+    if not text or text.lower() == "null":
+        return None
+    try:
+        return r.json()
+    except ValueError:
+        log(f"  ⚠️  receiveNotification non-JSON body: {text[:200]}")
+        return None
 
 
 def delete(receipt_id):
