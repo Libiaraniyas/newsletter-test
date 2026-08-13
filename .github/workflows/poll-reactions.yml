@@ -1,0 +1,52 @@
+name: Poll WhatsApp Reactions
+
+# Drains Green API's reaction queue and stars the reacted articles in the
+# active month's pool. No webhook server — pure polling from Actions.
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # every ~15 min (GitHub may delay under load)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Never let two poll runs overlap (they both push to the pool).
+concurrency:
+  group: poll-reactions
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r fb-brief/requirements.txt
+
+      - name: Poll reactions
+        env:
+          GREEN_API_INSTANCE: ${{ secrets.GREEN_API_INSTANCE }}
+          GREEN_API_TOKEN: ${{ secrets.GREEN_API_TOKEN }}
+        run: python fb-brief/poll_reactions.py
+
+      - name: Commit pool changes
+        run: |
+          if [ -z "$(git status --porcelain fb-brief/monthly)" ]; then
+            echo "No pool changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add fb-brief/monthly
+          git commit -m "chore: star reactions into monthly pool [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push && break
+            echo "push retry $i"; sleep 3
+          done
