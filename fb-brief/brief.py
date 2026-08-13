@@ -31,6 +31,11 @@ HERE = Path(__file__).resolve().parent
 SOURCES_FILE = HERE / "sources.json"
 SENT_FILE = HERE / "sent.json"
 MONTHLY_DIR = HERE / "monthly"
+# Shared source of truth for the ACTIVE month. NOT the calendar month — the site
+# and this engine both read it, and it only advances when the "End month" button
+# is pressed (a few days into the next month is normal). Bootstraps to the
+# calendar month on first run if unset.
+STATE_FILE = MONTHLY_DIR / "state.json"
 
 # ----- tunables ------------------------------------------------------------
 LOOKBACK_HOURS = 48          # only consider articles newer than this
@@ -373,14 +378,30 @@ def fetch_og_image(url):
     return ""
 
 
+def current_month():
+    """The ACTIVE month label (YYYY-MM) shared by this engine and the site.
+    NOT the calendar month — read from STATE_FILE; only the site's 'End month'
+    button advances it. Bootstraps to the calendar month if unset."""
+    state = load_json(STATE_FILE, {})
+    cm = state.get("current_month") if isinstance(state, dict) else None
+    return cm or f"{datetime.now(timezone.utc):%Y-%m}"
+
+
 def save_to_monthly_pool(pool_items):
-    """Accumulate categorized pool items into fb-brief/monthly/YYYY-MM.json,
-    de-duplicated by url. Starred flag is added later (Phase B) via reactions."""
+    """Accumulate categorized pool items into the ACTIVE month's file
+    (fb-brief/monthly/<active-month>.json), de-duplicated by url. The active
+    month comes from STATE_FILE, not the calendar. Starred flag is set later
+    (Phase B) via reactions."""
     if not pool_items:
         return
     now = datetime.now(timezone.utc)
     MONTHLY_DIR.mkdir(exist_ok=True)
-    path = MONTHLY_DIR / f"{now:%Y-%m}.json"
+    cm = current_month()
+    if not STATE_FILE.exists():
+        STATE_FILE.write_text(json.dumps({"current_month": cm}, ensure_ascii=False, indent=2),
+                              encoding="utf-8")
+        log(f"  ✓ bootstrapped active month → {cm}")
+    path = MONTHLY_DIR / f"{cm}.json"
     existing = load_json(path, [])
     seen = {a.get("url") for a in existing}
     added = 0
