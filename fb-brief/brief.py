@@ -30,6 +30,12 @@ import feedparser
 HERE = Path(__file__).resolve().parent
 SOURCES_FILE = HERE / "sources.json"
 SENT_FILE = HERE / "sent.json"
+MONTHLY_DIR = HERE / "monthly"
+# Shared source of truth for the ACTIVE month. NOT the calendar month — the site
+# and this engine both read it, and it only advances when the "End month" button
+# is pressed (a few days into the next month is normal). Bootstraps to the
+# calendar month on first run if unset.
+STATE_FILE = MONTHLY_DIR / "state.json"
 
 # ----- tunables ------------------------------------------------------------
 LOOKBACK_HOURS = 48          # only consider articles newer than this
@@ -113,7 +119,9 @@ DEDUP — NO REPEATS (by STORY, not by URL):
 The Strauss perspective above is ONLY for deciding WHICH articles to select.
 It must NOT appear in the summary text.
 
-OUTPUT (short and factual — NO analysis):
+These strict picks go into the "brief" array (this is what is sent to WhatsApp).
+
+OUTPUT for every item (short and factual — NO analysis):
   - LANGUAGE — match the source article: write BOTH the title and the summary in
     the SAME language the article is written in. Hebrew article -> Hebrew title and
     Hebrew summary; English article -> English title and English summary. Do NOT
@@ -125,29 +133,61 @@ OUTPUT (short and factual — NO analysis):
   - story_key = a short stable slug in English/ASCII for the underlying story
     (e.g. "tnuva-vitamins-entry") — this is an internal key, always English,
     used to avoid repeating this story in future runs.
+
+======================================================================
+SECOND TASK — THE MONTHLY POOL (broader, categorized)
+After the strict brief, ALSO build a "pool" for a monthly F&B business
+newsletter. From the candidates you did NOT put in the brief, select every item
+that is genuinely relevant for such a newsletter — still selective, NOT boring
+filler — and give each ONE category key:
+  - "macro"  = Macro Environment (economy, inflation, commodities, policy, geopolitics affecting F&B)
+  - "mna"    = M&A and Divestitures (deals, acquisitions, sales, spin-offs)
+  - "market" = Market Dynamics (competition, earnings, retail, market share, weighty launches)
+  - "tech"   = Tech & Innovation (food-tech, ingredients, novel platforms, R&D)
+Pool rules:
+  - Do NOT include anything already in the brief (no duplicates between brief and pool).
+  - Broader than the brief, but still selective — skip lifestyle/recipes/PR/awards/trivia.
+  - Same output format and LANGUAGE rule as above, plus a "category" field (one of the four keys).
+These items go into the "pool" array (shown on the site, NOT sent to WhatsApp).
 """
+
+_ITEM_PROPS = {
+    "title": {"type": "string", "description": "Headline in the article's own language"},
+    "summary": {"type": "string", "description": "Factual summary, at most two sentences, in the article's language. No strategic analysis, no mention of Strauss."},
+    "url": {"type": "string", "description": "The exact source URL, copied from the candidate"},
+    "story_key": {"type": "string", "description": "Short stable English/ASCII slug for the underlying story"},
+}
 
 SUBMIT_TOOL = {
     "name": "submit_brief",
-    "description": "Submit the final selected strategic articles (may be an empty list).",
+    "description": "Submit the strict brief (for WhatsApp) and the broader categorized pool (for the site). Either list may be empty.",
     "input_schema": {
         "type": "object",
         "properties": {
-            "articles": {
+            "brief": {
                 "type": "array",
+                "description": "Strict strategic picks — sent to WhatsApp.",
                 "items": {
                     "type": "object",
-                    "properties": {
-                        "title": {"type": "string", "description": "English, Title Case"},
-                        "summary": {"type": "string", "description": "Short factual summary of the article, at most two sentences. No strategic analysis, no mention of Strauss."},
-                        "url": {"type": "string", "description": "The exact source URL, copied from the candidate"},
-                        "story_key": {"type": "string", "description": "Short stable slug for the underlying story"},
-                    },
+                    "properties": dict(_ITEM_PROPS),
                     "required": ["title", "summary", "url", "story_key"],
                 },
-            }
+            },
+            "pool": {
+                "type": "array",
+                "description": "Broader, categorized picks for the monthly newsletter — shown on the site.",
+                "items": {
+                    "type": "object",
+                    "properties": dict(_ITEM_PROPS, category={
+                        "type": "string",
+                        "enum": ["macro", "mna", "market", "tech"],
+                        "description": "One category key",
+                    }),
+                    "required": ["title", "summary", "url", "story_key", "category"],
+                },
+            },
         },
-        "required": ["articles"],
+        "required": ["brief", "pool"],
     },
 }
 
@@ -216,29 +256,22 @@ def drop_known_urls(candidates, sent):
 
 
 # ----- 3. judge with Claude (structured JSON) ------------------------------
-def _extract_articles(data):
-    """Pull the articles list out of the tool response, recovering the common
-    malformed shapes the model sometimes emits (a JSON-encoded string, or the
-    whole payload nested one level deeper). Returns a list, or None if the
-    response is malformed and should be retried."""
-    raw = None
-    for block in data.get("content", []):
-        if block.get("type") == "tool_use" and block.get("name") == "submit_brief":
-            raw = block.get("input", {}).get("articles", [])
-            break
-    # The model occasionally stringifies the array — recover it.
+VALID_CATEGORIES = ("macro", "mna", "market", "tech")
+
+
+def _clean_items(raw, want_category=False):
+    """Normalize a raw list of article dicts, recovering stringified shapes.
+    Returns a list, or None if the input isn't a recoverable list."""
     if isinstance(raw, str):
         try:
             raw = json.loads(raw)
         except (ValueError, TypeError):
             return None
-    # ...or wraps it as {"articles": [...]} one level too deep.
     if isinstance(raw, dict):
         raw = raw.get("articles", raw)
     if not isinstance(raw, list):
         return None
-
-    articles = []
+    out = []
     for item in raw:
         if isinstance(item, str):
             try:
@@ -251,13 +284,39 @@ def _extract_articles(data):
         url = str(item.get("url", "")).strip()
         if not title or not url:
             continue
-        articles.append({
+        rec = {
             "title": title,
             "url": url,
             "summary": str(item.get("summary", "")).strip(),
             "story_key": str(item.get("story_key", "")).strip() or title.lower(),
-        })
-    return articles
+        }
+        if want_category:
+            cat = str(item.get("category", "")).strip().lower()
+            rec["category"] = cat if cat in VALID_CATEGORIES else "market"
+        out.append(rec)
+    return out
+
+
+def _extract_result(data):
+    """Return {"brief":[...], "pool":[...]} from the tool response, or None if
+    the response is malformed and should be retried."""
+    payload = None
+    for block in data.get("content", []):
+        if block.get("type") == "tool_use" and block.get("name") == "submit_brief":
+            payload = block.get("input", {})
+            break
+    if isinstance(payload, str):
+        try:
+            payload = json.loads(payload)
+        except (ValueError, TypeError):
+            return None
+    if not isinstance(payload, dict):
+        return None
+    brief = _clean_items(payload.get("brief", []), want_category=False)
+    pool = _clean_items(payload.get("pool", []), want_category=True)
+    if brief is None or pool is None:
+        return None
+    return {"brief": brief, "pool": pool}
 
 
 def judge(candidates, sent, api_key, attempts=3):
@@ -271,7 +330,7 @@ def judge(candidates, sent, api_key, attempts=3):
     )
     body = {
         "model": CLAUDE_MODEL,
-        "max_tokens": 3000,
+        "max_tokens": 5000,
         "tools": [SUBMIT_TOOL],
         "tool_choice": {"type": "tool", "name": "submit_brief"},
         "messages": [{"role": "user", "content": prompt}],
@@ -291,12 +350,78 @@ def judge(candidates, sent, api_key, attempts=3):
             log(f"  ✗ Anthropic API error {resp.status_code}: {resp.text[:500]}")
             resp.raise_for_status()
 
-        articles = _extract_articles(resp.json())
-        if articles is not None:
-            return articles
+        result = _extract_result(resp.json())
+        if result is not None:
+            return result
         log(f"  ⚠️  malformed model response (attempt {attempt}/{attempts})"
             + (" — retrying" if attempt < attempts else " — giving up"))
-    return []
+    return {"brief": [], "pool": []}
+
+
+# ----- og:image + monthly pool store ---------------------------------------
+def fetch_og_image(url):
+    """Best-effort: return the article's og:image URL, or '' on any failure."""
+    try:
+        resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=10)
+        resp.raise_for_status()
+        html_text = resp.text[:200000]
+        for pat in (
+            r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']',
+            r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
+            r'<meta[^>]+name=["\']twitter:image["\'][^>]+content=["\']([^"\']+)["\']',
+        ):
+            m = re.search(pat, html_text, re.IGNORECASE)
+            if m:
+                return m.group(1).strip()
+    except Exception:  # noqa: BLE001
+        pass
+    return ""
+
+
+def current_month():
+    """The ACTIVE month label (YYYY-MM) shared by this engine and the site.
+    NOT the calendar month — read from STATE_FILE; only the site's 'End month'
+    button advances it. Bootstraps to the calendar month if unset."""
+    state = load_json(STATE_FILE, {})
+    cm = state.get("current_month") if isinstance(state, dict) else None
+    return cm or f"{datetime.now(timezone.utc):%Y-%m}"
+
+
+def save_to_monthly_pool(pool_items):
+    """Accumulate categorized pool items into the ACTIVE month's file
+    (fb-brief/monthly/<active-month>.json), de-duplicated by url. The active
+    month comes from STATE_FILE, not the calendar. Starred flag is set later
+    (Phase B) via reactions."""
+    if not pool_items:
+        return
+    now = datetime.now(timezone.utc)
+    MONTHLY_DIR.mkdir(exist_ok=True)
+    cm = current_month()
+    if not STATE_FILE.exists():
+        STATE_FILE.write_text(json.dumps({"current_month": cm}, ensure_ascii=False, indent=2),
+                              encoding="utf-8")
+        log(f"  ✓ bootstrapped active month → {cm}")
+    path = MONTHLY_DIR / f"{cm}.json"
+    existing = load_json(path, [])
+    seen = {a.get("url") for a in existing}
+    added = 0
+    for a in pool_items:
+        if a["url"] in seen:
+            continue
+        existing.append({
+            "url": a["url"],
+            "title": a["title"],
+            "summary": a["summary"],
+            "story_key": a.get("story_key", ""),
+            "category": a.get("category", "market"),
+            "image": a.get("image", ""),
+            "starred": False,
+            "added_at": now.isoformat(),
+        })
+        seen.add(a["url"])
+        added += 1
+    path.write_text(json.dumps(existing, ensure_ascii=False, indent=2), encoding="utf-8")
+    log(f"  ✓ monthly pool updated (+{added}, {len(existing)} total in {path.name})")
 
 
 # ----- 4. format -----------------------------------------------------------
@@ -368,37 +493,53 @@ def main():
 
     if not candidates:
         log("No candidates at all — nothing to judge.")
-        articles = []
+        result = {"brief": [], "pool": []}
     else:
-        log("② Asking Claude to select strategic stories...")
-        articles = judge(candidates, sent, api_key)
-        log(f"   → Claude selected {len(articles)} valid article(s)\n")
+        log("② Asking Claude for the brief (strict) + the monthly pool (broad)...")
+        result = judge(candidates, sent, api_key)
 
-    if len(articles) > MAX_ARTICLES:
-        log(f"   ↳ capping {len(articles)} → {MAX_ARTICLES} (safety valve)")
-        articles = articles[:MAX_ARTICLES]
+    brief = result["brief"]
+    pool = result["pool"]
+    if len(brief) > MAX_ARTICLES:
+        log(f"   ↳ capping brief {len(brief)} → {MAX_ARTICLES} (safety valve)")
+        brief = brief[:MAX_ARTICLES]
+    log(f"   → brief: {len(brief)} (→ WhatsApp) | pool: {len(pool)} (→ site)\n")
 
-    if not articles:
-        log("☕ No strategic news this run.")
-        if TEST_MODE and not NO_SEND:
-            log("   (TEST_MODE) sending heartbeat so you can see the pipeline works.")
-            send_whatsapp("✅ בדיקת F&B Brief: הצינור עובד מקצה לקצה. אין כתבות אסטרטגיות כרגע ☕")
-        return
-
-    log("③ Selected articles:")
-    for a in articles:
-        log(f"   • {a['title']}  [{a.get('story_key', '')}]")
+    if brief:
+        log("③ Brief:")
+        for a in brief:
+            log(f"   • {a['title']}  [{a.get('story_key', '')}]")
+    if pool:
+        log("③ Pool:")
+        for a in pool:
+            log(f"   • [{a.get('category', '?')}] {a['title']}")
 
     if NO_SEND:
-        log("NO_SEND — skipping WhatsApp + memory (diagnostic only).")
+        log("\nNO_SEND — skipping WhatsApp, memory, and pool write (diagnostic only).")
         return
 
-    log(f"④ Sending {len(articles)} separate WhatsApp message(s)...")
-    for i, a in enumerate(articles):
+    # --- monthly pool: fetch images + save silently (never sent to WhatsApp) ---
+    if pool:
+        log(f"\n④ Fetching og:image for {len(pool)} pool item(s)...")
+        for a in pool:
+            a["image"] = fetch_og_image(a["url"])
+        save_to_monthly_pool(pool)
+
+    # --- brief -> WhatsApp (behavior unchanged from before) ---
+    if not brief:
+        log("☕ No strategic news for WhatsApp this run.")
+        if TEST_MODE:
+            log("   (TEST_MODE) sending heartbeat.")
+            send_whatsapp("✅ בדיקת F&B Brief: הצינור עובד מקצה לקצה. אין כתבות אסטרטגיות כרגע ☕")
+        log("\n✅ Done.")
+        return
+
+    log(f"\n⑤ Sending {len(brief)} separate WhatsApp message(s)...")
+    for i, a in enumerate(brief):
         if i:
             time.sleep(2)   # pace messages so Green API keeps order / avoids rate limits
         send_whatsapp(format_article(a))
-    update_memory(sent, articles)
+    update_memory(sent, brief)
     log("\n✅ Done.")
 
 
