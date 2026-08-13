@@ -35,10 +35,31 @@ def get_settings():
         return {"_error": f"HTTP {g.status_code}: {g.text[:200]}"}
 
 
+def diag():
+    """Print who this instance is (phone + state) and its full webhook settings,
+    so we can confirm the GitHub secret points at the RIGHT (paid) instance and
+    see exactly which flags are off. Nothing is changed (no reboot)."""
+    try:
+        w = requests.get(f"{BASE}/getWaSettings/{TOKEN}", timeout=40).json()
+        phone = w.get("phone") or w.get("wid") or "?"
+        print(f"linked WhatsApp: phone={phone}  state={w.get('stateInstance')}")
+    except Exception as e:  # noqa: BLE001
+        print("getWaSettings failed:", str(e)[:200])
+    try:
+        s = requests.get(f"{BASE}/getStateInstance/{TOKEN}", timeout=40).json()
+        print("state:", json.dumps(s, ensure_ascii=False))
+    except Exception as e:  # noqa: BLE001
+        print("getStateInstance failed:", str(e)[:200])
+    print("webhook settings:", json.dumps(get_settings(), ensure_ascii=False))
+
+
 def main():
     if MODE == "check":
         print("check-only — current settings:",
               json.dumps(get_settings(), ensure_ascii=False))
+        return
+    if MODE == "diag":
+        diag()
         return
 
     # Enable receiving incoming messages/reactions into the notification queue.

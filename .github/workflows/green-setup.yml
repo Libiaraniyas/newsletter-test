@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "set (enable + verify) or check (read-only)"
+        description: "set (enable+verify) / check (read-only) / diag (identity+settings)"
         type: choice
-        options: [set, check]
+        options: [set, check, diag]
         default: set
 
 jobs:
