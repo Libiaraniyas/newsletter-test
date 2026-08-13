@@ -53,7 +53,50 @@ def diag():
     print("webhook settings:", json.dumps(get_settings(), ensure_ascii=False))
 
 
+def hosttest():
+    """Compare the generic host vs the instance's DEDICATED host (shown in the
+    console as apiUrl, e.g. https://7107.api.greenapi.com) and try to enable
+    incomingWebhook on the dedicated host — the generic host may silently no-op."""
+    inst = INSTANCE
+    prefix = inst[:4]
+    hosts = {
+        "generic":   f"https://api.green-api.com/waInstance{inst}",
+        "dedicated": f"https://{prefix}.api.greenapi.com/waInstance{inst}",
+    }
+    for name, base in hosts.items():
+        try:
+            g = requests.get(f"{base}/getSettings/{TOKEN}", timeout=40).json()
+            print(f"[{name}] {base}\n    incomingWebhook={g.get('incomingWebhook')!r}")
+        except Exception as e:  # noqa: BLE001
+            print(f"[{name}] {base}\n    getSettings FAILED: {str(e)[:160]}")
+
+    base = hosts["dedicated"]
+    print(f"\n→ setSettings(incomingWebhook=yes) on DEDICATED host {base}")
+    try:
+        r = requests.post(f"{base}/setSettings/{TOKEN}",
+                          json={"incomingWebhook": "yes"}, timeout=40)
+        print("  setSettings:", r.status_code, r.text[:200])
+    except Exception as e:  # noqa: BLE001
+        print("  setSettings FAILED:", str(e)[:200])
+        return
+    for i in range(1, 13):
+        time.sleep(15)
+        try:
+            g = requests.get(f"{base}/getSettings/{TOKEN}", timeout=40).json()
+            cur = g.get("incomingWebhook")
+            print(f"  [{i:02d}] dedicated incomingWebhook={cur!r}")
+            if cur == "yes":
+                print("✓ DEDICATED host worked — the generic host was the problem.")
+                return
+        except Exception as e:  # noqa: BLE001
+            print(f"  [{i:02d}] getSettings err: {str(e)[:120]}")
+    print("dedicated-host set did not flip within the wait window.")
+
+
 def main():
+    if MODE == "hosttest":
+        hosttest()
+        return
     if MODE == "check":
         print("check-only — current settings:",
               json.dumps(get_settings(), ensure_ascii=False))
