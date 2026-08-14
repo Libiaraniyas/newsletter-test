@@ -70,5 +70,13 @@
     "story_key": "lotus-bakeries-us-investment",
     "category": "mna",
     "sent_at": "2026-08-14T10:55:41.196768+00:00"
+  },
+  "3EB0C93B29E7E44089316F": {
+    "url": "https://www.fooddive.com/news/tyson-close-beef-plants-cattle-shortage-/827918/",
+    "title": "Tyson to close more beef plants amid cattle shortage",
+    "summary": "The meat giant will sell or end operations at three facilities and lay off at least 2,500 workers as the company struggles to overcome heavy losses from a cattle shortage.",
+    "story_key": "tyson-beef-plant-closures-cattle-shortage",
+    "category": "market",
+    "sent_at": "2026-08-14T15:44:29.940255+00:00"
   }
 }
