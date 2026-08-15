@@ -102,5 +102,13 @@
     "story_key": "reaction-test",
     "category": "market",
     "sent_at": "2026-08-15T17:43:09.435721+00:00"
+  },
+  "3EB07C38E4DE1741563EA4": {
+    "url": "https://example.com/fb-brief-reaction-test",
+    "title": "בדיקת תגובות F&B Brief",
+    "summary": "הודעת בדיקה לאימות לולאת התגובה→כוכב.",
+    "story_key": "reaction-test",
+    "category": "market",
+    "sent_at": "2026-08-15T18:02:07.574905+00:00"
   }
 }
