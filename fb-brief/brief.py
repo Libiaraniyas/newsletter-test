@@ -448,6 +448,7 @@ def save_to_monthly_pool(pool_items):
             "story_key": a.get("story_key", ""),
             "category": a.get("category", "market"),
             "image": a.get("image", ""),
+            "from_brief": bool(a.get("from_brief", False)),
             "starred": False,
             "added_at": now.isoformat(),
         })
@@ -555,12 +556,19 @@ def main():
         log("\nNO_SEND — skipping WhatsApp, memory, and pool write (diagnostic only).")
         return
 
-    # --- monthly pool: fetch images + save silently (never sent to WhatsApp) ---
-    if pool:
-        log(f"\n④ Fetching og:image for {len(pool)} pool item(s)...")
-        for a in pool:
+    # --- monthly pool: fetch images + save (the site's data source) ---
+    # Save BOTH the strong brief items (flagged from_brief) and the broader pool
+    # into the active month's file, so EVERY candidate can be starred on the site
+    # (site-based selection replaced the WhatsApp emoji-reaction flow). The brief
+    # items are still sent to WhatsApp below; here they're also made visible to
+    # the site. Dedup by url is handled in save_to_monthly_pool.
+    to_store = ([dict(a, from_brief=True) for a in brief]
+                + [dict(a, from_brief=False) for a in pool])
+    if to_store:
+        log(f"\n④ Fetching og:image for {len(to_store)} item(s) (site pool)...")
+        for a in to_store:
             a["image"] = fetch_og_image(a["url"])
-        save_to_monthly_pool(pool)
+        save_to_monthly_pool(to_store)
 
     # --- brief -> WhatsApp (behavior unchanged from before) ---
     if not brief:
