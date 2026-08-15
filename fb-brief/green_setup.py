@@ -93,7 +93,59 @@ def hosttest():
     print("dedicated-host set did not flip within the wait window.")
 
 
+def history():
+    """Probe whether reactions are readable WITHOUT incomingWebhook, via
+    getChatHistory / lastIncomingMessages. Prints raw entries so we can learn
+    the reaction shape and rebuild the poller on top of a read that works."""
+    chat = os.environ.get("GREEN_API_CHAT_ID", "")
+    base = f"https://api.green-api.com/waInstance{INSTANCE}"
+    if not chat:
+        print("⚠️  GREEN_API_CHAT_ID not set — cannot read chat history.")
+        return
+
+    print(f"→ getChatHistory (chatId={chat}, count=40)")
+    try:
+        r = requests.post(f"{base}/getChatHistory/{TOKEN}",
+                          json={"chatId": chat, "count": 40}, timeout=60)
+        print("  HTTP", r.status_code)
+        msgs = r.json()
+    except Exception as e:  # noqa: BLE001
+        print("  getChatHistory FAILED:", str(e)[:200])
+        msgs = None
+    if isinstance(msgs, list):
+        print(f"  {len(msgs)} message(s). Scanning for reactions / recent items:")
+        for m in msgs[:40]:
+            t = str(m.get("typeMessage", ""))
+            mark = "  ⭐REACTION" if "reaction" in t.lower() else ""
+            print(f"    - type={t} id={m.get('idMessage')}{mark}")
+            if "reaction" in t.lower():
+                print("      RAW:", json.dumps(m, ensure_ascii=False)[:400])
+    else:
+        print("  unexpected getChatHistory body:", json.dumps(msgs, ensure_ascii=False)[:300] if msgs is not None else "(none)")
+
+    print("\n→ lastIncomingMessages (last 1440 min)")
+    try:
+        r2 = requests.get(f"{base}/lastIncomingMessages/{TOKEN}?minutes=1440", timeout=60)
+        print("  HTTP", r2.status_code)
+        inc = r2.json()
+        if isinstance(inc, list):
+            print(f"  {len(inc)} incoming item(s).")
+            for m in inc[:40]:
+                t = str(m.get("typeMessage", ""))
+                mark = "  ⭐REACTION" if "reaction" in t.lower() else ""
+                print(f"    - type={t} id={m.get('idMessage')}{mark}")
+                if "reaction" in t.lower():
+                    print("      RAW:", json.dumps(m, ensure_ascii=False)[:400])
+        else:
+            print("  body:", json.dumps(inc, ensure_ascii=False)[:300])
+    except Exception as e:  # noqa: BLE001
+        print("  lastIncomingMessages FAILED:", str(e)[:200])
+
+
 def main():
+    if MODE == "history":
+        history()
+        return
     if MODE == "hosttest":
         hosttest()
         return

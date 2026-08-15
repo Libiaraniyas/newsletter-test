@@ -9,7 +9,7 @@ on:
       mode:
         description: "set (enable+verify) / check (read-only) / diag (identity+settings)"
         type: choice
-        options: [set, check, diag, hosttest]
+        options: [set, check, diag, hosttest, history]
         default: set
 
 jobs:
@@ -25,5 +25,6 @@ jobs:
         env:
           GREEN_API_INSTANCE: ${{ secrets.GREEN_API_INSTANCE }}
           GREEN_API_TOKEN: ${{ secrets.GREEN_API_TOKEN }}
+          GREEN_API_CHAT_ID: ${{ secrets.GREEN_API_CHAT_ID }}
           MODE: ${{ inputs.mode }}
         run: python fb-brief/green_setup.py
