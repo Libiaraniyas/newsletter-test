@@ -1,10 +1,16 @@
 name: Reaction Test (send mapped message)
 
-# Sends ONE labeled test message to the WhatsApp group and records its
-# idMessage in msgmap.json, so a later emoji reaction can be resolved and
-# starred by the Poll WhatsApp Reactions workflow. Manual only.
+# Sends ONE labeled test message and records its idMessage in msgmap.json, so a
+# later emoji reaction can be resolved and starred by the Poll workflow.
+# Optional target_number sends a 1:1 message to that number instead of the group
+# (to test whether an incoming reaction from a different person is delivered).
 on:
   workflow_dispatch:
+    inputs:
+      target_number:
+        description: "Optional: send to this number (digits, e.g. 972542600047) instead of the group"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -29,6 +35,7 @@ jobs:
           GREEN_API_INSTANCE: ${{ secrets.GREEN_API_INSTANCE }}
           GREEN_API_TOKEN: ${{ secrets.GREEN_API_TOKEN }}
           GREEN_API_CHAT_ID: ${{ secrets.GREEN_API_CHAT_ID }}
+          TARGET_NUMBER: ${{ inputs.target_number }}
         run: python fb-brief/send_reaction_test.py
 
       - name: Commit message map
