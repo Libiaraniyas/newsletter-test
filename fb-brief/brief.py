@@ -30,6 +30,11 @@ import feedparser
 HERE = Path(__file__).resolve().parent
 SOURCES_FILE = HERE / "sources.json"
 SENT_FILE = HERE / "sent.json"
+# Learned taste profile: stories Libi chose for past newsletters + her future
+# "add to newsletter" clicks. Injected as SOFT positive guidance (few-shot), so
+# the filter tilts toward her taste at the STORY level without crude category
+# threshold changes. Positive signals only — "not added" is never a negative.
+LEARN_FILE = HERE / "learning" / "added-examples.json"
 MONTHLY_DIR = HERE / "monthly"
 # Maps each sent WhatsApp message id -> its article, so a later ⭐ reaction can be
 # resolved to the article (reactions may arrive days after the message).
@@ -318,10 +323,40 @@ def _extract_result(data):
     return {"selected": selected}
 
 
+def taste_block(limit=45):
+    """Soft few-shot taste guidance from LEARN_FILE (past-newsletter picks +
+    future 'add to newsletter' clicks). Titles only, most-recent capped. Framed
+    as guidance, NOT rules — never used to raise a category's bar."""
+    ex = load_json(LEARN_FILE, [])
+    if not isinstance(ex, list) or not ex:
+        return ""
+    lines = []
+    for e in ex[-limit:]:
+        if not isinstance(e, dict):
+            continue
+        title = str(e.get("title", "")).strip()
+        cat = str(e.get("category", "")).strip() or "?"
+        if title:
+            lines.append(f"  - [{cat}] {title}")
+    if not lines:
+        return ""
+    return (
+        "\n\n======================================================================\n"
+        "LIBI'S TASTE — examples of stories she chose for past monthly newsletters\n"
+        "(and articles she later added). Use these as SOFT guidance for the KIND of\n"
+        "story that resonates with her — NOT as hard rules. Do NOT reject a candidate\n"
+        "merely because no example resembles it, and do NOT raise the bar for a whole\n"
+        "category just because a similar example is absent. The RULES above remain the\n"
+        "primary filter; these only tilt borderline calls toward her taste.\n"
+        + "\n".join(lines)
+    )
+
+
 def judge(candidates, sent, api_key, attempts=3):
     already_sent = [{"story_key": s.get("story_key", ""), "title": s.get("title", "")} for s in sent]
     prompt = (
         RULES
+        + taste_block()
         + "\n\nALREADY_SENT (do not repeat these stories):\n"
         + json.dumps(already_sent, ensure_ascii=False, indent=2)
         + "\n\nCANDIDATES (choose from these only; copy URLs exactly):\n"
