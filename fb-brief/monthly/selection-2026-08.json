@@ -1,7 +1,19 @@
 {
   "month": "2026-08",
-  "added": [],
-  "starred": [],
+  "added": [
+    {
+      "url": "https://www.themarker.com/consumer/2026-08-17/ty-article/.premium/000001a0-107b-d29b-afe8-5d7b13170000",
+      "title": "קיבלה אור ירוק: רשות התחרות בברזיל אישרה לשטראוס את רכישת Yoki",
+      "summary": "החברה המשותפת של שטראוס ו–São Miguel קיבלה אישור מרשות התחרות בברזיל לרכוש מידי ג'נרל מילס את חברת Yoki תמורת 800 מיליון ריאל ברזילאי, כ-475 מיליון שקל.",
+      "category": "mna",
+      "story_key": "strauss-yoki-brazil-antitrust-approval",
+      "image": "https://img.haarets.co.il/bs/000001a0-107b-d29b-afe8-5d7b13170000/9a/24/9d898a1c41299678476fe7089a52/452070.jpg?precrop=2200,1279,x0,y0&amp;width=1200&amp;height=630&amp;cmsprod",
+      "added_at": "2026-08-17T18:34:18.238Z"
+    }
+  ],
+  "starred": [
+    "https://www.themarker.com/consumer/2026-08-17/ty-article/.premium/000001a0-107b-d29b-afe8-5d7b13170000"
+  ],
   "category_names": {},
   "category_overrides": {}
 }
