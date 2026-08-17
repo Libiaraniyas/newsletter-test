@@ -1,19 +1,7 @@
 {
   "month": "2026-08",
-  "added": [
-    {
-      "url": "https://en.globes.co.il/en/article-1001552422#utm_source=RSS",
-      "title": "Israel's economy grew at 15.4% in Q2",
-      "summary": "Israel's GDP growth in the second quarter came in at an unexpectedly high 15.4%, following a contraction in the first quarter due to the Iran war.",
-      "category": "macro",
-      "story_key": "israel-gdp-growth-q2-2026",
-      "image": "",
-      "added_at": "2026-08-17T17:45:11.000Z"
-    }
-  ],
-  "starred": [
-    "https://en.globes.co.il/en/article-1001552422#utm_source=RSS"
-  ],
+  "added": [],
+  "starred": [],
   "category_names": {},
   "category_overrides": {}
 }
