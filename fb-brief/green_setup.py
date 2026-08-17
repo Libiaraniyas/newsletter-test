@@ -143,7 +143,56 @@ def history():
         print("  lastIncomingMessages FAILED:", str(e)[:200])
 
 
+def recvhost():
+    """Directly poll receiveNotification on BOTH the generic host and the
+    instance's dedicated host (7107.api.greenapi.com). Tests the theory that the
+    'real' incoming queue lives on the dedicated host and we've been polling the
+    wrong URL. Prints HTTP status + raw body so a 404 or a hidden queue shows up."""
+    inst = INSTANCE
+    hosts = {
+        "generic":   f"https://api.green-api.com/waInstance{inst}",
+        "dedicated": f"https://{inst[:4]}.api.greenapi.com/waInstance{inst}",
+    }
+    for name, base in hosts.items():
+        print(f"=== {name}: {base} ===")
+        try:
+            g = requests.get(f"{base}/getSettings/{TOKEN}", timeout=40)
+            gj = g.json()
+            print(f"  getSettings HTTP {g.status_code} incomingWebhook={gj.get('incomingWebhook')!r}")
+        except Exception as e:  # noqa: BLE001
+            print(f"  getSettings FAILED: {str(e)[:160]}")
+        got = 0
+        for _ in range(15):
+            try:
+                r = requests.get(f"{base}/receiveNotification/{TOKEN}", timeout=40)
+            except Exception as e:  # noqa: BLE001
+                print(f"  receiveNotification ERROR: {str(e)[:160]}")
+                break
+            body_txt = (r.text or "").strip()
+            print(f"  receiveNotification HTTP {r.status_code} body={body_txt[:160]!r}")
+            if r.status_code != 200:
+                break
+            if not body_txt or body_txt.lower() == "null":
+                break
+            try:
+                note = r.json()
+            except Exception:  # noqa: BLE001
+                break
+            got += 1
+            print("    NOTE:", json.dumps(note, ensure_ascii=False)[:400])
+            receipt = note.get("receiptId")
+            if receipt:
+                try:
+                    requests.delete(f"{base}/deleteNotification/{TOKEN}/{receipt}", timeout=30)
+                except Exception:  # noqa: BLE001
+                    pass
+        print(f"  → received {got} notification(s) on {name}\n")
+
+
 def main():
+    if MODE == "recvhost":
+        recvhost()
+        return
     if MODE == "history":
         history()
         return

@@ -9,7 +9,7 @@ on:
       mode:
         description: "set (enable+verify) / check (read-only) / diag / hosttest / history"
         type: choice
-        options: [set, check, diag, hosttest, history]
+        options: [set, check, diag, hosttest, history, recvhost]
         default: set
 
 jobs:
