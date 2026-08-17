@@ -1,0 +1,18 @@
+{
+  "month": "2099-01",
+  "added": [
+    {
+      "url": "https://example.com/e2e-2099",
+      "title": "E2E add test (2099)",
+      "summary": "בדיקת קצה-לקצה של הקישור.",
+      "category": "market",
+      "story_key": "e2e-2099",
+      "added_at": "2026-08-17T12:26:59.811Z"
+    }
+  ],
+  "starred": [
+    "https://example.com/e2e-2099"
+  ],
+  "category_names": {},
+  "category_overrides": {}
+}
