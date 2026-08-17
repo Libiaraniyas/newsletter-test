@@ -21,6 +21,7 @@ import sys
 import html
 import re
 import time
+import base64
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -70,6 +71,15 @@ NO_SEND = os.environ.get("NO_SEND", "false").lower() == "true"
 # Hard safety cap on how many messages one run can send (a brief, not a feed dump).
 # Broadened single filter, so a bit higher than the old strict brief — tune freely.
 MAX_ARTICLES = 8
+
+# "Add to monthly newsletter" link appended to each WhatsApp message. Tapping it
+# hits the Cloudflare Worker, which writes the article (starred) into the shared
+# selection file so it appears in the newsletter builder. The share key gates the
+# endpoint (must match the Worker's SHARE_KEY secret); with no key set, no link is
+# added (safe default).
+WORKER_ADD_URL = os.environ.get("WORKER_ADD_URL",
+                                "https://news-digest-add.libia0305.workers.dev/add")
+ADD_SHARE_KEY = os.environ.get("ADD_SHARE_KEY", "")
 
 # ----- the strategic filter (calibrated with Libi) -------------------------
 RULES = """
@@ -487,13 +497,36 @@ def save_to_monthly_pool(pool_items):
 
 
 # ----- 4. format -----------------------------------------------------------
-def format_article(a):
-    # One WhatsApp message per article: bold title, link, then a 2-line summary.
-    return (
+def build_add_link(a, month):
+    """Build the 'add to monthly newsletter' link for this article, or '' if the
+    share key isn't configured. Encodes the article as base64url in `d` and the
+    gate key in `k`."""
+    if not ADD_SHARE_KEY:
+        return ""
+    payload = {
+        "url": a["url"],
+        "title": a["title"],
+        "summary": a["summary"],
+        "category": a.get("category", "market"),
+        "story_key": a.get("story_key", ""),
+        "month": month,
+    }
+    raw = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+    d = base64.urlsafe_b64encode(raw).decode("ascii").rstrip("=")
+    return f"{WORKER_ADD_URL}?d={d}&k={ADD_SHARE_KEY}"
+
+
+def format_article(a, add_url=""):
+    # One WhatsApp message per article: bold title, link, 2-line summary, and
+    # (if configured) a tap-to-add-to-newsletter link.
+    body = (
         f"📌 *{a['title']}*\n"
         f"🔗 {a['url']}\n\n"
         f"{a['summary']}"
-    )[:19000]  # stay under Green API's 20k limit
+    )[:18000]  # leave room for the add-link; stay under Green API's 20k limit
+    if add_url:
+        body += f"\n\n➕ הוספה לניוז החודשי:\n{add_url}"
+    return body
 
 
 # ----- 5. send via Green API ----------------------------------------------
@@ -589,11 +622,12 @@ def main():
 
     log(f"\n④ Sending {len(selected)} separate WhatsApp message(s)...")
     now = datetime.now(timezone.utc)
+    month = current_month()   # active month the add-link will file the article under
     msgmap = {}
     for i, a in enumerate(selected):
         if i:
             time.sleep(2)   # pace messages so Green API keeps order / avoids rate limits
-        mid = send_whatsapp(format_article(a))
+        mid = send_whatsapp(format_article(a, build_add_link(a, month)))
         if mid:
             msgmap[mid] = {
                 "url": a["url"],
