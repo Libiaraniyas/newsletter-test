@@ -4,16 +4,44 @@
     "url": "https://www.foodnavigator.com/Info/FoodNavigator-RSS"
   },
   {
+    "name": "FoodNavigator-USA",
+    "url": "https://www.foodnavigator-usa.com/Info/FoodNavigator-USA-RSS"
+  },
+  {
     "name": "Food Dive (US)",
     "url": "https://www.fooddive.com/feeds/news/"
   },
   {
-    "name": "Ynet Economy (Hebrew)",
-    "url": "http://www.ynet.co.il/Integration/StoryRss6.xml"
-  },
-  {
     "name": "BeverageDaily",
     "url": "https://www.beveragedaily.com/Info/BeverageDaily-RSS"
+  },
+  {
+    "name": "ConfectioneryNews (cocoa/chocolate)",
+    "url": "https://www.confectionerynews.com/Info/ConfectioneryNews-RSS"
+  },
+  {
+    "name": "DairyReporter (dairy)",
+    "url": "https://www.dairyreporter.com/Info/DairyReporter-RSS"
+  },
+  {
+    "name": "Comunicaffe (global coffee)",
+    "url": "https://www.comunicaffe.com/feed/"
+  },
+  {
+    "name": "Just Food (global business/M&A)",
+    "url": "https://www.just-food.com/feed/"
+  },
+  {
+    "name": "FoodBev Media",
+    "url": "https://www.foodbev.com/feed"
+  },
+  {
+    "name": "McKinsey (F&B/Consumer via Google News)",
+    "url": "https://news.google.com/rss/search?q=McKinsey%20(food%20OR%20beverage%20OR%20%22consumer%20goods%22%20OR%20CPG%20OR%20retail)&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "name": "Ynet Economy (Hebrew)",
+    "url": "http://www.ynet.co.il/Integration/StoryRss6.xml"
   },
   {
     "name": "Globes (Israel business)",

@@ -63,7 +63,8 @@ DRY_RUN = os.environ.get("DRY_RUN", "false").lower() == "true"
 NO_SEND = os.environ.get("NO_SEND", "false").lower() == "true"
 
 # Hard safety cap on how many messages one run can send (a brief, not a feed dump).
-MAX_ARTICLES = 5
+# Broadened single filter, so a bit higher than the old strict brief — tune freely.
+MAX_ARTICLES = 8
 
 # ----- the strategic filter (calibrated with Libi) -------------------------
 RULES = """
@@ -72,59 +73,75 @@ categories are: dairy, COFFEE (a global business — especially Eastern Europe
 and Brazil), salty snacks & confectionery, dips & spreads (Sabra / Obela),
 water (Tami4), and health / wellness.
 
-From the candidate articles below, select ONLY items a senior Strauss executive
-would stop and think about, asking "what does this mean for OUR strategy?".
-Be strict — quality over quantity. Zero selected articles is a perfectly valid,
-good outcome. NEVER pad the list to reach a number; ONE excellent item is a
-complete, successful brief. Select AT MOST 5 items, and usually 0–3 — if you are
-choosing more than 5, your bar is too low.
+From the candidate articles below, select every item a senior Strauss executive
+would genuinely want to see — items that make you ask "what does this mean for
+OUR strategy?". Keep a high, strategic bar (quality over quantity), but this is a
+SINGLE selection that is broader than a deals-only brief: it should ALSO capture
+the macro, commodity and consumer-trend stories that matter to an F&B strategist.
+A quiet run with zero selected items is a perfectly valid outcome — NEVER pad the
+list to reach a number.
 
-WHAT QUALIFIES (high strategic bar) — examples of the kind of move we want:
-  - M&A, acquisitions, divestitures, SELLING a business unit or brand —
-    especially large ones (hundreds of millions+). E.g. "Unilever sells its
-    food business", "Company X sells brand Y for hundreds of millions".
-  - A competitor ENTERING — or even seriously CONSIDERING entering — a new
-    category. Early signals count (e.g. "Tnuva is weighing a move into a new field").
-  - INNOVATION / food-tech that could disrupt our categories or key inputs —
-    e.g. lab-grown cocoa, novel ingredients, new platforms — EVEN from an
-    unknown startup, not only from the big players.
-  - OPERATIONAL events at competitors — ANY significant FAILURE *or* SUCCESS:
-    a systems/supply-chain breakdown (e.g. Tnuva's warehouse collapse) or a
-    notable operational win.
-  - COFFEE-market moves globally, with special attention to EASTERN EUROPE and
-    BRAZIL (Strauss Coffee's turf): competitor entries, deals, capacity, pricing.
-  - Meaningful market-share shifts (with data), private-label milestones.
-  - Big, structurally interesting moves EVEN in categories Strauss is NOT in,
-    when they signal where the industry is heading.
-  - Moves by Israeli competitors (Tnuva, Osem, Shufersal, Strauss) get a LOWER
-    bar — even a mid-size but meaningful Israeli move is worth sending.
+WHAT QUALIFIES — six strategic angles:
+
+1) M&A, DEALS & DIVESTITURES
+   Acquisitions, mergers, selling or spinning off a business unit or brand —
+   global and Israeli. Big ones especially (hundreds of millions+), but a
+   meaningful Israeli deal counts too.
+
+2) COMPETITOR STRATEGIC MOVES
+   A competitor ENTERING — or seriously CONSIDERING entering — a new category
+   (early signals count). Significant OPERATIONAL events at competitors — a
+   notable FAILURE *or* SUCCESS (systems/supply-chain breakdown, cyberattack,
+   shutdown, or a major operational win). Meaningful market-share shifts (with
+   data); private-label milestones.
+
+3) MACRO & COMMODITIES affecting F&B
+   Food inflation, grocery volumes, tariffs / trade policy, the economies of key
+   markets (e.g. China; Eastern Europe consumption / CPI), and commodity-price
+   moves (coffee, cocoa, sugar, dairy) that hit margins or inputs.
+
+4) COFFEE (core — high priority)
+   Global coffee moves, with special attention to EASTERN EUROPE and BRAZIL
+   (Strauss Coffee's turf): competitor entries, deals, capacity, pricing,
+   harvests, cultured / next-gen coffee.
+
+5) COCOA & CHOCOLATE (high priority)
+   Alt-cocoa / lab-grown cocoa, cocoa price volatility, and strategic moves by
+   major chocolate / ingredient players.
+
+6) INNOVATION / FOOD-TECH & CONSUMER MEGATRENDS
+   Food-tech that could disrupt our categories or key inputs (even from an
+   unknown startup); the GLP-1 / weight-management wave and its impact on food;
+   protein, gut-health and functional nutrition; clean-label / removing
+   artificial ingredients; packaging & sustainability moves with real business
+   impact.
 
 COMPANY LIST IS A PRIORITY LIST, NOT A HARD FILTER:
   Priority players — Global: Unilever, Mondelez, PepsiCo, Nestle, Danone,
   Coca-Cola, Kraft Heinz, Keurig Dr Pepper, JDE Peet's, Lavazza, Ferrero,
-  General Mills, Barry Callebaut, Hershey. Israeli: Strauss, Tnuva, Osem,
-  Shufersal. BUT a big move or disruptive innovation from a company NOT on this
-  list still qualifies.
+  General Mills, Barry Callebaut, Hershey, Bel Group. Israeli: Strauss, Tnuva,
+  Osem, Shufersal. A big move or disruptive innovation from a company NOT on this
+  list still qualifies. Israeli competitors are held to the SAME bar as everyone
+  else — important, but not an easier bar.
 
 REJECT (noise — do not send):
-  routine product launches or new flavors, recipes / lifestyle / consumer tips,
-  PR / awards / sponsorships / conferences, generic industry roundups without a
-  specific company action, listicles ("Top 10..."), market-research reports
-  without actual news, low-quality aggregator sites.
+  - MEAT & POULTRY stories — NOT of interest, UNLESS the impact is very large and
+    exceptional.
+  - routine product launches or new flavors, recipes / lifestyle / consumer tips,
+    PR / awards / sponsorships / conferences, generic industry roundups without a
+    specific company action, listicles ("Top 10..."), market-research reports
+    without actual news, low-quality aggregator sites.
 
 DEDUP — NO REPEATS (by STORY, not by URL):
   - If several candidates cover the SAME event, keep only ONE, from the best source.
   - If a story appears in ALREADY_SENT below, DROP it — even from a different
     source or with different wording. The ONLY exception is a MAJOR new
-    development (e.g. "Tnuva lost 5% market share because of the crisis").
-    A new angle, a reworded headline, or a minor update does NOT qualify.
+    development. A new angle, a reworded headline, or a minor update does NOT qualify.
 
 The Strauss perspective above is ONLY for deciding WHICH articles to select.
 It must NOT appear in the summary text.
 
-These strict picks go into the "brief" array (this is what is sent to WhatsApp).
-
-OUTPUT for every item (short and factual — NO analysis):
+OUTPUT for every selected item (short and factual — NO analysis):
   - LANGUAGE — match the source article: write BOTH the title and the summary in
     the SAME language the article is written in. Hebrew article -> Hebrew title and
     Hebrew summary; English article -> English title and English summary. Do NOT
@@ -134,26 +151,12 @@ OUTPUT for every item (short and factual — NO analysis):
     two sentences (~2 lines), in the article's language. Do NOT add strategic
     implications, do NOT mention Strauss, do NOT write "what this means for us".
   - story_key = a short stable slug in English/ASCII for the underlying story
-    (e.g. "tnuva-vitamins-entry") — this is an internal key, always English,
-    used to avoid repeating this story in future runs.
-  - category = which newsletter section it belongs to — one of:
-    "macro" | "mna" | "market" | "tech" (EVERY item, brief and pool, gets one).
+    (e.g. "tnuva-vitamins-entry") — an internal key, always English, used to avoid
+    repeating this story in future runs.
+  - category = which monthly-newsletter section it belongs to — one of:
+    "macro" | "mna" | "market" | "tech" (EVERY item gets one).
 
-======================================================================
-SECOND TASK — THE MONTHLY POOL (broader, categorized)
-After the strict brief, ALSO build a "pool" for a monthly F&B business
-newsletter. From the candidates you did NOT put in the brief, select every item
-that is genuinely relevant for such a newsletter — still selective, NOT boring
-filler — and give each ONE category key:
-  - "macro"  = Macro Environment (economy, inflation, commodities, policy, geopolitics affecting F&B)
-  - "mna"    = M&A and Divestitures (deals, acquisitions, sales, spin-offs)
-  - "market" = Market Dynamics (competition, earnings, retail, market share, weighty launches)
-  - "tech"   = Tech & Innovation (food-tech, ingredients, novel platforms, R&D)
-Pool rules:
-  - Do NOT include anything already in the brief (no duplicates between brief and pool).
-  - Broader than the brief, but still selective — skip lifestyle/recipes/PR/awards/trivia.
-  - Same output format and LANGUAGE rule as above, plus a "category" field (one of the four keys).
-These items go into the "pool" array (shown on the site, NOT sent to WhatsApp).
+Put every selected item into the "selected" array. It may be empty.
 """
 
 _CATEGORY_PROP = {
@@ -169,23 +172,14 @@ _ITEM_PROPS = {
 }
 
 SUBMIT_TOOL = {
-    "name": "submit_brief",
-    "description": "Submit the strict brief (for WhatsApp) and the broader categorized pool (for the site). Either list may be empty.",
+    "name": "submit_selection",
+    "description": "Submit the selected strategic articles — every one is sent to WhatsApp. The list may be empty.",
     "input_schema": {
         "type": "object",
         "properties": {
-            "brief": {
+            "selected": {
                 "type": "array",
-                "description": "Strict strategic picks — sent to WhatsApp. Also categorized (so a starred item lands in the right newsletter section).",
-                "items": {
-                    "type": "object",
-                    "properties": dict(_ITEM_PROPS, category=_CATEGORY_PROP),
-                    "required": ["title", "summary", "url", "story_key", "category"],
-                },
-            },
-            "pool": {
-                "type": "array",
-                "description": "Broader, categorized picks for the monthly newsletter — shown on the site.",
+                "description": "Every article that passes the strategic bar (categorized for the monthly newsletter).",
                 "items": {
                     "type": "object",
                     "properties": dict(_ITEM_PROPS, category=_CATEGORY_PROP),
@@ -193,7 +187,7 @@ SUBMIT_TOOL = {
                 },
             },
         },
-        "required": ["brief", "pool"],
+        "required": ["selected"],
     },
 }
 
@@ -304,11 +298,11 @@ def _clean_items(raw, want_category=False):
 
 
 def _extract_result(data):
-    """Return {"brief":[...], "pool":[...]} from the tool response, or None if
-    the response is malformed and should be retried."""
+    """Return {"selected":[...]} from the tool response, or None if the response
+    is malformed and should be retried."""
     payload = None
     for block in data.get("content", []):
-        if block.get("type") == "tool_use" and block.get("name") == "submit_brief":
+        if block.get("type") == "tool_use" and block.get("name") == "submit_selection":
             payload = block.get("input", {})
             break
     if isinstance(payload, str):
@@ -318,11 +312,10 @@ def _extract_result(data):
             return None
     if not isinstance(payload, dict):
         return None
-    brief = _clean_items(payload.get("brief", []), want_category=True)
-    pool = _clean_items(payload.get("pool", []), want_category=True)
-    if brief is None or pool is None:
+    selected = _clean_items(payload.get("selected", []), want_category=True)
+    if selected is None:
         return None
-    return {"brief": brief, "pool": pool}
+    return {"selected": selected}
 
 
 def judge(candidates, sent, api_key, attempts=3):
@@ -338,7 +331,7 @@ def judge(candidates, sent, api_key, attempts=3):
         "model": CLAUDE_MODEL,
         "max_tokens": 5000,
         "tools": [SUBMIT_TOOL],
-        "tool_choice": {"type": "tool", "name": "submit_brief"},
+        "tool_choice": {"type": "tool", "name": "submit_selection"},
         "messages": [{"role": "user", "content": prompt}],
     }
     for attempt in range(1, attempts + 1):
@@ -361,7 +354,7 @@ def judge(candidates, sent, api_key, attempts=3):
             return result
         log(f"  ⚠️  malformed model response (attempt {attempt}/{attempts})"
             + (" — retrying" if attempt < attempts else " — giving up"))
-    return {"brief": [], "pool": []}
+    return {"selected": []}
 
 
 # ----- og:image + monthly pool store ---------------------------------------
@@ -531,58 +524,38 @@ def main():
 
     if not candidates:
         log("No candidates at all — nothing to judge.")
-        result = {"brief": [], "pool": []}
+        result = {"selected": []}
     else:
-        log("② Asking Claude for the brief (strict) + the monthly pool (broad)...")
+        log("② Asking Claude to select the strategic articles (single filter)...")
         result = judge(candidates, sent, api_key)
 
-    brief = result["brief"]
-    pool = result["pool"]
-    if len(brief) > MAX_ARTICLES:
-        log(f"   ↳ capping brief {len(brief)} → {MAX_ARTICLES} (safety valve)")
-        brief = brief[:MAX_ARTICLES]
-    log(f"   → brief: {len(brief)} (→ WhatsApp) | pool: {len(pool)} (→ site)\n")
+    selected = result["selected"]
+    if len(selected) > MAX_ARTICLES:
+        log(f"   ↳ capping {len(selected)} → {MAX_ARTICLES} (safety valve)")
+        selected = selected[:MAX_ARTICLES]
+    log(f"   → {len(selected)} selected (→ WhatsApp)\n")
 
-    if brief:
-        log("③ Brief:")
-        for a in brief:
-            log(f"   • {a['title']}  [{a.get('story_key', '')}]")
-    if pool:
-        log("③ Pool:")
-        for a in pool:
-            log(f"   • [{a.get('category', '?')}] {a['title']}")
+    if selected:
+        log("③ Selected:")
+        for a in selected:
+            log(f"   • [{a.get('category', '?')}] {a['title']}  [{a.get('story_key', '')}]")
 
     if NO_SEND:
-        log("\nNO_SEND — skipping WhatsApp, memory, and pool write (diagnostic only).")
+        log("\nNO_SEND — skipping WhatsApp and memory (diagnostic only).")
         return
 
-    # --- monthly pool: fetch images + save (the site's data source) ---
-    # Save BOTH the strong brief items (flagged from_brief) and the broader pool
-    # into the active month's file, so EVERY candidate can be starred on the site
-    # (site-based selection replaced the WhatsApp emoji-reaction flow). The brief
-    # items are still sent to WhatsApp below; here they're also made visible to
-    # the site. Dedup by url is handled in save_to_monthly_pool.
-    to_store = ([dict(a, from_brief=True) for a in brief]
-                + [dict(a, from_brief=False) for a in pool])
-    if to_store:
-        log(f"\n④ Fetching og:image for {len(to_store)} item(s) (site pool)...")
-        for a in to_store:
-            a["image"] = fetch_og_image(a["url"])
-        save_to_monthly_pool(to_store)
-
-    # --- brief -> WhatsApp (behavior unchanged from before) ---
-    if not brief:
-        log("☕ No strategic news for WhatsApp this run.")
+    if not selected:
+        log("☕ No strategic news this run.")
         if TEST_MODE:
             log("   (TEST_MODE) sending heartbeat.")
             send_whatsapp("✅ בדיקת F&B Brief: הצינור עובד מקצה לקצה. אין כתבות אסטרטגיות כרגע ☕")
         log("\n✅ Done.")
         return
 
-    log(f"\n⑤ Sending {len(brief)} separate WhatsApp message(s)...")
+    log(f"\n④ Sending {len(selected)} separate WhatsApp message(s)...")
     now = datetime.now(timezone.utc)
     msgmap = {}
-    for i, a in enumerate(brief):
+    for i, a in enumerate(selected):
         if i:
             time.sleep(2)   # pace messages so Green API keeps order / avoids rate limits
         mid = send_whatsapp(format_article(a))
@@ -596,7 +569,7 @@ def main():
                 "sent_at": now.isoformat(),
             }
     save_msgmap(msgmap)
-    update_memory(sent, brief)
+    update_memory(sent, selected)
     log("\n✅ Done.")
 
 

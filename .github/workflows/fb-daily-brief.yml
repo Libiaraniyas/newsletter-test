@@ -47,6 +47,7 @@ jobs:
           CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL || 'claude-sonnet-5' }}
           TEST_MODE: ${{ inputs.test_mode }}
           DRY_RUN: ${{ inputs.dry_run }}
+          NO_SEND: "true"   # TEMP (branch only): run the new filter, print picks, send nothing
         run: python fb-brief/brief.py
 
       - name: Persist memory + monthly pool
