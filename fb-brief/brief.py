@@ -497,10 +497,11 @@ def save_to_monthly_pool(pool_items):
 
 
 # ----- 4. format -----------------------------------------------------------
-def build_add_link(a, month):
+def build_add_link(a, month, image=""):
     """Build the 'add to monthly newsletter' link for this article, or '' if the
     share key isn't configured. Encodes the article as base64url in `d` and the
-    gate key in `k`."""
+    gate key in `k`. `image` (an og:image URL, optional) lets the site pre-fill
+    the article's newsletter image so it doesn't have to be uploaded by hand."""
     if not ADD_SHARE_KEY:
         return ""
     payload = {
@@ -511,6 +512,8 @@ def build_add_link(a, month):
         "story_key": a.get("story_key", ""),
         "month": month,
     }
+    if image:
+        payload["image"] = image
     raw = json.dumps(payload, ensure_ascii=False).encode("utf-8")
     d = base64.urlsafe_b64encode(raw).decode("ascii").rstrip("=")
     return f"{WORKER_ADD_URL}?d={d}&k={ADD_SHARE_KEY}"
@@ -627,7 +630,11 @@ def main():
     for i, a in enumerate(selected):
         if i:
             time.sleep(2)   # pace messages so Green API keeps order / avoids rate limits
-        mid = send_whatsapp(format_article(a, build_add_link(a, month)))
+        # Best-effort og:image so the site can pre-fill the newsletter image
+        # (the tap-to-add link carries the image URL; failures just fall back to
+        # a manual upload in the wizard).
+        og_image = fetch_og_image(a["url"]) if ADD_SHARE_KEY else ""
+        mid = send_whatsapp(format_article(a, build_add_link(a, month, og_image)))
         if mid:
             msgmap[mid] = {
                 "url": a["url"],
