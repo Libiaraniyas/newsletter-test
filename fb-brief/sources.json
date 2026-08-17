@@ -4,10 +4,6 @@
     "url": "https://www.foodnavigator.com/Info/FoodNavigator-RSS"
   },
   {
-    "name": "FoodNavigator-USA",
-    "url": "https://www.foodnavigator-usa.com/Info/FoodNavigator-USA-RSS"
-  },
-  {
     "name": "Food Dive (US)",
     "url": "https://www.fooddive.com/feeds/news/"
   },
@@ -24,16 +20,12 @@
     "url": "https://www.dairyreporter.com/Info/DairyReporter-RSS"
   },
   {
-    "name": "Comunicaffe (global coffee)",
-    "url": "https://www.comunicaffe.com/feed/"
+    "name": "Coffee (global, via Google News)",
+    "url": "https://news.google.com/rss/search?q=coffee%20(Brazil%20OR%20%22Eastern%20Europe%22%20OR%20price%20OR%20acquisition%20OR%20Nestle%20OR%20Lavazza%20OR%20Strauss%20OR%20%22JDE%20Peet's%22)&hl=en-US&gl=US&ceid=US:en"
   },
   {
-    "name": "Just Food (global business/M&A)",
-    "url": "https://www.just-food.com/feed/"
-  },
-  {
-    "name": "FoodBev Media",
-    "url": "https://www.foodbev.com/feed"
+    "name": "FoodBev (via Google News)",
+    "url": "https://news.google.com/rss/search?q=site:foodbev.com&hl=en-US&gl=US&ceid=US:en"
   },
   {
     "name": "McKinsey (F&B/Consumer via Google News)",
