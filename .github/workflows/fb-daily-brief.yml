@@ -44,6 +44,7 @@ jobs:
           GREEN_API_INSTANCE: ${{ secrets.GREEN_API_INSTANCE }}
           GREEN_API_TOKEN: ${{ secrets.GREEN_API_TOKEN }}
           GREEN_API_CHAT_ID: ${{ secrets.GREEN_API_CHAT_ID }}
+          ADD_SHARE_KEY: ${{ secrets.ADD_SHARE_KEY }}
           CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL || 'claude-sonnet-5' }}
           TEST_MODE: ${{ inputs.test_mode }}
           DRY_RUN: ${{ inputs.dry_run }}

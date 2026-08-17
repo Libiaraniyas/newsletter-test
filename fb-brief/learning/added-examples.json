@@ -1,10 +1,268 @@
 [
   {
-    "title": "E2E add test (2099)",
+    "title": "A new wave of food inflation is building across the supply chain",
+    "category": "macro",
+    "summary": "Projected grocery price inflation of 4-4.5% signals sustained cost pressures in consumer staples, requiring retailers and manufacturers to balance margin protection with competitive pricing strategies",
+    "month": "2026-05",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Brazil has set the template for how to drive domestic coffee consumption",
+    "category": "macro",
+    "summary": "Brazil's coffee sector faces structural headwinds with domestic premiumization offsetting export decline, indicating a strategic shift toward higher-margin internal markets while tariff-driven export ",
+    "month": "2026-05",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Coffee’s price volatility challenge: IFF identifies key trends redefining the category",
+    "category": "macro",
+    "summary": "Supply chain volatility is reshaping coffee category dynamics, prompting flavor and ingredient innovation as a hedging strategy for manufacturers to maintain margins and consumer relevance amid commod",
+    "month": "2026-05",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Unilever McCormick deal under pressure as backlash builds",
     "category": "market",
-    "summary": "בדיקת קצה-לקצה של הקישור.",
-    "url": "https://example.com/e2e-2099",
-    "month": "",
-    "source": "added"
+    "summary": "Mounting resistance to Unilever's McCormick acquisition signals stakeholder concerns around deal valuation and strategic fit, potentially impacting M&A timelines and pricing expectations in the packag",
+    "month": "2026-05",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Ingredion to buy UK's Tate & Lyle for $3.6 billion",
+    "category": "market",
+    "summary": "Ingredion's $3.6 billion acquisition of Tate & Lyle consolidates specialty ingredients capability and market access, strengthening its competitive position in high-margin food solutions amid industry ",
+    "month": "2026-05",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Nestlé buys rest of ready-to-drink meals brand",
+    "category": "market",
+    "summary": "Nestlé's full acquisition of its ready-to-drink meals brand signals strategic commitment to convenience nutrition and direct brand control, supporting margin optimization and market expansion in the g",
+    "month": "2026-05",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "FOX trial to enter the E-com food sector, though terminating 'Noy Ha-Sade' acquisition",
+    "category": "market",
+    "summary": "The failed acquisition of Sade Field represents a strategic retreat in agricultural retail consolidation, potentially signaling valuation misalignment or reassessment of distribution channel integrati",
+    "month": "2026-05",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Shastowitz brings UK best selling matcha brand to Israeli market",
+    "category": "market",
+    "summary": "Market entry of a premium UK matcha brand signals Israel's emerging wellness beverage opportunity and international brand scaling potential in high-growth functional food categories.",
+    "month": "2026-05",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Cargill joins alternative chocolate race with Barry Callebaut and Nestlé amid cocoa volatility",
+    "category": "tech",
+    "summary": "Ingredient suppliers are racing to develop cocoa alternatives as volatile commodity pricing threatens chocolate manufacturers' margins, creating competitive differentiation opportunities in the premiu",
+    "month": "2026-05",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Mars doubles down on premiumisation to drive growth",
+    "category": "tech",
+    "summary": "Mars's strategic pivot toward premium product positioning reflects consumer willingness to trade volume for value, enabling margin expansion and brand equity strengthening in mature confectionery mark",
+    "month": "2026-05",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Pea Protein Business Is Fueling The Ozempic Generation",
+    "category": "tech",
+    "summary": "The $200 million pea protein sector is capitalizing on GLP-1 drug adoption and protein-focused consumer health trends, creating significant market expansion opportunity in plant-based nutrition for we",
+    "month": "2026-05",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Why Romania'S Specialty Coffee Market Is Growing So Fast",
+    "category": "macro",
+    "summary": "Romania's specialty coffee market expansion represents an emerging European growth opportunity driven by rising consumer premiumization and café culture adoption in Central Europe. This market segment",
+    "month": "2026-06",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Falling Coffee Bean Prices Open Door For Nestlé Pricing Strategy Shift",
+    "category": "macro",
+    "summary": "Declining coffee bean commodity prices create margin expansion opportunities for major processors, with potential for competitive pricing strategies to drive market share gains. This cost-input improv",
+    "month": "2026-06",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Trade War Is Back On The Agenda As White House Floats New 10% Tariff Plan—With Footnotes To Avoid An Affordability Crisis Or Chip Shortage",
+    "category": "macro",
+    "summary": "Proposed tariff increases present significant supply chain and cost pressures for food and beverage manufacturers while government seeks to balance trade policy with consumer affordability and economi",
+    "month": "2026-06",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Chinese Economy Stalls As Spending, Investment Drop To Covid-Era Levels",
+    "category": "macro",
+    "summary": "China's economic stagnation and depressed consumer spending directly threaten growth projections for global food and beverage companies dependent on this market for volume expansion. This macroeconomi",
+    "month": "2026-06",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Danone Deepens Gut Health & Protein Portfolio With Made Group Acquisition",
+    "category": "mna",
+    "summary": "This acquisition represents Danone's strategic expansion into emerging nutrition segments and diversification beyond traditional dairy categories. The deal signals consolidation trends in functional f",
+    "month": "2026-06",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Arla And DMK Merge: What Now For Europe'S New Mega Dairy?",
+    "category": "mna",
+    "summary": "This major dairy sector consolidation creates significant scale and cost-optimization advantages while reshaping competitive dynamics in European dairy markets. The merger signals industry trend towar",
+    "month": "2026-06",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Nestle Acquires Yfood Labs Founders In Strategic Move Under New Leadership",
+    "category": "mna",
+    "summary": "Nestle's acquisition of yfood Labs founders marks a significant strategic pivot under new CEO direction, signaling the company's commitment to the high-growth nutrition and convenience food segment. T",
+    "month": "2026-06",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Green Lantern Deepens Israeli Food Market Footprint With Biscotti Acquisition",
+    "category": "mna",
+    "summary": "Green Lantern continues its Israeli food sector acquisition strategy, securing regulatory approval to acquire a 49% stake in bakery-café chain Biscotti at a NIS 500 million valuation, backed by leadin",
+    "month": "2026-06",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Danone 'Files Lawsuit Over Chobani Protein Claims'",
+    "category": "market",
+    "summary": "This litigation reflects intensifying competitive disputes over product claims and marketing substantiation in the high-growth protein yogurt category. The legal action underscores regulatory scrutiny",
+    "month": "2026-06",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "How \"Osher Ad\" Became An Empire With An Annual Turnover Of NIS 7 Billion",
+    "category": "market",
+    "summary": "This Israeli food enterprise's scaling to significant annual revenue demonstrates successful business model replication and market consolidation in a growing regional market. The company's growth traj",
+    "month": "2026-06",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Israeli Development -Illuminated Fermentation Tested To Boost Coffee Cell Culture Production",
+    "category": "tech",
+    "summary": "Israeli researchers are developing light-based fermentation technology to enhance cultivated coffee production efficiency, positioning the nation as a potential leader in cellular agriculture innovati",
+    "month": "2026-06",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Nestlé USA Removes Artificial Colors In All Food And Beverages",
+    "category": "tech",
+    "summary": "This reformulation initiative addresses growing consumer demand for clean-label products and regulatory pressures on artificial ingredients, enhancing brand positioning with health-conscious consumers",
+    "month": "2026-06",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "GLP-1 Drugs Aren'T Killing Confectionery – They'Re Reinventing It",
+    "category": "tech",
+    "summary": "The emergence of GLP-1 pharmaceuticals creates structural demand shifts for lower-calorie and functional confectionery formats, opening new market segments and innovation opportunities. This pharmaceu",
+    "month": "2026-06",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Grocery Volumes Contract For Fifth Consecutive Month",
+    "category": "macro",
+    "summary": "Sustained contraction in grocery volumes indicates weakening consumer purchasing power and demand elasticity, presenting significant margin pressure across retail and supply chain operations in a chal",
+    "month": "2026-07",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Delayed Brazilian Harvest Drives Coffee Prices Higher",
+    "category": "macro",
+    "summary": "A delayed coffee harvest in Brazil is restricting supply and raising global prices, putting pressure on beverage manufacturers while boosting margins for producers and threatening higher retail prices",
+    "month": "2026-07",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "China Aims To Spur Consumption In First Five-Year Blueprint",
+    "category": "macro",
+    "summary": "China's policy focus on consumption stimulation represents a fundamental economic pivot that will reshape demand patterns and supply chain dynamics for global food and beverage manufacturers operating",
+    "month": "2026-07",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Polish CPI Accelerates To 3.0% In July, Fueling Rate Hold Expectations",
+    "category": "macro",
+    "summary": "Poland’s CPI accelerated to 3.0% in July due to higher energy and fuel costs, reinforcing expectations that the central bank will keep interest rates unchanged.",
+    "month": "2026-07",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Cyberattacks Surge As Food And Beverage Becomes Prime Target",
+    "category": "macro",
+    "summary": "The food and beverage sector has faced 220 ransomware attacks in 2026, nearing last year's full-year total of 265, with incidents at companies including Coca-Cola's Fairlife, JBS, and Dole disrupting ",
+    "month": "2026-07",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Nestle To Raise €3 Billion From Spin Off Of Its Water Business",
+    "category": "mna",
+    "summary": "Nestlé's divestiture of its water division represents a strategic portfolio optimization, enabling the company to unlock significant capital while focusing on higher-margin segments and responding to ",
+    "month": "2026-07",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Utz To Go Private In $2.9 Billion Intersnack Deal",
+    "category": "mna",
+    "summary": "Intersnack is acquiring 50% of Utz Brands for $2.9 billion, effectively taking the snack company private and substantially strengthening its position in the U.S. market. The transaction is projected t",
+    "month": "2026-07",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Wolt Market Israel Is On Track To Be Sold For Hundreds Of Millions Of Shekels.",
+    "category": "mna",
+    "summary": "The proposed sale of Wolt Market reflects consolidation pressures in the Israeli retail sector, signaling market maturation and potential operational challenges that necessitate strategic repositionin",
+    "month": "2026-07",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Procter And Gamble Acquires Nutritional Supplement Brand For $3.8 Billion",
+    "category": "mna",
+    "summary": "P&G's strategic acquisition of a major nutritional supplement brand signals aggressive expansion into the high-growth wellness category, reflecting shifting consumer demand toward health-focused produ",
+    "month": "2026-07",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Barry Callebaut Returns To Growth After Two-Year Slump",
+    "category": "market",
+    "summary": "Barry Callebaut's recovery trajectory signals stabilization in global cocoa and chocolate markets, with renewed demand recovery and improved operational efficiency providing positive momentum for the ",
+    "month": "2026-07",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Carrefour Israel Aims For IPO In November, Zalkind Family Expected To Relinquish Control",
+    "category": "market",
+    "summary": "Carrefour Israel's planned IPO marks a significant capital market transaction and shift in ownership structure, enabling portfolio rebalancing and signaling confidence in the Israeli retail sector des",
+    "month": "2026-07",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "Why Is Big Food Booming In Emerging Markets?",
+    "category": "market",
+    "summary": "The expansion of multinational food corporations in emerging markets reflects structural growth drivers including rising middle-class consumption, urbanization, and distribution infrastructure develop",
+    "month": "2026-07",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "The Alt Cocoa Boom: Big Chocolate'S New Obsession",
+    "category": "tech",
+    "summary": "The emergence of alternative cocoa sources and substitutes reflects industry response to supply chain volatility and sustainability concerns, representing a strategic diversification imperative for ma",
+    "month": "2026-07",
+    "source": "past_newsletter"
+  },
+  {
+    "title": "ADM To Scale Egg Proteins With Precision Fermentation",
+    "category": "tech",
+    "summary": "ADM's investment in precision fermentation for egg protein production represents a strategic bet on alternative protein innovation, positioning the company to capture emerging consumer demand for sust",
+    "month": "2026-07",
+    "source": "past_newsletter"
   }
 ]

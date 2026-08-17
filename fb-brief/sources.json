@@ -8,12 +8,32 @@
     "url": "https://www.fooddive.com/feeds/news/"
   },
   {
-    "name": "Ynet Economy (Hebrew)",
-    "url": "http://www.ynet.co.il/Integration/StoryRss6.xml"
-  },
-  {
     "name": "BeverageDaily",
     "url": "https://www.beveragedaily.com/Info/BeverageDaily-RSS"
+  },
+  {
+    "name": "ConfectioneryNews (cocoa/chocolate)",
+    "url": "https://www.confectionerynews.com/Info/ConfectioneryNews-RSS"
+  },
+  {
+    "name": "DairyReporter (dairy)",
+    "url": "https://www.dairyreporter.com/Info/DairyReporter-RSS"
+  },
+  {
+    "name": "Coffee (global, via Google News)",
+    "url": "https://news.google.com/rss/search?q=coffee%20(Brazil%20OR%20%22Eastern%20Europe%22%20OR%20price%20OR%20acquisition%20OR%20Nestle%20OR%20Lavazza%20OR%20Strauss%20OR%20%22JDE%20Peet's%22)&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "name": "FoodBev (via Google News)",
+    "url": "https://news.google.com/rss/search?q=site:foodbev.com&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "name": "McKinsey (F&B/Consumer via Google News)",
+    "url": "https://news.google.com/rss/search?q=McKinsey%20(food%20OR%20beverage%20OR%20%22consumer%20goods%22%20OR%20CPG%20OR%20retail)&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "name": "Ynet Economy (Hebrew)",
+    "url": "http://www.ynet.co.il/Integration/StoryRss6.xml"
   },
   {
     "name": "Globes (Israel business)",
