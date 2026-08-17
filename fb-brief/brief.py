@@ -22,6 +22,7 @@ import html
 import re
 import time
 import base64
+import hashlib
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -80,6 +81,15 @@ MAX_ARTICLES = 8
 WORKER_ADD_URL = os.environ.get("WORKER_ADD_URL",
                                 "https://news-digest-add.libia0305.workers.dev/add")
 ADD_SHARE_KEY = os.environ.get("ADD_SHARE_KEY", "")
+
+# Short "add to newsletter" links resolve on the site's own Cloudflare Pages
+# project (Pages Functions), so the WhatsApp link is short and carries no
+# personal account name: https://<PAGES_ADD_BASE>/a/<id>. Each article's full
+# payload is registered under <id> in links.json (committed by the workflow);
+# the /a/<id> function looks it up and stars the article.
+PAGES_ADD_BASE = os.environ.get("PAGES_ADD_BASE",
+                                "https://news-digest-ag1.pages.dev").rstrip("/")
+LINKS_FILE = MONTHLY_DIR / "links.json"
 
 # ----- the strategic filter (calibrated with Libi) -------------------------
 RULES = """
@@ -497,13 +507,24 @@ def save_to_monthly_pool(pool_items):
 
 
 # ----- 4. format -----------------------------------------------------------
-def build_add_link(a, month, image=""):
-    """Build the 'add to monthly newsletter' link for this article, or '' if the
-    share key isn't configured. Encodes the article as base64url in `d` and the
-    gate key in `k`. `image` (an og:image URL, optional) lets the site pre-fill
-    the article's newsletter image so it doesn't have to be uploaded by hand."""
-    if not ADD_SHARE_KEY:
-        return ""
+def link_id(url, month):
+    """Short, stable id for an article's add-link (same url+month -> same id, so
+    re-runs are idempotent). 10 hex chars is plenty to avoid collisions here."""
+    return hashlib.sha1(f"{url}|{month}".encode("utf-8")).hexdigest()[:10]
+
+
+def strip_tracking(url):
+    """Drop RSS/utm tracking cruft for the displayed link (identity keeps the
+    original url everywhere else)."""
+    url = re.sub(r"#utm_[^\s]*$", "", url)
+    url = re.sub(r"[?&]utm_[^=]+=[^&\s]*", "", url)
+    return url.rstrip("?&#")
+
+
+def build_add_payload(a, month, image=""):
+    """The article payload registered under its short id in links.json, which the
+    site's /a/<id> Pages function reads to star the article. `image` (an og:image
+    URL, optional) lets the site pre-fill the newsletter image."""
     payload = {
         "url": a["url"],
         "title": a["title"],
@@ -514,9 +535,24 @@ def build_add_link(a, month, image=""):
     }
     if image:
         payload["image"] = image
-    raw = json.dumps(payload, ensure_ascii=False).encode("utf-8")
-    d = base64.urlsafe_b64encode(raw).decode("ascii").rstrip("=")
-    return f"{WORKER_ADD_URL}?d={d}&k={ADD_SHARE_KEY}"
+    return payload
+
+
+def save_links(new_map):
+    """Merge {id: payload} into monthly/links.json (committed by the workflow) so
+    each short /a/<id> link resolves. Pruned to the most recent entries to keep
+    the file small."""
+    if not new_map:
+        return
+    MONTHLY_DIR.mkdir(exist_ok=True)
+    data = load_json(LINKS_FILE, {})
+    if not isinstance(data, dict):
+        data = {}
+    data.update(new_map)
+    if len(data) > 300:
+        data = dict(list(data.items())[-300:])
+    LINKS_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    log(f"  ✓ links.json updated ({len(data)} short links tracked)")
 
 
 def format_article(a, add_url=""):
@@ -524,7 +560,7 @@ def format_article(a, add_url=""):
     # (if configured) a tap-to-add-to-newsletter link.
     body = (
         f"📌 *{a['title']}*\n"
-        f"🔗 {a['url']}\n\n"
+        f"🔗 {strip_tracking(a['url'])}\n\n"
         f"{a['summary']}"
     )[:18000]  # leave room for the add-link; stay under Green API's 20k limit
     if add_url:
@@ -626,15 +662,25 @@ def main():
     log(f"\n④ Sending {len(selected)} separate WhatsApp message(s)...")
     now = datetime.now(timezone.utc)
     month = current_month()   # active month the add-link will file the article under
+
+    # Register each article's payload under a short id and build the short link
+    # BEFORE sending, then persist links.json so the /a/<id> function resolves.
+    links = {}
+    add_urls = []
+    for a in selected:
+        # Best-effort og:image so the site can pre-fill the newsletter image
+        # (failures just fall back to a manual upload in the wizard).
+        og_image = fetch_og_image(a["url"])
+        lid = link_id(a["url"], month)
+        links[lid] = build_add_payload(a, month, og_image)
+        add_urls.append(f"{PAGES_ADD_BASE}/a/{lid}")
+    save_links(links)
+
     msgmap = {}
     for i, a in enumerate(selected):
         if i:
             time.sleep(2)   # pace messages so Green API keeps order / avoids rate limits
-        # Best-effort og:image so the site can pre-fill the newsletter image
-        # (the tap-to-add link carries the image URL; failures just fall back to
-        # a manual upload in the wizard).
-        og_image = fetch_og_image(a["url"]) if ADD_SHARE_KEY else ""
-        mid = send_whatsapp(format_article(a, build_add_link(a, month, og_image)))
+        mid = send_whatsapp(format_article(a, add_urls[i]))
         if mid:
             msgmap[mid] = {
                 "url": a["url"],
