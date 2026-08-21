@@ -438,5 +438,69 @@
     "story_key": "target-tariff-refund-q2-growth",
     "category": "macro",
     "sent_at": "2026-08-21T10:26:36.273895+00:00"
+  },
+  "3EB0020A052A0425BAD221": {
+    "url": "https://www.foodnavigator.com/Article/2026/08/21/walmart-q2-earnings-29b-tariff-refund-funds-massive-price-rollbacks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Walmart same-store sales slowdown could portend trouble for packaged food brands",
+    "summary": "Walmart's Q2 same-store sales grew just 2.6%, missing analyst expectations and sending stock down 9%, despite strong core grocery performance and e-commerce growth.",
+    "story_key": "walmart-q2-sss-slowdown",
+    "category": "macro",
+    "sent_at": "2026-08-21T15:26:50.485300+00:00"
+  },
+  "3EB0C4AD0BFCFFD013B442": {
+    "url": "https://www.foodnavigator.com/Article/2026/08/21/us-grocery-sales-fall-as-snap-changes-shift-shopping/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Grocery volume declines deepen as SNAP cuts reshape shopper behavior",
+    "summary": "US grocery sales are falling as SNAP eligibility changes accelerate volume declines and push shoppers toward staples, value brands and lower-priced stores.",
+    "story_key": "us-grocery-snap-volume-decline",
+    "category": "macro",
+    "sent_at": "2026-08-21T15:26:50.485300+00:00"
+  },
+  "3EB0984F82335721D2746F": {
+    "url": "https://www.foodnavigator.com/Article/2026/08/21/el-nino-may-be-largest-since-19th-century/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "El Niño 2026 may be 'largest since the 19th century'",
+    "summary": "2026's El Niño has already been predicted as a 'super El Niño'. Now, the UK's Met Office is predicting that it could be the largest in living memory, perhaps even the largest since the 19th century.",
+    "story_key": "el-nino-2026-largest-forecast",
+    "category": "macro",
+    "sent_at": "2026-08-21T15:26:50.485300+00:00"
+  },
+  "3EB0AC0E559DEF7B7C111B": {
+    "url": "https://www.foodnavigator.com/Article/2026/08/21/inside-mondelezs-premiumisation-strategy-from-cadbury-to-toblerone/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Mondelēz accelerates premiumisation drive",
+    "summary": "Mondelēz is premiumising brands from Cadbury to Toblerone as it looks to capitalise on growing demand for indulgence and drive long-term growth.",
+    "story_key": "mondelez-premiumisation-drive",
+    "category": "mna",
+    "sent_at": "2026-08-21T15:26:50.485300+00:00"
+  },
+  "3EB086D0E6348712BEE4BA": {
+    "url": "https://www.foodnavigator.com/Article/2026/08/21/safety-first-health-halos-asahi-cyberattack-and-pfas/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Safety First: Health halos, Asahi cyberattack and PFAS",
+    "summary": "Health halos in India, Asahi cyberattack, PFAS and more feature in this edition of Safety First.",
+    "story_key": "asahi-cyberattack-safety-roundup",
+    "category": "market",
+    "sent_at": "2026-08-21T15:26:50.485300+00:00"
+  },
+  "3EB09505AF1494F78A9C3C": {
+    "url": "https://www.fooddive.com/news/bg-foods-green-giant-sale-antitrust-concerns-canada/828368/",
+    "title": "B&G Foods' Green Giant sale runs into antitrust concerns in Canada",
+    "summary": "The sale of two vegetable brands to Nortera Foods could lead to higher prices and fewer choices for consumers, the country's Competition Bureau claimed.",
+    "story_key": "nortera-green-giant-canada-antitrust-block",
+    "category": "mna",
+    "sent_at": "2026-08-21T15:26:50.485300+00:00"
+  },
+  "3EB092E01F84A941D54DF1": {
+    "url": "https://www.dairyreporter.com/Article/2026/08/21/australias-shrinking-milk-supply-puts-dairy-model-under-pressure/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Australia's shrinking milk supply puts dairy model under pressure",
+    "summary": "Australia's milk supply is contracting, putting pressure on the country's traditional dairy production model.",
+    "story_key": "australia-milk-supply-shrinking",
+    "category": "macro",
+    "sent_at": "2026-08-21T15:26:50.485300+00:00"
+  },
+  "3EB02F9E05A7C9AEDFA23C": {
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTE5ISTZ3MFhWQU51YTFCSEJKMXVnU3ZyTWtTMTBGMTN3bDlueTZCZWYtdnFtMXpwTktkOUo4ZDZBLXl6cjdDM3dmMDlPeXJ4NFBkaXNRMTZVbzVKanF4OVRkQUFLbjdIZ1R5TGpJYjhtSWFGM0lreTh2QWh5czRYbENOQVI3OFQtNEVUcklNdXRrZ25rQzBV?oc=5",
+    "title": "Nestlé conducts review of New Zealand supplements business",
+    "summary": "Nestlé is reviewing its New Zealand supplements business, a move that could lead to a divestiture or restructuring.",
+    "story_key": "nestle-nz-supplements-review",
+    "category": "mna",
+    "sent_at": "2026-08-21T15:26:50.485300+00:00"
   }
 }
