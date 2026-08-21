@@ -382,5 +382,61 @@
     "story_key": "nortera-green-giant-canada-antitrust-block",
     "category": "mna",
     "sent_at": "2026-08-20T10:26:15.733446+00:00"
+  },
+  "3EB0CCA228637CC9806714": {
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRzdmN29mM2d1SUR2ZUFoaU52N2dEX0xxRHo2T1JmMFFaU1doZW9RWFhVbkxrQUVZQklaWG1LcG5tMno3Um9vOGFlYU9YU2tQNWJIUV8yWmNBaE5NM0RPQ0IweXF3WVhJbHNBZFQzdzVUcHk5cG83TGdaODZ3MWExUzA3MnY3c2JEYTNMa3N1S2tUSnNWRC1LVGpvZXBnc3c?oc=5",
+    "title": "Vandemoortele must sell Worcester pastry facility after CMA ruling",
+    "summary": "UK's Competition and Markets Authority has ordered Vandemoortele to divest its Worcester pastry manufacturing facility following an antitrust review.",
+    "story_key": "vandemoortele-worcester-divestiture-cma",
+    "category": "mna",
+    "sent_at": "2026-08-21T10:26:36.273895+00:00"
+  },
+  "3EB0941F47076F07C8D67C": {
+    "url": "https://www.fooddive.com/news/jbs-bid-pilgrims-pride-ownership-chicken/828265/",
+    "title": "JBS makes bid for remainder of Pilgrim's Pride",
+    "summary": "Brazil-based JBS submitted a fresh bid for full control of chicken producer Pilgrim's Pride, in a deal that could run into antitrust concerns.",
+    "story_key": "jbs-pilgrims-pride-full-bid",
+    "category": "mna",
+    "sent_at": "2026-08-21T10:26:36.273895+00:00"
+  },
+  "3EB0D2E2669782AA32B0CA": {
+    "url": "https://www.foodnavigator.com/Article/2026/08/20/from-cocoa-to-pistachios-confectionery-fraud-surges-as-manufacturers-fight-to-keep-up/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Confectionery fraud surges as manufacturers struggle to stay ahead",
+    "summary": "Confectionery fraud is rising as volatile cocoa markets, premium ingredient demand and supply chain disruption create new opportunities for adulteration and counterfeiting in chocolate, nuts and other ingredients.",
+    "story_key": "confectionery-fraud-cocoa-volatility",
+    "category": "tech",
+    "sent_at": "2026-08-21T10:26:36.273895+00:00"
+  },
+  "3EB043917614CA28DE4432": {
+    "url": "https://www.foodnavigator.com/Article/2026/08/20/glp-1-conversation-in-europe-grows/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Europeans finally care about GLP-1s",
+    "summary": "Conversation around GLP-1 drugs in Europe has grown sharply over the past year, with mentions doubling, though consumer associations with the topic remain broadly diverse.",
+    "story_key": "glp1-europe-conversation-growth",
+    "category": "tech",
+    "sent_at": "2026-08-21T10:26:36.273895+00:00"
+  },
+  "3EB0EF1AB6B7A3C8C6D09D": {
+    "url": "https://www.foodnavigator.com/Article/2026/08/20/pepsi-expands-lower-sugar-high-protein-and-fiber-offerings/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "PepsiCo bets on healthier versions of legacy brands",
+    "summary": "PepsiCo's 2025 ESG report shows investment in modernizing legacy brands with lower sugar, higher protein and fiber offerings to meet fragmented consumer demand for health-forward products.",
+    "story_key": "pepsico-healthier-legacy-brands",
+    "category": "tech",
+    "sent_at": "2026-08-21T10:26:36.273895+00:00"
+  },
+  "3EB0A765B6676E2438B5E3": {
+    "url": "https://www.foodnavigator.com/Article/2026/08/19/xanthan-gum-faces-scrutiny-despite-use-in-thousands-of-food-and-beverage-products/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Xanthan gum linked to gut inflammation, putting manufacturers on alert",
+    "summary": "New research links long-term xanthan gum consumption to gut inflammation and microbiome changes, raising questions for food manufacturers who use the ingredient in thousands of products.",
+    "story_key": "xanthan-gum-gut-inflammation-scrutiny",
+    "category": "tech",
+    "sent_at": "2026-08-21T10:26:36.273895+00:00"
+  },
+  "3EB0F2A20F647DB2C32BF7": {
+    "url": "https://www.foodnavigator.com/Article/2026/08/20/target-stock-rises-on-tariff-refund-and-q2-growth/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Target's tariff refund reaches nearly $1 billion",
+    "summary": "Target reported strong Q2 results with 5.3% sales growth and a nearly $1 billion tariff refund, boosting its 2026 outlook.",
+    "story_key": "target-tariff-refund-q2-growth",
+    "category": "macro",
+    "sent_at": "2026-08-21T10:26:36.273895+00:00"
   }
 }
