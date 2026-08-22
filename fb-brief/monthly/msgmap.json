@@ -502,5 +502,29 @@
     "story_key": "nestle-nz-supplements-review",
     "category": "mna",
     "sent_at": "2026-08-21T15:26:50.485300+00:00"
+  },
+  "3EB09B836635CEA5BF5C8A": {
+    "url": "https://www.fooddive.com/news/us-beef-prices-tariff-relief-trump/828509/",
+    "title": "US to temporarily relieve ground beef tariffs in bid to lower prices",
+    "summary": "President Trump said he will allow 300,000 metric tons of beef product to enter the US duty-free for 90 days in an effort to lower prices.",
+    "story_key": "us-beef-tariff-relief-90days",
+    "category": "macro",
+    "sent_at": "2026-08-22T06:29:07.952370+00:00"
+  },
+  "3EB0A167D37A4CAEC5E42A": {
+    "url": "https://www.ynet.co.il/economy/article/r1osxiipmx",
+    "title": "השיחות קרסו: ארה\"ב הטילה מכסים של 50% על סחורות מקנדה",
+    "summary": "לאחר קריסת המשא ומתן, ארה\"ב הטילה מכסים של 50% על מוצרים קנדיים בשווי כ-20 מיליארד דולר, כולל אלכוהול וביגוד. קנדה צפויה להשיב במכסים דומים על סחורה אמריקנית.",
+    "story_key": "us-canada-tariff-collapse-50pct",
+    "category": "macro",
+    "sent_at": "2026-08-22T06:29:07.952370+00:00"
+  },
+  "3EB016A092DB1E59965539": {
+    "url": "https://www.themarker.com/wallstreet/2026-08-22/ty-article/.premium/000001a0-27e4-dedb-a7e6-2fed74060000",
+    "title": "המגעים קרסו — ומכסים של 50% על יבוא סחורות קנדיות לארה\"ב נכנסו לתוקף",
+    "summary": "כל צד האשים את השני בקריסת המגעים, וראש ממשלת קנדה התחייב להגיב \"דולר תחת דולר\". טראמפ הודיע כי הצדדים הגיעו להסכם רק שעתיים לפני כניסת המכסים לתוקף.",
+    "story_key": "us-canada-tariff-collapse-50pct",
+    "category": "macro",
+    "sent_at": "2026-08-22T06:29:07.952370+00:00"
   }
 }
