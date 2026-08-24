@@ -526,5 +526,21 @@
     "story_key": "us-canada-tariff-collapse-50pct",
     "category": "macro",
     "sent_at": "2026-08-22T06:29:07.952370+00:00"
+  },
+  "3EB0F2BB76663DA9FAD65D": {
+    "url": "https://www.fooddive.com/news/house-representatives-commerce-investigation-aluminum-pricing-midwest-premium/828595/",
+    "title": "Nearly 60 members of Congress call for aluminum pricing investigation",
+    "summary": "Nearly 60 members of Congress are calling for a federal investigation into aluminum pricing, focused on the Midwest Premium pricing structure that has increased costs for cans used by the U.S. beverage industry.",
+    "story_key": "congress-aluminum-pricing-investigation",
+    "category": "macro",
+    "sent_at": "2026-08-24T15:33:31.513154+00:00"
+  },
+  "3EB034479954F1B7ADC05E": {
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSm9SRTdUMXN3MkpCMVZadWFOVk85aENVMXF5ekhta1lyR0wwSDZuOG1WRkt0VTZtUWV3WnhRemRaSU5mOC1FdEZQRnY1VEtPaVJzS19sYXItQ2F4SUdUNWFWUDVOMGs2QXNUc09UVnR3dllKaXFOVURBVkVZYlk5RE9RaFNFSVhydFNSY0xac2ZfNVE2ald3NDRIbHEtRlVEY2ozV3V1ZjZBOEs2cUpZdWxEdlY2RHFYdFdPbnduSE44NGJ1?oc=5",
+    "title": "Best Coffee Will Be Harder to Get as Downpours Hit Brazil’s Trees",
+    "summary": "Heavy rains in Brazil are damaging coffee trees and threatening the quality of the upcoming crop, adding new pressure to already tight arabica supplies.",
+    "story_key": "brazil-coffee-rain-damage-2026-08",
+    "category": "macro",
+    "sent_at": "2026-08-24T15:33:31.513154+00:00"
   }
 }
