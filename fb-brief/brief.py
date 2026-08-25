@@ -177,7 +177,9 @@ OUTPUT for every selected item (short and factual — NO analysis):
     implications, do NOT mention Strauss, do NOT write "what this means for us".
   - story_key = a short stable slug in English/ASCII for the underlying story
     (e.g. "tnuva-vitamins-entry") — an internal key, always English, used to avoid
-    repeating this story in future runs.
+    repeating this story in future runs. Two candidates about the SAME event MUST
+    get the IDENTICAL story_key (even from different sources or in a different
+    language), so duplicates can be collapsed.
   - category = which monthly-newsletter section it belongs to — one of:
     "macro" | "mna" | "market" | "tech" (EVERY item gets one).
 
@@ -608,6 +610,43 @@ def update_memory(sent, new_articles):
     log(f"  ✓ memory updated ({len(kept)} stories tracked)")
 
 
+def _norm(s):
+    """Lowercase, ASCII-alphanumeric only — for comparing story keys / titles."""
+    return re.sub(r"[^a-z0-9]+", "", (s or "").lower())
+
+
+def dedupe_selected(selected, sent):
+    """Deterministic safety net for when the model doesn't collapse the same
+    story from two sources. WITHIN this run: drop repeats by story_key, by
+    normalized title, or by URL. ACROSS runs: also drop a story whose normalized
+    title exactly matches one already sent (a re-posted wire story). A genuinely
+    new development keeps a new headline, so it survives (different normalized
+    title) — this doesn't override the model's 'major development' judgement,
+    which works off story_key, not the exact headline.
+    Returns (kept, dropped) where dropped is a list of (article, reason)."""
+    sent_titles = {_norm(s.get("title", "")) for s in sent if s.get("title")}
+    seen_keys, seen_titles, seen_urls = set(), set(), set()
+    kept, dropped = [], []
+    for a in selected:
+        k = _norm(a.get("story_key", ""))
+        t = _norm(a.get("title", ""))
+        u = (a.get("url", "") or "").strip()
+        if t and t in sent_titles:
+            dropped.append((a, "already sent (same headline)"))
+            continue
+        if (k and k in seen_keys) or (t and t in seen_titles) or (u and u in seen_urls):
+            dropped.append((a, "duplicate in this run"))
+            continue
+        if k:
+            seen_keys.add(k)
+        if t:
+            seen_titles.add(t)
+        if u:
+            seen_urls.add(u)
+        kept.append(a)
+    return kept, dropped
+
+
 def main():
     sources = load_json(SOURCES_FILE, [])
     sent = load_json(SENT_FILE, [])
@@ -637,6 +676,11 @@ def main():
         result = judge(candidates, sent, api_key)
 
     selected = result["selected"]
+    selected, deduped = dedupe_selected(selected, sent)
+    if deduped:
+        log(f"   ⊘ dropped {len(deduped)} duplicate(s) (same story / already sent):")
+        for a, why in deduped:
+            log(f"      - {why}: {a.get('title', '')[:70]}  [{a.get('story_key', '')}]")
     if len(selected) > MAX_ARTICLES:
         log(f"   ↳ capping {len(selected)} → {MAX_ARTICLES} (safety valve)")
         selected = selected[:MAX_ARTICLES]
