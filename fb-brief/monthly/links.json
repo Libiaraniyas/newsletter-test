@@ -447,5 +447,23 @@
     "category": "market",
     "story_key": "bernard-matthews-derby-closure",
     "month": "2026-08"
+  },
+  "a518c6382d": {
+    "url": "https://www.fooddive.com/news/Mondelez-snacking-protein-bars-grenade-aquisition/828654/",
+    "title": "Mondelēz brings UK protein bar Grenade to the US",
+    "summary": "Mondelez is bringing its UK protein bar brand Grenade to the US market, expanding its domestic bar portfolio alongside Clif and Perfect Bar to capitalize on consumer demand for protein.",
+    "category": "market",
+    "story_key": "mondelez-grenade-us-launch",
+    "month": "2026-08",
+    "image": "https://imgproxy.divecdn.com/fAhZoLOeHXNpHmXVMZFmbPsaZFGt8lF-guoXbF54gKw/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HcmVuYWRlLVVLLTEtU2VsbGluZy1Qcm90ZWluLUJyYW5kLUdyZW5hZGUtTGFuZHMtSW4tQW1lcmljYS13aXQuanBn.webp"
+  },
+  "9e97891d63": {
+    "url": "https://www.fooddive.com/news/cyclospora-outbreak-produce-sales-numerator/828629/",
+    "title": "Cyclospora outbreak is crimping produce sales, data shows",
+    "summary": "More than 6.5 million households stopped buying salad mixes and kits during the month that ended July 26 due to a cyclospora outbreak, according to Numerator data.",
+    "category": "macro",
+    "story_key": "cyclospora-outbreak-produce-sales",
+    "month": "2026-08",
+    "image": "https://imgproxy.divecdn.com/UeTaJ0kdKYR3Rr8vnwabXNfGGXGzGOnBaUzmZHPovcQ/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9pY2ViZXJnLWxldHR1Y2UuanBn.webp"
   }
 }

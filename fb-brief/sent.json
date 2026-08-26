@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.foodnavigator.com/Article/2026/08/11/nestle-factory-closure-signals-wider-shift-in-confectionery-manufacturing/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "nestle-diosgyor-closure",
-    "title": "Nestlé Confectionery Factory Closure Signals Wider Industry Shift",
-    "sent_at": "2026-08-11T18:32:20.268670+00:00"
-  },
-  {
-    "url": "https://www.beveragedaily.com/Article/2026/08/10/nichols-eyes-functional-drinks-growth-with-64m-purchase-of-vithit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "nichols-vithit-acquisition",
-    "title": "Nichols Buys Functional Drinks Brand Vithit For £64m",
-    "sent_at": "2026-08-11T18:32:20.268670+00:00"
-  },
-  {
-    "url": "https://www.beveragedaily.com/Article/2026/08/10/treasury-wine-estates-to-write-down-558m-in-us-amid-vineyard-and-supply-chain-overhaul/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "treasury-wine-us-writedown",
-    "title": "Treasury Wine Estates To Write Down $558m In US Business Overhaul",
-    "sent_at": "2026-08-11T18:32:20.268670+00:00"
-  },
-  {
     "url": "https://www.themarker.com/markets/2026-08-12/ty-article/.premium/0000019f-f4d1-d101-a5bf-ffd11d840000",
     "story_key": "strauss-q2-profit-coffee-cocoa",
     "title": "Strauss Group Profit Doubles As Coffee And Cocoa Prices Collapse",
@@ -454,5 +436,17 @@
     "story_key": "bernard-matthews-derby-closure",
     "title": "Bernard Matthews to close Derby processing facility by end of 2026",
     "sent_at": "2026-08-25T10:29:01.313322+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/Mondelez-snacking-protein-bars-grenade-aquisition/828654/",
+    "story_key": "mondelez-grenade-us-launch",
+    "title": "Mondelēz brings UK protein bar Grenade to the US",
+    "sent_at": "2026-08-26T06:37:18.298633+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/cyclospora-outbreak-produce-sales-numerator/828629/",
+    "story_key": "cyclospora-outbreak-produce-sales",
+    "title": "Cyclospora outbreak is crimping produce sales, data shows",
+    "sent_at": "2026-08-26T06:37:18.298633+00:00"
   }
 ]
