@@ -18,11 +18,21 @@
       "story_key": "israel-yellow-cheese-import-quota-subsidized",
       "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2025/11/23/SydtzFx11Wl/SydtzFx11Wl_317_778_1283_723_0_large.jpg",
       "added_at": "2026-08-18T15:36:11.855Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/gallup-poll-us-alcohol-drinking-rate-remains-all-time-low/828821/",
+      "title": "US alcohol consumption remains at all time low",
+      "summary": "A new Gallup report shows US drinking rates stabilizing after a multiyear decline, but still at the lowest level since 1939.",
+      "category": "macro",
+      "story_key": "us-alcohol-consumption-low",
+      "image": "https://imgproxy.divecdn.com/HfA_JMrwOdy-oOF0foErelJUzwXREN8GRTQ3JJM5_Hg/g:nowe:0:117/c:2500:1412/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDc5ODAwNzI4LmpwZw==.webp",
+      "added_at": "2026-08-27T17:17:56.670Z"
     }
   ],
   "starred": [
     "https://www.themarker.com/consumer/2026-08-17/ty-article/.premium/000001a0-107b-d29b-afe8-5d7b13170000",
-    "https://www.ynet.co.il/economy/article/bylh11qwvmx"
+    "https://www.ynet.co.il/economy/article/bylh11qwvmx",
+    "https://www.fooddive.com/news/gallup-poll-us-alcohol-drinking-rate-remains-all-time-low/828821/"
   ],
   "category_names": {},
   "category_overrides": {}
