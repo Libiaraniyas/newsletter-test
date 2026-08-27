@@ -1,47 +1,5 @@
 [
   {
-    "url": "https://www.themarker.com/markets/2026-08-12/ty-article/.premium/0000019f-f4d1-d101-a5bf-ffd11d840000",
-    "story_key": "strauss-q2-profit-coffee-cocoa",
-    "title": "Strauss Group Profit Doubles As Coffee And Cocoa Prices Collapse",
-    "sent_at": "2026-08-12T10:58:02.796633+00:00"
-  },
-  {
-    "url": "https://www.bakeryandsnacks.com/Article/2026/08/11/lotus-bakeries-500m-biscoff-expansion-explained/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "lotus-bakeries-biscoff-expansion",
-    "title": "Lotus Bakeries Invests €500m To Expand Biscoff Production Amid Speculoos Boom",
-    "sent_at": "2026-08-12T10:58:02.796633+00:00"
-  },
-  {
-    "url": "https://www.ynet.co.il/economy/article/sjc11f0t8ze",
-    "story_key": "gad-dairies-plant-based-launch",
-    "title": "Gad Dairies Launches Plant-Based Range To Compete With Tnuva And Strauss",
-    "sent_at": "2026-08-12T15:54:03.192358+00:00"
-  },
-  {
-    "url": "https://www.themarker.com/consumer/2026-08-13/ty-article/.premium/0000019f-f57b-d101-a5bf-ff7b7eaf0000",
-    "story_key": "israel-protein-market-growth",
-    "title": "\"הצרכנים תמיד רוצים כמה שיותר\": כך מכירות מוצרי החלבון הוכפלו ב–3 שנים",
-    "sent_at": "2026-08-13T07:17:59.415190+00:00"
-  },
-  {
-    "url": "https://www.ynet.co.il/economy/article/r1aeukouze",
-    "story_key": "laser-rami-levy-eggs-dispute",
-    "title": "לסר תפסיק לספק ביצים לרמי לוי החל מסוף אוגוסט",
-    "sent_at": "2026-08-13T10:59:25.375281+00:00"
-  },
-  {
-    "url": "https://www.themarker.com/consumer/2026-08-13/ty-article/.premium/0000019f-faa2-d569-a5ff-fae617280000",
-    "story_key": "tnuva-italian-food-plant-rehovot",
-    "title": "הכנסות של 90 מיליון שקל: תנובה מקימה מפעל לאוכל איטלקי ברחובות",
-    "sent_at": "2026-08-13T10:59:25.375281+00:00"
-  },
-  {
-    "url": "https://www.ynet.co.il/economy/article/bjs00keilmx",
-    "story_key": "tnuva-shufersal-butter-pricing-dispute",
-    "title": "שופרסל חזרה למכור חמאת תנובה - המחיר עלה בחלק מהסניפים",
-    "sent_at": "2026-08-13T15:54:09.876051+00:00"
-  },
-  {
     "url": "https://www.dairyreporter.com/Article/2026/08/13/gay-lea-foods-invests-200m-to-boost-cottage-cheese-production-amid-canadian-shortage/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "story_key": "gaylea-cottage-cheese-investment",
     "title": "Gay Lea Foods Invests $200m To Boost Cottage Cheese Production Amid Canadian Shortage",
@@ -466,5 +424,47 @@
     "story_key": "brazil-coffee-flowering-split-2026",
     "title": "Brazil's Coffee Flowering Splits as Robusta Leads and Arabica Waits",
     "sent_at": "2026-08-26T10:32:10.246615+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/08/27/nestle-tackles-soil-degradation-and-farmer-exodus-in-bid-to-futureproof-coffee/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "nestle-coffee-regenerative-agriculture",
+    "title": "Nestlé coffee comeback starts beneath the surface",
+    "sent_at": "2026-08-27T17:13:33.253835+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/08/27/climate-risks-push-food-makers-towards-new-ingredients/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "climate-change-recipe-alternatives",
+    "title": "Could climate change force a rewrite of the world's recipes?",
+    "sent_at": "2026-08-27T17:13:33.253835+00:00"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbDlXcldPeHlZdkxvUG02dDhhQmhfdml3U21wa2V4eDgyRWdtWXRHWDUxdDdqM1hOdjBkQWI5NHpIYWZubG1oRVVqYmprUWpkUzJoS0NVYUpyTVg0WXI3UU5NMEprS2FpQWlZaUlZUGoycVlncGdsRTN5azVVN0lBbXZ0MHZDZ3BRNkpCb3VvRDQ0cjI4Z01ZbVR6czRmRE5GN2c?oc=5",
+    "story_key": "unilever-mccormick-colmans-divestiture",
+    "title": "Unilever puts Colman's mustard brand up for sale amid McCormick deal",
+    "sent_at": "2026-08-27T17:13:33.253835+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/stone-brewery-california-closure-sapporo-sale/828924/",
+    "story_key": "sapporo-stone-brewing-closure",
+    "title": "Sapporo USA to close craft brewing facilities following sale",
+    "sent_at": "2026-08-27T17:13:33.253835+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/investors-sue-owyn-protein-shake-owner-after-reformulation-led-to-sales-dip/828835/",
+    "story_key": "owyn-protein-reformulation-lawsuit",
+    "title": "Investors sue Owyn protein shake owner after reformulation led to sales dip",
+    "sent_at": "2026-08-27T17:13:33.253835+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/gallup-poll-us-alcohol-drinking-rate-remains-all-time-low/828821/",
+    "story_key": "us-alcohol-consumption-low",
+    "title": "US alcohol consumption remains at all time low",
+    "sent_at": "2026-08-27T17:13:33.253835+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/canada-united-states-tariffs-trade-war-packaging-fiber-metal-glass/828879/",
+    "story_key": "us-canada-packaging-tariff-impact",
+    "title": "Packaging industry braces for impacts from U.S.-Canada trade war",
+    "sent_at": "2026-08-27T17:13:33.253835+00:00"
   }
 ]
