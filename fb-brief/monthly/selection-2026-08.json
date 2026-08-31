@@ -153,6 +153,15 @@
       "story_key": "haagen-dazs-brazil-exit",
       "image": "",
       "added_at": "2026-08-31T07:54:32.456Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/cyclospora-outbreak-produce-sales-numerator/828629/",
+      "title": "Cyclospora outbreak is crimping produce sales, data shows",
+      "summary": "More than 6.5 million households stopped buying salad mixes and kits during the month that ended July 26 due to a cyclospora outbreak, according to Numerator data.",
+      "category": "macro",
+      "story_key": "cyclospora-outbreak-produce-sales",
+      "image": "https://imgproxy.divecdn.com/UeTaJ0kdKYR3Rr8vnwabXNfGGXGzGOnBaUzmZHPovcQ/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9pY2ViZXJnLWxldHR1Y2UuanBn.webp",
+      "added_at": "2026-08-31T07:55:59.229Z"
     }
   ],
   "starred": [
@@ -172,7 +181,8 @@
     "https://www.foodnavigator.com/Article/2026/08/20/pepsi-expands-lower-sugar-high-protein-and-fiber-offerings/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.foodnavigator.com/Article/2026/08/21/el-nino-may-be-largest-since-19th-century/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.foodnavigator.com/Article/2026/08/21/inside-mondelezs-premiumisation-strategy-from-cadbury-to-toblerone/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNXlvUjBKbWhOcmZtdTlaSjQ3N2haTG1pQnVhdHNTQlhOTkt4bnQzNHVLTTZhYTRaWlN0R0RkbVpzbmtoejhuZWNqVDl2WDhPVGRVRExkOVZhWTRZdTFTTVBEd204U2ctcE15NHZpUjVLVWVUX25Dbm5TU0VYekxVX0swRWFfTEpuRG1EYXJjRHh5ck9sNHZZ?oc=5"
+    "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNXlvUjBKbWhOcmZtdTlaSjQ3N2haTG1pQnVhdHNTQlhOTkt4bnQzNHVLTTZhYTRaWlN0R0RkbVpzbmtoejhuZWNqVDl2WDhPVGRVRExkOVZhWTRZdTFTTVBEd204U2ctcE15NHZpUjVLVWVUX25Dbm5TU0VYekxVX0swRWFfTEpuRG1EYXJjRHh5ck9sNHZZ?oc=5",
+    "https://www.fooddive.com/news/cyclospora-outbreak-produce-sales-numerator/828629/"
   ],
   "category_names": {},
   "category_overrides": {}
