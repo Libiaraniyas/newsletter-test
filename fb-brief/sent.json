@@ -1,59 +1,5 @@
 [
   {
-    "url": "https://www.fooddive.com/news/ferrero-buys-purely-elizabeth-breakfast-better-for-you-expansion/827963/",
-    "story_key": "ferrero-purely-elizabeth-acquisition",
-    "title": "Ferrero Group to buy better-for-you US breakfast company Purely Elizabeth",
-    "sent_at": "2026-08-15T06:26:47.883177+00:00"
-  },
-  {
-    "url": "https://www.foodnavigator.com/Article/2026/08/14/ferrero-group-to-buy-better-for-you-us-breakfast-company-purely-elizabeth/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "ferrero-purely-elizabeth-acquisition",
-    "title": "Ferrero Group to buy better-for-you US breakfast company Purely Elizabeth",
-    "sent_at": "2026-08-15T10:19:27.298369+00:00"
-  },
-  {
-    "url": "https://www.themarker.com/consumer/2026-08-16/ty-article/.premium/000001a0-0481-d88f-abbf-d48d531f0000",
-    "story_key": "antitrust-tnuva-mama-of-strauss-europe",
-    "title": "\"פירוק מונופולים\" זו סיסמת בחירות יפה. כך מתרגמים אותה למציאות",
-    "sent_at": "2026-08-16T10:19:28.482419+00:00"
-  },
-  {
-    "url": "https://www.ynet.co.il/economy/article/bj00zilkdfx",
-    "story_key": "israel-brazil-frozen-chicken-import-ban",
-    "title": "משרד החקלאות חזר בו: ביטל את אישור יבוא העוף הקפוא מברזיל",
-    "sent_at": "2026-08-17T06:41:30.755245+00:00"
-  },
-  {
-    "url": "https://www.themarker.com/wallstreet/2026-08-17/ty-article/.premium/0000019f-f114-d310-a3df-f5177a120000",
-    "story_key": "high-oleic-soybean-dairy-fat",
-    "title": "הסוד של הרפתנים האמריקאים לחלב עשיר יותר — פולי סויה מיוחדים במזון הפרות",
-    "sent_at": "2026-08-17T10:28:51.041983+00:00"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNay1rc3FMa2liU1NhUThBMGxoUzEyX3pleUtYcWpYR1pIWS1vWEwyYTd1SVNsdmFTaGREWjZCRkVsUTRaZTJPRE5FMFhVUEltSUxXZ0dacGkyanhubTdoMVpqeHFIVDlRbVNTVl8wc19GZTNxWmVMY25nM3JJMS1jM3RGX3RrOHNOQzd3RXdybEV2SUlKd1NJVExTRXhFLWJxdlBhdlVqYmJJN3FfOTAyUlhLSk96YXI4WkJN?oc=5",
-    "story_key": "the-coffee-brazil-international-expansion",
-    "title": "Brazil’s The Coffee planning one of its most significant international moves to date",
-    "sent_at": "2026-08-17T15:20:13.310076+00:00"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY212ZVRnNFo3VUg1WGFxczZYWjlGOWY3Vkp4bHBOWHlXTEFlbWRKalJ5b0Q1akd3RmFJVkQxc05BU09VcDVqMjVhRkdSV3lZMS15R2psMmtQeU9SemhrRGt0Q3Jvb01TUWozZ2w0N0ZGUnJkNmZONjRsMnk4bENFaHNqNkt3X0ViLU1ycFUwYklXVlRTeXBMZVpGTjZaX3ZVV3JITkR2SQ?oc=5",
-    "story_key": "brazil-record-coffee-harvest-forecast",
-    "title": "Coffee Weekly Forecast 16/08: Record Brazil Harvest",
-    "sent_at": "2026-08-17T15:20:13.310076+00:00"
-  },
-  {
-    "url": "https://www.themarker.com/news/internal-info/2026-08-17/ty-article/.premium/000001a0-0e7f-d75f-a3be-1e7ff1550000",
-    "story_key": "israel-coffee-cocoa-price-not-passed-to-consumers",
-    "title": "אורן סמדג'ה אמר לי שאין לו דעה, אבל מה זה אומר על ארדן?",
-    "sent_at": "2026-08-17T15:20:13.310076+00:00"
-  },
-  {
-    "url": "https://en.globes.co.il/en/article-1001552422#utm_source=RSS",
-    "story_key": "israel-gdp-growth-q2-2026",
-    "title": "Israel's economy grew at 15.4% in Q2",
-    "sent_at": "2026-08-17T15:20:13.310076+00:00"
-  },
-  {
     "url": "https://www.themarker.com/consumer/2026-08-17/ty-article/.premium/000001a0-107b-d29b-afe8-5d7b13170000",
     "story_key": "strauss-yoki-brazil-antitrust-approval",
     "title": "קיבלה אור ירוק: רשות התחרות בברזיל אישרה לשטראוס את רכישת Yoki",
@@ -484,5 +430,11 @@
     "story_key": "colombia-coffee-boom-fades-brazil-record",
     "title": "Colombian coffee boom fades as Brazil heads for record crop",
     "sent_at": "2026-08-28T23:49:04.471982+00:00"
+  },
+  {
+    "url": "https://www.ynet.co.il/economy/article/hkyugex00gx",
+    "story_key": "russia-strikes-khortytsia-vodka-plant-ukraine",
+    "title": "פוטין השמיד 4 מיליון בקבוקי וודקה אוקראינית",
+    "sent_at": "2026-08-31T17:23:06.893150+00:00"
   }
 ]
