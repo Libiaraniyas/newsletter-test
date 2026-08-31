@@ -428,7 +428,9 @@ def fetch_og_image(url):
         ):
             m = re.search(pat, html_text, re.IGNORECASE)
             if m:
-                return m.group(1).strip()
+                # og:image comes from an HTML attribute, so entities like &amp;
+                # are encoded — decode them or the signed CDN/resizer URL breaks.
+                return html.unescape(m.group(1).strip())
     except Exception:  # noqa: BLE001
         pass
     return ""
