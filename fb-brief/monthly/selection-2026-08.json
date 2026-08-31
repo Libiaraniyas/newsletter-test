@@ -99,6 +99,15 @@
       "story_key": "uk-milk-diversion-cheese-yogurt",
       "image": "https://www.dairyreporter.com/resizer/v2/U43X7R6WL5BFJHBZF4LC4Y7VZI.jpg?auth=e2474547422e041bba0b89d9cd1eb18429c12c950d8cbe9f92b331d0120c4dc5&amp;width=1200&amp;height=630&amp;smart=true",
       "added_at": "2026-08-31T07:42:32.638Z"
+    },
+    {
+      "url": "https://www.foodmanufacture.co.uk/Article/2026/08/20/danone-granted-greenlight-for-860-million-huel-acquisition/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+      "title": "Danone granted greenlight for £860M Huel acquisition",
+      "summary": "Danone has received regulatory approval to complete its £860 million acquisition of meal-replacement brand Huel.",
+      "category": "mna",
+      "story_key": "danone-huel-acquisition-approval",
+      "image": "https://www.foodmanufacture.co.uk/resizer/v2/NIB3JUWPEFCA3MJEAIKRZN5T5M.jpeg?auth=4ec140e285f46c1d295d26f26b361d8e3dad3c8ab4e02725298272bce790c87e&amp;width=1200&amp;height=630&amp;smart=true",
+      "added_at": "2026-08-31T07:45:07.354Z"
     }
   ],
   "starred": [
@@ -112,7 +121,8 @@
     "https://www.foodnavigator.com/Article/2026/08/18/nestle-targets-glp-1-users-with-ai-driven-food-and-nutrition-innovation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.beveragedaily.com/Article/2026/08/17/the-alumiuim-market-remains-volatile-for-beverage-manufacturers/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://news.google.com/rss/articles/CBMingFBVV95cUxObGg4S054S2tkNS1ndU9fTmM4QkxOZWVZQmFER0pwcnptcHFDNVl4VFRPd2QtQVVTdDZOQVRtRWw2Qk0yRkZVNU5mZkZIS2FEby1MT0NTVVY4YklJbUdjNlpqblhYQ3dTdkM1MFBodUx0US1MeXJnOEw4aFVQT1ozRTF6a0JDTkFab0RtVzY5SUNKWENkUy0wMS1IMmM3UQ?oc=5",
-    "https://www.dairyreporter.com/Article/2026/08/19/more-uk-milk-diverted-to-cheese-and-yogurt-as-liquid-consumption-continues-to-fall/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS"
+    "https://www.dairyreporter.com/Article/2026/08/19/more-uk-milk-diverted-to-cheese-and-yogurt-as-liquid-consumption-continues-to-fall/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "https://www.foodmanufacture.co.uk/Article/2026/08/20/danone-granted-greenlight-for-860-million-huel-acquisition/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS"
   ],
   "category_names": {},
   "category_overrides": {}
