@@ -45,6 +45,15 @@
       "story_key": "unilever-mccormick-colmans-divestiture",
       "image": "https://www.foodmanufacture.co.uk/resizer/v2/MRPV6NBPUZFALAHDWKSIUICICU.jpg?auth=c6270e4684bf15651dd6613edd402f9aa8740051075a224e4716c36a73fdcd80&amp;width=1200&amp;height=630&amp;smart=true",
       "added_at": "2026-08-31T07:27:29.083Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/texas-avocado-oil-investigation-pepsico-siete-kraft-heinz-primal-kitchen/828978/",
+      "title": "PepsiCo, Kraft Heinz under investigation in Texas over avocado oil claims",
+      "summary": "A probe into food giants' better-for-you brands follows a UC Davis study that found many products may be adulterated with cheaper oils.",
+      "category": "market",
+      "story_key": "texas-avocado-oil-investigation",
+      "image": "https://imgproxy.divecdn.com/EPdX9QlsVMop3YpxINFyu6YIp_AyEI78tjDQ6BXKbT8/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS85Yjc4ODk5Ni04YTY0LTRmMTItOWYzNC03MzAyNWJiMGM1MzYuanBn.webp",
+      "added_at": "2026-08-31T07:30:21.320Z"
     }
   ],
   "starred": [
@@ -52,7 +61,8 @@
     "https://www.ynet.co.il/economy/article/bylh11qwvmx",
     "https://www.fooddive.com/news/gallup-poll-us-alcohol-drinking-rate-remains-all-time-low/828821/",
     "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUEdFSzFEWHIzOGRyLWNLUHFmYzMzSm85WXdTWXk0bUctOVY4dHVkdEtjRXdTWFhXaHh3UUJ1c21KbHZxQi1lRENGZmVyM3E3UU1rVzNpVC14d01OaHdQUEttUWhzeW40NlpUSTBLak9hMkhVa2JOdDZiaVMwcmdPMVlraWRFaG5vRXI1RFhiNnhXYXBfdjRzbQ?oc=5",
-    "https://www.foodmanufacture.co.uk/Article/2026/08/28/unilever-is-selling-colmans-to-quell-mustard-competition-fears/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS"
+    "https://www.foodmanufacture.co.uk/Article/2026/08/28/unilever-is-selling-colmans-to-quell-mustard-competition-fears/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "https://www.fooddive.com/news/texas-avocado-oil-investigation-pepsico-siete-kraft-heinz-primal-kitchen/828978/"
   ],
   "category_names": {},
   "category_overrides": {}
