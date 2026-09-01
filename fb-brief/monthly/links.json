@@ -706,5 +706,58 @@
     "story_key": "california-non-upf-food-seal",
     "month": "2026-08",
     "image": "https://www.foodnavigator.com/resizer/v2/QE6Z72DUQJDS5IHTWRXAI3MK3Q.jpg?auth=f6a6dd900f93edfca70e84d383cb83ff4d2c6124fe442dcae1d38913abf70622&width=1200&height=630&smart=true"
+  },
+  "32b938b761": {
+    "url": "https://www.foodnavigator.com/Article/2026/09/01/chobani-invests-12b-in-pa-dairy-production-repurchases-kdp-equity/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Chobani buys back Keurig Dr Pepper’s $800M stake as it invests $1.2B in Pennsylvania plant",
+    "summary": "Chobani is investing $1.2 billion to convert a former KDP production facility into a milk production plant, part of a wider manufacturing network expansion, while buying back KDP's equity stake.",
+    "category": "mna",
+    "story_key": "kdp-chobani-stake-sale",
+    "month": "2026-08",
+    "image": "https://www.foodnavigator.com/resizer/v2/OOMSPQDQVVFALMRLWDZ7J76DQQ.png?auth=64410380a6078142f5ce3aacccbf8705d2d58e655289c2e2a0d616bacdcffe9b&width=1200&height=630&smart=true"
+  },
+  "92689c0820": {
+    "url": "https://www.foodnavigator.com/Article/2026/09/01/new-questions-over-xylitol-heart-risk/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Xylitol linked to heart attacks and strokes in major study",
+    "summary": "A major study links higher blood xylitol levels to greater cardiovascular risk, adding to growing scrutiny of the sweetener's long-term safety.",
+    "category": "tech",
+    "story_key": "xylitol-heart-risk-study",
+    "month": "2026-08",
+    "image": "https://www.foodnavigator.com/resizer/v2/DR5TKUS75FATVGE5IH5OKR4W6I.jpg?auth=4eb8eff3b8ecce6776d03929d81eef3456d8971d535ecf660271819eee2fecd2&width=1200&height=630&smart=true"
+  },
+  "f37ba85252": {
+    "url": "https://www.fooddive.com/news/liquid-death-david-protein-class-action-lawsuits-allulose/829169/",
+    "title": "Zero-sugar labels take center stage in more food class action lawsuits",
+    "summary": "Liquid Death and the maker of David protein bars face new consumer class action lawsuits after the FDA said the natural sweetener allulose counts as a sugar.",
+    "category": "market",
+    "story_key": "allulose-zero-sugar-lawsuits",
+    "month": "2026-08",
+    "image": "https://imgproxy.divecdn.com/dWhmSlmBjnVfaC5R9wJW7Kl2hD88ZYd3Cp-wTg2INto/g:nowe:0:0/c:2500:1412/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjI1ODQ1MTg5LmpwZw==.webp"
+  },
+  "29ac0c5f05": {
+    "url": "https://www.fooddive.com/news/snap-soda-bans-purchase-decline-public-health-report/829303/",
+    "title": "SNAP bans led to 12% decline in soda purchases",
+    "summary": "A new academic study found SNAP recipients did not shift to buying more sugary drinks with their own money after bans, contradicting a common industry theory.",
+    "category": "macro",
+    "story_key": "snap-soda-ban-purchase-decline",
+    "month": "2026-08",
+    "image": "https://imgproxy.divecdn.com/fP2YSvoA8sHK_93ksqvBRh3Kzyydc_NyH1vQsFdH2HI/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xOTk4NDI3Mzc2LmpwZw==.webp"
+  },
+  "ebcbb950d6": {
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYTg1UUlHM2hYSjVPX25NMkt1TGQ3SkRRaC1kN2xiTHRqWUFnZ3ZTWWl1T3U5MUZhYURSQ3BRYUN3T3htNmV3a3dLRGNqejNFVE44bHRTMS1sczdBUWhkZzJQSTNSZUpLZTZETmRMY3FFOGozQnFCNFJEeklPem85cmdKZGJ4bkpmcUNya3lGREMzU2IxNG9yVFdOc1NhaDhQOUhzVUx6WlpweEI3U1U4cm9Nc3JHV1ZBdXVCdGF4VkdsT1BFN3JwTWFxYTM?oc=5",
+    "title": "Shoprite buys major coffee brand in South Africa with 400 stores across the country",
+    "summary": "Shoprite has made an offer to acquire Vida e Caffè, a coffee chain with roughly 400 stores across South Africa, as it seeks new growth avenues.",
+    "category": "mna",
+    "story_key": "shoprite-vida-e-caffe-acquisition",
+    "month": "2026-08"
+  },
+  "c38436194a": {
+    "url": "https://www.themarker.com/wallstreet/2026-09-01/ty-article/.premium/000001a0-5d87-d4eb-affc-5dbfa3ad0000",
+    "title": "כלכלת ברזיל מאבדת מומנטום לקראת הבחירות, על רקע הריבית הגבוהה",
+    "summary": "כלכלת ברזיל מאיטה לקראת הבחירות, כשהריבית הגבוהה של 14% ומדיניות כלכלת בחירות של ממשלת לולה משפיעות על הצמיחה. הגידול בתמ\"ג הברזילאי האט ברבעון השני לעומת הרבעון הראשון של השנה.",
+    "category": "macro",
+    "story_key": "brazil-economy-slowdown-elections-2026",
+    "month": "2026-08",
+    "image": "https://img.haarets.co.il/bs/000001a0-5d87-d4eb-affc-5dbfa3ad0000/43/47/3ccfb6474e569e9e20c60a944bbe/833173.jpg?precrop=2200,1279,x0,y21&width=1200&height=630&cmsprod"
   }
 }

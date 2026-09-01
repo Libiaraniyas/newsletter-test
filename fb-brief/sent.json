@@ -1,35 +1,5 @@
 [
   {
-    "url": "https://www.foodnavigator.com/Article/2026/08/18/fda-tracking-cpgs-accelerate-artificial-dye-removal/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "fda-artificial-dye-removal-progress",
-    "title": "FDA tracks progress as brands ditch artificial colors",
-    "sent_at": "2026-08-18T15:25:18.420556+00:00"
-  },
-  {
-    "url": "https://www.foodnavigator.com/Article/2026/08/18/nestle-targets-glp-1-users-with-ai-driven-food-and-nutrition-innovation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "nestle-glp1-ai-nutrition",
-    "title": "Nestlé bets big on GLP-1s with AI-powered nutrition push",
-    "sent_at": "2026-08-18T15:25:18.420556+00:00"
-  },
-  {
-    "url": "https://www.fooddive.com/news/ardagh-holdings-potential-sale-ardagh-metal-packaging-restructuring/827915/",
-    "story_key": "ardagh-metal-can-sale-consideration",
-    "title": "Ardagh considers sale of metal beverage can business",
-    "sent_at": "2026-08-18T15:25:18.420556+00:00"
-  },
-  {
-    "url": "https://www.foodnavigator.com/Article/2026/08/17/coca-cola-doubles-down-on-localisation-in-china-as-sales-grow/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "coca-cola-china-localisation-growth",
-    "title": "Coca-Cola doubles down on localisation in China as sales grow",
-    "sent_at": "2026-08-18T15:25:18.420556+00:00"
-  },
-  {
-    "url": "https://www.ynet.co.il/economy/article/bylh11qwvmx",
-    "story_key": "israel-yellow-cheese-import-quota-subsidized",
-    "title": "גבינה צהובה בחצי מחיר במכולת מתחת לבית: המהלך החדש שיוצא לדרך",
-    "sent_at": "2026-08-18T15:25:18.420556+00:00"
-  },
-  {
     "url": "https://www.dairyreporter.com/Article/2026/08/18/canadian-dairy-groups-urge-government-to-protect-food-sovereignty-in-us-trade-talks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "story_key": "canada-dairy-us-trade-talks",
     "title": "Canadian dairy groups urge Government to protect food sovereignty in US trade talks",
@@ -466,5 +436,41 @@
     "story_key": "california-non-upf-food-seal",
     "title": "California passes non-UPF food seal, setting potential blueprint for other states",
     "sent_at": "2026-09-01T14:30:36.343827+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/09/01/chobani-invests-12b-in-pa-dairy-production-repurchases-kdp-equity/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "kdp-chobani-stake-sale",
+    "title": "Chobani buys back Keurig Dr Pepper’s $800M stake as it invests $1.2B in Pennsylvania plant",
+    "sent_at": "2026-09-01T18:06:39.509073+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/09/01/new-questions-over-xylitol-heart-risk/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "xylitol-heart-risk-study",
+    "title": "Xylitol linked to heart attacks and strokes in major study",
+    "sent_at": "2026-09-01T18:06:39.509073+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/liquid-death-david-protein-class-action-lawsuits-allulose/829169/",
+    "story_key": "allulose-zero-sugar-lawsuits",
+    "title": "Zero-sugar labels take center stage in more food class action lawsuits",
+    "sent_at": "2026-09-01T18:06:39.509073+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/snap-soda-bans-purchase-decline-public-health-report/829303/",
+    "story_key": "snap-soda-ban-purchase-decline",
+    "title": "SNAP bans led to 12% decline in soda purchases",
+    "sent_at": "2026-09-01T18:06:39.509073+00:00"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYTg1UUlHM2hYSjVPX25NMkt1TGQ3SkRRaC1kN2xiTHRqWUFnZ3ZTWWl1T3U5MUZhYURSQ3BRYUN3T3htNmV3a3dLRGNqejNFVE44bHRTMS1sczdBUWhkZzJQSTNSZUpLZTZETmRMY3FFOGozQnFCNFJEeklPem85cmdKZGJ4bkpmcUNya3lGREMzU2IxNG9yVFdOc1NhaDhQOUhzVUx6WlpweEI3U1U4cm9Nc3JHV1ZBdXVCdGF4VkdsT1BFN3JwTWFxYTM?oc=5",
+    "story_key": "shoprite-vida-e-caffe-acquisition",
+    "title": "Shoprite buys major coffee brand in South Africa with 400 stores across the country",
+    "sent_at": "2026-09-01T18:06:39.509073+00:00"
+  },
+  {
+    "url": "https://www.themarker.com/wallstreet/2026-09-01/ty-article/.premium/000001a0-5d87-d4eb-affc-5dbfa3ad0000",
+    "story_key": "brazil-economy-slowdown-elections-2026",
+    "title": "כלכלת ברזיל מאבדת מומנטום לקראת הבחירות, על רקע הריבית הגבוהה",
+    "sent_at": "2026-09-01T18:06:39.509073+00:00"
   }
 ]
