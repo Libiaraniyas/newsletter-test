@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.themarker.com/consumer/2026-08-17/ty-article/.premium/000001a0-107b-d29b-afe8-5d7b13170000",
-    "story_key": "strauss-yoki-brazil-antitrust-approval",
-    "title": "קיבלה אור ירוק: רשות התחרות בברזיל אישרה לשטראוס את רכישת Yoki",
-    "sent_at": "2026-08-17T18:05:45.878862+00:00"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRUpwZUFyMTAwS1ZNbTNjcGhPSW1ydFlsYmQ1aF9HQ18xeWpGTjIxSU4xSDhFcnhLTTdpM1RIRmZQWUJ1dm9lT0ZEcUg0SjJkb2o3aFdjQ21iWjJqNTYxdU1PaUZOdXNteGRwek1UOGdzQlpFMDg3QzFOaGtIVGxZN1dhSFA0bklMYXNScEtHZkN0OFFtcllnYXgyREZzZExKMjUzZEpHU09zSDdwVTBVbEZodUs4djlBOG5aSQ?oc=5",
-    "story_key": "arabica-coffee-surge-colombia-brazil-2026-08",
-    "title": "Arabica Coffee Prices Surge on NYSE: Colombian Earthquake and Brazil Harvest Delays",
-    "sent_at": "2026-08-18T06:32:42.970194+00:00"
-  },
-  {
-    "url": "https://www.themarker.com/markets/2026-08-18/ty-article/.premium/000001a0-1008-d72f-a7bf-5cef63ce0000",
-    "story_key": "zoglobek-thailand-meat-substitute-plant",
-    "title": "זוגלובק יוצאת לראשונה לחו\"ל — וקונה מפעל תחליפי בשר בתאילנד",
-    "sent_at": "2026-08-18T06:32:42.970194+00:00"
-  },
-  {
     "url": "https://www.foodnavigator.com/Article/2026/08/18/fda-tracking-cpgs-accelerate-artificial-dye-removal/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "story_key": "fda-artificial-dye-removal-progress",
     "title": "FDA tracks progress as brands ditch artificial colors",
@@ -436,5 +418,29 @@
     "story_key": "russia-strikes-khortytsia-vodka-plant-ukraine",
     "title": "פוטין השמיד 4 מיליון בקבוקי וודקה אוקראינית",
     "sent_at": "2026-08-31T17:23:06.893150+00:00"
+  },
+  {
+    "url": "https://www.bakeryandsnacks.com/Article/2026/09/01/us-food-dye-phase-out-puts-natural-color-supply-chain-under-pressure/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "natural-color-supply-chain-pressure",
+    "title": "Big Food’s colour promises are colliding with supply chain reality",
+    "sent_at": "2026-09-01T10:57:07.824439+00:00"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTFVEaF96Z1kyM1N5ZzVzSjFvbmpEcHNZZW9lZWJrbWx2M1V6QXNaTVJ2dndvVDhaQlZGd1FwUWhpOF92cFlxXzl1a280YzV4UDFxU0xoUzl0YU80dXJabmo2bEhsRGhfU3E1dWxDMnREcU9GUEM1WXlCNmcyTUw5MkpQdExQSF9aN25vOGFaeVpRR29kM3BMX2NRYzVCOG5ZMDF1MVpZbjNpX1M5ZGJYNk44OU05S2xrZ0hTaFl3Smo4NEloVjJZ0gHMAUFVX3lxTE45Ui1UNmJSMDFUVUR2Q2VSNS1UOWZBMmg3RGpkMFMzXzRJOEJHXzdJQ3hjeUhaS2J1Tk53NGprZVQwdGlrMjhBUng1Q2lUVnNBREJMNjRqTkhxeHNVWEpEUHc2d2VRbTFXVHZ1UDZZNE5NeE5HSDNKVi0wMzVab0NfZktKZE1ydzNyRkxpazJ1S3gzYm9WSXo2SnQ2ZjdpLXVXcGxsckQ3MXIyNnF1Z1AzRXJGaXhrSGpJOU5pTUt6a2QzY0pucHNSMnA5ZA?oc=5",
+    "story_key": "brazil-2026-27-harvest-rain-premium-loss",
+    "title": "Brazil's 2026-27 coffee harvest hit by heavy rains, reducing premium output",
+    "sent_at": "2026-09-01T10:57:07.824439+00:00"
+  },
+  {
+    "url": "https://www.themarker.com/wallstreet/2026-09-01/ty-article/.premium/000001a0-5206-d649-a7be-df664ee90000",
+    "story_key": "ukraine-russia-wheat-supply-threat",
+    "title": "החיטה צומחת הרבה פחות, ומלחמת אוקראינה רוסיה מחמירה את האיום על האספקה",
+    "sent_at": "2026-09-01T10:57:07.824439+00:00"
+  },
+  {
+    "url": "https://www.ice.co.il/consumerism/news/article/1128109",
+    "story_key": "israel-food-retail-chains-q2-2026-weakness",
+    "title": "בזמן שרשתות המזון צונחות בנתונים: זו היחידה שהצליחה להפתיע",
+    "sent_at": "2026-09-01T10:57:07.824439+00:00"
   }
 ]
