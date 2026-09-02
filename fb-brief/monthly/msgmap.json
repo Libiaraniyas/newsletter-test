@@ -886,5 +886,21 @@
     "story_key": "carlsberg-sapporo-alliance-expansion",
     "category": "mna",
     "sent_at": "2026-09-02T10:23:53.241938+00:00"
+  },
+  "3EB0FE27C535B817BA1FDC": {
+    "url": "https://www.fooddive.com/news/nestle-sell-mainstream-vitamins-minerals-supplements-business-to-private-equity/829321/",
+    "title": "Nestlé reaches $1B deal to sell 7 vitamin, mineral and supplement brands",
+    "summary": "Nestlé is divesting mainstream vitamin, mineral and supplement brands, including Nature's Bounty and Ester-C, to focus on businesses with the strongest competitive advantage.",
+    "story_key": "nestle-vms-yellow-wood-sale",
+    "category": "mna",
+    "sent_at": "2026-09-02T14:03:19.023172+00:00"
+  },
+  "3EB02203BCC51D51E732C1": {
+    "url": "https://www.fooddive.com/news/Chobani-plant-investment-keurig-dr-pepper-growth/829283/",
+    "title": "Chobani to spend $1.2B to buy and invest in Pennsylvania plant",
+    "summary": "Chobani is buying a facility from Keurig Dr Pepper and will convert it into a major new production hub for growth.",
+    "story_key": "kdp-chobani-stake-sale",
+    "category": "mna",
+    "sent_at": "2026-09-02T14:03:19.023172+00:00"
   }
 }
