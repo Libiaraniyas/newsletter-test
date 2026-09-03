@@ -942,5 +942,29 @@
     "story_key": "gat-foods-export-closure-dollar",
     "category": "market",
     "sent_at": "2026-09-02T18:21:01.421990+00:00"
+  },
+  "3EB003EE3BC8301EBF017F": {
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZ3VaUmk5QmNCVElNRGZBOEZqUTFhMjFLTEI3S3FQLVlaRzlnUGVudlM0bVIybFlkYXRWUWpTTDY4em1YMGVNS3R2eTQ5eXRzdXl5SUVXSGVZemhzdmFDeVA4RUwtcU1SVUlkakVwLWp2Y2RyMGhuWFN5bWZDQU1ZVGpLQm1hRUMxOWFSUjExZXdmZldmRFBUZFlZSElXVEk?oc=5",
+    "title": "Bunge agrees to sell two Brazilian sugar mills to COFCO International",
+    "summary": "Bunge has agreed to sell two of its sugar mills in Brazil to China's COFCO International, deepening its exit from the sugar and ethanol business.",
+    "story_key": "bunge-cofco-brazil-sugar-mills-sale",
+    "category": "mna",
+    "sent_at": "2026-09-03T10:32:18.411753+00:00"
+  },
+  "3EB0920F49A80E1E33B9C3": {
+    "url": "https://www.dairyreporter.com/Article/2026/09/03/foremost-farms-to-shut-major-cheese-site/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Foremost Farms to shut major cheese site",
+    "summary": "Foremost Farms, one of the largest dairy cooperatives in the US, is planning to shut a major cheese facility amid a broader restructuring of American dairy processing.",
+    "story_key": "foremost-farms-cheese-plant-closure",
+    "category": "market",
+    "sent_at": "2026-09-03T10:32:18.411753+00:00"
+  },
+  "3EB0530743BF07DC0513EE": {
+    "url": "https://www.fooddive.com/news/younger-shoppers-private-brand-spins/829422/",
+    "title": "Younger shoppers are driving private label adoption, report finds",
+    "summary": "Gen Z and millennials are playing a key role in store brand sales growing faster than name brands, according to a Spins report.",
+    "story_key": "gen-z-private-label-adoption-spins",
+    "category": "market",
+    "sent_at": "2026-09-03T10:32:18.411753+00:00"
   }
 }
