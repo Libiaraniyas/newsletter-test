@@ -950,5 +950,41 @@
     "category": "market",
     "story_key": "paulig-coffee-business-restructure",
     "month": "2026-08"
+  },
+  "e409bc920e": {
+    "url": "https://www.fooddive.com/news/barilla-buys-goodles-mac-and-cheese/829666/",
+    "title": "Barilla buys better-for-you mac and cheese brand Goodles",
+    "summary": "Barilla is acquiring US better-for-you mac and cheese startup Goodles, expanding the pasta giant's international reach and functional foods presence.",
+    "category": "mna",
+    "story_key": "barilla-goodles-acquisition",
+    "month": "2026-08",
+    "image": "https://imgproxy.divecdn.com/1m4zlTOuQ71DuqiXRRaDTCClB_VpyajmcA788l4Qskg/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9nb29kbGVzZ2x1dGVuZnJlZS5wbmc=.webp"
+  },
+  "9481f8de43": {
+    "url": "https://www.foodnavigator.com/Article/2026/09/04/campbells-cuts-jobs-dividend-after-weak-quarter/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Campbell's Co slashes dividend, cuts jobs and raises prices in $500M savings push",
+    "summary": "Campbell's is cutting jobs, closing plants and slashing its dividend as part of a new $500 million savings plan following another weak quarter.",
+    "category": "mna",
+    "story_key": "campbells-cost-cutting-plant-closures",
+    "month": "2026-08",
+    "image": "https://www.foodnavigator.com/resizer/v2/PWNLUJKZCVEZXKPK5NNNCRG2KU.jpg?auth=5cee35dd33300781ee43ff54241c8bdb033b27fed601bd776d0aaea4f745ca27&width=1200&height=630&smart=true"
+  },
+  "26b3602dff": {
+    "url": "https://www.foodnavigator.com/Article/2026/09/04/why-big-food-is-shifting-from-scale-to-focused-growth/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Big Food's Big Reset: Why the industry's changing faster than ever",
+    "summary": "Rising costs, private label growth, shifting consumer demand and investor pressure are forcing major food companies to rethink portfolios, leadership and growth strategies.",
+    "category": "market",
+    "story_key": "big-food-strategic-reset-2026",
+    "month": "2026-08",
+    "image": "https://www.foodnavigator.com/resizer/v2/AARXH5F47BFIDK5ACTY4F3ZCR4.jpg?auth=a83dce91a11ed8212cf4e5608b27bb644e6dcd8e845aad4b4c07bed1a6d45e09&width=1200&height=630&smart=true"
+  },
+  "89a8abe492": {
+    "url": "https://www.foodnavigator.com/Article/2026/09/04/the-top-3-trends-driving-private-label-growth/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "The top 3 areas winning private label right now",
+    "summary": "Private label is shifting from a generic staple to rivaling national brands, aligning with broader consumer preference for premium wellness products, according to Spins data.",
+    "category": "market",
+    "story_key": "private-label-premium-wellness-trends",
+    "month": "2026-08",
+    "image": "https://www.foodnavigator.com/resizer/v2/ACVBYSYQ4NEBXJJGDZR2PPLOAM.jpg?auth=3610c1c6b9ebc07d15245c3846e2d47e58a6297a58ecae117c814c91e2eef968&width=1200&height=630&smart=true"
   }
 }

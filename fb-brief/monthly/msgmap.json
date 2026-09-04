@@ -1038,5 +1038,37 @@
     "story_key": "paulig-coffee-business-restructure",
     "category": "market",
     "sent_at": "2026-09-04T10:21:45.847391+00:00"
+  },
+  "3EB0CBB96D654E2DC616E4": {
+    "url": "https://www.fooddive.com/news/barilla-buys-goodles-mac-and-cheese/829666/",
+    "title": "Barilla buys better-for-you mac and cheese brand Goodles",
+    "summary": "Barilla is acquiring US better-for-you mac and cheese startup Goodles, expanding the pasta giant's international reach and functional foods presence.",
+    "story_key": "barilla-goodles-acquisition",
+    "category": "mna",
+    "sent_at": "2026-09-04T13:58:50.643190+00:00"
+  },
+  "3EB04FB7393F7276753CCA": {
+    "url": "https://www.foodnavigator.com/Article/2026/09/04/campbells-cuts-jobs-dividend-after-weak-quarter/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Campbell's Co slashes dividend, cuts jobs and raises prices in $500M savings push",
+    "summary": "Campbell's is cutting jobs, closing plants and slashing its dividend as part of a new $500 million savings plan following another weak quarter.",
+    "story_key": "campbells-cost-cutting-plant-closures",
+    "category": "mna",
+    "sent_at": "2026-09-04T13:58:50.643190+00:00"
+  },
+  "3EB002BF2F17F01EA4944E": {
+    "url": "https://www.foodnavigator.com/Article/2026/09/04/why-big-food-is-shifting-from-scale-to-focused-growth/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Big Food's Big Reset: Why the industry's changing faster than ever",
+    "summary": "Rising costs, private label growth, shifting consumer demand and investor pressure are forcing major food companies to rethink portfolios, leadership and growth strategies.",
+    "story_key": "big-food-strategic-reset-2026",
+    "category": "market",
+    "sent_at": "2026-09-04T13:58:50.643190+00:00"
+  },
+  "3EB074F5C5C44D0683E99A": {
+    "url": "https://www.foodnavigator.com/Article/2026/09/04/the-top-3-trends-driving-private-label-growth/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "The top 3 areas winning private label right now",
+    "summary": "Private label is shifting from a generic staple to rivaling national brands, aligning with broader consumer preference for premium wellness products, according to Spins data.",
+    "story_key": "private-label-premium-wellness-trends",
+    "category": "market",
+    "sent_at": "2026-09-04T13:58:50.643190+00:00"
   }
 }
