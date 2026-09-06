@@ -589,6 +589,23 @@ def send_whatsapp(text):
         return ""
 
 
+def whatsapp_state():
+    """Green API instance state ('authorized' when the WhatsApp link is live).
+    A cheap status GET — NOT an Anthropic call, so it costs nothing. Used to fail
+    fast BEFORE the paid Claude call on days the instance is disconnected (when
+    messages would silently queue undelivered anyway)."""
+    instance = os.environ["GREEN_API_INSTANCE"]
+    token = os.environ["GREEN_API_TOKEN"]
+    url = f"https://api.green-api.com/waInstance{instance}/getStateInstance/{token}"
+    try:
+        r = requests.get(url, timeout=30)
+        if not r.ok:
+            return f"HTTP {r.status_code}"
+        return str(r.json().get("stateInstance", "") or "unknown")
+    except Exception as e:  # noqa: BLE001
+        return f"error: {str(e)[:80]}"
+
+
 # ----- 6. memory -----------------------------------------------------------
 def update_memory(sent, new_articles):
     now = datetime.now(timezone.utc)
@@ -664,6 +681,20 @@ def main():
             log(f"   • [{c['source']}] {c['title'][:90]}")
         log("\n✅ Dry run done.")
         return
+
+    # Fail fast BEFORE the paid Claude call if WhatsApp can't actually deliver.
+    # (NO_SEND is a filter-only diagnostic, so it skips this.) A disconnected
+    # instance accepts messages into a queue and returns "success" but delivers
+    # nothing — so we stop here with a clear error, which fails the workflow and
+    # triggers GitHub's automatic failure email to the repo owner.
+    if not NO_SEND:
+        st = whatsapp_state()
+        if st != "authorized":
+            log(f"✗ WhatsApp instance is '{st}', not 'authorized' — messages would NOT be")
+            log("  delivered. Re-link it in the Green API console (scan the QR), then re-run.")
+            log("  (Stopped before the Claude call to avoid wasting tokens.)")
+            sys.exit(1)
+        log("  ✓ WhatsApp instance authorized\n")
 
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
