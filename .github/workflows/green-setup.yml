@@ -9,7 +9,7 @@ on:
       mode:
         description: "set (enable+verify) / check (read-only) / diag (identity+settings)"
         type: choice
-        options: [set, check, diag, hosttest, history]
+        options: [set, check, diag, hosttest, history, groups]
         default: set
 
 jobs:

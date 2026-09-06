@@ -142,7 +142,30 @@ def history():
         print("  lastIncomingMessages FAILED:", str(e)[:200])
 
 
+def groups():
+    """List the WhatsApp GROUPS this instance can see (id + name), so we can pick
+    the right group chatId (…@g.us) to send the daily brief to."""
+    base = f"https://api.green-api.com/waInstance{INSTANCE}"
+    try:
+        r = requests.get(f"{base}/getContacts/{TOKEN}", timeout=60)
+        data = r.json()
+    except Exception as e:  # noqa: BLE001
+        print("getContacts failed:", str(e)[:200])
+        return
+    if not isinstance(data, list):
+        print("unexpected getContacts body:", json.dumps(data, ensure_ascii=False)[:300])
+        return
+    grps = [c for c in data if str(c.get("id", "")).endswith("@g.us")]
+    print(f"{len(grps)} group(s) found:")
+    for g in grps:
+        name = g.get("name") or g.get("contactName") or g.get("subject") or "(no name)"
+        print(f"  {g.get('id')}  |  {name}")
+
+
 def main():
+    if MODE == "groups":
+        groups()
+        return
     if MODE == "history":
         history()
         return
