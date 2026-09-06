@@ -1,0 +1,44 @@
+name: Manual Add Articles
+
+# Manually add specific article URLs to the active month's newsletter selection
+# (and taste learning), exactly like tapping the "add to newsletter" link.
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "Article URLs (newline or comma separated)"
+        required: true
+        type: string
+      cats:
+        description: "Categories parallel to URLs (macro|mna|market|tech, comma-separated)"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install requests
+      - name: Add articles
+        env:
+          URLS: ${{ inputs.urls }}
+          CATS: ${{ inputs.cats }}
+        run: python fb-brief/manual_add.py
+      - name: Commit
+        run: |
+          git add fb-brief/monthly fb-brief/learning/added-examples.json 2>/dev/null || true
+          if [ -n "$(git status --porcelain fb-brief/monthly fb-brief/learning/added-examples.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git commit -m "manual add: articles to newsletter selection [skip ci]"
+            git push
+          else
+            echo "No changes to commit."
+          fi
