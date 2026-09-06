@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "set (enable+verify) / check (read-only) / diag / hosttest / history"
+        description: "set (enable+verify) / check (read-only) / diag (identity+settings)"
         type: choice
-        options: [set, check, diag, hosttest, history, recvhost]
+        options: [set, check, diag, hosttest, history, groups]
         default: set
 
 jobs:

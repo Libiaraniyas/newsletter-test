@@ -116,13 +116,12 @@ def history():
         print(f"  {len(msgs)} message(s). Scanning for reactions / recent items:")
         for m in msgs[:40]:
             t = str(m.get("typeMessage", ""))
-            mark = "  <== REACTION" if "reaction" in t.lower() else ""
+            mark = "  ⭐REACTION" if "reaction" in t.lower() else ""
             print(f"    - type={t} id={m.get('idMessage')}{mark}")
             if "reaction" in t.lower():
                 print("      RAW:", json.dumps(m, ensure_ascii=False)[:400])
     else:
-        print("  unexpected getChatHistory body:",
-              json.dumps(msgs, ensure_ascii=False)[:300] if msgs is not None else "(none)")
+        print("  unexpected getChatHistory body:", json.dumps(msgs, ensure_ascii=False)[:300] if msgs is not None else "(none)")
 
     print("\n→ lastIncomingMessages (last 1440 min)")
     try:
@@ -133,7 +132,7 @@ def history():
             print(f"  {len(inc)} incoming item(s).")
             for m in inc[:40]:
                 t = str(m.get("typeMessage", ""))
-                mark = "  <== REACTION" if "reaction" in t.lower() else ""
+                mark = "  ⭐REACTION" if "reaction" in t.lower() else ""
                 print(f"    - type={t} id={m.get('idMessage')}{mark}")
                 if "reaction" in t.lower():
                     print("      RAW:", json.dumps(m, ensure_ascii=False)[:400])
@@ -143,55 +142,29 @@ def history():
         print("  lastIncomingMessages FAILED:", str(e)[:200])
 
 
-def recvhost():
-    """Directly poll receiveNotification on BOTH the generic host and the
-    instance's dedicated host (7107.api.greenapi.com). Tests the theory that the
-    'real' incoming queue lives on the dedicated host and we've been polling the
-    wrong URL. Prints HTTP status + raw body so a 404 or a hidden queue shows up."""
-    inst = INSTANCE
-    hosts = {
-        "generic":   f"https://api.green-api.com/waInstance{inst}",
-        "dedicated": f"https://{inst[:4]}.api.greenapi.com/waInstance{inst}",
-    }
-    for name, base in hosts.items():
-        print(f"=== {name}: {base} ===")
-        try:
-            g = requests.get(f"{base}/getSettings/{TOKEN}", timeout=40)
-            gj = g.json()
-            print(f"  getSettings HTTP {g.status_code} incomingWebhook={gj.get('incomingWebhook')!r}")
-        except Exception as e:  # noqa: BLE001
-            print(f"  getSettings FAILED: {str(e)[:160]}")
-        got = 0
-        for _ in range(15):
-            try:
-                r = requests.get(f"{base}/receiveNotification/{TOKEN}", timeout=40)
-            except Exception as e:  # noqa: BLE001
-                print(f"  receiveNotification ERROR: {str(e)[:160]}")
-                break
-            body_txt = (r.text or "").strip()
-            print(f"  receiveNotification HTTP {r.status_code} body={body_txt[:160]!r}")
-            if r.status_code != 200:
-                break
-            if not body_txt or body_txt.lower() == "null":
-                break
-            try:
-                note = r.json()
-            except Exception:  # noqa: BLE001
-                break
-            got += 1
-            print("    NOTE:", json.dumps(note, ensure_ascii=False)[:400])
-            receipt = note.get("receiptId")
-            if receipt:
-                try:
-                    requests.delete(f"{base}/deleteNotification/{TOKEN}/{receipt}", timeout=30)
-                except Exception:  # noqa: BLE001
-                    pass
-        print(f"  → received {got} notification(s) on {name}\n")
+def groups():
+    """List the WhatsApp GROUPS this instance can see (id + name), so we can pick
+    the right group chatId (…@g.us) to send the daily brief to."""
+    base = f"https://api.green-api.com/waInstance{INSTANCE}"
+    try:
+        r = requests.get(f"{base}/getContacts/{TOKEN}", timeout=60)
+        data = r.json()
+    except Exception as e:  # noqa: BLE001
+        print("getContacts failed:", str(e)[:200])
+        return
+    if not isinstance(data, list):
+        print("unexpected getContacts body:", json.dumps(data, ensure_ascii=False)[:300])
+        return
+    grps = [c for c in data if str(c.get("id", "")).endswith("@g.us")]
+    print(f"{len(grps)} group(s) found:")
+    for g in grps:
+        name = g.get("name") or g.get("contactName") or g.get("subject") or "(no name)"
+        print(f"  {g.get('id')}  |  {name}")
 
 
 def main():
-    if MODE == "recvhost":
-        recvhost()
+    if MODE == "groups":
+        groups()
         return
     if MODE == "history":
         history()
