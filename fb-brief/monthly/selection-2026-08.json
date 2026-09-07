@@ -2,146 +2,28 @@
   "month": "2026-08",
   "added": [
     {
-      "url": "https://www.themarker.com/consumer/2026-08-17/ty-article/.premium/000001a0-107b-d29b-afe8-5d7b13170000",
-      "title": "קיבלה אור ירוק: רשות התחרות בברזיל אישרה לשטראוס את רכישת Yoki",
-      "summary": "החברה המשותפת של שטראוס ו–São Miguel קיבלה אישור מרשות התחרות בברזיל לרכוש מידי ג'נרל מילס את חברת Yoki תמורת 800 מיליון ריאל ברזילאי, כ-475 מיליון שקל.",
-      "category": "mna",
-      "story_key": "strauss-yoki-brazil-antitrust-approval",
-      "image": "https://img.haarets.co.il/bs/000001a0-107b-d29b-afe8-5d7b13170000/9a/24/9d898a1c41299678476fe7089a52/452070.jpg?precrop=2200,1279,x0,y0&amp;width=1200&amp;height=630&amp;cmsprod",
-      "added_at": "2026-08-17T18:34:18.238Z"
-    },
-    {
-      "url": "https://www.ynet.co.il/economy/article/bylh11qwvmx",
-      "title": "גבינה צהובה בחצי מחיר במכולת מתחת לבית: המהלך החדש שיוצא לדרך",
-      "summary": "משרד הכלכלה השלים את הקצאת המכסות לייבוא 880 טון גבינה צהובה בפטור ממכס, שישווקו בכ-540 נקודות מכירה ברחבי הארץ, לראשונה גם במכולות ומינימרקטים שכונתיים ולא רק ברשתות הגדולות. המחיר המוזל יעמוד על עד 4.5 שקל ל-100 גרם",
-      "category": "market",
-      "story_key": "israel-yellow-cheese-import-quota-subsidized",
-      "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2025/11/23/SydtzFx11Wl/SydtzFx11Wl_317_778_1283_723_0_large.jpg",
-      "added_at": "2026-08-18T15:36:11.855Z"
-    },
-    {
-      "url": "https://www.fooddive.com/news/gallup-poll-us-alcohol-drinking-rate-remains-all-time-low/828821/",
-      "title": "US alcohol consumption remains at all time low",
-      "summary": "A new Gallup report shows US drinking rates stabilizing after a multiyear decline, but still at the lowest level since 1939.",
-      "category": "market",
-      "story_key": "us-alcohol-consumption-low",
-      "image": "https://imgproxy.divecdn.com/HfA_JMrwOdy-oOF0foErelJUzwXREN8GRTQ3JJM5_Hg/g:nowe:0:117/c:2500:1412/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDc5ODAwNzI4LmpwZw==.webp",
-      "added_at": "2026-08-27T17:17:56.670Z"
-    },
-    {
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUEdFSzFEWHIzOGRyLWNLUHFmYzMzSm85WXdTWXk0bUctOVY4dHVkdEtjRXdTWFhXaHh3UUJ1c21KbHZxQi1lRENGZmVyM3E3UU1rVzNpVC14d01OaHdQUEttUWhzeW40NlpUSTBLak9hMkhVa2JOdDZiaVMwcmdPMVlraWRFaG5vRXI1RFhiNnhXYXBfdjRzbQ?oc=5",
-      "title": "Colombian coffee boom fades as Brazil heads for record crop",
-      "summary": "Colombia's coffee production boom is fading just as Brazil approaches a record harvest, shifting the balance of global supply.",
+      "title": "Colombian Coffee Boom Fades As Brazil Heads For Record Crop",
+      "summary": "Brazil's anticipated record coffee production threatens Colombian market share and global pricing dynamics, representing a significant supply-side disruption with margin implications for downstream beverage manufacturers.",
       "category": "macro",
       "story_key": "colombia-coffee-boom-fades-brazil-record",
       "image": "",
+      "month": "2026-08",
       "added_at": "2026-08-29T05:15:55.776Z"
     },
     {
-      "url": "https://www.foodmanufacture.co.uk/Article/2026/08/28/unilever-is-selling-colmans-to-quell-mustard-competition-fears/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-      "title": "Unilever puts Colman’s up for sale amid competition concerns",
-      "summary": "Unilever is selling its Colman's mustard brand as part of the McCormick deal, following competition concerns.",
-      "category": "mna",
-      "story_key": "unilever-mccormick-colmans-divestiture",
-      "image": "https://www.foodmanufacture.co.uk/resizer/v2/MRPV6NBPUZFALAHDWKSIUICICU.jpg?auth=c6270e4684bf15651dd6613edd402f9aa8740051075a224e4716c36a73fdcd80&amp;width=1200&amp;height=630&amp;smart=true",
-      "added_at": "2026-08-31T07:27:29.083Z"
-    },
-    {
-      "url": "https://www.foodnavigator.com/Article/2026/08/18/nestle-targets-glp-1-users-with-ai-driven-food-and-nutrition-innovation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-      "title": "Nestlé bets big on GLP-1s with AI-powered nutrition push",
-      "summary": "Nestlé is developing products tailored to GLP-1 users, using AI and nutritional science to address challenges including muscle loss, dehydration and rebound hunger.",
-      "category": "tech",
-      "story_key": "nestle-glp1-ai-nutrition",
-      "image": "https://www.foodnavigator.com/resizer/v2/FXN3BIPIDNGKBLT2QHOKZW6LHA.jpg?auth=f35e8d6a9876efd79e832bdf66990e8466bc006c673c9895d10f819b8ea354c1&amp;width=1200&amp;height=630&amp;smart=true",
-      "added_at": "2026-08-31T07:34:07.687Z"
-    },
-    {
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxObGg4S054S2tkNS1ndU9fTmM4QkxOZWVZQmFER0pwcnptcHFDNVl4VFRPd2QtQVVTdDZOQVRtRWw2Qk0yRkZVNU5mZkZIS2FEby1MT0NTVVY4YklJbUdjNlpqblhYQ3dTdkM1MFBodUx0US1MeXJnOEw4aFVQT1ozRTF6a0JDTkFab0RtVzY5SUNKWENkUy0wMS1IMmM3UQ?oc=5",
-      "title": "Ferrero Group to buy better-for-you US breakfast company Purely Elizabeth",
-      "summary": "Ferrero has agreed to acquire US better-for-you breakfast brand Purely Elizabeth, expanding its presence in the breakfast category.",
-      "category": "mna",
-      "story_key": "ferrero-purely-elizabeth-acquisition",
-      "image": "",
-      "added_at": "2026-08-31T07:37:55.126Z"
-    },
-    {
-      "url": "https://www.foodnavigator.com/Article/2026/08/20/pepsi-expands-lower-sugar-high-protein-and-fiber-offerings/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-      "title": "PepsiCo bets on healthier versions of legacy brands",
-      "summary": "PepsiCo's 2025 ESG report shows investment in modernizing legacy brands with lower sugar, higher protein and fiber offerings to meet fragmented consumer demand for health-forward products.",
-      "category": "tech",
-      "story_key": "pepsico-healthier-legacy-brands",
-      "image": "https://www.foodnavigator.com/resizer/v2/WF6KINHYRVGCRMNBXMXCTVZ5ZQ.jpg?auth=5b1f57467b3bd4da5801b8a0de99b998324c48181d4412a0ba9d2610c61c48c4&amp;width=1200&amp;height=630&amp;smart=true",
-      "added_at": "2026-08-31T07:48:24.268Z"
-    },
-    {
       "url": "https://www.foodnavigator.com/Article/2026/08/21/el-nino-may-be-largest-since-19th-century/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-      "title": "El Niño 2026 may be 'largest since the 19th century'",
-      "summary": "2026's El Niño has already been predicted as a 'super El Niño'. Now, the UK's Met Office is predicting that it could be the largest in living memory, perhaps even the largest since the 19th century.",
+      "title": "South America El NiñO 2026 May Be 'Largest Since The 19th Century'",
+      "summary": "Exceptional El Niño forecasts signal supply chain disruption and commodity price volatility, with Brazil — a key source of coffee, soybeans, sugar, and OJ - facing elevated crop risk.",
       "category": "macro",
       "story_key": "el-nino-2026-largest-forecast",
       "image": "https://www.foodnavigator.com/resizer/v2/M42EZEPGU5CIPHDVNJMUZK7GXA.jpg?auth=cba00166c88b0049c0c6a1e5df2d10f83ceed515bec5be02530ccf9d844fbbcc&amp;width=1200&amp;height=630&amp;smart=true",
+      "month": "2026-08",
       "added_at": "2026-08-31T07:51:25.158Z"
     },
     {
-      "url": "https://www.foodnavigator.com/Article/2026/08/21/inside-mondelezs-premiumisation-strategy-from-cadbury-to-toblerone/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-      "title": "Mondelēz accelerates premiumisation drive",
-      "summary": "Mondelēz is premiumising brands from Cadbury to Toblerone as it looks to capitalise on growing demand for indulgence and drive long-term growth.",
-      "category": "tech",
-      "story_key": "mondelez-premiumisation-drive",
-      "image": "https://www.foodnavigator.com/resizer/v2/URTX4DZCTRFIPKTKVAJH4A5EAQ.jpg?auth=8d7a130a4d03ed7ea710b95a2daf177c689406a2260bcbe84e345466a8b3b7c6&amp;width=1200&amp;height=630&amp;smart=true",
-      "added_at": "2026-08-31T07:51:49.353Z"
-    },
-    {
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNXlvUjBKbWhOcmZtdTlaSjQ3N2haTG1pQnVhdHNTQlhOTkt4bnQzNHVLTTZhYTRaWlN0R0RkbVpzbmtoejhuZWNqVDl2WDhPVGRVRExkOVZhWTRZdTFTTVBEd204U2ctcE15NHZpUjVLVWVUX25Dbm5TU0VYekxVX0swRWFfTEpuRG1EYXJjRHh5ck9sNHZZ?oc=5",
-      "title": "Häagen-Dazs to exit Brazilian market after almost 30 years",
-      "summary": "Häagen-Dazs is exiting the Brazilian market after nearly three decades of operations there.",
-      "category": "mna",
-      "story_key": "haagen-dazs-brazil-exit",
-      "image": "",
-      "added_at": "2026-08-31T07:54:32.456Z"
-    },
-    {
-      "url": "https://www.themarker.com/consumer/2026-08-26/ty-article/.premium/000001a0-3d35-d02f-a9ed-7d7fb99f0000",
-      "title": "נושפת בעורפה של טרה: גד עלתה ל-7% משוק מוצרי החלב ותחלק דיווידנד של 30 מיליון שקל",
-      "summary": "חברת גד הגדילה את נתח השוק שלה במוצרי חלב ל-7% הודות להתחזקות השקל וירידה במחיר החלב הגולמי שהוזילו עלויות ייצור, ובניגוד לטרה, שטראוס ותנובה בחרה שלא להעלות מחירים. החברה תחלק דיווידנד של 30 מיליון שקל.",
-      "category": "market",
-      "story_key": "gad-dairy-market-share-growth-2026",
-      "image": "https://img.haarets.co.il/bs/000001a0-3d35-d02f-a9ed-7d7fb99f0000/53/80/5c42c1fa4d1eacba7581cca516ae/432894.jpg?&amp;width=1200&amp;height=630&amp;cmsprod",
-      "added_at": "2026-08-31T07:56:31.119Z"
-    },
-    {
-      "url": "https://www.fooddive.com/news/keurig-dr-pepper-sells-equity-stake-plant-chobani-split/829254/",
-      "title": "Keurig Dr Pepper sells equity stake back to Chobani for $800M",
-      "summary": "The soda and coffeemaker said the transactions will help reduce debt as it prepares to split the company in early 2027.",
-      "category": "market",
-      "story_key": "keurig-dr-pepper-sells-equity-stake-back-to-chobani-for-800m",
-      "image": "https://imgproxy.divecdn.com/RKLpjOM0ztpFoxb0p9K3uebi6t6SAOa3SB9gjpcr4Ms/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMzM2MTQ4Mjk5LmpwZw==.webp",
-      "month": "2026-08",
-      "added_at": "2026-09-06T07:41:20.123166+00:00"
-    },
-    {
-      "url": "https://www.fooddive.com/news/nestle-sell-mainstream-vitamins-minerals-supplements-business-to-private-equity/829321/",
-      "title": "Nestlé reaches $1B deal to sell 7 vitamin, mineral and supplement brands",
-      "summary": "The company said the divestiture of mainstream offerings, including Nature’s Bounty and Ester-C, will allow it to prioritize businesses with the “strongest competitive advantage.”",
-      "category": "mna",
-      "story_key": "nestl-reaches-1b-deal-to-sell-7-vitamin-mineral-and-suppleme",
-      "image": "https://imgproxy.divecdn.com/zMHrBkv63z_uG7kRTAz-geNhnrXQtUVeLsizV-DLr18/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy03MTI0MDM5NS5qcGc=.webp",
-      "month": "2026-08",
-      "added_at": "2026-09-06T07:41:20.195771+00:00"
-    },
-    {
-      "url": "https://www.nestle.com/media/news/brazil-nutrition-manufacturing-facility-investment",
-      "title": "Nestlé to invest in a new nutrition manufacturing facility in Brazil",
-      "summary": "Nestlé announced an investment to build a new manufacturing facility in Brazil dedicated to its nutrition business, expanding its production footprint in Latin America.",
-      "category": "market",
-      "story_key": "nestle-brazil-nutrition-facility-investment",
-      "image": "",
-      "month": "2026-08",
-      "added_at": "2026-09-06T07:44:21.725499+00:00"
-    },
-    {
       "url": "https://www.caixinglobal.com/2026-08-17/chinas-retail-sales-growth-unexpectedly-slows-102475006.html",
-      "title": "China's Retail Sales Growth Unexpectedly Slows",
+      "title": "China'S Retail Sales Growth Slows",
       "summary": "China's retail sales growth deceleration signals weakening consumer demand and potential macroeconomic headwinds in the world's second-largest economy. This trend has significant implications for global supply chains, multinational consumer goods companies, and broader economic forecasts dependent on Chinese consumption patterns.",
       "category": "macro",
       "story_key": "china-retail-sales-growth-slows",
@@ -150,55 +32,161 @@
       "added_at": "2026-09-07T07:11:23.244931+00:00"
     },
     {
+      "url": "https://www.ynet.co.il/economy/article/bylh11qwvmx",
+      "title": "Yellow Cheese At Half Price In Supermarket Below Cost: New Move Launches",
+      "summary": "Aggressive cheese pricing in Israeli retail signals intensifying price competition and potential margin compression in the dairy category, indicating shifting promotional dynamics and consumer price sensitivity.",
+      "category": "macro",
+      "story_key": "israel-yellow-cheese-import-quota-subsidized",
+      "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2025/11/23/SydtzFx11Wl/SydtzFx11Wl_317_778_1283_723_0_large.jpg",
+      "month": "2026-08",
+      "added_at": "2026-08-18T15:36:11.855Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/nestle-sell-mainstream-vitamins-minerals-supplements-business-to-private-equity/829321/",
+      "title": "Nestlé Reaches $1B Deal To Sell 7 Vitamin, Mineral And Supplement Brands",
+      "summary": "Nestlé's $1 billion divestiture of its vitamin, mineral, and supplement portfolio indicates a strategic portfolio rationalization to focus on core business segments and optimize capital allocation across higher-priority growth areas.",
+      "category": "mna",
+      "story_key": "nestl-reaches-1b-deal-to-sell-7-vitamin-mineral-and-suppleme",
+      "image": "https://imgproxy.divecdn.com/zMHrBkv63z_uG7kRTAz-geNhnrXQtUVeLsizV-DLr18/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy03MTI0MDM5NS5qcGc=.webp",
+      "month": "2026-08",
+      "added_at": "2026-09-06T07:41:20.195771+00:00"
+    },
+    {
+      "url": "https://www.foodbusinessnews.net/articles/30953-general-mills-wraps-up-sale-of-brazil-business",
+      "title": "Strauss's 3corações Closes Yoki Deal as General Mills Exits Brazil",
+      "summary": "General Mills completed the divestiture of its Brazilian operations, enabling portfolio optimization and capital reallocation toward higher-growth markets and core competencies. This strategic exit reflects the company's ongoing efforts to rationalize its geographic footprint and enhance shareholder returns.",
+      "category": "mna",
+      "story_key": "",
+      "image": "",
+      "month": "2026-08",
+      "added_at": "2026-09-07T07:40:20.000Z"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNXlvUjBKbWhOcmZtdTlaSjQ3N2haTG1pQnVhdHNTQlhOTkt4bnQzNHVLTTZhYTRaWlN0R0RkbVpzbmtoejhuZWNqVDl2WDhPVGRVRExkOVZhWTRZdTFTTVBEd204U2ctcE15NHZpUjVLVWVUX25Dbm5TU0VYekxVX0swRWFfTEpuRG1EYXJjRHh5ck9sNHZZ?oc=5",
+      "title": "General Mills' Full Brazil Exit: Häagen-Dazs Pulls Out After Nearly 30 Years",
+      "summary": "The premium ice cream brand's market exit from Brazil indicates challenging profitability dynamics in the region, reflecting competitive pressure and shifting consumer preferences in emerging markets.",
+      "category": "mna",
+      "story_key": "haagen-dazs-brazil-exit",
+      "image": "",
+      "month": "2026-08",
+      "added_at": "2026-08-31T07:54:32.456Z"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxObGg4S054S2tkNS1ndU9fTmM4QkxOZWVZQmFER0pwcnptcHFDNVl4VFRPd2QtQVVTdDZOQVRtRWw2Qk0yRkZVNU5mZkZIS2FEby1MT0NTVVY4YklJbUdjNlpqblhYQ3dTdkM1MFBodUx0US1MeXJnOEw4aFVQT1ozRTF6a0JDTkFab0RtVzY5SUNKWENkUy0wMS1IMmM3UQ?oc=5",
+      "title": "Ferrero Group To Buy Better-For-You US Breakfast Company Purely Elizabeth",
+      "summary": "Ferrero's acquisition of Purely Elizabeth signals strategic expansion into the healthier breakfast category, capturing growth in the functional and better-for-you segment amid declining traditional confectionery demand.",
+      "category": "mna",
+      "story_key": "ferrero-purely-elizabeth-acquisition",
+      "image": "",
+      "month": "2026-08",
+      "added_at": "2026-08-31T07:37:55.126Z"
+    },
+    {
+      "url": "https://www.foodmanufacture.co.uk/Article/2026/08/28/unilever-is-selling-colmans-to-quell-mustard-competition-fears/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+      "title": "Unilever Puts Colmans Up For Sale Amid Competition Concerns",
+      "summary": "Unilever's divestiture of the Colman's condiment brand reflects strategic portfolio rationalization driven by intensifying competition, signaling potential consolidation opportunities in the specialty foods segment.",
+      "category": "mna",
+      "story_key": "unilever-mccormick-colmans-divestiture",
+      "image": "https://www.foodmanufacture.co.uk/resizer/v2/MRPV6NBPUZFALAHDWKSIUICICU.jpg?auth=c6270e4684bf15651dd6613edd402f9aa8740051075a224e4716c36a73fdcd80&amp;width=1200&amp;height=630&amp;smart=true",
+      "month": "2026-08",
+      "added_at": "2026-08-31T07:27:29.083Z"
+    },
+    {
+      "url": "https://www.nestle.com/media/news/brazil-nutrition-manufacturing-facility-investment",
+      "title": "Nestlé Invests CHF 310 Million In Brazil To Grow Its Presence In Nutrition And Health",
+      "summary": "Nestlé's significant capital investment in Brazil demonstrates strategic commitment to expanding its nutrition and health portfolio in a high-growth Latin American market, positioning the company to capitalize on increasing consumer demand for wellness products in the region.",
+      "category": "market",
+      "story_key": "nestle-brazil-nutrition-facility-investment",
+      "image": "",
+      "month": "2026-08",
+      "added_at": "2026-09-06T07:44:21.725499+00:00"
+    },
+    {
       "url": "https://tech.yahoo.com/home/articles/ninja-launches-hydrasense-fast-water-051300564.html",
       "title": "Ninja Launches HydraSense: A Fast Water Filter That Removes 99% Of Contaminants",
       "summary": "Ninja's introduction of the HydraSense water filtration system demonstrates the brand's market expansion into the growing consumer health and home appliance segment, capitalizing on increasing awareness of water quality and wellness concerns among consumers.",
-      "category": "macro",
+      "category": "market",
       "story_key": "ninja-hydrasense-water-filter",
       "image": "https://raw.githubusercontent.com/Libiaraniyas/newsletter-test/main/img/august-2026/IMAGE_bb30935.jpg",
       "month": "2026-08",
       "added_at": "2026-09-07T07:11:23.244931+00:00"
+    },
+    {
+      "url": "https://www.fooddive.com/news/keurig-dr-pepper-sells-equity-stake-plant-chobani-split/829254/",
+      "title": "Keurig Dr Pepper Sells Equity Stake Back To Chobani For $800M",
+      "summary": "The $800M equity repurchase transaction between Keurig Dr Pepper and Chobani signals a strategic shift in their partnership dynamics and provides Chobani with increased ownership control, reflecting evolving market positioning within the beverage and food sectors.",
+      "category": "market",
+      "story_key": "keurig-dr-pepper-sells-equity-stake-back-to-chobani-for-800m",
+      "image": "https://imgproxy.divecdn.com/RKLpjOM0ztpFoxb0p9K3uebi6t6SAOa3SB9gjpcr4Ms/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMzM2MTQ4Mjk5LmpwZw==.webp",
+      "month": "2026-08",
+      "added_at": "2026-09-06T07:41:20.123166+00:00"
+    },
+    {
+      "url": "https://www.foodnavigator.com/Article/2026/08/18/nestle-targets-glp-1-users-with-ai-driven-food-and-nutrition-innovation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+      "title": "Nestlé Bets Big On GLP-1s With AI-Powered Nutrition Push",
+      "summary": "Nestlé's strategic pivot toward GLP-1-aligned nutrition solutions leveraging AI represents a forward-looking response to the pharmaceutical-food convergence trend, positioning the company in the high-growth wellness market.",
+      "category": "tech",
+      "story_key": "nestle-glp1-ai-nutrition",
+      "image": "https://www.foodnavigator.com/resizer/v2/FXN3BIPIDNGKBLT2QHOKZW6LHA.jpg?auth=f35e8d6a9876efd79e832bdf66990e8466bc006c673c9895d10f819b8ea354c1&amp;width=1200&amp;height=630&amp;smart=true",
+      "month": "2026-08",
+      "added_at": "2026-08-31T07:34:07.687Z"
+    },
+    {
+      "url": "https://www.foodnavigator.com/Article/2026/08/20/pepsi-expands-lower-sugar-high-protein-and-fiber-offerings/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+      "title": "Pepsico Bets On Healthier Versions Of Legacy Brands",
+      "summary": "PepsiCo's systematic reformulation of legacy brands toward healthier profiles demonstrates strategic repositioning to counter secular health-consciousness trends and defend market share against emerging competitors.",
+      "category": "tech",
+      "story_key": "pepsico-healthier-legacy-brands",
+      "image": "https://www.foodnavigator.com/resizer/v2/WF6KINHYRVGCRMNBXMXCTVZ5ZQ.jpg?auth=5b1f57467b3bd4da5801b8a0de99b998324c48181d4412a0ba9d2610c61c48c4&amp;width=1200&amp;height=630&amp;smart=true",
+      "month": "2026-08",
+      "added_at": "2026-08-31T07:48:24.268Z"
+    },
+    {
+      "url": "https://www.foodnavigator.com/Article/2026/08/21/inside-mondelezs-premiumisation-strategy-from-cadbury-to-toblerone/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+      "title": "MondelēZ Accelerates Premiumisation Drive",
+      "summary": "Accelerated premiumisation strategy positions Mondelēz to capture margin expansion and offset commodity inflation, reflecting portfolio evolution toward higher-value snacking categories.",
+      "category": "tech",
+      "story_key": "mondelez-premiumisation-drive",
+      "image": "https://www.foodnavigator.com/resizer/v2/URTX4DZCTRFIPKTKVAJH4A5EAQ.jpg?auth=8d7a130a4d03ed7ea710b95a2daf177c689406a2260bcbe84e345466a8b3b7c6&amp;width=1200&amp;height=630&amp;smart=true",
+      "month": "2026-08",
+      "added_at": "2026-08-31T07:51:49.353Z"
     }
   ],
   "starred": [
-    "https://www.ynet.co.il/economy/article/bylh11qwvmx",
     "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUEdFSzFEWHIzOGRyLWNLUHFmYzMzSm85WXdTWXk0bUctOVY4dHVkdEtjRXdTWFhXaHh3UUJ1c21KbHZxQi1lRENGZmVyM3E3UU1rVzNpVC14d01OaHdQUEttUWhzeW40NlpUSTBLak9hMkhVa2JOdDZiaVMwcmdPMVlraWRFaG5vRXI1RFhiNnhXYXBfdjRzbQ?oc=5",
-    "https://www.foodmanufacture.co.uk/Article/2026/08/28/unilever-is-selling-colmans-to-quell-mustard-competition-fears/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "https://www.foodnavigator.com/Article/2026/08/18/nestle-targets-glp-1-users-with-ai-driven-food-and-nutrition-innovation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "https://news.google.com/rss/articles/CBMingFBVV95cUxObGg4S054S2tkNS1ndU9fTmM4QkxOZWVZQmFER0pwcnptcHFDNVl4VFRPd2QtQVVTdDZOQVRtRWw2Qk0yRkZVNU5mZkZIS2FEby1MT0NTVVY4YklJbUdjNlpqblhYQ3dTdkM1MFBodUx0US1MeXJnOEw4aFVQT1ozRTF6a0JDTkFab0RtVzY5SUNKWENkUy0wMS1IMmM3UQ?oc=5",
-    "https://www.foodnavigator.com/Article/2026/08/20/pepsi-expands-lower-sugar-high-protein-and-fiber-offerings/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.foodnavigator.com/Article/2026/08/21/el-nino-may-be-largest-since-19th-century/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "https://www.foodnavigator.com/Article/2026/08/21/inside-mondelezs-premiumisation-strategy-from-cadbury-to-toblerone/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNXlvUjBKbWhOcmZtdTlaSjQ3N2haTG1pQnVhdHNTQlhOTkt4bnQzNHVLTTZhYTRaWlN0R0RkbVpzbmtoejhuZWNqVDl2WDhPVGRVRExkOVZhWTRZdTFTTVBEd204U2ctcE15NHZpUjVLVWVUX25Dbm5TU0VYekxVX0swRWFfTEpuRG1EYXJjRHh5ck9sNHZZ?oc=5",
-    "https://www.fooddive.com/news/keurig-dr-pepper-sells-equity-stake-plant-chobani-split/829254/",
-    "https://www.fooddive.com/news/nestle-sell-mainstream-vitamins-minerals-supplements-business-to-private-equity/829321/",
-    "https://www.nestle.com/media/news/brazil-nutrition-manufacturing-facility-investment",
     "https://www.caixinglobal.com/2026-08-17/chinas-retail-sales-growth-unexpectedly-slows-102475006.html",
+    "https://www.ynet.co.il/economy/article/bylh11qwvmx",
+    "https://www.fooddive.com/news/nestle-sell-mainstream-vitamins-minerals-supplements-business-to-private-equity/829321/",
+    "https://www.foodbusinessnews.net/articles/30953-general-mills-wraps-up-sale-of-brazil-business",
+    "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNXlvUjBKbWhOcmZtdTlaSjQ3N2haTG1pQnVhdHNTQlhOTkt4bnQzNHVLTTZhYTRaWlN0R0RkbVpzbmtoejhuZWNqVDl2WDhPVGRVRExkOVZhWTRZdTFTTVBEd204U2ctcE15NHZpUjVLVWVUX25Dbm5TU0VYekxVX0swRWFfTEpuRG1EYXJjRHh5ck9sNHZZ?oc=5",
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxObGg4S054S2tkNS1ndU9fTmM4QkxOZWVZQmFER0pwcnptcHFDNVl4VFRPd2QtQVVTdDZOQVRtRWw2Qk0yRkZVNU5mZkZIS2FEby1MT0NTVVY4YklJbUdjNlpqblhYQ3dTdkM1MFBodUx0US1MeXJnOEw4aFVQT1ozRTF6a0JDTkFab0RtVzY5SUNKWENkUy0wMS1IMmM3UQ?oc=5",
+    "https://www.foodmanufacture.co.uk/Article/2026/08/28/unilever-is-selling-colmans-to-quell-mustard-competition-fears/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "https://www.nestle.com/media/news/brazil-nutrition-manufacturing-facility-investment",
     "https://tech.yahoo.com/home/articles/ninja-launches-hydrasense-fast-water-051300564.html",
-    "https://www.foodbusinessnews.net/articles/30953-general-mills-wraps-up-sale-of-brazil-business"
+    "https://www.fooddive.com/news/keurig-dr-pepper-sells-equity-stake-plant-chobani-split/829254/",
+    "https://www.foodnavigator.com/Article/2026/08/18/nestle-targets-glp-1-users-with-ai-driven-food-and-nutrition-innovation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "https://www.foodnavigator.com/Article/2026/08/20/pepsi-expands-lower-sugar-high-protein-and-fiber-offerings/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "https://www.foodnavigator.com/Article/2026/08/21/inside-mondelezs-premiumisation-strategy-from-cadbury-to-toblerone/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS"
   ],
   "category_names": {},
   "category_overrides": {
-    "https://www.ynet.co.il/economy/article/bylh11qwvmx": "Macro Environment",
     "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUEdFSzFEWHIzOGRyLWNLUHFmYzMzSm85WXdTWXk0bUctOVY4dHVkdEtjRXdTWFhXaHh3UUJ1c21KbHZxQi1lRENGZmVyM3E3UU1rVzNpVC14d01OaHdQUEttUWhzeW40NlpUSTBLak9hMkhVa2JOdDZiaVMwcmdPMVlraWRFaG5vRXI1RFhiNnhXYXBfdjRzbQ?oc=5": "Macro Environment",
-    "https://www.foodmanufacture.co.uk/Article/2026/08/28/unilever-is-selling-colmans-to-quell-mustard-competition-fears/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "M&A and Divestitures",
-    "https://www.foodnavigator.com/Article/2026/08/18/nestle-targets-glp-1-users-with-ai-driven-food-and-nutrition-innovation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Tech & Innovation",
-    "https://news.google.com/rss/articles/CBMingFBVV95cUxObGg4S054S2tkNS1ndU9fTmM4QkxOZWVZQmFER0pwcnptcHFDNVl4VFRPd2QtQVVTdDZOQVRtRWw2Qk0yRkZVNU5mZkZIS2FEby1MT0NTVVY4YklJbUdjNlpqblhYQ3dTdkM1MFBodUx0US1MeXJnOEw4aFVQT1ozRTF6a0JDTkFab0RtVzY5SUNKWENkUy0wMS1IMmM3UQ?oc=5": "M&A and Divestitures",
-    "https://www.foodnavigator.com/Article/2026/08/20/pepsi-expands-lower-sugar-high-protein-and-fiber-offerings/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Tech & Innovation",
     "https://www.foodnavigator.com/Article/2026/08/21/el-nino-may-be-largest-since-19th-century/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Macro Environment",
-    "https://www.foodnavigator.com/Article/2026/08/21/inside-mondelezs-premiumisation-strategy-from-cadbury-to-toblerone/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Tech & Innovation",
-    "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNXlvUjBKbWhOcmZtdTlaSjQ3N2haTG1pQnVhdHNTQlhOTkt4bnQzNHVLTTZhYTRaWlN0R0RkbVpzbmtoejhuZWNqVDl2WDhPVGRVRExkOVZhWTRZdTFTTVBEd204U2ctcE15NHZpUjVLVWVUX25Dbm5TU0VYekxVX0swRWFfTEpuRG1EYXJjRHh5ck9sNHZZ?oc=5": "M&A and Divestitures",
-    "https://www.fooddive.com/news/keurig-dr-pepper-sells-equity-stake-plant-chobani-split/829254/": "Market Dynamics",
-    "https://www.fooddive.com/news/nestle-sell-mainstream-vitamins-minerals-supplements-business-to-private-equity/829321/": "M&A and Divestitures",
-    "https://www.nestle.com/media/news/brazil-nutrition-manufacturing-facility-investment": "Market Dynamics",
     "https://www.caixinglobal.com/2026-08-17/chinas-retail-sales-growth-unexpectedly-slows-102475006.html": "Macro Environment",
+    "https://www.ynet.co.il/economy/article/bylh11qwvmx": "Macro Environment",
+    "https://www.fooddive.com/news/nestle-sell-mainstream-vitamins-minerals-supplements-business-to-private-equity/829321/": "M&A and Divestitures",
+    "https://www.foodbusinessnews.net/articles/30953-general-mills-wraps-up-sale-of-brazil-business": "M&A and Divestitures",
+    "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNXlvUjBKbWhOcmZtdTlaSjQ3N2haTG1pQnVhdHNTQlhOTkt4bnQzNHVLTTZhYTRaWlN0R0RkbVpzbmtoejhuZWNqVDl2WDhPVGRVRExkOVZhWTRZdTFTTVBEd204U2ctcE15NHZpUjVLVWVUX25Dbm5TU0VYekxVX0swRWFfTEpuRG1EYXJjRHh5ck9sNHZZ?oc=5": "M&A and Divestitures",
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxObGg4S054S2tkNS1ndU9fTmM4QkxOZWVZQmFER0pwcnptcHFDNVl4VFRPd2QtQVVTdDZOQVRtRWw2Qk0yRkZVNU5mZkZIS2FEby1MT0NTVVY4YklJbUdjNlpqblhYQ3dTdkM1MFBodUx0US1MeXJnOEw4aFVQT1ozRTF6a0JDTkFab0RtVzY5SUNKWENkUy0wMS1IMmM3UQ?oc=5": "M&A and Divestitures",
+    "https://www.foodmanufacture.co.uk/Article/2026/08/28/unilever-is-selling-colmans-to-quell-mustard-competition-fears/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "M&A and Divestitures",
+    "https://www.nestle.com/media/news/brazil-nutrition-manufacturing-facility-investment": "Market Dynamics",
     "https://tech.yahoo.com/home/articles/ninja-launches-hydrasense-fast-water-051300564.html": "Market Dynamics",
-    "https://www.foodbusinessnews.net/articles/30953-general-mills-wraps-up-sale-of-brazil-business": "M&A and Divestitures"
+    "https://www.fooddive.com/news/keurig-dr-pepper-sells-equity-stake-plant-chobani-split/829254/": "Market Dynamics",
+    "https://www.foodnavigator.com/Article/2026/08/18/nestle-targets-glp-1-users-with-ai-driven-food-and-nutrition-innovation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Tech & Innovation",
+    "https://www.foodnavigator.com/Article/2026/08/20/pepsi-expands-lower-sugar-high-protein-and-fiber-offerings/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Tech & Innovation",
+    "https://www.foodnavigator.com/Article/2026/08/21/inside-mondelezs-premiumisation-strategy-from-cadbury-to-toblerone/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Tech & Innovation"
   },
-  "hidden": [
-    "https://www.themarker.com/consumer/2026-08-17/ty-article/.premium/000001a0-107b-d29b-afe8-5d7b13170000",
-    "https://www.fooddive.com/news/gallup-poll-us-alcohol-drinking-rate-remains-all-time-low/828821/",
-    "https://www.themarker.com/consumer/2026-08-26/ty-article/.premium/000001a0-3d35-d02f-a9ed-7d7fb99f0000"
-  ],
-  "updated_at": "2026-09-07T07:23:59.059Z"
+  "hidden": [],
+  "updated_at": "2026-09-07T07:40:20.000Z"
 }
