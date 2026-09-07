@@ -161,7 +161,6 @@
     }
   ],
   "starred": [
-    "https://www.themarker.com/consumer/2026-08-17/ty-article/.premium/000001a0-107b-d29b-afe8-5d7b13170000",
     "https://www.ynet.co.il/economy/article/bylh11qwvmx",
     "https://www.fooddive.com/news/gallup-poll-us-alcohol-drinking-rate-remains-all-time-low/828821/",
     "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUEdFSzFEWHIzOGRyLWNLUHFmYzMzSm85WXdTWXk0bUctOVY4dHVkdEtjRXdTWFhXaHh3UUJ1c21KbHZxQi1lRENGZmVyM3E3UU1rVzNpVC14d01OaHdQUEttUWhzeW40NlpUSTBLak9hMkhVa2JOdDZiaVMwcmdPMVlraWRFaG5vRXI1RFhiNnhXYXBfdjRzbQ?oc=5",
@@ -182,7 +181,6 @@
   ],
   "category_names": {},
   "category_overrides": {
-    "https://www.themarker.com/consumer/2026-08-17/ty-article/.premium/000001a0-107b-d29b-afe8-5d7b13170000": "M&A and Divestitures",
     "https://www.ynet.co.il/economy/article/bylh11qwvmx": "Macro Environment",
     "https://www.fooddive.com/news/gallup-poll-us-alcohol-drinking-rate-remains-all-time-low/828821/": "Market Dynamics",
     "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUEdFSzFEWHIzOGRyLWNLUHFmYzMzSm85WXdTWXk0bUctOVY4dHVkdEtjRXdTWFhXaHh3UUJ1c21KbHZxQi1lRENGZmVyM3E3UU1rVzNpVC14d01OaHdQUEttUWhzeW40NlpUSTBLak9hMkhVa2JOdDZiaVMwcmdPMVlraWRFaG5vRXI1RFhiNnhXYXBfdjRzbQ?oc=5": "Macro Environment",
@@ -201,6 +199,8 @@
     "https://tech.yahoo.com/home/articles/ninja-launches-hydrasense-fast-water-051300564.html": "Market Dynamics",
     "https://www.foodbusinessnews.net/articles/30953-general-mills-wraps-up-sale-of-brazil-business": "M&A and Divestitures"
   },
-  "hidden": [],
-  "updated_at": "2026-09-07T07:21:57.862Z"
+  "hidden": [
+    "https://www.themarker.com/consumer/2026-08-17/ty-article/.premium/000001a0-107b-d29b-afe8-5d7b13170000"
+  ],
+  "updated_at": "2026-09-07T07:22:36.799Z"
 }
