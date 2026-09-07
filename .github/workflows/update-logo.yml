@@ -1,0 +1,56 @@
+name: Update Strauss Logo
+
+# Fetch a logo image (PNG or SVG) and commit it as strauss_logo.png, which the
+# newsletters reference at .../strauss_logo.png. Runs on the GitHub runner
+# (open internet), so it can reach hosts the local dev proxy blocks.
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "Logo image URL (PNG, SVG, WEBP, JPG)"
+        required: true
+        default: "https://static.wikia.nocookie.net/logopedia/images/7/72/Strauss_present.svg/revision/latest/scale-to-width-down/500?cb=20241019161016"
+      width:
+        description: "Output PNG width in px (hi-dpi; displayed at 120px)"
+        default: "500"
+
+permissions:
+  contents: write
+
+jobs:
+  logo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch + convert to PNG
+        env:
+          URL: ${{ inputs.url }}
+          W: ${{ inputs.width }}
+        run: |
+          set -e
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq librsvg2-bin imagemagick file
+          curl -sL -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/122 Safari/537.36" "$URL" -o /tmp/logo.in
+          echo "downloaded:"; file /tmp/logo.in
+          if file /tmp/logo.in | grep -qiE 'SVG|XML'; then
+            echo "→ rasterizing SVG to PNG at width $W"
+            rsvg-convert -w "$W" /tmp/logo.in -o strauss_logo.png
+          elif file /tmp/logo.in | grep -qi 'PNG'; then
+            echo "→ already PNG, using as-is"
+            cp /tmp/logo.in strauss_logo.png
+          else
+            echo "→ converting via ImageMagick"
+            convert /tmp/logo.in strauss_logo.png
+          fi
+          echo "result:"; file strauss_logo.png; identify strauss_logo.png || true
+      - name: Commit
+        run: |
+          git add strauss_logo.png
+          if [ -n "$(git status --porcelain strauss_logo.png)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git commit -m "Update Strauss logo [skip ci]"
+            git push
+          else
+            echo "No change to logo."
+          fi
