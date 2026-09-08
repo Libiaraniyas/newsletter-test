@@ -5,14 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Food &amp; Beverage Industry Updates</title>
   <style>
-    /* On phones, shrink the article text and cap the summary so it stays
-       compact beside the image instead of spilling far below it. (Applies
-       in browsers and Outlook mobile; desktop keeps the larger text.) */
-    @media only screen and (max-width:600px){
-      .nlx-title{ font-size:13px !important; line-height:1.2 !important; }
-      .nlx-sum{ font-size:11px !important; line-height:1.3 !important; margin-top:4px !important;
-        display:-webkit-box !important; -webkit-line-clamp:5; -webkit-box-orient:vertical; overflow:hidden; }
-    }
+    /* The article text scales WITH the screen width (clamp + vw), so the whole
+       row shrinks together — image is 50%/fluid and the text shrinks in the
+       same proportion, staying about the image length at every width instead
+       of spilling as the screen narrows. Capped at desktop size, floored for
+       readability; Outlook uses the inline 15px/12px fallback. */
+    .nlx-title{ font-size:clamp(10px,3.5vw,15px) !important; line-height:1.25 !important; }
+    .nlx-sum{ font-size:clamp(8px,2.9vw,12px) !important; line-height:1.35 !important; }
   </style>
 </head>
 <body dir="ltr" style="margin:0;padding:0;background:#051D4D;font-family:Arial,Helvetica,sans-serif;">
@@ -20,7 +19,6 @@
     <tr><td align="center" style="padding:20px 10px;">
       <!--[if mso]><table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0"><tr><td><![endif]-->
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF" style="width:100%;max-width:600px;">
-        <!-- HEADER -->
         <tr><td style="padding:18px 20px 8px 20px;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
             <tr>
@@ -34,12 +32,10 @@
             </tr>
           </table>
         </td></tr>
-        <!-- TITLE -->
         <tr><td align="center" style="padding:8px 20px 18px 20px;">
           <div style="font-size:26px;font-weight:800;color:#000;">Food &amp; Beverage Industry Updates</div>
           <div style="font-size:13px;color:#444;margin-top:6px;">Business Intelligence Monthly Newsletter &ndash; <strong>August 2026</strong> Highlights</div>
         </td></tr>
-        <!-- DIVIDER -->
         <tr><td style="padding:0 20px 10px 20px;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-top:2px dotted #444;"><tr><td style="font-size:0;">&nbsp;</td></tr></table>
         </td></tr>
@@ -224,7 +220,6 @@
               </td>
           </tr></table>
         </td></tr>
-        <!-- FOOTER -->
         <tr><td align="center" style="padding:14px 20px 18px 20px;font-size:11px;color:#777;">
           Strauss Group | Business Intelligence
         </td></tr>
