@@ -1226,5 +1226,22 @@
     "story_key": "glp1-consumers-scrutinize-nutrition-facts",
     "month": "2026-09",
     "image": "https://www.foodnavigator.com/resizer/v2/7XU2KUEOCNGITNXD5PJPSP2354.jpg?auth=a4eb6c1e84624573f52a2ceb529d010d21f8b18ced20a985c198efdb863f2295&width=1200&height=630&smart=true"
+  },
+  "4da3567108": {
+    "url": "https://www.foodnavigator.com/Article/2026/09/11/folgers-functional-coffee-launches-with-protein-prebiotic-blends/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Folgers enters functional coffee with protein, prebiotic and focus blends",
+    "summary": "JM Smucker will introduce Folgers Functional instant coffee in November, with protein, focus, energy and prebiotic varieties aimed at health-conscious consumers.",
+    "category": "tech",
+    "story_key": "folgers-functional-coffee-launch",
+    "month": "2026-09",
+    "image": "https://www.foodnavigator.com/resizer/v2/EWKEQLEUG5HIPP6GJTK4Y4XQZA.png?auth=2c0abb8f77563b73baa7b091bbd21b2954ee8d7a2f2ee6a01c04f31ed3a58a46&width=1200&height=630&smart=true"
+  },
+  "5aaa15c246": {
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQ3dlYTBUaHVZQmJSa3ZGb3hpRUFWOWdpcVpsWnpkM3RSeXlsczNWcFdTUHR6cjNldkR2OUZmaVV0aDNZQ1kxbzJibERzUTdhSVNlVkloTXo5OTUyajFRYnNvaTNkcmRSQ0FnVzdmWjZrTm1uelhxdDRqQnFnU1l0NnE3Tk43QXhheE9VWlVXWFFoQUl1dDNsbEFXeFVSclpwQTIybURnMmhHMllzQVRGWVFGU28ydw?oc=5",
+    "title": "Tesco restricts 114 additives in own-label range as supermarket steps up UPF crackdown",
+    "summary": "Tesco has restricted 114 additives across its own-label range as part of a wider crackdown on ultra-processed food ingredients.",
+    "category": "tech",
+    "story_key": "tesco-additive-restriction-upf",
+    "month": "2026-09"
   }
 }
