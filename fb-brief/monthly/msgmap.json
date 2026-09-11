@@ -1254,5 +1254,37 @@
     "story_key": "oil-price-spike-september-2026",
     "category": "macro",
     "sent_at": "2026-09-10T17:59:44.225486+00:00"
+  },
+  "3EB0DE5726A513C2D96986": {
+    "url": "https://www.foodnavigator.com/Article/2026/09/10/cpg-input-costs-rise-in-august/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Food inflation may look tame, but rising CPG input costs suggest otherwise",
+    "summary": "August PPI data show food prices holding steady, but grains, oilseeds, packaging, diesel and freight costs are rising, creating potential margin pressure for CPG food and beverage companies.",
+    "story_key": "cpg-input-costs-rise-august-2026",
+    "category": "macro",
+    "sent_at": "2026-09-11T10:25:39.942268+00:00"
+  },
+  "3EB07919F88734FC78F925": {
+    "url": "https://www.fooddive.com/news/general-mills-mars-lawsuit-sugar-price-fixing/830079/",
+    "title": "General Mills, Mars sue sugar producers for alleged price-fixing",
+    "summary": "Food giants claim suppliers coordinated on sensitive pricing information and pushed costs for the sweetener to a record high.",
+    "story_key": "general-mills-mars-sugar-price-fixing-lawsuit",
+    "category": "macro",
+    "sent_at": "2026-09-11T10:25:39.942268+00:00"
+  },
+  "3EB0387EA925EE89E6B835": {
+    "url": "https://www.fooddive.com/news/beyond-new-protein-bars-poweders-plant-based/829554/",
+    "title": "Beyond adds protein bars, powders in portfolio expansion",
+    "summary": "The plant-based meat company is entering adjacent categories to tap into more lucrative opportunities within protein.",
+    "story_key": "beyond-meat-protein-bars-powders-expansion",
+    "category": "market",
+    "sent_at": "2026-09-11T10:25:39.942268+00:00"
+  },
+  "3EB0532261E7C3BF5874A7": {
+    "url": "https://www.foodnavigator.com/Article/2026/09/09/as-brands-lean-into-glp-1-messaging-consumers-get-more-selective/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "GLP-1 users look past marketing claims, focus on nutrition facts",
+    "summary": "As food manufacturers race to simplify their appeal through GLP-1-focused branding, consumers taking the medications appear to be scrutinizing products more closely, paying attention to specific nutritional metrics rather than broad wellness messaging.",
+    "story_key": "glp1-consumers-scrutinize-nutrition-facts",
+    "category": "tech",
+    "sent_at": "2026-09-11T10:25:39.942268+00:00"
   }
 }
