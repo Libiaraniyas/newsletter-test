@@ -14,6 +14,7 @@ Run via the 'Green API Setup' workflow.
 """
 import os
 import json
+import re
 import time
 
 import requests
@@ -162,7 +163,47 @@ def groups():
         print(f"  {g.get('id')}  |  {name}")
 
 
+def sendtest():
+    """Send one test WhatsApp message to a specific recipient (TEST_TO), to
+    confirm the instance is authorized and actually delivering. TEST_TO may be a
+    phone number (0.., 972.., +972..) or a full chatId (…@c.us / …@g.us)."""
+    to = (os.environ.get("TEST_TO", "") or "").strip()
+    text = (os.environ.get("TEST_TEXT", "") or "").strip() or \
+        "בדיקה ✅ מערכת החדשות מחוברת ושולחת הודעות. (הודעת טסט, אפשר להתעלם)"
+    if not to:
+        print("⚠️  no TEST_TO provided.")
+        return
+    if "@" in to:
+        chat = to
+    else:
+        digits = re.sub(r"\D", "", to)
+        if digits.startswith("0"):
+            digits = "972" + digits[1:]
+        chat = digits + "@c.us"
+    base = f"https://api.green-api.com/waInstance{INSTANCE}"
+    try:
+        st = requests.get(f"{base}/getStateInstance/{TOKEN}", timeout=40).json()
+        print("state:", json.dumps(st, ensure_ascii=False))
+        if st.get("stateInstance") != "authorized":
+            print("⚠️  instance NOT authorized — re-link it before testing.")
+            return
+    except Exception as e:  # noqa: BLE001
+        print("getStateInstance failed:", str(e)[:200])
+    print(f"→ sendMessage to {chat}")
+    try:
+        r = requests.post(f"{base}/sendMessage/{TOKEN}",
+                          json={"chatId": chat, "message": text}, timeout=40)
+        print("sendMessage:", r.status_code, r.text[:300])
+        if r.ok:
+            print("✓ queued. Check the phone — if it arrives, delivery works.")
+    except Exception as e:  # noqa: BLE001
+        print("sendMessage failed:", str(e)[:200])
+
+
 def main():
+    if MODE == "sendtest":
+        sendtest()
+        return
     if MODE == "groups":
         groups()
         return

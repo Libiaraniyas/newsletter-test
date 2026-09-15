@@ -7,10 +7,18 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "set (enable+verify) / check (read-only) / diag (identity+settings)"
+        description: "set / check / diag / sendtest (send one test message)"
         type: choice
-        options: [set, check, diag, hosttest, history, groups]
+        options: [set, check, diag, hosttest, history, groups, sendtest]
         default: set
+      to:
+        description: "sendtest: recipient phone (e.g. 972542600047) or chatId"
+        type: string
+        default: ""
+      text:
+        description: "sendtest: optional message text"
+        type: string
+        default: ""
 
 jobs:
   setup:
@@ -27,4 +35,6 @@ jobs:
           GREEN_API_TOKEN: ${{ secrets.GREEN_API_TOKEN }}
           GREEN_API_CHAT_ID: ${{ secrets.GREEN_API_CHAT_ID }}
           MODE: ${{ inputs.mode }}
+          TEST_TO: ${{ inputs.to }}
+          TEST_TEXT: ${{ inputs.text }}
         run: python fb-brief/green_setup.py
