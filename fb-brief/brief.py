@@ -689,6 +689,16 @@ def main():
     # triggers GitHub's automatic failure email to the repo owner.
     if not NO_SEND:
         st = whatsapp_state()
+        # 'starting' (and other transient states) resolve to 'authorized' within
+        # a minute or so after a reconnect/reboot — poll a few times before
+        # giving up. A definitive 'notAuthorized'/'blocked' fails fast, since
+        # waiting won't help (it needs a re-link / payment).
+        _tries = 0
+        while st != "authorized" and st not in ("notAuthorized", "blocked") and _tries < 6:
+            log(f"  ⏳ WhatsApp instance is '{st}' — waiting to become authorized… ({_tries + 1}/6)")
+            time.sleep(15)
+            st = whatsapp_state()
+            _tries += 1
         if st != "authorized":
             log(f"✗ WhatsApp instance is '{st}', not 'authorized' — messages would NOT be")
             log("  delivered. Re-link it in the Green API console (scan the QR), then re-run.")
