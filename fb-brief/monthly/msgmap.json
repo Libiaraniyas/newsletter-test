@@ -1414,5 +1414,53 @@
     "story_key": "general-mills-mars-sugar-price-fixing-lawsuit",
     "category": "macro",
     "sent_at": "2026-09-16T14:35:00.210887+00:00"
+  },
+  "3EB00C4E8572540ED85068": {
+    "url": "https://www.fooddive.com/news/folgers-functional-coffee-protein-fiber/830509/",
+    "title": "Folgers launches functional coffee line featuring protein, fiber",
+    "summary": "J.M. Smucker-owned Folgers is entering the functional coffee space with a new line highlighting ingredients to boost energy, focus and digestion.",
+    "story_key": "folgers-functional-coffee-launch",
+    "category": "tech",
+    "sent_at": "2026-09-16T18:36:51.404580+00:00"
+  },
+  "3EB0CD8625E9871000A3EB": {
+    "url": "https://www.fooddive.com/news/kroger-private-label-second-quarter-2026/830517/",
+    "title": "Kroger records strong private label growth as shoppers stay focused on savings",
+    "summary": "Kroger's own brands outperformed national brands in Q2 as shoppers sought value, according to CEO Greg Foran.",
+    "story_key": "kroger-private-label-growth-q2-2026",
+    "category": "market",
+    "sent_at": "2026-09-16T18:36:51.404580+00:00"
+  },
+  "3EB0FAC729C5BBAA4F5CFA": {
+    "url": "https://www.fooddive.com/news/pepsico-layoffs-maryland-bottling-plant-manufacturing-operations/830548/",
+    "title": "PepsiCo to end manufacturing operations at Maryland bottling plant",
+    "summary": "PepsiCo will lay off 143 workers and close manufacturing operations at its Maryland bottling plant, citing shifts in consumer preferences and technology.",
+    "story_key": "pepsico-maryland-plant-closure",
+    "category": "market",
+    "sent_at": "2026-09-16T18:36:51.404580+00:00"
+  },
+  "3EB0876952C43E83BC0BF2": {
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRmhUa2psSTE4SG1vaFRtX2U2cUdjSUJaTU5LVEE3dEIzdXhvSUJYRmFOczRjdDZ3S01WRnF4YkFwUHlxWTczelB5aHh3MzhSazlVRGY0cHlPaUw1bElTQl91V3UycmIwY0tZbUxiX0FhT3JwcXJxczdXUGlkcnZqZU9jVUJUdy1iR01fdHdDV0luQmZjZXNMa3VOY1dVLWJCRmdFMkR3U2pNc3ZNZ2JTWDhhUUQzaTJmYTVlMlZJaw?oc=5",
+    "title": "Arabica coffee hits 10-week low on Brazil weather and exports",
+    "summary": "Arabica coffee prices fell to a 10-week low as favorable Brazil weather and strong export volumes eased supply concerns.",
+    "story_key": "brazil-arabica-coffee-10week-low-sept2026",
+    "category": "macro",
+    "sent_at": "2026-09-16T18:36:51.404580+00:00"
+  },
+  "3EB01E51DD4C9731C7B0FD": {
+    "url": "https://www.ynet.co.il/economy/article/hjc2tldtml",
+    "title": "לראשונה מ-2023: הפד העלה את הריבית מ-3.75% ל-4%",
+    "summary": "הבנק הפדרלי בארה\"ב העלה את הריבית ב-0.25%, בהעלאה ריבית ראשונה מזה שלוש שנים, תחת יו\"ר חדש קווין וורש המודאג מאינפלציה גבוהה.",
+    "story_key": "fed-rate-hike-sept-2026",
+    "category": "macro",
+    "sent_at": "2026-09-16T18:36:51.404580+00:00"
+  },
+  "3EB03AA6AFA79E87611161": {
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRGtVa2pCbzcwTGZGSjdqbUEzN2RZOXhwWnJOVlZOYUZTOFNnSkliTzI3NkhSamMyMHZMeFp3T2pHRkRwakhwR0JmVXU2ZDN2NjQ4akZjaUV6NlVJc1dXak5feEJYUGY3VU1Nb1FmSUMyY2Fkd2Nkc3Fwby1oZGV3cllWejI4NE5qV0NtQm1UOFlsSTF5U2xWVkhtRQ?oc=5",
+    "title": "Abbott agrees $385m settlement over US infant formula investigation",
+    "summary": "Abbott has agreed to a $385 million settlement related to a US investigation into its infant formula business.",
+    "story_key": "abbott-infant-formula-settlement",
+    "category": "mna",
+    "sent_at": "2026-09-16T18:36:51.404580+00:00"
   }
 }
