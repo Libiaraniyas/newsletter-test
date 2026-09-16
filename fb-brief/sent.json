@@ -1,35 +1,5 @@
 [
   {
-    "url": "https://www.foodnavigator.com/Article/2026/09/02/nestle-sells-mainstream-vms-business-to-yellow-wood-partners-in-1bn-deal/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "nestle-vms-yellow-wood-sale",
-    "title": "Nestlé sheds mainstream VMS business in $1bn deal",
-    "sent_at": "2026-09-02T10:24:02.152419+00:00"
-  },
-  {
-    "url": "https://www.fooddive.com/news/keurig-dr-pepper-sells-equity-stake-plant-chobani-split/829254/",
-    "story_key": "kdp-chobani-stake-sale",
-    "title": "Keurig Dr Pepper to sell Chobani stake and facility for $925 million, Chobani unveils $1.2bn investment in site",
-    "sent_at": "2026-09-02T10:24:02.152419+00:00"
-  },
-  {
-    "url": "https://www.foodnavigator.com/Article/2026/09/01/carlsberg-and-sapporo-go-in-big-on-alliance-in-asia-uk/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "carlsberg-sapporo-alliance-expansion",
-    "title": "Carlsberg and Sapporo go in big on alliance in Asia, UK",
-    "sent_at": "2026-09-02T10:24:02.152419+00:00"
-  },
-  {
-    "url": "https://www.fooddive.com/news/nestle-sell-mainstream-vitamins-minerals-supplements-business-to-private-equity/829321/",
-    "story_key": "nestle-vms-yellow-wood-sale",
-    "title": "Nestlé reaches $1B deal to sell 7 vitamin, mineral and supplement brands",
-    "sent_at": "2026-09-02T14:03:24.168950+00:00"
-  },
-  {
-    "url": "https://www.fooddive.com/news/Chobani-plant-investment-keurig-dr-pepper-growth/829283/",
-    "story_key": "kdp-chobani-stake-sale",
-    "title": "Chobani to spend $1.2B to buy and invest in Pennsylvania plant",
-    "sent_at": "2026-09-02T14:03:24.168950+00:00"
-  },
-  {
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUEoyTVc0Y0VmTVc4Y3pyZlBNWGtsS2ZJZnVSMENxNWc4QlFHVkszNThLbC0xcWc1QnQ2dFZWQVYtVk5pdE4tWk5za3E3RW5WV2lPenpQN0hYVDRnc05QaFg0aUVCYjU5YVgwVGtQOEo4X3pPTERZNXJmQnFNWVhkekdud213c3BQ?oc=5",
     "story_key": "valeo-foods-irish-business-sale",
     "title": "Valeo Foods Group agrees sale of Irish food business",
@@ -406,5 +376,11 @@
     "story_key": "mars-gut-health-startup-accelerator",
     "title": "Mars zeroes in on gut health with startup partnerships",
     "sent_at": "2026-09-16T08:45:39.436886+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/09/16/general-mills-mars-kellanova-and-mckee-accuse-big-sugar-of-price-fixing/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "general-mills-mars-sugar-price-fixing-lawsuit",
+    "title": "General Mills, Kellanova, Mars and McKee Foods sue sugar producers over alleged price-fixing",
+    "sent_at": "2026-09-16T14:35:02.884732+00:00"
   }
 ]
