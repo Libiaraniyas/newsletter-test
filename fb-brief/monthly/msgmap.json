@@ -1342,5 +1342,69 @@
     "story_key": "mahou-san-miguel-coffee-expansion",
     "category": "market",
     "sent_at": "2026-09-14T11:29:10.041186+00:00"
+  },
+  "3EB07F2D322EDF47371F30": {
+    "url": "https://www.fooddive.com/news/sleepytime-tea-owner-hain-celestial-selling-international-business-organic-natural/830263/",
+    "title": "Sleepytime Tea owner Hain Celestial to sell international business for $323M",
+    "summary": "Hain Celestial is selling its international business to Aurelius for $323 million, marking its second major divestiture this year following the sale of its North American snacks business.",
+    "story_key": "hain-celestial-international-business-sale",
+    "category": "mna",
+    "sent_at": "2026-09-16T08:45:14.691109+00:00"
+  },
+  "3EB04830C371457A790EDF": {
+    "url": "https://www.fooddive.com/news/coca-cola-us-manufacturing-10-billion-investment/830468/",
+    "title": "Coca-Cola to spend $10B on US manufacturing by 2030",
+    "summary": "Coca-Cola and its bottlers are planning to invest $10 billion to expand production and distribution capacity in the US, its largest market, by 2030.",
+    "story_key": "coca-cola-us-manufacturing-investment-2030",
+    "category": "mna",
+    "sent_at": "2026-09-16T08:45:14.691109+00:00"
+  },
+  "3EB014391CC672896B3988": {
+    "url": "https://www.fooddive.com/news/snacking-mondelez-relaunch-oreo-2027-chips-ahoy/830320/",
+    "title": "Mondelēz set to relaunch 'star brand' Oreo in 2027",
+    "summary": "Mondelez announced an overhaul of its 100-year-old Oreo brand, worth nearly $5 billion in sales, including new packaging, price points and formulas set for 2027.",
+    "story_key": "mondelez-oreo-relaunch-2027",
+    "category": "market",
+    "sent_at": "2026-09-16T08:45:14.691109+00:00"
+  },
+  "3EB0A682D414613F48F2A0": {
+    "url": "https://www.fooddive.com/news/nestle-not-happy-with-performance-north-america-frozen-coffee/830304/",
+    "title": "Nestlé 'not happy' with food giant's performance in North America",
+    "summary": "Nestlé CFO Anna Manz said more needs to be done to improve execution in North America, particularly for creamers and its Gerber brand, including frozen and coffee categories.",
+    "story_key": "nestle-north-america-performance-concerns",
+    "category": "market",
+    "sent_at": "2026-09-16T08:45:14.691109+00:00"
+  },
+  "3EB07E9B06C2402BD9EE9F": {
+    "url": "https://www.fooddive.com/news/kraft-heinz-oscar-mayer-turnaround/830286/",
+    "title": "Kraft Heinz looks to 'fix' Oscar Mayer after sales losses",
+    "summary": "Kraft Heinz's CEO said a resealability issue in Oscar Mayer's packaging was responsible for the vast majority of the brand's recent sales losses.",
+    "story_key": "kraft-heinz-oscar-mayer-packaging-issue",
+    "category": "market",
+    "sent_at": "2026-09-16T08:45:14.691109+00:00"
+  },
+  "3EB00E873B09B87755C490": {
+    "url": "https://www.ynet.co.il/economy/article/abv5jmgrl",
+    "title": "מדד אוגוסט עלה ב-0.7%, קצב האינפלציה השנתי נותר על 1.5%",
+    "summary": "מדד המחירים לצרכן עלה באוגוסט ב-0.7%, עם עליות בולטות בירקות טריים, תחבורה, דיור ותרבות ובידור, וקצב האינפלציה השנתי נותר על 1.5%.",
+    "story_key": "israel-cpi-august-2026",
+    "category": "macro",
+    "sent_at": "2026-09-16T08:45:14.691109+00:00"
+  },
+  "3EB0C07AE8EEBA84DD94B1": {
+    "url": "https://www.ynet.co.il/economy/article/hjezxsitmx",
+    "title": "ראש השנה: הישראלים התנפלו על טיסות ושילמו יותר על מזון",
+    "summary": "לפני החג עלתה ההוצאה על מזון ב-3.3% בכרטיסי אשראי לעומת השנה שעברה, כשהישראלים קנו פחות מוצרים אך המחירים עלו.",
+    "story_key": "israel-rosh-hashana-food-spending-2026",
+    "category": "macro",
+    "sent_at": "2026-09-16T08:45:14.691109+00:00"
+  },
+  "3EB0980E6545D8D9BDF23B": {
+    "url": "https://www.fooddive.com/news/mars-startups-unreasonable-fiber-gut-health/830410/",
+    "title": "Mars zeroes in on gut health with startup partnerships",
+    "summary": "Mars announced the latest cohort for its Unreasonable Group accelerator program, prioritizing startups advancing solutions in fiber, protein and gut-health nutrition.",
+    "story_key": "mars-gut-health-startup-accelerator",
+    "category": "tech",
+    "sent_at": "2026-09-16T08:45:14.691109+00:00"
   }
 }
