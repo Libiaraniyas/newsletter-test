@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZ3VaUmk5QmNCVElNRGZBOEZqUTFhMjFLTEI3S3FQLVlaRzlnUGVudlM0bVIybFlkYXRWUWpTTDY4em1YMGVNS3R2eTQ5eXRzdXl5SUVXSGVZemhzdmFDeVA4RUwtcU1SVUlkakVwLWp2Y2RyMGhuWFN5bWZDQU1ZVGpLQm1hRUMxOWFSUjExZXdmZldmRFBUZFlZSElXVEk?oc=5",
-    "story_key": "bunge-cofco-brazil-sugar-mills-sale",
-    "title": "Bunge agrees to sell two Brazilian sugar mills to COFCO International",
-    "sent_at": "2026-09-03T10:32:27.629595+00:00"
-  },
-  {
-    "url": "https://www.dairyreporter.com/Article/2026/09/03/foremost-farms-to-shut-major-cheese-site/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "foremost-farms-cheese-plant-closure",
-    "title": "Foremost Farms to shut major cheese site",
-    "sent_at": "2026-09-03T10:32:27.629595+00:00"
-  },
-  {
-    "url": "https://www.fooddive.com/news/younger-shoppers-private-brand-spins/829422/",
-    "story_key": "gen-z-private-label-adoption-spins",
-    "title": "Younger shoppers are driving private label adoption, report finds",
-    "sent_at": "2026-09-03T10:32:27.629595+00:00"
-  },
-  {
     "url": "https://www.foodnavigator.com/Article/2026/09/03/allulose-zero-sugar-claims-face-litigation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "story_key": "allulose-zero-sugar-lawsuits",
     "title": "Allulose-containing products claiming zero sugar threatened with growing litigation",
@@ -388,5 +370,17 @@
     "story_key": "abbott-infant-formula-settlement",
     "title": "Abbott agrees $385m settlement over US infant formula investigation",
     "sent_at": "2026-09-16T18:37:09.405463+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/09/17/cma-probes-unilever-mccormick-foods-mega-deal/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "unilever-mccormick-foods-deal-cma-probe",
+    "title": "Unilever McCormick deal faces scrutiny",
+    "sent_at": "2026-09-17T10:48:30.802094+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/09/16/hershey-turns-to-innovation-for-year-round-growth/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "hershey-functional-snacks-innovation-strategy",
+    "title": "From fun to function: Hershey's adopts innovation strategy to drive year-round engagement",
+    "sent_at": "2026-09-17T10:48:30.802094+00:00"
   }
 ]
