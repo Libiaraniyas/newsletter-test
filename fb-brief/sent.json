@@ -1,29 +1,5 @@
 [
   {
-    "url": "https://www.fooddive.com/news/barilla-buys-goodles-mac-and-cheese/829666/",
-    "story_key": "barilla-goodles-acquisition",
-    "title": "Barilla buys better-for-you mac and cheese brand Goodles",
-    "sent_at": "2026-09-04T13:59:12.386718+00:00"
-  },
-  {
-    "url": "https://www.foodnavigator.com/Article/2026/09/04/campbells-cuts-jobs-dividend-after-weak-quarter/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "campbells-cost-cutting-plant-closures",
-    "title": "Campbell's Co slashes dividend, cuts jobs and raises prices in $500M savings push",
-    "sent_at": "2026-09-04T13:59:12.386718+00:00"
-  },
-  {
-    "url": "https://www.foodnavigator.com/Article/2026/09/04/why-big-food-is-shifting-from-scale-to-focused-growth/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "big-food-strategic-reset-2026",
-    "title": "Big Food's Big Reset: Why the industry's changing faster than ever",
-    "sent_at": "2026-09-04T13:59:12.386718+00:00"
-  },
-  {
-    "url": "https://www.foodnavigator.com/Article/2026/09/04/the-top-3-trends-driving-private-label-growth/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "private-label-premium-wellness-trends",
-    "title": "The top 3 areas winning private label right now",
-    "sent_at": "2026-09-04T13:59:12.386718+00:00"
-  },
-  {
     "url": "https://www.themarker.com/consumer/2026-09-06/ty-article/.premium/000001a0-70fb-ddf3-a1e9-79fb502f0000",
     "story_key": "israel-antitrust-basket-effect-food-giants",
     "title": "החזקים מתחזקים: זה האפקט שמאפשר לחברות המזון הגדולות לפגוע במתחרים — ובצרכן",
@@ -364,5 +340,23 @@
     "story_key": "ingredion-tate-lyle-acquisition",
     "title": "How Ingredion aims to capitalize on 'reformulation boom' with Tate & Lyle deal",
     "sent_at": "2026-09-18T10:24:14.487791+00:00"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTVlPeFV6MGxJSDN5b2VWcENqbmN1bFhNaDFaUEE4ZjJYa1ZsQW9kRGE3Q2dWc3FfdVVjc0pyUWEtejhyX0tvbE8xWHRGTEo0ZXJmV20zSllEdmpDdlFuMnRCRndzM2tDZXNSanZleG85c252aWk3SW1IRl9maXJZT24zWlNFSTRlX2tyRmpJU0VNdTdZU2hvaTBZOXFzdWxoOTFHUTZScHFLVGxCUE1mdHZwMXhMdFRrMnF2RGJGblExQm5ILXR6cS0tLVk?oc=5",
+    "story_key": "nestle-russia-kremlin-seizure",
+    "title": "Nestle weighing all options after Kremlin moves to seize Russia business",
+    "sent_at": "2026-09-18T14:05:20.700876+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/09/18/mars-cocoa-strategy-centers-around-new-tech-and-cloning/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "mars-cocoa-strategy-tech-cloning",
+    "title": "Mars' cocoa strategy centers around new tech and cloning",
+    "sent_at": "2026-09-18T14:05:20.700876+00:00"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TNkh2cW9fcnlzeEE5Q0taVkdXdFZtUGozRFoxMnJYRWQ3WVhyWl9EaFkydVRtZWJ1S3N0OFhoenU3TU5RYjhyYkRkOGpPSTNyTXVMMVRUblg4OFV4amtHS2xSblozWGFRTWVuMWd1UVRoSXlE?oc=5",
+    "story_key": "brazil-arabica-coffee-10week-low-sept2026",
+    "title": "Why Is Arabica Coffee Near a 10-Week Low Despite 27-Year-Low ICE Stocks?",
+    "sent_at": "2026-09-18T14:05:20.700876+00:00"
   }
 ]
