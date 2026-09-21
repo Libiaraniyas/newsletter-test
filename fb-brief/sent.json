@@ -1,11 +1,5 @@
 [
   {
-    "url": "https://www.themarker.com/consumer/2026-09-06/ty-article/.premium/000001a0-70fb-ddf3-a1e9-79fb502f0000",
-    "story_key": "israel-antitrust-basket-effect-food-giants",
-    "title": "החזקים מתחזקים: זה האפקט שמאפשר לחברות המזון הגדולות לפגוע במתחרים — ובצרכן",
-    "sent_at": "2026-09-06T07:34:54.381963+00:00"
-  },
-  {
     "url": "https://www.foodnavigator.com/Article/2026/09/08/nestle-coffee-sustainability-key-to-avoiding-cocoa-like-crisis/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "story_key": "nestle-coffee-sustainability-strategy-cocoa-crisis",
     "title": "Nestlé: Coffee sustainability key to avoiding cocoa-like crisis",
@@ -364,5 +358,35 @@
     "story_key": "nestle-russia-kremlin-seizure",
     "title": "Nestlé weighs action after Russia places its business under temporary control",
     "sent_at": "2026-09-19T17:40:39.795285+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/09/21/nestle-russia-seizure-what-next-for-the-food-and-beverage-giant-and-foreign-businesses/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "nestle-russia-kremlin-seizure",
+    "title": "Nestlé Russia under state control: What happens next?",
+    "sent_at": "2026-09-21T19:51:09.377285+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/09/21/grocery-inflation-is-expected-to-rise-later-this-year/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "grocery-inflation-temporary-relief-2026",
+    "title": "Grocery inflation is easing but relief may be temporary",
+    "sent_at": "2026-09-21T19:51:09.377285+00:00"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTDFoaVZiS2xwbFNOQnFSbE9ZZkdTNlNwaUl5VVc2YTBZV3BrcU5lcGhnMktJTk5uLWp2b3ZlYnRCZzdKUXNYS2pQWnc0M1U4aVRFQ3p4WE9xd21rTTJINzFtQmVlbDJXQ3FqMmFudHZYYVh4Q09HUExJZE5LQ0J6cjhiQ1FmbzU0b3E0QUVUS0ZpaUJkdkN2T3JLaVNsM0hjbmdCUVZhVy13c3E5WGxfNTNscW9lV1R1b0NreEdWV18wUENBaTNv?oc=5",
+    "story_key": "brazil-coffee-early-flowering-2026",
+    "title": "Brazil coffee's early flowering could herald an early crop",
+    "sent_at": "2026-09-21T19:51:09.377285+00:00"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRDBRcF9rVjQ2VW1uVTFqdndPVDlvbldteTRFYl81d091SG43NzNGU3VXemZTVk5fSGpZUFJISHktRU1zM0hKTzU0OWYwelowZEVaUDVmMGpHbEh2Uk9ud244SVJRTmtnMVFUMnZpYVNRNDB2dGRPNnkwSnJIWk5lczQwLUtWdTJtek1Va2U1MjM5Vk9ycmw2ek5oazhGaGFFbGViaTJGZkVJeWZlQkE?oc=5",
+    "story_key": "kikkoman-wisconsin-facility-investment",
+    "title": "Kikkoman opens $560m Wisconsin production facility as North American demand grows",
+    "sent_at": "2026-09-21T19:51:09.377285+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/non-gmo-upf-label-expands-chomps-blue-diamond/830894/",
+    "story_key": "non-gmo-project-non-upf-label-expansion",
+    "title": "Non-GMO Project's non-ultraprocessed label expands to over 300 products",
+    "sent_at": "2026-09-21T19:51:09.377285+00:00"
   }
 ]
