@@ -99,6 +99,16 @@
       "image": "https://www.foodnavigator.com/resizer/v2/VW3Y3QNZUNFQ3DXLNRSNS42BQA.jpg?auth=e5e991c5edf56c9294eaba1b5b80a66e4c2856a3d50d41598bcef601d213b049&width=1200&height=630&smart=true",
       "month": "2026-09",
       "added_at": "2026-09-22T07:46:06.457Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/coca-cola-us-manufacturing-10-billion-investment/830468/",
+      "title": "Coca-Cola to spend $10B on US manufacturing by 2030",
+      "summary": "Coca-Cola and its bottlers are planning to invest $10 billion to expand production and distribution capacity in the US, its largest market, by 2030.",
+      "category": "mna",
+      "story_key": "coca-cola-us-manufacturing-investment-2030",
+      "image": "https://imgproxy.divecdn.com/BIHhqPtvmTzSfSCPVLF87c08T1PgK7jMRSgpcdCivtE/g:nowe:0:130/c:1920:1084/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS90aHVtYm5haWxfSU1HXzQ2MjcuanBn.webp",
+      "month": "2026-09",
+      "added_at": "2026-09-22T07:48:02.657Z"
     }
   ],
   "starred": [
@@ -111,7 +121,8 @@
     "https://www.fooddive.com/news/glp-1-drugs-snacking-pepsico-reeses-kellogg-cheetos-doritos/830551/",
     "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRmhUa2psSTE4SG1vaFRtX2U2cUdjSUJaTU5LVEE3dEIzdXhvSUJYRmFOczRjdDZ3S01WRnF4YkFwUHlxWTczelB5aHh3MzhSazlVRGY0cHlPaUw1bElTQl91V3UycmIwY0tZbUxiX0FhT3JwcXJxczdXUGlkcnZqZU9jVUJUdy1iR01fdHdDV0luQmZjZXNMa3VOY1dVLWJCRmdFMkR3U2pNc3ZNZ2JTWDhhUUQzaTJmYTVlMlZJaw?oc=5",
     "https://www.fooddive.com/news/folgers-functional-coffee-protein-fiber/830509/",
-    "https://www.foodnavigator.com/Article/2026/09/16/general-mills-mars-kellanova-and-mckee-accuse-big-sugar-of-price-fixing/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS"
+    "https://www.foodnavigator.com/Article/2026/09/16/general-mills-mars-kellanova-and-mckee-accuse-big-sugar-of-price-fixing/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "https://www.fooddive.com/news/coca-cola-us-manufacturing-10-billion-investment/830468/"
   ],
   "category_names": {},
   "category_overrides": {},
