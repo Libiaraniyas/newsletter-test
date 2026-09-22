@@ -1,11 +1,5 @@
 [
   {
-    "url": "https://www.foodnavigator.com/Article/2026/09/08/nestle-coffee-sustainability-key-to-avoiding-cocoa-like-crisis/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "nestle-coffee-sustainability-strategy-cocoa-crisis",
-    "title": "Nestlé: Coffee sustainability key to avoiding cocoa-like crisis",
-    "sent_at": "2026-09-08T10:26:16.441668+00:00"
-  },
-  {
     "url": "https://www.fooddive.com/news/california-non-upf-label-food/829797/",
     "story_key": "california-non-upf-food-seal",
     "title": "California approves first statewide non-ultraprocessed food label",
@@ -388,5 +382,17 @@
     "story_key": "non-gmo-project-non-upf-label-expansion",
     "title": "Non-GMO Project's non-ultraprocessed label expands to over 300 products",
     "sent_at": "2026-09-21T19:51:09.377285+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/09/22/nestle-russia-to-continue-operations-despite-state-takeover/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "nestle-russia-kremlin-seizure",
+    "title": "Nestlé Russia vows to continue despite state intervention",
+    "sent_at": "2026-09-22T14:20:28.357393+00:00"
+  },
+  {
+    "url": "https://www.themarker.com/markets/2026-09-22/ty-article/.highlight/000001a0-c94e-de5d-a5fa-d95f3ea60000",
+    "story_key": "cal-supermarket-cellcom-antitrust-block",
+    "title": "רשות התחרות שמה ברקס לג'ורג' חורש: עסקת כאל התפוצצה",
+    "sent_at": "2026-09-22T14:20:28.357393+00:00"
   }
 ]
