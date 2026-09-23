@@ -1,47 +1,5 @@
 [
   {
-    "url": "https://www.fooddive.com/news/california-non-upf-label-food/829797/",
-    "story_key": "california-non-upf-food-seal",
-    "title": "California approves first statewide non-ultraprocessed food label",
-    "sent_at": "2026-09-08T18:14:42.637562+00:00"
-  },
-  {
-    "url": "https://www.themarker.com/markets/2026-09-08/ty-article/.premium/000001a0-80b3-d4aa-a7fd-f2f7ab8e0000",
-    "story_key": "tomer-food-inventory-inquiry",
-    "title": "תומר מזון: \"נמצאו ממצאים המעידים לכאורה על התערבות בעל השליטה בקביעת ערך המלאי\"",
-    "sent_at": "2026-09-08T18:14:42.637562+00:00"
-  },
-  {
-    "url": "https://www.foodnavigator.com/Article/2026/09/09/nestle-shifts-growth-strategy-from-scale-to-execution/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "nestle-scale-to-execution-strategy",
-    "title": "Nestlé shifts strategy from scale to execution",
-    "sent_at": "2026-09-09T14:08:59.671369+00:00"
-  },
-  {
-    "url": "https://www.foodnavigator.com/Article/2026/09/08/canada-tariffs-put-us-food-and-ag-in-a-bind/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "canada-us-tariff-retaliation-food-ag",
-    "title": "Canada's tariff retaliation puts US food and agriculture industries in a bind",
-    "sent_at": "2026-09-09T14:08:59.671369+00:00"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWnVGUHJHZ0FCSWpNUmgwaTU1aEtMR3ZtMV9PZzllRTNHcVBqV2w1UW5YaVROZmRnZlVmTlE1VEo5Ni00RmFQSkc4aWl1UXJQbUV6ODdTaTNQT2tCOVNuOENFXzFSOWhHcnVSd05wS1NaRkl4Ulp1UUI1NG15bU1BZmFKTEhmN3dqM1pidlhHU3I0Uk9PWFJLYzF0S2xCZzEyTjhKeDB2RQ?oc=5",
-    "story_key": "brazil-coffee-arabica-price-drop-sept2026",
-    "title": "Arabica Coffee Prices Fall on Increased Supplies from Brazil",
-    "sent_at": "2026-09-09T14:08:59.671369+00:00"
-  },
-  {
-    "url": "https://www.themarker.com/markets/2026-09-09/ty-article/.premium/000001a0-85f8-d148-afbd-f7f9bd550000",
-    "story_key": "carrefour-israel-ipo-draft-prospectus",
-    "title": "קרפור ישראל הגישה טיוטת תשקיף ראשונה בדרך להנפקה",
-    "sent_at": "2026-09-09T14:08:59.671369+00:00"
-  },
-  {
-    "url": "https://www.ynet.co.il/economy/article/bjkjty0dfg",
-    "story_key": "tiv-taam-granot-yesharko-jv",
-    "title": "מהפכה בשוק הפירות והירקות: טיב טעם וגרנות מקימות חברת ענק",
-    "sent_at": "2026-09-09T14:08:59.671369+00:00"
-  },
-  {
     "url": "https://www.beveragedaily.com/Article/2026/09/10/mubadala-backs-luckin-coffee-with-1bn-minority-stake/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "story_key": "mubadala-luckin-coffee-stake",
     "title": "Mubadala backs Luckin Coffee with $1bn minority stake",
@@ -394,5 +352,53 @@
     "story_key": "cal-supermarket-cellcom-antitrust-block",
     "title": "רשות התחרות שמה ברקס לג'ורג' חורש: עסקת כאל התפוצצה",
     "sent_at": "2026-09-22T14:20:28.357393+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/09/23/could-sweeteners-disrupt-the-gut-microbiome/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "sweeteners-microbiome-scrutiny",
+    "title": "Sweeteners and the microbiome: What do we know?",
+    "sent_at": "2026-09-23T14:40:15.842630+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/09/23/mars-nestle-lindt-and-ferrero-lead-ultra-premium-chocolate-push/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "confectionery-ultra-premium-push",
+    "title": "From Mars to Ferrero: Confectionery bets big on ultra-premium chocolate",
+    "sent_at": "2026-09-23T14:40:15.842630+00:00"
+  },
+  {
+    "url": "https://www.bakeryandsnacks.com/Article/2026/09/23/how-glp-1-drugs-are-reshaping-food-ma-valuations/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "glp1-ma-valuation-impact",
+    "title": "Are GLP-1s creating Big Food's next valuation trap?",
+    "sent_at": "2026-09-23T14:40:15.842630+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/amys-kitchen-california-plant-close-layoffs-frozen-food/831019/",
+    "story_key": "amys-kitchen-plant-closure",
+    "title": "Amy's Kitchen to shutter California frozen food plant",
+    "sent_at": "2026-09-23T14:40:15.842630+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/sazerac-buys-berentzen-german-spirits/830988/",
+    "story_key": "sazerac-berentzen-acquisition",
+    "title": "Sazerac to buy German spirits producer Berentzen",
+    "sent_at": "2026-09-23T14:40:15.842630+00:00"
+  },
+  {
+    "url": "https://www.dairyreporter.com/Article/2026/09/23/can-feed-shortages-keep-dairy-prices-high-why-the-markets-normal-cycle-may-be-breaking/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "dairy-feed-cost-price-pressure",
+    "title": "Supply chain pressures are testing dairy's resilience",
+    "sent_at": "2026-09-23T14:40:15.842630+00:00"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPX3RsYUJaM3NreTZxN2IzZ1ZmTldxdVlvcHZLM21nb1FuSGFuaE1MVng0Yldha3gtTnBlNVFjMmJ0M0prV1U3S25mM2Mtc1FOM0IwaTJiTnRtMUh6eGpQc2h1YWZOMVdWMVltbndKMkoxb0VRUy1DN01HRUwyTkZ0anNGUy1hdFliUkNsYU5LQm11TXA4ZkJ2ZkJSa0dDeldKUUJZ?oc=5",
+    "story_key": "brazil-coffee-supply-price-pressure-sept2026",
+    "title": "Abundant Supplies and Brazil Rains Weigh on Coffee Prices",
+    "sent_at": "2026-09-23T14:40:15.842630+00:00"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMmhDYWFNcExIUHZpSXhRTnR3LXZ3RlY4a1RLYnJTdmFVM3cxN3VMUmEtdTNwM0FwQWUxOTVDZ0RydW1Bb0ZrOExFSTc0RFZvRWhJdkgwN1lXSGtMRU8yQUFwTGxHYVYtVWRCME1YSWpBQUJfUXdMLW5nbk1qNGE1LXBrbllHRGJUc25GT2x1dHk5RC02UG5mSnNzU0sxZThPMXBkSG83YVMwWDhyanVBV2pQYnRlVnM?oc=5",
+    "story_key": "brazil-coffee-domestic-consumption-rise",
+    "title": "Abic, Brazil: domestic coffee consumption up by 2.3% in the first eight months of the year",
+    "sent_at": "2026-09-23T14:40:15.842630+00:00"
   }
 ]
