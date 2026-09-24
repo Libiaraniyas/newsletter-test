@@ -1678,5 +1678,45 @@
     "story_key": "brazil-coffee-domestic-consumption-rise",
     "category": "market",
     "sent_at": "2026-09-23T14:39:48.114741+00:00"
+  },
+  "3EB026E91A5A66975083E1": {
+    "url": "https://www.foodnavigator.com/Article/2026/09/24/aldi-sharpens-discount-edge-with-86m-in-new-price-cuts/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Aldi lowers fall food prices despite cost pressures ahead",
+    "summary": "Aldi is delivering an estimated $86 million in additional fall price reductions, bringing nearly one-third of its everyday assortment below year-ago prices even as grocers brace for higher costs.",
+    "story_key": "aldi-fall-price-cuts-2026",
+    "category": "market",
+    "sent_at": "2026-09-24T14:37:05.935831+00:00"
+  },
+  "3EB076E06106560E20D11B": {
+    "url": "https://www.fooddive.com/news/grocery-inflation-fuel-prices-fmi/831249/",
+    "title": "Grocery inflation is primed to rise",
+    "summary": "Elevated fuel costs could soon wear down food companies who have so far kept price increases contained, industry experts said at an FMI briefing.",
+    "story_key": "grocery-inflation-fuel-costs-fmi",
+    "category": "macro",
+    "sent_at": "2026-09-24T14:37:05.935831+00:00"
+  },
+  "3EB0A1BA0BD9A688DFB759": {
+    "url": "https://www.dairyreporter.com/Article/2026/09/24/chobani-targets-protein-and-coffee-growth-as-demand-for-natural-foods-rises/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Protein, coffee and convenience drive Chobani's next phase of expansion",
+    "summary": "Chobani says demand for high-protein, natural foods continues to accelerate, with yogurt and RTD coffee driving growth as the company expands manufacturing capacity.",
+    "story_key": "chobani-protein-coffee-expansion",
+    "category": "market",
+    "sent_at": "2026-09-24T14:37:05.935831+00:00"
+  },
+  "3EB0DA1C9C4C7E88589248": {
+    "url": "https://www.ynet.co.il/economy/article/bjunw3mqgx",
+    "title": "אחרי תקופה קצרה: מיזם \"הסל של ישראל\" הגיע לסיומו",
+    "summary": "משרד הכלכלה הודיע כי הוחלט שלא לממש את תקופת ההפעלה השנייה של מיזם \"הסל של ישראל\" עם קרפור, ולהותיר לממשלה הבאה את ההחלטה על המשך המיזם. במהלך התוכנית נמכרו 112 מוצרים בהנחה של עד 30%, אך מכירות קרפור בחנויות זהות ירדו ב-7% לעומת התקופה המקבילה אשתקד.",
+    "story_key": "israel-basket-carrefour-program-end",
+    "category": "macro",
+    "sent_at": "2026-09-24T14:37:05.935831+00:00"
+  },
+  "3EB0465854B84DA9C5A33F": {
+    "url": "https://en.globes.co.il/en/article-1001557413#utm_source=RSS",
+    "title": "Cal sale likely to be postponed after Horesh-Harel cancel deal",
+    "summary": "The Israeli Competition Authority ordered the Horesh family's Union Investments to sell Super-Pharm if it wants to proceed with the Cal deal, leading to the deal's cancellation and compensation payments to the banks involved.",
+    "story_key": "cal-supermarket-cellcom-antitrust-block",
+    "category": "mna",
+    "sent_at": "2026-09-24T14:37:05.935831+00:00"
   }
 }

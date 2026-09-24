@@ -1653,5 +1653,50 @@
     "category": "market",
     "story_key": "brazil-coffee-domestic-consumption-rise",
     "month": "2026-09"
+  },
+  "3b61e6d7ac": {
+    "url": "https://www.foodnavigator.com/Article/2026/09/24/aldi-sharpens-discount-edge-with-86m-in-new-price-cuts/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Aldi lowers fall food prices despite cost pressures ahead",
+    "summary": "Aldi is delivering an estimated $86 million in additional fall price reductions, bringing nearly one-third of its everyday assortment below year-ago prices even as grocers brace for higher costs.",
+    "category": "market",
+    "story_key": "aldi-fall-price-cuts-2026",
+    "month": "2026-09",
+    "image": "https://www.foodnavigator.com/resizer/v2/WUQNMGCHWNF6NDU7KQFFLTYEQM.JPG?auth=a551e3824ca90f0dffd681fe934d12dac9382ec9f33f4699e1e9e40633394c25&width=1200&height=630&smart=true"
+  },
+  "dab2db09ff": {
+    "url": "https://www.fooddive.com/news/grocery-inflation-fuel-prices-fmi/831249/",
+    "title": "Grocery inflation is primed to rise",
+    "summary": "Elevated fuel costs could soon wear down food companies who have so far kept price increases contained, industry experts said at an FMI briefing.",
+    "category": "macro",
+    "story_key": "grocery-inflation-fuel-costs-fmi",
+    "month": "2026-09",
+    "image": "https://imgproxy.divecdn.com/Imo6CZiwywH4niec3Zp9Ad5eimYs4vk8b23Mttt0Fnc/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS93ZWdtYW5zX3ByaWNlX2NvbXBhcmlzb25fc2lnbi5KUEc=.webp"
+  },
+  "e749043dab": {
+    "url": "https://www.dairyreporter.com/Article/2026/09/24/chobani-targets-protein-and-coffee-growth-as-demand-for-natural-foods-rises/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Protein, coffee and convenience drive Chobani's next phase of expansion",
+    "summary": "Chobani says demand for high-protein, natural foods continues to accelerate, with yogurt and RTD coffee driving growth as the company expands manufacturing capacity.",
+    "category": "market",
+    "story_key": "chobani-protein-coffee-expansion",
+    "month": "2026-09",
+    "image": "https://www.dairyreporter.com/resizer/v2/RHXZGPTBGFGLLLWOWVKGD44MWM.jpg?auth=8536c09624078a9b3347e50221bd1d3e3f34d32422da5faa197953315804b102&width=1200&height=630&smart=true"
+  },
+  "6cdb5cc659": {
+    "url": "https://www.ynet.co.il/economy/article/bjunw3mqgx",
+    "title": "אחרי תקופה קצרה: מיזם \"הסל של ישראל\" הגיע לסיומו",
+    "summary": "משרד הכלכלה הודיע כי הוחלט שלא לממש את תקופת ההפעלה השנייה של מיזם \"הסל של ישראל\" עם קרפור, ולהותיר לממשלה הבאה את ההחלטה על המשך המיזם. במהלך התוכנית נמכרו 112 מוצרים בהנחה של עד 30%, אך מכירות קרפור בחנויות זהות ירדו ב-7% לעומת התקופה המקבילה אשתקד.",
+    "category": "macro",
+    "story_key": "israel-basket-carrefour-program-end",
+    "month": "2026-09",
+    "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/03/H1HEnR8OGl/H1HEnR8OGl_0_0_1339_618_0_large.jpg"
+  },
+  "eacfd15c5b": {
+    "url": "https://en.globes.co.il/en/article-1001557413#utm_source=RSS",
+    "title": "Cal sale likely to be postponed after Horesh-Harel cancel deal",
+    "summary": "The Israeli Competition Authority ordered the Horesh family's Union Investments to sell Super-Pharm if it wants to proceed with the Cal deal, leading to the deal's cancellation and compensation payments to the banks involved.",
+    "category": "mna",
+    "story_key": "cal-supermarket-cellcom-antitrust-block",
+    "month": "2026-09",
+    "image": "https://res.cloudinary.com/globes/image/upload/t_800X392/v1777207304/COT_Pic/%D7%90%D7%91%D7%99_%D7%9C%D7%95%D7%99_%D7%9E%D7%A0%D7%9B%D7%9C_%D7%A7%D7%91%D7%95%D7%A6%D7%AA_%D7%93%D7%99%D7%A1%D7%A7%D7%95%D7%A0%D7%98_-_%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%A8%D7%9E%D7%99_%D7%96%D7%A8%D7%A0%D7%92%D7%A8_ap3bif_c_pad_b_gen_fill_w_1337_h_655_pm2fft.jpg"
   }
 }
