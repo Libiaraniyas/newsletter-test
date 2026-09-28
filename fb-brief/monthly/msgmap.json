@@ -1,76 +1,4 @@
 {
-  "3EB0758C786CDDFF537105": {
-    "url": "https://example.com/fb-brief-reaction-test",
-    "title": "בדיקת תגובות F&B Brief",
-    "summary": "הודעת בדיקה לאימות לולאת התגובה→כוכב.",
-    "story_key": "reaction-test",
-    "category": "market",
-    "sent_at": "2026-08-13T10:37:07.951232+00:00"
-  },
-  "3EB05E46A761FC507E6545": {
-    "url": "https://www.ynet.co.il/economy/article/r1aeukouze",
-    "title": "לסר תפסיק לספק ביצים לרמי לוי החל מסוף אוגוסט",
-    "summary": "אחת מחברות שיווק הביצים הגדולות בישראל הודיעה לרמי לוי כי תפסיק את אספקת הביצים לרשת החל מסוף אוגוסט, בעקבות סכסוך מסחרי בין הצדדים. הרשת מוכרת ביצים לצרכנים במחירים נמוכים ממחירי הפיקוח.",
-    "story_key": "laser-rami-levy-eggs-dispute",
-    "category": "market",
-    "sent_at": "2026-08-13T10:59:19.789744+00:00"
-  },
-  "3EB07DFD595AEC1FF91863": {
-    "url": "https://www.themarker.com/consumer/2026-08-13/ty-article/.premium/0000019f-faa2-d569-a5ff-fae617280000",
-    "title": "הכנסות של 90 מיליון שקל: תנובה מקימה מפעל לאוכל איטלקי ברחובות",
-    "summary": "תנובה מקימה מפעל לאוכל איטלקי במחלבתה ברחובות, בשטח מפעל אוליביה שנסגר, אליו יועתק מפעל פסטה ריקו מבית דגן. ההשקעה במפעל החדש עומדת על 35 מיליון שקל וההכנסות הצפויות ממנו הן 90 מיליון שקל.",
-    "story_key": "tnuva-italian-food-plant-rehovot",
-    "category": "mna",
-    "sent_at": "2026-08-13T10:59:19.789744+00:00"
-  },
-  "3EB0202D1067106F553670": {
-    "url": "https://www.ynet.co.il/economy/article/bjs00keilmx",
-    "title": "שופרסל חזרה למכור חמאת תנובה - המחיר עלה בחלק מהסניפים",
-    "summary": "תנובה הפסיקה לשווק חמאה לשופרסל אחרי סירוב הרשת להעלאת מחירים לפני חג השבועות, וכעת החמאה חזרה למדפים במחיר גבוה יותר אך נמוך מהייקור המבוקש של 4.8%. חלק מהרשתות המתחרות כמו רמי לוי ויוחננוף לא ייקרו, ויש רשתות שהעלו את המחיר ב-11%.",
-    "story_key": "tnuva-shufersal-butter-pricing-dispute",
-    "category": "market",
-    "sent_at": "2026-08-13T15:54:08.543834+00:00"
-  },
-  "3EB0BEDB21ECF701A3A287": {
-    "url": "https://www.dairyreporter.com/Article/2026/08/13/gay-lea-foods-invests-200m-to-boost-cottage-cheese-production-amid-canadian-shortage/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "Gay Lea Foods Invests $200m To Boost Cottage Cheese Production Amid Canadian Shortage",
-    "summary": "Gay Lea Foods is investing $200 million to expand cottage cheese production capacity to address an ongoing shortage in the Canadian market.",
-    "story_key": "gaylea-cottage-cheese-investment",
-    "category": "market",
-    "sent_at": "2026-08-14T07:16:08.627402+00:00"
-  },
-  "3EB03F4CEC855CC709E6FD": {
-    "url": "https://www.foodnavigator.com/Article/2026/08/13/hersheys-premium-push-innovations-acquisitions-and-growth/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "Hershey's Push For Premiumisation Picks Up Pace",
-    "summary": "Hershey is ramping up its premiumisation strategy through innovation, acquisitions and seasonal offerings as it targets growth beyond mainstream confectionery.",
-    "story_key": "hershey-premiumisation-push",
-    "category": "market",
-    "sent_at": "2026-08-14T07:16:08.627402+00:00"
-  },
-  "3EB01335D8B297E9302832": {
-    "url": "https://www.bakeryandsnacks.com/Article/2026/08/14/us-snack-sales-growth-shifts-overseas-in-2026/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "US snack giants find their fastest growth is no longer at home",
-    "summary": "Kraft Heinz, Mondelēz, Hershey and PepsiCo all posted faster sales growth abroad than in the US in Q2 2026. Emerging markets and international regions are outpacing domestic growth for these snack giants.",
-    "story_key": "us-snack-giants-overseas-growth",
-    "category": "market",
-    "sent_at": "2026-08-14T10:55:41.196768+00:00"
-  },
-  "3EB08EA42154FB8E2CD7A5": {
-    "url": "https://www.fooddive.com/news/Mondelez-premium-innovation-tates-chocolate-chip-cookie/821767/",
-    "title": "Mondelēz takes big bite of premium cookie market with Tate's",
-    "summary": "Mondelēz said its Tate's Bake Shop brand is growing 2.5 times faster than the overall cookie category, benefiting from consumer demand for premium treats.",
-    "story_key": "mondelez-tates-premium-cookie",
-    "category": "market",
-    "sent_at": "2026-08-14T10:55:41.196768+00:00"
-  },
-  "3EB0A84E40FDE0C1CC2636": {
-    "url": "https://www.fooddive.com/news/biscoff-manufacturing-investment-global-growth/827675/",
-    "title": "Biscoff owner plans 'substantial' US investment",
-    "summary": "Lotus Bakeries is expanding production in North Carolina as part of a $577 million commitment to accelerate growth in global markets.",
-    "story_key": "lotus-bakeries-us-investment",
-    "category": "mna",
-    "sent_at": "2026-08-14T10:55:41.196768+00:00"
-  },
   "3EB0C93B29E7E44089316F": {
     "url": "https://www.fooddive.com/news/tyson-close-beef-plants-cattle-shortage-/827918/",
     "title": "Tyson to close more beef plants amid cattle shortage",
@@ -1758,5 +1686,37 @@
     "story_key": "dairy-milk-comeback-vs-plant-alternatives",
     "category": "macro",
     "sent_at": "2026-09-25T10:57:31.049157+00:00"
+  },
+  "3EB09D26431A6FFB657BF7": {
+    "url": "https://www.foodnavigator.com/Article/2026/09/28/barry-callebaut-moves-beyond-chocolate-to-drive-growth/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Barry Callebaut moves beyond chocolate to drive growth",
+    "summary": "Barry Callebaut is refocusing its growth strategy around premium gourmet chocolate, specialty ingredients and solutions-led partnerships to restore service levels, regain market share and improve profitability after operational challenges and cocoa market volatility. CEO Hein Schumacher's 'Focus for Growth' plan prioritises 10 key markets, innovation and higher-margin products.",
+    "story_key": "barry-callebaut-growth-strategy-refocus",
+    "category": "mna",
+    "sent_at": "2026-09-28T12:38:25.940100+00:00"
+  },
+  "3EB0F13D1549DBE769D7B9": {
+    "url": "https://www.foodnavigator.com/Article/2026/09/28/can-biodiversity-secure-the-future-of-cocoa/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Can nature save cocoa? Industry's response to a supply crisis",
+    "summary": "As climate change threatens cocoa supplies, scientists, farmers and chocolate giants are betting on biodiversity, pollination and regenerative farming to protect future yields. The industry faces questions about whether these efforts are moving fast enough.",
+    "story_key": "cocoa-biodiversity-climate-supply-crisis",
+    "category": "tech",
+    "sent_at": "2026-09-28T12:38:25.940100+00:00"
+  },
+  "3EB0F1B25BAA0A7760FDCF": {
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR2lYN3RSNDlKOVUzTmxIRFpTQ0RkWnJKbmNVdENSY2FLMlZSNHZJNDJacnpJYW9TNTd6NnhOMUdpQVZrS1BDYVZxT01jeW9qd2ROd2NGQkZRM25KNnpzMVdlejNhQ0pHVU5uNmJ3MEtiRkV3SlJKR3dMRXpnZzdJV09CbFlNMlNNMVRfSFRBREREc1JPZXRRN3MxZTBqVHdVOC1Ob2puRjhxQ1VCWURLT1JyM3dmMjQ?oc=5",
+    "title": "Vietnam overtakes Brazil in instant coffee exports",
+    "summary": "Vietnam has surpassed Brazil to become the leading exporter of instant coffee globally, according to industry data.",
+    "story_key": "vietnam-overtakes-brazil-instant-coffee-exports",
+    "category": "market",
+    "sent_at": "2026-09-28T12:38:25.940100+00:00"
+  },
+  "3EB0CC0AA9B93F188C045D": {
+    "url": "https://www.ynet.co.il/economy/article/h1e00mypqfl",
+    "title": "טראמפ דחה את הצעת איראן להפסקת אש: הנפט מתייקר, הדולר מתחזק מול השקל",
+    "summary": "מחירי הנפט זינקו בכ-3% הבוקר, עם חבית ברנט הנסחרת סביב 107 דולר, לאחר שנשיא ארה\"ב דחה את הצעת איראן להפוגה של שבעה ימים שהייתה מאפשרת פתיחה מחדש של מיצר הורמוז. במקביל, הדולר מתחזק על חשבון השקל.",
+    "story_key": "iran-ceasefire-rejection-oil-price-spike-2026",
+    "category": "macro",
+    "sent_at": "2026-09-28T12:38:25.940100+00:00"
   }
 }
