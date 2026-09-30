@@ -1734,5 +1734,29 @@
     "story_key": "pepsico-colombia-investment-1bn",
     "category": "market",
     "sent_at": "2026-09-30T11:45:29.643212+00:00"
+  },
+  "3EB02CF76583127757A60D": {
+    "url": "https://www.fooddive.com/news/hormel-expands-deeper-protein-purchase-chicken-brakebush-brothers/831750/",
+    "title": "Hormel expands deeper into protein with $1B purchase of chicken processor",
+    "summary": "Hormel Foods is acquiring chicken processor Brakebush Brothers for $1 billion, expanding its presence in value-added chicken and foodservice operations.",
+    "story_key": "hormel-brakebush-brothers-acquisition",
+    "category": "mna",
+    "sent_at": "2026-09-30T16:14:30.637312+00:00"
+  },
+  "3EB0E6647EE659AAB7D64B": {
+    "url": "https://www.ynet.co.il/economy/article/hky3jmcqgg",
+    "title": "הסמל האיטלקי מתייבש: בתי הקפה נסגרים, והאספרסו עובר הביתה",
+    "summary": "בשנים האחרונות נסגרו באיטליה יותר מ-24 אלף בתי קפה, ירידה של 14%, כאשר ברומא הירידה חצתה את ה-30%. הסיבות כוללות עבודה מרחוק, הצלחת מכונות הקפה הביתיות, עליית מחירי הקפוצ'ינו והעדפת צעירים למשקאות בריאים יותר.",
+    "story_key": "italy-espresso-bars-decline-home-brewing",
+    "category": "market",
+    "sent_at": "2026-09-30T16:14:30.637312+00:00"
+  },
+  "3EB054B345A6F460633B36": {
+    "url": "https://www.fooddive.com/news/General-mills-ceo-leadership-change-cereal/831741/",
+    "title": "General Mills appoints current COO Dana McNabb to CEO role",
+    "summary": "General Mills has named Dana McNabb, a company veteran since 1999 and current COO, as its new CEO, succeeding Jeff Harmening starting in January.",
+    "story_key": "general-mills-ceo-succession-mcnabb",
+    "category": "market",
+    "sent_at": "2026-09-30T16:14:30.637312+00:00"
   }
 }

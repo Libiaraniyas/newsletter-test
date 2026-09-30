@@ -1,11 +1,5 @@
 [
   {
-    "url": "https://www.foodnavigator.com/Article/2026/09/16/general-mills-mars-kellanova-and-mckee-accuse-big-sugar-of-price-fixing/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "general-mills-mars-sugar-price-fixing-lawsuit",
-    "title": "General Mills, Kellanova, Mars and McKee Foods sue sugar producers over alleged price-fixing",
-    "sent_at": "2026-09-16T14:35:02.884732+00:00"
-  },
-  {
     "url": "https://www.fooddive.com/news/folgers-functional-coffee-protein-fiber/830509/",
     "story_key": "folgers-functional-coffee-launch",
     "title": "Folgers launches functional coffee line featuring protein, fiber",
@@ -334,5 +328,23 @@
     "story_key": "pepsico-colombia-investment-1bn",
     "title": "PepsiCo to invest $1bn into Colombia over next five years",
     "sent_at": "2026-09-30T11:45:59.767138+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/hormel-expands-deeper-protein-purchase-chicken-brakebush-brothers/831750/",
+    "story_key": "hormel-brakebush-brothers-acquisition",
+    "title": "Hormel expands deeper into protein with $1B purchase of chicken processor",
+    "sent_at": "2026-09-30T16:14:39.433766+00:00"
+  },
+  {
+    "url": "https://www.ynet.co.il/economy/article/hky3jmcqgg",
+    "story_key": "italy-espresso-bars-decline-home-brewing",
+    "title": "הסמל האיטלקי מתייבש: בתי הקפה נסגרים, והאספרסו עובר הביתה",
+    "sent_at": "2026-09-30T16:14:39.433766+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/General-mills-ceo-leadership-change-cereal/831741/",
+    "story_key": "general-mills-ceo-succession-mcnabb",
+    "title": "General Mills appoints current COO Dana McNabb to CEO role",
+    "sent_at": "2026-09-30T16:14:39.433766+00:00"
   }
 ]
