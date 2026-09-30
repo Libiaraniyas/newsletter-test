@@ -1,52 +1,4 @@
 {
-  "3EB0C93B29E7E44089316F": {
-    "url": "https://www.fooddive.com/news/tyson-close-beef-plants-cattle-shortage-/827918/",
-    "title": "Tyson to close more beef plants amid cattle shortage",
-    "summary": "The meat giant will sell or end operations at three facilities and lay off at least 2,500 workers as the company struggles to overcome heavy losses from a cattle shortage.",
-    "story_key": "tyson-beef-plant-closures-cattle-shortage",
-    "category": "market",
-    "sent_at": "2026-08-14T15:44:29.940255+00:00"
-  },
-  "3EB0D6B8903FC4598E3273": {
-    "url": "https://www.fooddive.com/news/ferrero-buys-purely-elizabeth-breakfast-better-for-you-expansion/827963/",
-    "title": "Ferrero Group to buy better-for-you US breakfast company Purely Elizabeth",
-    "summary": "Ferrero Group announced its acquisition of Purely Elizabeth, a better-for-you breakfast brand. The deal builds on Ferrero's $3.1 billion acquisition of cereal maker WK Kellogg in 2025.",
-    "story_key": "ferrero-purely-elizabeth-acquisition",
-    "category": "mna",
-    "sent_at": "2026-08-15T06:26:46.737491+00:00"
-  },
-  "3EB02125F7781DFB866031": {
-    "url": "https://www.foodnavigator.com/Article/2026/08/14/ferrero-group-to-buy-better-for-you-us-breakfast-company-purely-elizabeth/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "Ferrero Group to buy better-for-you US breakfast company Purely Elizabeth",
-    "summary": "Ferrero Group announced its acquisition of Purely Elizabeth, a US better-for-you breakfast brand. Founder Elizabeth Stein will continue as CEO as the brand operates independently.",
-    "story_key": "ferrero-purely-elizabeth-acquisition",
-    "category": "mna",
-    "sent_at": "2026-08-15T10:19:26.205184+00:00"
-  },
-  "3EB0205F7E08B24E276C97": {
-    "url": "https://example.com/fb-brief-reaction-test",
-    "title": "בדיקת תגובות F&B Brief",
-    "summary": "הודעת בדיקה לאימות לולאת התגובה→כוכב.",
-    "story_key": "reaction-test",
-    "category": "market",
-    "sent_at": "2026-08-15T17:43:09.435721+00:00"
-  },
-  "3EB07C38E4DE1741563EA4": {
-    "url": "https://example.com/fb-brief-reaction-test",
-    "title": "בדיקת תגובות F&B Brief",
-    "summary": "הודעת בדיקה לאימות לולאת התגובה→כוכב.",
-    "story_key": "reaction-test",
-    "category": "market",
-    "sent_at": "2026-08-15T18:02:07.574905+00:00"
-  },
-  "3EB00DF61C379A61403056": {
-    "url": "https://www.themarker.com/consumer/2026-08-16/ty-article/.premium/000001a0-0481-d88f-abbf-d48d531f0000",
-    "title": "\"פירוק מונופולים\" זו סיסמת בחירות יפה. כך מתרגמים אותה למציאות",
-    "summary": "כלכלנים דנים באפשרות לחייב את תנובה למכור את מאמא עוף, למנוע משטראוס לסגור הסכמים עם מחלבות באירופה, ולהגביל שליטת רשתות קמעוניות ב-25% ומעלה באזור גיאוגרפי כחלק ממדיניות נגד יוקר המחיה.",
-    "story_key": "antitrust-tnuva-mama-of-strauss-europe",
-    "category": "macro",
-    "sent_at": "2026-08-16T10:19:27.310734+00:00"
-  },
   "3EB01FDFBF04326FAEAEC5": {
     "url": "https://www.ynet.co.il/economy/article/bj00zilkdfx",
     "title": "משרד החקלאות חזר בו: ביטל את אישור יבוא העוף הקפוא מברזיל",
@@ -1718,5 +1670,69 @@
     "story_key": "iran-ceasefire-rejection-oil-price-spike-2026",
     "category": "macro",
     "sent_at": "2026-09-28T12:38:25.940100+00:00"
+  },
+  "3EB067216AF12C8AA7F76D": {
+    "url": "https://www.foodnavigator.com/Article/2026/09/30/lindt-slashes-2026-growth-forecast-as-consumer-demand-weakens/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Lindt cuts sales forecast as consumer spending slows",
+    "summary": "Lindt & Sprüngli has cut its 2026 organic sales growth guidance from 4-6% to 0-2%, citing weaker consumer sentiment, price sensitivity and lower order volumes across key European markets.",
+    "story_key": "lindt-2026-sales-forecast-cut",
+    "category": "market",
+    "sent_at": "2026-09-30T11:45:29.643212+00:00"
+  },
+  "3EB034B0CB1196E8461C90": {
+    "url": "https://www.foodnavigator.com/Article/2026/09/30/glp-1-use-spreads-beyond-obesity-treatment/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "GLP-1 creep: How weight-loss drugs are moving beyond their intended users",
+    "summary": "Study finds GLP-1 use is growing beyond approved patient groups, with many prescriptions going to healthy-weight consumers outside traditional indications.",
+    "story_key": "glp1-creep-beyond-intended-users",
+    "category": "tech",
+    "sent_at": "2026-09-30T11:45:29.643212+00:00"
+  },
+  "3EB05793B99F754EA5274A": {
+    "url": "https://www.foodnavigator.com/Article/2026/09/29/pladis-sales-top-33bn-but-profits-take-a-hit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Pladis sales pass £3.3bn but profits take a hit",
+    "summary": "pladis Global grew sales to £3.3bn in 2025, but inflation and macroeconomic pressures weighed on profits, with strong branded sales and manufacturing investments expected to support long-term growth.",
+    "story_key": "pladis-2025-sales-profit-results",
+    "category": "market",
+    "sent_at": "2026-09-30T11:45:29.643212+00:00"
+  },
+  "3EB06EDC177C4F1AD6FCC2": {
+    "url": "https://www.foodnavigator.com/Article/2026/09/28/california-is-the-first-state-to-pass-a-voluntary-non-upf-label-program/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "California signs voluntary non-UPF label into law",
+    "summary": "California became the first US state to pass a voluntary non-ultraprocessed food label, aiming to help consumers identify healthier products amid growing debate over how such claims should be certified.",
+    "story_key": "california-non-upf-label-law",
+    "category": "macro",
+    "sent_at": "2026-09-30T11:45:29.643212+00:00"
+  },
+  "3EB00A9716825C6295B406": {
+    "url": "https://www.fooddive.com/news/molson-coors-nonalcoholic-expanded-distrubiton-beyond-beer/831636/",
+    "title": "Molson Coors bets on nonalcoholic drinks with national expansion",
+    "summary": "The Coors owner plans to further scale its Coors 0.0 brand and launch a nonalcoholic version of Leinenkugel's summer shandy as part of a national expansion.",
+    "story_key": "molson-coors-nonalcoholic-expansion",
+    "category": "market",
+    "sent_at": "2026-09-30T11:45:29.643212+00:00"
+  },
+  "3EB0663880CC4DC4E9C0A3": {
+    "url": "https://www.fooddive.com/news/nestle-plastic-reduction-strategy-2030/831372/",
+    "title": "Nestlé breaks down its path to 2030 for virgin plastic reduction",
+    "summary": "Plastic accounted for about a quarter of Nestlé's food and beverage packaging portfolio by weight in 2025, as the company details its strategy to cut virgin plastic use by 2030.",
+    "story_key": "nestle-virgin-plastic-reduction-2030",
+    "category": "tech",
+    "sent_at": "2026-09-30T11:45:29.643212+00:00"
+  },
+  "3EB02515797F4551F9FFEB": {
+    "url": "https://www.fooddive.com/news/cheez-it-flexes-with-protein-loaded-cheese-cracker/831469/",
+    "title": "Cheez-It flexes with protein-loaded cheese cracker",
+    "summary": "The Mars-owned Cheez-It brand launched a protein-loaded cheese cracker, joining Goldfish, Eggo and Doritos in adding protein to mainstream snack brands.",
+    "story_key": "cheez-it-protein-cracker-launch",
+    "category": "tech",
+    "sent_at": "2026-09-30T11:45:29.643212+00:00"
+  },
+  "3EB0369290E4901957A961": {
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbUpJelV1NzZxRkxmMF95aUhIWjgtalNUOXdsQTBMRWdhS09UeE1iclhWaDhIYlpaSDdxRGo1alFweEEtTWNSeHZCaGhfdWpKaGlocEJTUk10Qm04OHh6YjJQSGx6VHptWTB4QkdfWFhrQS1FWjJfcGstbVFkSlh2MVo4cnFZSFZhTkMtUVAycXBBUQ?oc=5",
+    "title": "PepsiCo to invest $1bn into Colombia over next five years",
+    "summary": "PepsiCo announced plans to invest $1 billion in Colombia over the next five years to expand its manufacturing and operations in the country.",
+    "story_key": "pepsico-colombia-investment-1bn",
+    "category": "market",
+    "sent_at": "2026-09-30T11:45:29.643212+00:00"
   }
 }
