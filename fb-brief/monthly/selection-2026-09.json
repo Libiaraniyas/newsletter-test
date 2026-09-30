@@ -149,6 +149,16 @@
       "image": "https://www.foodnavigator.com/resizer/v2/IWMIU6WUCFA4JHCXK7F7IZK22M.jpg?auth=2106a8bc4f0439058f9c5daed8651418f7d4c92124e45333e8ddcde8e63b1121&width=1200&height=630&smart=true",
       "month": "2026-09",
       "added_at": "2026-09-22T07:58:15.625Z"
+    },
+    {
+      "url": "https://www.ynet.co.il/economy/article/hky3jmcqgg",
+      "title": "הסמל האיטלקי מתייבש: בתי הקפה נסגרים, והאספרסו עובר הביתה",
+      "summary": "בשנים האחרונות נסגרו באיטליה יותר מ-24 אלף בתי קפה, ירידה של 14%, כאשר ברומא הירידה חצתה את ה-30%. הסיבות כוללות עבודה מרחוק, הצלחת מכונות הקפה הביתיות, עליית מחירי הקפוצ'ינו והעדפת צעירים למשקאות בריאים יותר.",
+      "category": "market",
+      "story_key": "italy-espresso-bars-decline-home-brewing",
+      "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2020/03/12/9843184/9843184_0_22_1300_732_0_large.jpg",
+      "month": "2026-09",
+      "added_at": "2026-09-30T18:03:05.338Z"
     }
   ],
   "starred": [
@@ -166,7 +176,8 @@
     "https://www.fooddive.com/news/sleepytime-tea-owner-hain-celestial-selling-international-business-organic-natural/830263/",
     "https://www.fooddive.com/news/beyond-new-protein-bars-poweders-plant-based/829554/",
     "https://www.beveragedaily.com/Article/2026/09/10/mubadala-backs-luckin-coffee-with-1bn-minority-stake/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "https://www.foodnavigator.com/Article/2026/09/21/nestle-russia-seizure-what-next-for-the-food-and-beverage-giant-and-foreign-businesses/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS"
+    "https://www.foodnavigator.com/Article/2026/09/21/nestle-russia-seizure-what-next-for-the-food-and-beverage-giant-and-foreign-businesses/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "https://www.ynet.co.il/economy/article/hky3jmcqgg"
   ],
   "category_names": {},
   "category_overrides": {},
