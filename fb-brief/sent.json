@@ -1,53 +1,5 @@
 [
   {
-    "url": "https://www.fooddive.com/news/folgers-functional-coffee-protein-fiber/830509/",
-    "story_key": "folgers-functional-coffee-launch",
-    "title": "Folgers launches functional coffee line featuring protein, fiber",
-    "sent_at": "2026-09-16T18:37:09.405463+00:00"
-  },
-  {
-    "url": "https://www.fooddive.com/news/kroger-private-label-second-quarter-2026/830517/",
-    "story_key": "kroger-private-label-growth-q2-2026",
-    "title": "Kroger records strong private label growth as shoppers stay focused on savings",
-    "sent_at": "2026-09-16T18:37:09.405463+00:00"
-  },
-  {
-    "url": "https://www.fooddive.com/news/pepsico-layoffs-maryland-bottling-plant-manufacturing-operations/830548/",
-    "story_key": "pepsico-maryland-plant-closure",
-    "title": "PepsiCo to end manufacturing operations at Maryland bottling plant",
-    "sent_at": "2026-09-16T18:37:09.405463+00:00"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRmhUa2psSTE4SG1vaFRtX2U2cUdjSUJaTU5LVEE3dEIzdXhvSUJYRmFOczRjdDZ3S01WRnF4YkFwUHlxWTczelB5aHh3MzhSazlVRGY0cHlPaUw1bElTQl91V3UycmIwY0tZbUxiX0FhT3JwcXJxczdXUGlkcnZqZU9jVUJUdy1iR01fdHdDV0luQmZjZXNMa3VOY1dVLWJCRmdFMkR3U2pNc3ZNZ2JTWDhhUUQzaTJmYTVlMlZJaw?oc=5",
-    "story_key": "brazil-arabica-coffee-10week-low-sept2026",
-    "title": "Arabica coffee hits 10-week low on Brazil weather and exports",
-    "sent_at": "2026-09-16T18:37:09.405463+00:00"
-  },
-  {
-    "url": "https://www.ynet.co.il/economy/article/hjc2tldtml",
-    "story_key": "fed-rate-hike-sept-2026",
-    "title": "לראשונה מ-2023: הפד העלה את הריבית מ-3.75% ל-4%",
-    "sent_at": "2026-09-16T18:37:09.405463+00:00"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRGtVa2pCbzcwTGZGSjdqbUEzN2RZOXhwWnJOVlZOYUZTOFNnSkliTzI3NkhSamMyMHZMeFp3T2pHRkRwakhwR0JmVXU2ZDN2NjQ4akZjaUV6NlVJc1dXak5feEJYUGY3VU1Nb1FmSUMyY2Fkd2Nkc3Fwby1oZGV3cllWejI4NE5qV0NtQm1UOFlsSTF5U2xWVkhtRQ?oc=5",
-    "story_key": "abbott-infant-formula-settlement",
-    "title": "Abbott agrees $385m settlement over US infant formula investigation",
-    "sent_at": "2026-09-16T18:37:09.405463+00:00"
-  },
-  {
-    "url": "https://www.foodnavigator.com/Article/2026/09/17/cma-probes-unilever-mccormick-foods-mega-deal/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "unilever-mccormick-foods-deal-cma-probe",
-    "title": "Unilever McCormick deal faces scrutiny",
-    "sent_at": "2026-09-17T10:48:30.802094+00:00"
-  },
-  {
-    "url": "https://www.foodnavigator.com/Article/2026/09/16/hershey-turns-to-innovation-for-year-round-growth/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "hershey-functional-snacks-innovation-strategy",
-    "title": "From fun to function: Hershey's adopts innovation strategy to drive year-round engagement",
-    "sent_at": "2026-09-17T10:48:30.802094+00:00"
-  },
-  {
     "url": "https://www.fooddive.com/news/antitrust-unilever-mccormick-merger-UK-review/830525/",
     "story_key": "unilever-mccormick-foods-deal-cma-probe",
     "title": "McCormick and Unilever’s $45B merger under investigation in UK",
@@ -346,5 +298,41 @@
     "story_key": "general-mills-ceo-succession-mcnabb",
     "title": "General Mills appoints current COO Dana McNabb to CEO role",
     "sent_at": "2026-09-30T16:14:39.433766+00:00"
+  },
+  {
+    "url": "https://www.foodmanufacture.co.uk/Article/2026/10/01/arla-to-invest-63m-into-high-protein-options/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "arla-high-protein-dairy-investment",
+    "title": "Arla to pump €63M into high-protein dairy production",
+    "sent_at": "2026-10-01T12:15:00.484692+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/09/30/how-climate-change-is-reshaping-food-supply-chains/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "europe-heatwave-2026-supply-chain-impact",
+    "title": "Climate chaos hits food supply chains as heatwave rewrites rules",
+    "sent_at": "2026-10-01T12:15:00.484692+00:00"
+  },
+  {
+    "url": "https://www.foodmanufacture.co.uk/Article/2026/09/30/barry-callebaut-has-established-a-base-at-gastronomica-next-to-the-magnum-ice-cream-company/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "barry-callebaut-gastronomica-magnum-base",
+    "title": "Chocolate giant sets up base near Magnum Ice Cream",
+    "sent_at": "2026-10-01T12:15:00.484692+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/california-nonultraprocessed-label-food-policy/831633/",
+    "story_key": "california-non-upf-label-law",
+    "title": "California enacts non-ultraprocessed label despite food industry concerns",
+    "sent_at": "2026-10-01T12:15:00.484692+00:00"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWHVuMDA2R0ZtMEJ5ck5SOURFMlBJUXZtU2F3YkVRV0FFX1pVVHkxdGtmUE9iOG5JdVFVUDZlcHJOaThoSUhHc3VVWHE2bDByVUVHTlBLSDZDSXk0TVY1cndFczFmdlhObHVhQTVZYXhubDRFZ3NkbUNIaUdrYnJXNHNhUXJTa1hwYnFCNGFNZw?oc=5",
+    "story_key": "brazil-coffee-weather-prices-oct2026",
+    "title": "Coffee Prices Rise on Brazil Weather Risks",
+    "sent_at": "2026-10-01T12:15:00.484692+00:00"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX2Ntd1BUa3N6X2VFdFVod0FHVldPQXlsY3VGSkc1eWJZVlZyWHhEWHZTVzJxWnJEM2RjSDkwS0tmWWdmNUNEOXRtOXI4bm9NMWZobF9NTWM2QXpkR3ltelFDYzdoTlprYTZPU3Bnc256YmpRSVpieUZLcURQd2l5V25XeW84bGUwRWQzQlViT0VYQllqV1Y2dVBFaWJydnAya05DRjZZN3U5YnJiSDJoR2pXSEpvZw?oc=5",
+    "story_key": "brazil-coffee-coop-quality-rejection",
+    "title": "Brazil's top coffee co-op will reject beans with quality issue",
+    "sent_at": "2026-10-01T12:15:00.484692+00:00"
   }
 ]

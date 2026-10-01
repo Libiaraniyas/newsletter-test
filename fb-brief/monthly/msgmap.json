@@ -1,20 +1,4 @@
 {
-  "3EB01FDFBF04326FAEAEC5": {
-    "url": "https://www.ynet.co.il/economy/article/bj00zilkdfx",
-    "title": "משרד החקלאות חזר בו: ביטל את אישור יבוא העוף הקפוא מברזיל",
-    "summary": "משרד החקלאות ביטל את אישור יבוא העוף הקפוא מברזיל, שהיה אמור להיפתח ב-16 ביוני, בטענה שלא ניתן לאשר זאת בטרם ייבדק בפועל מסלול הייצור והפיקוח בברזיל. השוק היה אמור להיפתח ליבוא בעקבות אישור קודם שניתן על ידי מנהל השירותים הווטרינריים הקודם.",
-    "story_key": "israel-brazil-frozen-chicken-import-ban",
-    "category": "macro",
-    "sent_at": "2026-08-17T06:41:29.729265+00:00"
-  },
-  "3EB036CEDEBFB193D1A343": {
-    "url": "https://www.themarker.com/wallstreet/2026-08-17/ty-article/.premium/0000019f-f114-d310-a3df-f5177a120000",
-    "title": "הסוד של הרפתנים האמריקאים לחלב עשיר יותר — פולי סויה מיוחדים במזון הפרות",
-    "summary": "פולים עתירי חומצה אולאית כובשים לאט לאט את שוק תערובות המזון בארה\"ב, ומקפיצים את רווחיהם של מגדלי הסויה. מעבר ליתרון התזונתי שלהם הם מגדילים את אחוזי השומן בחלב שנותנות הפרות.",
-    "story_key": "high-oleic-soybean-dairy-fat",
-    "category": "tech",
-    "sent_at": "2026-08-17T10:28:49.663242+00:00"
-  },
   "3EB0B05BD13133850900DF": {
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNay1rc3FMa2liU1NhUThBMGxoUzEyX3pleUtYcWpYR1pIWS1vWEwyYTd1SVNsdmFTaGREWjZCRkVsUTRaZTJPRE5FMFhVUEltSUxXZ0dacGkyanhubTdoMVpqeHFIVDlRbVNTVl8wc19GZTNxWmVMY25nM3JJMS1jM3RGX3RrOHNOQzd3RXdybEV2SUlKd1NJVExTRXhFLWJxdlBhdlVqYmJJN3FfOTAyUlhLSk96YXI4WkJN?oc=5",
     "title": "Brazil’s The Coffee planning one of its most significant international moves to date",
@@ -1758,5 +1742,53 @@
     "story_key": "general-mills-ceo-succession-mcnabb",
     "category": "market",
     "sent_at": "2026-09-30T16:14:30.637312+00:00"
+  },
+  "3EB0FF7D61B00F533A0CEB": {
+    "url": "https://www.foodmanufacture.co.uk/Article/2026/10/01/arla-to-invest-63m-into-high-protein-options/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Arla to pump €63M into high-protein dairy production",
+    "summary": "Arla is investing €63 million to expand its high-protein dairy production capacity amid growing consumer demand for protein-rich products.",
+    "story_key": "arla-high-protein-dairy-investment",
+    "category": "market",
+    "sent_at": "2026-10-01T12:14:35.501659+00:00"
+  },
+  "3EB06EC27D52E312AAFF07": {
+    "url": "https://www.foodnavigator.com/Article/2026/09/30/how-climate-change-is-reshaping-food-supply-chains/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Climate chaos hits food supply chains as heatwave rewrites rules",
+    "summary": "Europe's 2026 heatwave exposed food supply chain vulnerabilities spanning corn, cocoa and vegetables, prompting manufacturers to adapt sourcing and ingredient strategies.",
+    "story_key": "europe-heatwave-2026-supply-chain-impact",
+    "category": "macro",
+    "sent_at": "2026-10-01T12:14:35.501659+00:00"
+  },
+  "3EB0C8B70CCC05B78796CA": {
+    "url": "https://www.foodmanufacture.co.uk/Article/2026/09/30/barry-callebaut-has-established-a-base-at-gastronomica-next-to-the-magnum-ice-cream-company/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Chocolate giant sets up base near Magnum Ice Cream",
+    "summary": "Barry Callebaut has established a base at Gastronomica, located next to the Magnum Ice Cream Company facility.",
+    "story_key": "barry-callebaut-gastronomica-magnum-base",
+    "category": "mna",
+    "sent_at": "2026-10-01T12:14:35.501659+00:00"
+  },
+  "3EB08D3965CCB5AC4254FC": {
+    "url": "https://www.fooddive.com/news/california-nonultraprocessed-label-food-policy/831633/",
+    "title": "California enacts non-ultraprocessed label despite food industry concerns",
+    "summary": "California has signed into law a voluntary non-ultraprocessed food label intended to help consumers identify healthier options, despite industry concerns it could cause confusion.",
+    "story_key": "california-non-upf-label-law",
+    "category": "macro",
+    "sent_at": "2026-10-01T12:14:35.501659+00:00"
+  },
+  "3EB0121501DCFDB1F9E8FE": {
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWHVuMDA2R0ZtMEJ5ck5SOURFMlBJUXZtU2F3YkVRV0FFX1pVVHkxdGtmUE9iOG5JdVFVUDZlcHJOaThoSUhHc3VVWHE2bDByVUVHTlBLSDZDSXk0TVY1cndFczFmdlhObHVhQTVZYXhubDRFZ3NkbUNIaUdrYnJXNHNhUXJTa1hwYnFCNGFNZw?oc=5",
+    "title": "Coffee Prices Rise on Brazil Weather Risks",
+    "summary": "Coffee prices rose as weather risks in Brazil raised concerns about the upcoming crop supply.",
+    "story_key": "brazil-coffee-weather-prices-oct2026",
+    "category": "macro",
+    "sent_at": "2026-10-01T12:14:35.501659+00:00"
+  },
+  "3EB0EE77859A0D9B36ABA3": {
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX2Ntd1BUa3N6X2VFdFVod0FHVldPQXlsY3VGSkc1eWJZVlZyWHhEWHZTVzJxWnJEM2RjSDkwS0tmWWdmNUNEOXRtOXI4bm9NMWZobF9NTWM2QXpkR3ltelFDYzdoTlprYTZPU3Bnc256YmpRSVpieUZLcURQd2l5V25XeW84bGUwRWQzQlViT0VYQllqV1Y2dVBFaWJydnAya05DRjZZN3U5YnJiSDJoR2pXSEpvZw?oc=5",
+    "title": "Brazil's top coffee co-op will reject beans with quality issue",
+    "summary": "Brazil's largest coffee cooperative announced it will reject beans that fail to meet quality standards for the upcoming harvest.",
+    "story_key": "brazil-coffee-coop-quality-rejection",
+    "category": "macro",
+    "sent_at": "2026-10-01T12:14:35.501659+00:00"
   }
 }
