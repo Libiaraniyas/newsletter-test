@@ -1,44 +1,4 @@
 {
-  "3EB0B05BD13133850900DF": {
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNay1rc3FMa2liU1NhUThBMGxoUzEyX3pleUtYcWpYR1pIWS1vWEwyYTd1SVNsdmFTaGREWjZCRkVsUTRaZTJPRE5FMFhVUEltSUxXZ0dacGkyanhubTdoMVpqeHFIVDlRbVNTVl8wc19GZTNxWmVMY25nM3JJMS1jM3RGX3RrOHNOQzd3RXdybEV2SUlKd1NJVExTRXhFLWJxdlBhdlVqYmJJN3FfOTAyUlhLSk96YXI4WkJN?oc=5",
-    "title": "Brazil’s The Coffee planning one of its most significant international moves to date",
-    "summary": "Brazilian coffee chain The Coffee is preparing one of its most significant international expansion moves to date, according to World Coffee Portal.",
-    "story_key": "the-coffee-brazil-international-expansion",
-    "category": "market",
-    "sent_at": "2026-08-17T15:20:01.439593+00:00"
-  },
-  "3EB06BEA82DCBA9FFDD9C4": {
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY212ZVRnNFo3VUg1WGFxczZYWjlGOWY3Vkp4bHBOWHlXTEFlbWRKalJ5b0Q1akd3RmFJVkQxc05BU09VcDVqMjVhRkdSV3lZMS15R2psMmtQeU9SemhrRGt0Q3Jvb01TUWozZ2w0N0ZGUnJkNmZONjRsMnk4bENFaHNqNkt3X0ViLU1ycFUwYklXVlRTeXBMZVpGTjZaX3ZVV3JITkR2SQ?oc=5",
-    "title": "Coffee Weekly Forecast 16/08: Record Brazil Harvest",
-    "summary": "A record Brazilian coffee harvest is shaping this week's coffee price forecast, according to DailyForex analysis.",
-    "story_key": "brazil-record-coffee-harvest-forecast",
-    "category": "macro",
-    "sent_at": "2026-08-17T15:20:01.439593+00:00"
-  },
-  "3EB0EEA25908DDABC5B45E": {
-    "url": "https://www.themarker.com/news/internal-info/2026-08-17/ty-article/.premium/000001a0-0e7f-d75f-a3be-1e7ff1550000",
-    "title": "אורן סמדג'ה אמר לי שאין לו דעה, אבל מה זה אומר על ארדן?",
-    "summary": "הכתבה מציינת כי הירידה במחירי הקפה והקקאו לא הגיעה עדיין ללקוחות בישראל, לצד עדכונים כלכליים ופוליטיים נוספים.",
-    "story_key": "israel-coffee-cocoa-price-not-passed-to-consumers",
-    "category": "macro",
-    "sent_at": "2026-08-17T15:20:01.439593+00:00"
-  },
-  "3EB00A0044B8CF4EBDC86B": {
-    "url": "https://en.globes.co.il/en/article-1001552422#utm_source=RSS",
-    "title": "Israel's economy grew at 15.4% in Q2",
-    "summary": "Israel's GDP growth in the second quarter came in at an unexpectedly high 15.4%, following a contraction in the first quarter due to the Iran war.",
-    "story_key": "israel-gdp-growth-q2-2026",
-    "category": "macro",
-    "sent_at": "2026-08-17T15:20:01.439593+00:00"
-  },
-  "3EB0F6A818FF4938A12F11": {
-    "url": "https://www.themarker.com/consumer/2026-08-17/ty-article/.premium/000001a0-107b-d29b-afe8-5d7b13170000",
-    "title": "קיבלה אור ירוק: רשות התחרות בברזיל אישרה לשטראוס את רכישת Yoki",
-    "summary": "החברה המשותפת של שטראוס ו–São Miguel קיבלה אישור מרשות התחרות בברזיל לרכוש מידי ג'נרל מילס את חברת Yoki תמורת 800 מיליון ריאל ברזילאי, כ-475 מיליון שקל.",
-    "story_key": "strauss-yoki-brazil-antitrust-approval",
-    "category": "mna",
-    "sent_at": "2026-08-17T18:05:44.433560+00:00"
-  },
   "3EB0C00717095B8D4B0D6D": {
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRUpwZUFyMTAwS1ZNbTNjcGhPSW1ydFlsYmQ1aF9HQ18xeWpGTjIxSU4xSDhFcnhLTTdpM1RIRmZQWUJ1dm9lT0ZEcUg0SjJkb2o3aFdjQ21iWjJqNTYxdU1PaUZOdXNteGRwek1UOGdzQlpFMDg3QzFOaGtIVGxZN1dhSFA0bklMYXNScEtHZkN0OFFtcllnYXgyREZzZExKMjUzZEpHU09zSDdwVTBVbEZodUs4djlBOG5aSQ?oc=5",
     "title": "Arabica Coffee Prices Surge on NYSE: Colombian Earthquake and Brazil Harvest Delays",
@@ -1790,5 +1750,29 @@
     "story_key": "brazil-coffee-coop-quality-rejection",
     "category": "macro",
     "sent_at": "2026-10-01T12:14:35.501659+00:00"
+  },
+  "3EB0D406ECA3C72FB29571": {
+    "url": "https://www.fooddive.com/news/saputo-ingredients-whey-protein/831924/",
+    "title": "Saputo creates ingredients division to capitalize on protein demand",
+    "summary": "Saputo has launched a new business unit focused on protein ingredients, investing to boost whey protein production amid an industry-wide shortage.",
+    "story_key": "saputo-protein-ingredients-division",
+    "category": "market",
+    "sent_at": "2026-10-01T20:03:00.394842+00:00"
+  },
+  "3EB07BF8CC27789A74BFFF": {
+    "url": "https://www.fooddive.com/news/keurig-dr-pepper-new-coffee-ceo/831900/",
+    "title": "Keurig Dr Pepper names coffee spinoff CEO for a third time",
+    "summary": "Keurig Dr Pepper has appointed former Kimberly-Clark executive Russ Torres to lead its coffee spinoff, after previous pick Rafael Oliveira left to head Heineken.",
+    "story_key": "kdp-coffee-spinoff-ceo-torres",
+    "category": "mna",
+    "sent_at": "2026-10-01T20:03:00.394842+00:00"
+  },
+  "3EB01C7B5FD996B8CBD4D4": {
+    "url": "https://www.fooddive.com/news/conagra-shrinks-portfolio-invest-more-popcorn-meat-sticks/831814/",
+    "title": "Conagra slims down portfolio while investing more in popcorn, meat sticks",
+    "summary": "Conagra is exiting its Celeste frozen pizza brand and reviewing other brands and SKUs for cuts, while increasing investment in popcorn and meat sticks.",
+    "story_key": "conagra-portfolio-pruning-2026",
+    "category": "mna",
+    "sent_at": "2026-10-01T20:03:00.394842+00:00"
   }
 }

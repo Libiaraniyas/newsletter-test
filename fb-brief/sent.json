@@ -1,29 +1,5 @@
 [
   {
-    "url": "https://www.fooddive.com/news/antitrust-unilever-mccormick-merger-UK-review/830525/",
-    "story_key": "unilever-mccormick-foods-deal-cma-probe",
-    "title": "McCormick and Unilever’s $45B merger under investigation in UK",
-    "sent_at": "2026-09-17T14:40:31.765827+00:00"
-  },
-  {
-    "url": "https://www.fooddive.com/news/glp-1-drugs-snacking-pepsico-reeses-kellogg-cheetos-doritos/830551/",
-    "story_key": "glp1-food-value-at-risk-brandfinance",
-    "title": "GLP-1 drugs put $73B in global food value at risk, report finds",
-    "sent_at": "2026-09-17T14:40:31.765827+00:00"
-  },
-  {
-    "url": "https://www.confectionerynews.com/Article/2026/09/15/ferrero-bets-on-wonka-to-boost-autumn-confectionery-sales/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "ferrero-wonka-relaunch-2026",
-    "title": "Ferrero bets on Wonka to boost autumn sales",
-    "sent_at": "2026-09-17T14:40:31.765827+00:00"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNS2paLTVyazI5WFN4R05WYXBfWWZTcU1lMEc5SW5nVDBybldlRE8xZDNyZ2Q2MnB5Q1VNMTBxNFliRTRiem9zSkJ4c2QtWVFUaFY5aXJ3TFZVU3o5cDR6R0FvVXV6bzdpR2xQVzhDRFFFZnZ0dUI0QW9YSjl5a0IySTFhQlNsU00?oc=5",
-    "story_key": "coca-cola-us-manufacturing-investment-2030",
-    "title": "Coca-Cola to invest $10bn into US operations by 2030",
-    "sent_at": "2026-09-17T14:40:31.765827+00:00"
-  },
-  {
     "url": "https://www.foodnavigator.com/Article/2026/09/18/nestle-russia-under-state-administration-following-kremlin-decree/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "story_key": "nestle-russia-kremlin-seizure",
     "title": "Nestlé Russia falls under Kremlin control",
@@ -334,5 +310,23 @@
     "story_key": "brazil-coffee-coop-quality-rejection",
     "title": "Brazil's top coffee co-op will reject beans with quality issue",
     "sent_at": "2026-10-01T12:15:00.484692+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/saputo-ingredients-whey-protein/831924/",
+    "story_key": "saputo-protein-ingredients-division",
+    "title": "Saputo creates ingredients division to capitalize on protein demand",
+    "sent_at": "2026-10-01T20:03:07.472357+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/keurig-dr-pepper-new-coffee-ceo/831900/",
+    "story_key": "kdp-coffee-spinoff-ceo-torres",
+    "title": "Keurig Dr Pepper names coffee spinoff CEO for a third time",
+    "sent_at": "2026-10-01T20:03:07.472357+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/conagra-shrinks-portfolio-invest-more-popcorn-meat-sticks/831814/",
+    "story_key": "conagra-portfolio-pruning-2026",
+    "title": "Conagra slims down portfolio while investing more in popcorn, meat sticks",
+    "sent_at": "2026-10-01T20:03:07.472357+00:00"
   }
 ]
