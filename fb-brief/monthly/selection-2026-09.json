@@ -2,78 +2,9 @@
   "month": "2026-09",
   "added": [
     {
-      "url": "https://www.themarker.com/markets/2026-09-09/ty-article/.premium/000001a0-85f8-d148-afbd-f7f9bd550000",
-      "title": "קרפור ישראל הגישה טיוטת תשקיף ראשונה בדרך להנפקה",
-      "summary": "ההנפקה צפויה להתבצע בחודשים הקרובים, על בסיס הדו\"חות הכספיים של קרפור למחצית הראשונה של 2026. בעלי השליטה שואפים לקבל שווי של 800–900 מיליון שקל.",
-      "category": "mna",
-      "story_key": "carrefour-israel-ipo-draft-prospectus",
-      "image": "https://img.haarets.co.il/bs/000001a0-85f8-d148-afbd-f7f9bd550000/e8/38/5e9d265a46f5ac71a386a6350063/170188.jpg?&width=1200&height=630&cmsprod",
-      "month": "2026-09",
-      "added_at": "2026-09-10T10:51:42.079Z"
-    },
-    {
-      "url": "https://www.foodbeverage-outlook.com/beverage-production/nestle-and-platinum-equity-to-create-peranel-water-and-premium-beverages-joint-venture",
-      "title": "Nestlé and Platinum Equity to Create Peranel Water and Premium Beverages Joint Venture",
-      "summary": "",
-      "category": "macro",
-      "story_key": "",
-      "image": "",
-      "added_at": "2026-09-10T10:59:13.571Z"
-    },
-    {
-      "url": "https://www.foodnavigator.com/Article/2026/09/10/childhood-glp-1-prescriptions-rise-dramatically/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-      "title": "GLP-1 prescriptions for young children up 310-fold",
-      "summary": "GLP-1 prescriptions for US children with obesity aged 8-11 have risen sharply, a trend that could reshape food choices and family purchasing habits.",
-      "category": "tech",
-      "story_key": "glp1-childhood-prescriptions-surge",
-      "image": "https://www.foodnavigator.com/resizer/v2/AKLAJSZOKZDA5FHR7XH6EOQWUU.jpg?auth=2580a02d81532a9f19f0231bb87f32d758f586770006ea0f22d5d7fad65db6d9&width=1200&height=630&smart=true",
-      "month": "2026-09",
-      "added_at": "2026-09-10T14:07:36.573Z"
-    },
-    {
-      "url": "https://www.foodnavigator.com/Article/2026/09/10/coca-cola-ceo-henrique-braun-outlines-new-innovation-strategy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-      "title": "Coca-Cola brings innovation back with new strategy",
-      "summary": "Coca-Cola is reviving innovation after pruning its portfolio during the pandemic, with CEO Henrique Braun outlining a more targeted strategy built around consumer insights, digital tools and AI.",
-      "category": "market",
-      "story_key": "coca-cola-innovation-strategy-braun",
-      "image": "https://www.foodnavigator.com/resizer/v2/OGCWOEKYOJCIJGQONPVF25JPT4.jpg?auth=97c82a06dd21bbf97d66ff3134828d168eb82516a14f1084b7d8ba7ed99828f4&width=1200&height=630&smart=true",
-      "month": "2026-09",
-      "added_at": "2026-09-10T18:34:14.251Z"
-    },
-    {
-      "url": "https://www.fooddive.com/news/mars-startups-unreasonable-fiber-gut-health/830410/",
-      "title": "Mars zeroes in on gut health with startup partnerships",
-      "summary": "Mars announced the latest cohort for its Unreasonable Group accelerator program, prioritizing startups advancing solutions in fiber, protein and gut-health nutrition.",
-      "category": "tech",
-      "story_key": "mars-gut-health-startup-accelerator",
-      "image": "https://imgproxy.divecdn.com/KYQpVqHAMaMqqpwrHiCej2hajpwcevTybj1l37Mr5Nk/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy01MTE4NDI2NjAuanBn.webp",
-      "month": "2026-09",
-      "added_at": "2026-09-16T08:49:22.512Z"
-    },
-    {
-      "url": "https://www.confectionerynews.com/Article/2026/09/15/ferrero-bets-on-wonka-to-boost-autumn-confectionery-sales/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-      "title": "Ferrero bets on Wonka to boost autumn sales",
-      "summary": "Ferrero revives the Wonka confectionery brand with a new UK-developed range, backed by a £35m investment in its Alfreton Centre of Excellence.",
-      "category": "mna",
-      "story_key": "ferrero-wonka-relaunch-2026",
-      "image": "https://www.confectionerynews.com/resizer/v2/5EZYCJYQY5HETDTHYI2TS4DP7Q.jpg?auth=f9dc39ace8c6825c77a6c8a761a5937d77c078a9b26a600b45dd2512ce2d70d3&width=1200&height=630&smart=true",
-      "month": "2026-09",
-      "added_at": "2026-09-22T07:42:09.672Z"
-    },
-    {
-      "url": "https://www.fooddive.com/news/glp-1-drugs-snacking-pepsico-reeses-kellogg-cheetos-doritos/830551/",
-      "title": "GLP-1 drugs put $73B in global food value at risk, report finds",
-      "summary": "PepsiCo's Lay's is the most exposed food brand, with Doritos, Hershey's, Cheetos, Kellogg's and Reese's also vulnerable, Brand Finance determined.",
-      "category": "tech",
-      "story_key": "glp1-food-value-at-risk-brandfinance",
-      "image": "https://imgproxy.divecdn.com/qZKBUTYdcl3ZMNRsKFxNx39x2xKEeTMyeLP8mBpJHPg/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9MYXlzX0ZsYXZvcl9UcmlwXy1fU3VtbWVyXzIwMjAucG5n.webp",
-      "month": "2026-09",
-      "added_at": "2026-09-22T07:42:40.354Z"
-    },
-    {
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRmhUa2psSTE4SG1vaFRtX2U2cUdjSUJaTU5LVEE3dEIzdXhvSUJYRmFOczRjdDZ3S01WRnF4YkFwUHlxWTczelB5aHh3MzhSazlVRGY0cHlPaUw1bElTQl91V3UycmIwY0tZbUxiX0FhT3JwcXJxczdXUGlkcnZqZU9jVUJUdy1iR01fdHdDV0luQmZjZXNMa3VOY1dVLWJCRmdFMkR3U2pNc3ZNZ2JTWDhhUUQzaTJmYTVlMlZJaw?oc=5",
-      "title": "Arabica coffee hits 10-week low on Brazil weather and exports",
-      "summary": "Arabica coffee prices fell to a 10-week low as favorable Brazil weather and strong export volumes eased supply concerns.",
+      "title": "Arabica Coffee Hits 10-Week Low On Brazil Weather And Exports",
+      "summary": "Arabica coffee prices have declined to a 10-week low due to favorable Brazilian weather conditions and increased export activity, easing cost pressures on coffee-dependent manufacturers and retailers. This commodity price correction presents both margin recovery opportunities for downstream players and potential margin compression risks for upstream producers.",
       "category": "macro",
       "story_key": "brazil-arabica-coffee-10week-low-sept2026",
       "image": "",
@@ -81,70 +12,10 @@
       "added_at": "2026-09-22T07:44:00.873Z"
     },
     {
-      "url": "https://www.fooddive.com/news/folgers-functional-coffee-protein-fiber/830509/",
-      "title": "Folgers launches functional coffee line featuring protein, fiber",
-      "summary": "J.M. Smucker-owned Folgers is entering the functional coffee space with a new line highlighting ingredients to boost energy, focus and digestion.",
-      "category": "tech",
-      "story_key": "folgers-functional-coffee-launch",
-      "image": "https://imgproxy.divecdn.com/g02BSn7ZZcEy1ZQXKm6cKb7FFYM3su1gA4iNyr4eQMg/g:nowe:9:180/c:1176:664/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9Gb2xnZXJzLmpwZw==.webp",
-      "month": "2026-09",
-      "added_at": "2026-09-22T07:45:41.590Z"
-    },
-    {
-      "url": "https://www.foodnavigator.com/Article/2026/09/16/general-mills-mars-kellanova-and-mckee-accuse-big-sugar-of-price-fixing/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-      "title": "General Mills, Kellanova, Mars and McKee Foods sue sugar producers over alleged price-fixing",
-      "summary": "General Mills, Kellanova, Mars and McKee Foods allege US sugar producers coordinated sensitive information to inflate granulated-sugar prices.",
-      "category": "macro",
-      "story_key": "general-mills-mars-sugar-price-fixing-lawsuit",
-      "image": "https://www.foodnavigator.com/resizer/v2/VW3Y3QNZUNFQ3DXLNRSNS42BQA.jpg?auth=e5e991c5edf56c9294eaba1b5b80a66e4c2856a3d50d41598bcef601d213b049&width=1200&height=630&smart=true",
-      "month": "2026-09",
-      "added_at": "2026-09-22T07:46:06.457Z"
-    },
-    {
-      "url": "https://www.fooddive.com/news/coca-cola-us-manufacturing-10-billion-investment/830468/",
-      "title": "Coca-Cola to spend $10B on US manufacturing by 2030",
-      "summary": "Coca-Cola and its bottlers are planning to invest $10 billion to expand production and distribution capacity in the US, its largest market, by 2030.",
-      "category": "mna",
-      "story_key": "coca-cola-us-manufacturing-investment-2030",
-      "image": "https://imgproxy.divecdn.com/BIHhqPtvmTzSfSCPVLF87c08T1PgK7jMRSgpcdCivtE/g:nowe:0:130/c:1920:1084/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS90aHVtYm5haWxfSU1HXzQ2MjcuanBn.webp",
-      "month": "2026-09",
-      "added_at": "2026-09-22T07:48:02.657Z"
-    },
-    {
-      "url": "https://www.fooddive.com/news/sleepytime-tea-owner-hain-celestial-selling-international-business-organic-natural/830263/",
-      "title": "Sleepytime Tea owner Hain Celestial to sell international business for $323M",
-      "summary": "Hain Celestial is selling its international business to Aurelius for $323 million, marking its second major divestiture this year following the sale of its North American snacks business.",
-      "category": "mna",
-      "story_key": "hain-celestial-international-business-sale",
-      "image": "https://imgproxy.divecdn.com/Oq9wrsuUhGEafoFVBdrDzYhnNDILoIWK2gg9VLhJ4Z0/g:nowe:843:245/c:1172:662/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUdfMTYxNy5qcGc=.webp",
-      "month": "2026-09",
-      "added_at": "2026-09-22T07:48:46.159Z"
-    },
-    {
-      "url": "https://www.fooddive.com/news/beyond-new-protein-bars-poweders-plant-based/829554/",
-      "title": "Beyond adds protein bars, powders in portfolio expansion",
-      "summary": "The plant-based meat company is entering adjacent categories to tap into more lucrative opportunities within protein.",
-      "category": "market",
-      "story_key": "beyond-meat-protein-bars-powders-expansion",
-      "image": "https://imgproxy.divecdn.com/D7cGcPX4sbbHnbOku0gO_7VQOt3dmeiGse9QTQTP6JU/g:nowe:0:0/c:2500:1412/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9QaHl0b3NwaGVyZV9IZXJvLmpwZw==.webp",
-      "month": "2026-09",
-      "added_at": "2026-09-22T07:49:57.375Z"
-    },
-    {
-      "url": "https://www.beveragedaily.com/Article/2026/09/10/mubadala-backs-luckin-coffee-with-1bn-minority-stake/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-      "title": "Mubadala backs Luckin Coffee with $1bn minority stake",
-      "summary": "Mubadala has taken a $1 billion minority stake in Luckin Coffee, backing the Chinese coffee chain's continued expansion.",
-      "category": "mna",
-      "story_key": "mubadala-luckin-coffee-stake",
-      "image": "https://www.beveragedaily.com/resizer/v2/4M6AXODMNVBJ5P4AF46LOVG4FM.jpg?auth=1e0d81afb14d88c3ca25edd2bff388b55d8543fb772902efe0a78c4a2bbfdfea&width=1200&height=630&smart=true",
-      "month": "2026-09",
-      "added_at": "2026-09-22T07:54:28.902Z"
-    },
-    {
       "url": "https://www.foodnavigator.com/Article/2026/09/21/nestle-russia-seizure-what-next-for-the-food-and-beverage-giant-and-foreign-businesses/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-      "title": "Nestlé Russia under state control: What happens next?",
-      "summary": "Five days after the Kremlin seized control of Nestlé Russia, analysts, industry leaders and the Swiss government are assessing the implications for the food and beverage giant, foreign investors and the future of multinational business in Russia.",
-      "category": "mna",
+      "title": "Nestlé Russia Under State Control",
+      "summary": "Nestlé's assets in Russia coming under state control represents a major geopolitical risk materialization and highlights supply chain vulnerability for multinational food companies operating in sanctioned territories. This development has broader implications for foreign direct investment confidence in emerging markets and accelerates industry reshoring and portfolio rebalancing strategies.",
+      "category": "macro",
       "story_key": "nestle-russia-kremlin-seizure",
       "image": "https://www.foodnavigator.com/resizer/v2/IWMIU6WUCFA4JHCXK7F7IZK22M.jpg?auth=2106a8bc4f0439058f9c5daed8651418f7d4c92124e45333e8ddcde8e63b1121&width=1200&height=630&smart=true",
       "month": "2026-09",
@@ -152,28 +23,18 @@
     },
     {
       "url": "https://www.ynet.co.il/economy/article/hky3jmcqgg",
-      "title": "הסמל האיטלקי מתייבש: בתי הקפה נסגרים, והאספרסו עובר הביתה",
-      "summary": "בשנים האחרונות נסגרו באיטליה יותר מ-24 אלף בתי קפה, ירידה של 14%, כאשר ברומא הירידה חצתה את ה-30%. הסיבות כוללות עבודה מרחוק, הצלחת מכונות הקפה הביתיות, עליית מחירי הקפוצ'ינו והעדפת צעירים למשקאות בריאים יותר.",
-      "category": "market",
+      "title": "Italy Loses 14% Of Its Cafés As Remote Work, Home Machines And Rising Prices Hit Bar Traffic",
+      "summary": "Italy's traditional coffee shop culture is facing structural decline as consumer habits shift toward home consumption, presenting both a cultural challenge and a strategic market opportunity for at-home coffee product manufacturers. This demographic shift underscores the importance of innovation in ready-to-drink and premium home coffee categories for companies targeting the Italian market.",
+      "category": "macro",
       "story_key": "italy-espresso-bars-decline-home-brewing",
       "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2020/03/12/9843184/9843184_0_22_1300_732_0_large.jpg",
       "month": "2026-09",
       "added_at": "2026-09-30T18:03:05.338Z"
     },
     {
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYVVCbThXTl82NjZaZi00S3JxbmRuWVNjSEtXM3UxM0VGMm1URE5CMjBFdzEycFFzNy1lckNqdFNHbmltYXZaTUNTT0FNWWJ1SzFrM1VQWlBrN2g5ZVNONXhKaTdwYkFReXMxcmpwcEpqRkJ1cWltdUFDMkhWNzFpNmVBemR5MTdheVNWeloxcjRvTFNfdUMzb1VwWEZqc29rNmNvWGdKdGNBckJYT2ozSXh3SzdibjJxSFE?oc=5",
-      "title": "Kerry opens Pennsylvania coffee extraction facility as demand for premium coffee grows",
-      "summary": "Kerry has opened a new coffee extraction facility in Pennsylvania to meet rising demand for premium coffee ingredients.",
-      "category": "tech",
-      "story_key": "kerry-pennsylvania-coffee-extraction-plant",
-      "image": "",
-      "month": "2026-09",
-      "added_at": "2026-10-06T04:01:40.699Z"
-    },
-    {
       "url": "https://www.foodnavigator.com/Article/2026/09/30/how-climate-change-is-reshaping-food-supply-chains/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-      "title": "Climate chaos hits food supply chains as heatwave rewrites rules",
-      "summary": "Europe's 2026 heatwave exposed food supply chain vulnerabilities spanning corn, cocoa and vegetables, prompting manufacturers to adapt sourcing and ingredient strategies.",
+      "title": "Climate Chaos Hits Food Supply Chains As Heatwave Rewrites Rules",
+      "summary": "Escalating climate-induced disruptions, exemplified by unprecedented heatwaves, are fundamentally destabilizing traditional food supply chain models and forcing companies to reassess sourcing strategies and operational resilience. This systemic risk requires urgent strategic investments in supply chain diversification, climate-adaptive sourcing, and alternative ingredient development to maintain competitive margins and market access.",
       "category": "macro",
       "story_key": "europe-heatwave-2026-supply-chain-impact",
       "image": "https://www.foodnavigator.com/resizer/v2/RQWQTS344BC6JNDVODESJ4TSII.jpg?auth=c6e10636625442f382d3212f580a463ee0fdcc861ea5c95c2c5c5341fbc7c297&width=1200&height=630&smart=true",
@@ -181,19 +42,49 @@
       "added_at": "2026-10-06T04:07:36.654Z"
     },
     {
-      "url": "https://www.foodmanufacture.co.uk/Article/2026/10/01/arla-to-invest-63m-into-high-protein-options/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-      "title": "Arla to pump €63M into high-protein dairy production",
-      "summary": "Arla is investing €63 million to expand its high-protein dairy production capacity amid growing consumer demand for protein-rich products.",
-      "category": "market",
-      "story_key": "arla-high-protein-dairy-investment",
-      "image": "https://www.foodmanufacture.co.uk/resizer/v2/DCDXMBBH2FHQJKBTTYH3WTOGZU.jpg?auth=f0bc0db921d6cc12f6b041f48b148c29e5b8232bed7426a4ee35029b739e4380&width=1200&height=630&smart=true",
+      "url": "https://www.foodbeverage-outlook.com/beverage-production/nestle-and-platinum-equity-to-create-peranel-water-and-premium-beverages-joint-venture",
+      "title": "Nestlé And Platinum Equity To Create Peranel Water And Premium Beverages Joint Venture",
+      "summary": "The strategic joint venture between Nestlé and Platinum Equity consolidates leadership in the premium beverages segment, leveraging complementary capabilities to capture growing consumer demand for high-end water and specialty drink products. This partnership reflects market consolidation trends and positions both entities to compete more effectively in the expanding premium beverage category.",
+      "category": "mna",
+      "story_key": "",
+      "image": "",
       "month": "2026-09",
-      "added_at": "2026-10-06T04:08:06.536Z"
+      "added_at": "2026-09-10T10:59:13.571Z"
+    },
+    {
+      "url": "https://www.beveragedaily.com/Article/2026/09/10/mubadala-backs-luckin-coffee-with-1bn-minority-stake/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+      "title": "Mubadala Backs Luckin Coffee With $1bn Minority Stake",
+      "summary": "Mubadala's $1 billion minority investment in Luckin Coffee signals institutional confidence in the Chinese coffee chain's recovery and growth potential, while strengthening the company's capital position for market expansion. This capital infusion underscores the strategic importance of the Chinese coffee market and positions Luckin as a formidable competitor in Asia's rapidly growing premium beverage sector.",
+      "category": "mna",
+      "story_key": "mubadala-luckin-coffee-stake",
+      "image": "https://www.beveragedaily.com/resizer/v2/4M6AXODMNVBJ5P4AF46LOVG4FM.jpg?auth=1e0d81afb14d88c3ca25edd2bff388b55d8543fb772902efe0a78c4a2bbfdfea&width=1200&height=630&smart=true",
+      "month": "2026-09",
+      "added_at": "2026-09-22T07:54:28.902Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/sleepytime-tea-owner-hain-celestial-selling-international-business-organic-natural/830263/",
+      "title": "Sleepytime Tea Owner Hain Celestial To Sell International Business For $323M",
+      "summary": "Hain Celestial's sale of its international business for $323 million represents a strategic portfolio optimization to focus resources on higher-priority markets or core brands. This divestiture signals a shift in the company's geographic priorities and capital allocation strategy within the competitive functional tea and natural foods sector.",
+      "category": "mna",
+      "story_key": "hain-celestial-international-business-sale",
+      "image": "https://imgproxy.divecdn.com/Oq9wrsuUhGEafoFVBdrDzYhnNDILoIWK2gg9VLhJ4Z0/g:nowe:843:245/c:1172:662/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUdfMTYxNy5qcGc=.webp",
+      "month": "2026-09",
+      "added_at": "2026-09-22T07:48:46.159Z"
+    },
+    {
+      "url": "https://www.foodnavigator.com/Article/2026/09/10/coca-cola-ceo-henrique-braun-outlines-new-innovation-strategy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+      "title": "Coca-Cola Brings Innovation Back With New Strategy",
+      "summary": "Coca-Cola is refocusing on product innovation to maintain market competitiveness and drive growth in an evolving beverage landscape. This strategic shift signals the company's recognition of changing consumer preferences and the need to diversify beyond traditional carbonated beverages.",
+      "category": "market",
+      "story_key": "coca-cola-innovation-strategy-braun",
+      "image": "https://www.foodnavigator.com/resizer/v2/OGCWOEKYOJCIJGQONPVF25JPT4.jpg?auth=97c82a06dd21bbf97d66ff3134828d168eb82516a14f1084b7d8ba7ed99828f4&width=1200&height=630&smart=true",
+      "month": "2026-09",
+      "added_at": "2026-09-10T18:34:14.251Z"
     },
     {
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbUpJelV1NzZxRkxmMF95aUhIWjgtalNUOXdsQTBMRWdhS09UeE1iclhWaDhIYlpaSDdxRGo1alFweEEtTWNSeHZCaGhfdWpKaGlocEJTUk10Qm04OHh6YjJQSGx6VHptWTB4QkdfWFhrQS1FWjJfcGstbVFkSlh2MVo4cnFZSFZhTkMtUVAycXBBUQ?oc=5",
-      "title": "PepsiCo to invest $1bn into Colombia over next five years",
-      "summary": "PepsiCo announced plans to invest $1 billion in Colombia over the next five years to expand its manufacturing and operations in the country.",
+      "title": "PepsiCo To Invest $1bn Into Colombia Over Next Five Years",
+      "summary": "PepsiCo's $1 billion five-year investment commitment to Colombia demonstrates strategic confidence in Latin American growth markets and positions the company to strengthen supply chain integration and market penetration. This capital allocation decision reflects confidence in regional economic prospects and supports the company's long-term expansion strategy in emerging markets.",
       "category": "market",
       "story_key": "pepsico-colombia-investment-1bn",
       "image": "",
@@ -202,8 +93,8 @@
     },
     {
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR2lYN3RSNDlKOVUzTmxIRFpTQ0RkWnJKbmNVdENSY2FLMlZSNHZJNDJacnpJYW9TNTd6NnhOMUdpQVZrS1BDYVZxT01jeW9qd2ROd2NGQkZRM25KNnpzMVdlejNhQ0pHVU5uNmJ3MEtiRkV3SlJKR3dMRXpnZzdJV09CbFlNMlNNMVRfSFRBREREc1JPZXRRN3MxZTBqVHdVOC1Ob2puRjhxQ1VCWURLT1JyM3dmMjQ?oc=5",
-      "title": "Vietnam overtakes Brazil in instant coffee exports",
-      "summary": "Vietnam has surpassed Brazil to become the leading exporter of instant coffee globally, according to industry data.",
+      "title": "Vietnam Overtakes Brazil In Instant Coffee Exports",
+      "summary": "Vietnam's displacement of Brazil as the leading instant coffee exporter signals a significant shift in global supply chain dynamics and competitive advantage in the commodity coffee sector. This market share migration highlights competitive pressure on traditional producers and creates strategic opportunities for coffee processors and traders positioned in Vietnam's supply ecosystem.",
       "category": "market",
       "story_key": "vietnam-overtakes-brazil-instant-coffee-exports",
       "image": "",
@@ -211,49 +102,91 @@
       "added_at": "2026-10-06T04:11:47.198Z"
     },
     {
+      "url": "https://www.foodnavigator.com/Article/2026/09/16/general-mills-mars-kellanova-and-mckee-accuse-big-sugar-of-price-fixing/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+      "title": "General Mills, Kellanova, Mars And McKee Foods Sue Sugar Producers Over Alleged Price-Fixing",
+      "summary": "The multi-billion dollar food manufacturers' lawsuit against sugar producers over alleged price-fixing represents a significant litigation risk for commodity suppliers and reflects downstream players' vulnerability to input cost manipulation. This antitrust challenge could reshape sugar market dynamics and potentially reduce input cost volatility for the plaintiffs if successful.",
+      "category": "market",
+      "story_key": "general-mills-mars-sugar-price-fixing-lawsuit",
+      "image": "https://www.foodnavigator.com/resizer/v2/VW3Y3QNZUNFQ3DXLNRSNS42BQA.jpg?auth=e5e991c5edf56c9294eaba1b5b80a66e4c2856a3d50d41598bcef601d213b049&width=1200&height=630&smart=true",
+      "month": "2026-09",
+      "added_at": "2026-09-22T07:46:06.457Z"
+    },
+    {
       "url": "https://www.foodmanufacture.co.uk/Article/2026/10/05/sun-bear-biofuture-develops-fat-derived-from-yeast-cells-which-shows-promise-as-an-alternative-to-cocoa-butter/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-      "title": "Yeast-derived fat fools consumers in cocoa butter test",
-      "summary": "Sun Bear Biofuture has developed a fat derived from yeast cells that shows promise as an alternative to cocoa butter, with consumer tests unable to distinguish it from the real ingredient.",
+      "title": "Yeast-Derived Fat Fools Consumers In Cocoa Butter Test",
+      "summary": "Yeast-derived fat demonstrates promising potential as a cost-effective and sustainable substitute for cocoa butter in consumer testing, with significant implications for the chocolate industry's supply chain resilience. This innovation could reshape ingredient sourcing strategies and margins for major food manufacturers amid cocoa price volatility.",
       "category": "tech",
       "story_key": "yeast-derived-cocoa-butter-alternative",
       "image": "https://www.foodmanufacture.co.uk/resizer/v2/RSB5ZJ7HG5CARDEUGDL4PTEOLU.jpg?auth=fcb8e4ea0bde76a5df1e94dfb278b384dd201d31a61b570e9fc603d03cf7fd97&width=1200&height=630&smart=true",
       "month": "2026-09",
       "added_at": "2026-10-06T04:17:25.252Z"
+    },
+    {
+      "url": "https://www.foodnavigator.com/Article/2026/09/10/childhood-glp-1-prescriptions-rise-dramatically/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+      "title": "GLP-1 Prescriptions For Young Children Up 310-Fold",
+      "summary": "The explosive 310-fold increase in GLP-1 prescriptions for young children signals a major market expansion beyond its original diabetes and weight-loss indication, creating substantial revenue opportunities for pharmaceutical companies. This trend also presents significant strategic implications for food and beverage companies as they navigate changing consumer health behaviors and regulatory environments.",
+      "category": "tech",
+      "story_key": "glp1-childhood-prescriptions-surge",
+      "image": "https://www.foodnavigator.com/resizer/v2/AKLAJSZOKZDA5FHR7XH6EOQWUU.jpg?auth=2580a02d81532a9f19f0231bb87f32d758f586770006ea0f22d5d7fad65db6d9&width=1200&height=630&smart=true",
+      "month": "2026-09",
+      "added_at": "2026-09-10T14:07:36.573Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/mars-startups-unreasonable-fiber-gut-health/830410/",
+      "title": "Mars Zeroes In On Gut Health With Startup Partnerships",
+      "summary": "Mars is strategically investing in the high-growth functional health sector through startup partnerships focused on gut health, positioning the company to capture emerging consumer demand for wellness-oriented products. This move reflects the confectionery and pet care giant's broader diversification into health-conscious market segments.",
+      "category": "tech",
+      "story_key": "mars-gut-health-startup-accelerator",
+      "image": "https://imgproxy.divecdn.com/KYQpVqHAMaMqqpwrHiCej2hajpwcevTybj1l37Mr5Nk/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy01MTE4NDI2NjAuanBn.webp",
+      "month": "2026-09",
+      "added_at": "2026-09-16T08:49:22.512Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/folgers-functional-coffee-protein-fiber/830509/",
+      "title": "Folgers Launches Functional Coffee Line Featuring Protein, Fiber",
+      "summary": "Folgers' entry into the functional coffee market with protein and fiber-enriched products reflects the industry's shift toward value-added, health-focused beverages to compete in the premiumization trend. This launch positions the brand to capture growing consumer demand for convenient functional nutrition within the established coffee category.",
+      "category": "tech",
+      "story_key": "folgers-functional-coffee-launch",
+      "image": "https://imgproxy.divecdn.com/g02BSn7ZZcEy1ZQXKm6cKb7FFYM3su1gA4iNyr4eQMg/g:nowe:9:180/c:1176:664/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9Gb2xnZXJzLmpwZw==.webp",
+      "month": "2026-09",
+      "added_at": "2026-09-22T07:45:41.590Z"
     }
   ],
   "starred": [
-    "https://www.foodbeverage-outlook.com/beverage-production/nestle-and-platinum-equity-to-create-peranel-water-and-premium-beverages-joint-venture",
-    "https://www.foodnavigator.com/Article/2026/09/10/childhood-glp-1-prescriptions-rise-dramatically/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "https://www.foodnavigator.com/Article/2026/09/10/coca-cola-ceo-henrique-braun-outlines-new-innovation-strategy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "https://www.fooddive.com/news/mars-startups-unreasonable-fiber-gut-health/830410/",
     "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRmhUa2psSTE4SG1vaFRtX2U2cUdjSUJaTU5LVEE3dEIzdXhvSUJYRmFOczRjdDZ3S01WRnF4YkFwUHlxWTczelB5aHh3MzhSazlVRGY0cHlPaUw1bElTQl91V3UycmIwY0tZbUxiX0FhT3JwcXJxczdXUGlkcnZqZU9jVUJUdy1iR01fdHdDV0luQmZjZXNMa3VOY1dVLWJCRmdFMkR3U2pNc3ZNZ2JTWDhhUUQzaTJmYTVlMlZJaw?oc=5",
-    "https://www.fooddive.com/news/folgers-functional-coffee-protein-fiber/830509/",
-    "https://www.foodnavigator.com/Article/2026/09/16/general-mills-mars-kellanova-and-mckee-accuse-big-sugar-of-price-fixing/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "https://www.fooddive.com/news/sleepytime-tea-owner-hain-celestial-selling-international-business-organic-natural/830263/",
-    "https://www.beveragedaily.com/Article/2026/09/10/mubadala-backs-luckin-coffee-with-1bn-minority-stake/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.foodnavigator.com/Article/2026/09/21/nestle-russia-seizure-what-next-for-the-food-and-beverage-giant-and-foreign-businesses/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.ynet.co.il/economy/article/hky3jmcqgg",
     "https://www.foodnavigator.com/Article/2026/09/30/how-climate-change-is-reshaping-food-supply-chains/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "https://www.foodbeverage-outlook.com/beverage-production/nestle-and-platinum-equity-to-create-peranel-water-and-premium-beverages-joint-venture",
+    "https://www.beveragedaily.com/Article/2026/09/10/mubadala-backs-luckin-coffee-with-1bn-minority-stake/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "https://www.fooddive.com/news/sleepytime-tea-owner-hain-celestial-selling-international-business-organic-natural/830263/",
+    "https://www.foodnavigator.com/Article/2026/09/10/coca-cola-ceo-henrique-braun-outlines-new-innovation-strategy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbUpJelV1NzZxRkxmMF95aUhIWjgtalNUOXdsQTBMRWdhS09UeE1iclhWaDhIYlpaSDdxRGo1alFweEEtTWNSeHZCaGhfdWpKaGlocEJTUk10Qm04OHh6YjJQSGx6VHptWTB4QkdfWFhrQS1FWjJfcGstbVFkSlh2MVo4cnFZSFZhTkMtUVAycXBBUQ?oc=5",
     "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR2lYN3RSNDlKOVUzTmxIRFpTQ0RkWnJKbmNVdENSY2FLMlZSNHZJNDJacnpJYW9TNTd6NnhOMUdpQVZrS1BDYVZxT01jeW9qd2ROd2NGQkZRM25KNnpzMVdlejNhQ0pHVU5uNmJ3MEtiRkV3SlJKR3dMRXpnZzdJV09CbFlNMlNNMVRfSFRBREREc1JPZXRRN3MxZTBqVHdVOC1Ob2puRjhxQ1VCWURLT1JyM3dmMjQ?oc=5",
-    "https://www.foodmanufacture.co.uk/Article/2026/10/05/sun-bear-biofuture-develops-fat-derived-from-yeast-cells-which-shows-promise-as-an-alternative-to-cocoa-butter/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS"
+    "https://www.foodnavigator.com/Article/2026/09/16/general-mills-mars-kellanova-and-mckee-accuse-big-sugar-of-price-fixing/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "https://www.foodmanufacture.co.uk/Article/2026/10/05/sun-bear-biofuture-develops-fat-derived-from-yeast-cells-which-shows-promise-as-an-alternative-to-cocoa-butter/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "https://www.foodnavigator.com/Article/2026/09/10/childhood-glp-1-prescriptions-rise-dramatically/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "https://www.fooddive.com/news/mars-startups-unreasonable-fiber-gut-health/830410/",
+    "https://www.fooddive.com/news/folgers-functional-coffee-protein-fiber/830509/"
   ],
   "category_names": {},
   "category_overrides": {
     "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRmhUa2psSTE4SG1vaFRtX2U2cUdjSUJaTU5LVEE3dEIzdXhvSUJYRmFOczRjdDZ3S01WRnF4YkFwUHlxWTczelB5aHh3MzhSazlVRGY0cHlPaUw1bElTQl91V3UycmIwY0tZbUxiX0FhT3JwcXJxczdXUGlkcnZqZU9jVUJUdy1iR01fdHdDV0luQmZjZXNMa3VOY1dVLWJCRmdFMkR3U2pNc3ZNZ2JTWDhhUUQzaTJmYTVlMlZJaw?oc=5": "Macro Environment",
-    "https://www.foodnavigator.com/Article/2026/09/16/general-mills-mars-kellanova-and-mckee-accuse-big-sugar-of-price-fixing/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Market Dynamics",
-    "https://www.foodbeverage-outlook.com/beverage-production/nestle-and-platinum-equity-to-create-peranel-water-and-premium-beverages-joint-venture": "M&A and Divestitures",
     "https://www.foodnavigator.com/Article/2026/09/21/nestle-russia-seizure-what-next-for-the-food-and-beverage-giant-and-foreign-businesses/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Macro Environment",
-    "https://www.ynet.co.il/economy/article/hky3jmcqgg": "Macro Environment"
+    "https://www.ynet.co.il/economy/article/hky3jmcqgg": "Macro Environment",
+    "https://www.foodnavigator.com/Article/2026/09/30/how-climate-change-is-reshaping-food-supply-chains/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Macro Environment",
+    "https://www.foodbeverage-outlook.com/beverage-production/nestle-and-platinum-equity-to-create-peranel-water-and-premium-beverages-joint-venture": "M&A and Divestitures",
+    "https://www.beveragedaily.com/Article/2026/09/10/mubadala-backs-luckin-coffee-with-1bn-minority-stake/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "M&A and Divestitures",
+    "https://www.fooddive.com/news/sleepytime-tea-owner-hain-celestial-selling-international-business-organic-natural/830263/": "M&A and Divestitures",
+    "https://www.foodnavigator.com/Article/2026/09/10/coca-cola-ceo-henrique-braun-outlines-new-innovation-strategy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Market Dynamics",
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbUpJelV1NzZxRkxmMF95aUhIWjgtalNUOXdsQTBMRWdhS09UeE1iclhWaDhIYlpaSDdxRGo1alFweEEtTWNSeHZCaGhfdWpKaGlocEJTUk10Qm04OHh6YjJQSGx6VHptWTB4QkdfWFhrQS1FWjJfcGstbVFkSlh2MVo4cnFZSFZhTkMtUVAycXBBUQ?oc=5": "Market Dynamics",
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR2lYN3RSNDlKOVUzTmxIRFpTQ0RkWnJKbmNVdENSY2FLMlZSNHZJNDJacnpJYW9TNTd6NnhOMUdpQVZrS1BDYVZxT01jeW9qd2ROd2NGQkZRM25KNnpzMVdlejNhQ0pHVU5uNmJ3MEtiRkV3SlJKR3dMRXpnZzdJV09CbFlNMlNNMVRfSFRBREREc1JPZXRRN3MxZTBqVHdVOC1Ob2puRjhxQ1VCWURLT1JyM3dmMjQ?oc=5": "Market Dynamics",
+    "https://www.foodnavigator.com/Article/2026/09/16/general-mills-mars-kellanova-and-mckee-accuse-big-sugar-of-price-fixing/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Market Dynamics",
+    "https://www.foodmanufacture.co.uk/Article/2026/10/05/sun-bear-biofuture-develops-fat-derived-from-yeast-cells-which-shows-promise-as-an-alternative-to-cocoa-butter/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Tech & Innovation",
+    "https://www.foodnavigator.com/Article/2026/09/10/childhood-glp-1-prescriptions-rise-dramatically/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Tech & Innovation",
+    "https://www.fooddive.com/news/mars-startups-unreasonable-fiber-gut-health/830410/": "Tech & Innovation",
+    "https://www.fooddive.com/news/folgers-functional-coffee-protein-fiber/830509/": "Tech & Innovation"
   },
-  "hidden": [
-    "https://www.confectionerynews.com/Article/2026/09/15/ferrero-bets-on-wonka-to-boost-autumn-confectionery-sales/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "https://www.fooddive.com/news/coca-cola-us-manufacturing-10-billion-investment/830468/",
-    "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYVVCbThXTl82NjZaZi00S3JxbmRuWVNjSEtXM3UxM0VGMm1URE5CMjBFdzEycFFzNy1lckNqdFNHbmltYXZaTUNTT0FNWWJ1SzFrM1VQWlBrN2g5ZVNONXhKaTdwYkFReXMxcmpwcEpqRkJ1cWltdUFDMkhWNzFpNmVBemR5MTdheVNWeloxcjRvTFNfdUMzb1VwWEZqc29rNmNvWGdKdGNBckJYT2ozSXh3SzdibjJxSFE?oc=5",
-    "https://www.foodmanufacture.co.uk/Article/2026/10/01/arla-to-invest-63m-into-high-protein-options/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "https://www.themarker.com/markets/2026-09-09/ty-article/.premium/000001a0-85f8-d148-afbd-f7f9bd550000",
-    "https://www.fooddive.com/news/beyond-new-protein-bars-poweders-plant-based/829554/",
-    "https://www.fooddive.com/news/glp-1-drugs-snacking-pepsico-reeses-kellogg-cheetos-doritos/830551/"
-  ],
-  "updated_at": "2026-10-06T04:42:49.916Z"
+  "hidden": [],
+  "updated_at": "2026-10-06T05:08:46.818Z"
 }
