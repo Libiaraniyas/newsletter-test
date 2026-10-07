@@ -1558,5 +1558,45 @@
     "story_key": "stride-clio-snacks-acquisition",
     "category": "mna",
     "sent_at": "2026-10-07T12:28:37.072235+00:00"
+  },
+  "3EB0FE2B6C2CF629F209D5": {
+    "url": "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/",
+    "title": "Coca-Cola steps into better-for-you soda market with prebiotics",
+    "summary": "Coca-Cola is entering the prebiotic soda category, competing with Olipop and PepsiCo-owned Poppi.",
+    "story_key": "coca-cola-prebiotic-soda-entry",
+    "category": "tech",
+    "sent_at": "2026-10-07T17:13:15.305874+00:00"
+  },
+  "3EB04166BEF0D3B168FA02": {
+    "url": "https://www.fooddive.com/news/constellation-brands-buys-spikedade-75-million/832374/",
+    "title": "Modelo maker buys boozy sports drink SpikedAde for $75M",
+    "summary": "Constellation Brands is acquiring the vodka and sports drink brand SpikedAde for $75 million to tap into growing demand for RTD beverages.",
+    "story_key": "constellation-spikedade-acquisition",
+    "category": "mna",
+    "sent_at": "2026-10-07T17:13:15.305874+00:00"
+  },
+  "3EB08B228EFE04D4872528": {
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN0ZTbGJhUV9tT0dPOWEwbW52Zi1lM0NVdUJCbnJCbDJtVlBObTFUY0xuNWxJQjZLX0dMcmNYaU5aaG9MVFd1aHMtMG95eHRjWDdkSDJWa0RFdHZ5TFY0NF9vMEZNYngzVHRSeXVSQXFyNzNHVlF2M1VhQXpoRjNqenZVYXRfZ2dyU1h3RXcwRkl3aUU0eFc2bVlLYlZyNDhBdXQxWHYwTm0?oc=5",
+    "title": "Brazil coffee exports hit 20-month high in September",
+    "summary": "Brazil's coffee exports reached a 20-month high in September, reflecting strong supply from the harvest.",
+    "story_key": "brazil-coffee-exports-20month-high",
+    "category": "macro",
+    "sent_at": "2026-10-07T17:13:15.305874+00:00"
+  },
+  "3EB087431FA1544A71662B": {
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbHRNYjROd0VtMjhBanYzYlBXLXBhQzlmU1VqbzZfSWs3WTJSNThCQjE1cURNNkZTOExyTXROeDRybDE3b1BjYVdJQnNjNVpoWkVNYW5GUTViR1lRRzR2aDdRcXlpaXloaXFWZlFqQ1ZDclV4VzBZRXV2NWR1bzBxTmhRNzV1dzBtcmVySWI5R0U3NVJPWG1saldyUS1mYVRuSE4zaw?oc=5",
+    "title": "Coffee Prices Tumble on Larger Coffee Supplies from Brazil",
+    "summary": "Coffee prices fell as larger supplies from Brazil weighed on the market.",
+    "story_key": "brazil-coffee-supply-price-drop-oct2026",
+    "category": "macro",
+    "sent_at": "2026-10-07T17:13:15.305874+00:00"
+  },
+  "3EB044739E8E72017BDB0D": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/07/grocery-shoppers-seek-deals-at-clubs-and-mass-merch-retailers/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "High grocery prices push shoppers to spread spending across store formats",
+    "summary": "NIQ research finds food prices are the top consumer concern heading into 2027, with 34% of shoppers citing them as a key worry, driving trade-down behavior and spending across club and mass-merch retailers.",
+    "story_key": "niq-grocery-price-concern-2027",
+    "category": "macro",
+    "sent_at": "2026-10-07T17:13:15.305874+00:00"
   }
 }
