@@ -1,17 +1,5 @@
 [
   {
-    "url": "https://www.foodnavigator.com/Article/2026/09/22/nestle-russia-to-continue-operations-despite-state-takeover/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "nestle-russia-kremlin-seizure",
-    "title": "Nestlé Russia vows to continue despite state intervention",
-    "sent_at": "2026-09-22T14:20:28.357393+00:00"
-  },
-  {
-    "url": "https://www.themarker.com/markets/2026-09-22/ty-article/.highlight/000001a0-c94e-de5d-a5fa-d95f3ea60000",
-    "story_key": "cal-supermarket-cellcom-antitrust-block",
-    "title": "רשות התחרות שמה ברקס לג'ורג' חורש: עסקת כאל התפוצצה",
-    "sent_at": "2026-09-22T14:20:28.357393+00:00"
-  },
-  {
     "url": "https://www.foodnavigator.com/Article/2026/09/23/could-sweeteners-disrupt-the-gut-microbiome/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "story_key": "sweeteners-microbiome-scrutiny",
     "title": "Sweeteners and the microbiome: What do we know?",
@@ -316,5 +304,53 @@
     "story_key": "brazil-political-shock-real-coffee-sugar-prices",
     "title": "Bolsonaro Surprise Jolt Sends Brazil's Real Soaring, Boosts Sugar and Coffee",
     "sent_at": "2026-10-06T12:35:55.265731+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/10/07/mengniu-prepares-for-glp-1-food-era/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "mengniu-glp1-functional-dairy",
+    "title": "Mengniu prepares for GLP-1 food era with functional dairy products",
+    "sent_at": "2026-10-07T12:29:01.346817+00:00"
+  },
+  {
+    "url": "https://www.confectionerynews.com/Article/2026/10/06/ferrero-targets-growth-beyond-chocolate-with-power-crunch-refresh/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "ferrero-protein-power-crunch",
+    "title": "Ferrero targets protein-led growth beyond chocolate",
+    "sent_at": "2026-10-07T12:29:01.346817+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/ghirardelli-chocolate-packaged-cookies-snacking/832262/",
+    "story_key": "ghirardelli-packaged-cookies-entry",
+    "title": "Ghirardelli brings 174-year-old chocolate brand to packaged cookies",
+    "sent_at": "2026-10-07T12:29:01.346817+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/kraft-mac-and-cheese-cheesy-ramen-product-innovation/832222/",
+    "story_key": "kraft-mac-cheese-ramen-category-entry",
+    "title": "Kraft Mac & Cheese enters first new category in decades with cheesy ramen",
+    "sent_at": "2026-10-07T12:29:01.346817+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/Ferrero-Nutella-innovation-snacking-Hershey-Mars/832071/",
+    "story_key": "ferrero-us-sweets-powerhouse-strategy",
+    "title": "Nutella maker Ferrero building a sweets 'powerhouse' in the US",
+    "sent_at": "2026-10-07T12:29:01.346817+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/mars-sustainably-cocoa-goals/832032/",
+    "story_key": "mars-cocoa-sourcing-goal-miss",
+    "title": "Mars hikes use of sustainably sourced cocoa, but falls short of 2025 goal",
+    "sent_at": "2026-10-07T12:29:01.346817+00:00"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTEt6YWZnRGNGMkxZeDBhcXR6X3pzeUFCbGRuaHhUVXg4UTA5M0FjempZZGRHUkJsVG1fMHB3cV9PM2Y3Qk56cm5aRDVrUGZza1E2QjNoa1lWR3l5bHZuTVhkTmdNZWJLUXd2MzJrT0tSNUZCZlowUHN0b2hXVDdIT1p1LXk2dlNLRGNYMVFUU1E0bWhiSFhsUDEyLUZZQThZZ2trU1BfaXZraXdGSjlBR3psdEpHc1RKWXpkc1ByWlhyUmNza3JNNQ?oc=5",
+    "story_key": "bg-foods-nortera-green-giant-canada-blocked",
+    "title": "B&G Foods and Nortera call off Green Giant Canada deal following competition watchdog's probe",
+    "sent_at": "2026-10-07T12:29:01.346817+00:00"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMkVZNlZnc2dncmdxUGt5azRDNW50TnpxbDJtRHV2aHdRSjVNTHpuZm1Ub0xFVGE5bWlxdkVqTUZnOFlXSVFBOHg2STBrRllZb3luZjd0QVlqcklFcDNSclJWZGlEcHMyaVVUb3lzRHhjSVdrWnY0UE5aVFV1Y2tUaWhZQ2M1NXN0aEFjazRYdlpZRFhPcWszNmRLMnc1c1BLRTN5VA?oc=5",
+    "story_key": "stride-clio-snacks-acquisition",
+    "title": "Stride Consumer Partners acquires Greek yogurt snack brand Clio Snacks",
+    "sent_at": "2026-10-07T12:29:01.346817+00:00"
   }
 ]
