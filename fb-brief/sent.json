@@ -1,35 +1,5 @@
 [
   {
-    "url": "https://www.foodnavigator.com/Article/2026/09/24/aldi-sharpens-discount-edge-with-86m-in-new-price-cuts/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "aldi-fall-price-cuts-2026",
-    "title": "Aldi lowers fall food prices despite cost pressures ahead",
-    "sent_at": "2026-09-24T14:37:21.506742+00:00"
-  },
-  {
-    "url": "https://www.fooddive.com/news/grocery-inflation-fuel-prices-fmi/831249/",
-    "story_key": "grocery-inflation-fuel-costs-fmi",
-    "title": "Grocery inflation is primed to rise",
-    "sent_at": "2026-09-24T14:37:21.506742+00:00"
-  },
-  {
-    "url": "https://www.dairyreporter.com/Article/2026/09/24/chobani-targets-protein-and-coffee-growth-as-demand-for-natural-foods-rises/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "chobani-protein-coffee-expansion",
-    "title": "Protein, coffee and convenience drive Chobani's next phase of expansion",
-    "sent_at": "2026-09-24T14:37:21.506742+00:00"
-  },
-  {
-    "url": "https://www.ynet.co.il/economy/article/bjunw3mqgx",
-    "story_key": "israel-basket-carrefour-program-end",
-    "title": "אחרי תקופה קצרה: מיזם \"הסל של ישראל\" הגיע לסיומו",
-    "sent_at": "2026-09-24T14:37:21.506742+00:00"
-  },
-  {
-    "url": "https://en.globes.co.il/en/article-1001557413#utm_source=RSS",
-    "story_key": "cal-supermarket-cellcom-antitrust-block",
-    "title": "Cal sale likely to be postponed after Horesh-Harel cancel deal",
-    "sent_at": "2026-09-24T14:37:21.506742+00:00"
-  },
-  {
     "url": "https://www.foodnavigator.com/Article/2026/09/24/big-food-warns-of-risks-from-ultra-processed-foods/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "story_key": "big-food-upf-scrutiny-warning",
     "title": "Big Food warns growing scrutiny of ultra-processed foods could hit sales and costs",
@@ -334,5 +304,29 @@
     "story_key": "niq-grocery-price-concern-2027",
     "title": "High grocery prices push shoppers to spread spending across store formats",
     "sent_at": "2026-10-07T17:13:31.676976+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/10/08/mccormick-unilever-deal-clears-us-antitrust-hurdle/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "mccormick-unilever-food-deal-antitrust",
+    "title": "McCormick-Unilever deal clears US antitrust hurdle as UK review deadline looms",
+    "sent_at": "2026-10-08T20:26:44.433542+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/PepsiCo-snacking-north-america-inflation-beverages/832484/",
+    "story_key": "pepsico-cost-cuts-north-america-2026",
+    "title": "PepsiCo plans cost cuts as North American struggles persist",
+    "sent_at": "2026-10-08T20:26:44.433542+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/keurig-dr-pepper-liquid-espress-concentrate-cpg-cold-brew/832502/",
+    "story_key": "kdp-espresso-concentrate-launch",
+    "title": "Keurig Dr Pepper bets on iced coffee with espresso concentrate",
+    "sent_at": "2026-10-08T20:26:44.433542+00:00"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcVlESkQtZV9PdTc5REtmbl9mRHhCYWpoaWV2bWVpMXJKcEdaTnhCN0lkbkMtRWtkdzk1MjlWNUczbmFPWXJCcy12bWdzWjkxenVkTS13akJ4d1kyY21mZTY3Y0N0SlFsbXU2dVhJTm9aNENCcnBvcVQwckFUdUZiWU14anJNWnhXSWJhMUlqWUhWMVZtQnc?oc=5",
+    "story_key": "muller-germany-facility-closures",
+    "title": "Müller reveals plans to close two German facilities",
+    "sent_at": "2026-10-08T20:26:44.433542+00:00"
   }
 ]
