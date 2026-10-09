@@ -1,36 +1,4 @@
 {
-  "3EB06710F1DB59877B3CBB": {
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNXlvUjBKbWhOcmZtdTlaSjQ3N2haTG1pQnVhdHNTQlhOTkt4bnQzNHVLTTZhYTRaWlN0R0RkbVpzbmtoejhuZWNqVDl2WDhPVGRVRExkOVZhWTRZdTFTTVBEd204U2ctcE15NHZpUjVLVWVUX25Dbm5TU0VYekxVX0swRWFfTEpuRG1EYXJjRHh5ck9sNHZZ?oc=5",
-    "title": "Häagen-Dazs to exit Brazilian market after almost 30 years",
-    "summary": "Häagen-Dazs is exiting the Brazilian market after nearly three decades of operations there.",
-    "story_key": "haagen-dazs-brazil-exit",
-    "category": "mna",
-    "sent_at": "2026-08-25T10:28:49.567442+00:00"
-  },
-  "3EB0640D14F4286E0E3938": {
-    "url": "https://www.fooddive.com/news/magnum-ice-cream-innovation-post-unilever-split/825094/",
-    "title": "With 'shackles off' after Unilever split, Magnum Ice Cream takes new approach to innovation",
-    "summary": "The Ben & Jerry's maker is expanding the reach of its brands by positioning them against other snacks such as candy and chips rather than just ice cream.",
-    "story_key": "magnum-post-unilever-split-innovation",
-    "category": "market",
-    "sent_at": "2026-08-25T10:28:49.567442+00:00"
-  },
-  "3EB012F2F1EF5068C34C96": {
-    "url": "https://www.fooddive.com/news/constellation-brands-modelo-100m-farm-profitability/828594/",
-    "title": "Beer giant Constellation Brands invests $100M in US farm profitability",
-    "summary": "Constellation Brands, maker of Modelo, announced a $100 million investment to improve economic resiliency for farmers in key US producing states including Idaho, Montana and North Dakota.",
-    "story_key": "constellation-brands-farm-investment",
-    "category": "market",
-    "sent_at": "2026-08-25T10:28:49.567442+00:00"
-  },
-  "3EB0E3C1AB48A9EAAA9260": {
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNVFQMTdFT1ZPcW5PSFVzemNhVUVqWERKQWk3M0h2Mkc1Q0k2b0VSOEMwdnNHWXVveDJvdHNRVXBmZUU1ejY1YWpQQWRVUnMyWVBQbzJtVXY5QWJneDFuRW5zbEdLQnZIWHQ1TFJYTjFfNFlNRnc1akdseEk3NWxtc192RUI1OUhNSnRVZ0ZDQ0NpVkdWZURIMGM2UGwxVWM?oc=5",
-    "title": "Bernard Matthews to close Derby processing facility by end of 2026",
-    "summary": "Bernard Matthews announced it will close its Derby processing facility by the end of 2026.",
-    "story_key": "bernard-matthews-derby-closure",
-    "category": "market",
-    "sent_at": "2026-08-25T10:28:49.567442+00:00"
-  },
   "3EB036EFC836937037A64D": {
     "url": "https://www.fooddive.com/news/Mondelez-snacking-protein-bars-grenade-aquisition/828654/",
     "title": "Mondelēz brings UK protein bar Grenade to the US",
@@ -1614,5 +1582,45 @@
     "story_key": "muller-germany-facility-closures",
     "category": "market",
     "sent_at": "2026-10-08T20:26:32.510874+00:00"
+  },
+  "3EB0C5DBBFABDF4D4C91FF": {
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNzRORm5qLXd1b1R2MmgyTzNURkZQMC1DUDIxNF81b3k2MkRrSm9yUVd3V1MyMDhXS0YxZ0RrS1J6QWpYXzlLcmxFN0MwRks1YnlJUjZRU1E3WE92RHl3U2ZuQ0ZTcEc0bF9EbHZaRmZ6OU0zazZpVjR6bXJDckhBMm1EbEhJSlFiTl9DT2ZpOVpSejE2SXFBU0dVWkk?oc=5",
+    "title": "Constellation Brands acquires SpikedAde in deal worth up to $353m",
+    "summary": "Constellation Brands has acquired boozy sports drink brand SpikedAde in a deal worth up to $353m.",
+    "story_key": "constellation-spikedade-acquisition",
+    "category": "mna",
+    "sent_at": "2026-10-09T12:25:26.535490+00:00"
+  },
+  "3EB09158B6E713ABC8411B": {
+    "url": "https://www.confectionerynews.com/Article/2026/10/09/ghirardelli-enters-snack-aisle-in-major-move-beyond-chocolate/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Ghirardelli enters snack aisle in major move beyond chocolate",
+    "summary": "Ghirardelli has entered the cookie category with new Crispy Cookies, marking a major expansion beyond chocolate for the Lindt & Sprüngli-owned brand.",
+    "story_key": "ghirardelli-packaged-cookies-entry",
+    "category": "mna",
+    "sent_at": "2026-10-09T12:25:26.535490+00:00"
+  },
+  "3EB06C27E62C294DD0AE78": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/09/barry-callebauts-move-beyond-chocolate-fails-to-convince-investors/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Barry Callebaut's move beyond chocolate fails to convince investors",
+    "summary": "Barry Callebaut is expanding beyond chocolate into complete product solutions as cocoa market volatility continues to dominate investor thinking, raising questions over whether growth ambitions can outweigh near-term challenges.",
+    "story_key": "barry-callebaut-growth-strategy-refocus",
+    "category": "mna",
+    "sent_at": "2026-10-09T12:25:26.535490+00:00"
+  },
+  "3EB064EBFFFA40241D3FEA": {
+    "url": "https://www.dairyreporter.com/Article/2026/10/09/arla-sweden-axes-contracts-with-52-farms-amid-falling-demand-for-organic-milk/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Arla Sweden axes contracts with 52 farms amid falling demand for organic milk",
+    "summary": "Arla Sweden has ended contracts with 52 farms as organic milk demand declines.",
+    "story_key": "arla-sweden-organic-milk-farm-cuts",
+    "category": "market",
+    "sent_at": "2026-10-09T12:25:26.535490+00:00"
+  },
+  "3EB0154F5122FBABF7088A": {
+    "url": "https://www.foodmanufacture.co.uk/Article/2026/10/08/pepsico-under-pressure-from-investors-amid-falling-margins/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "PepsiCo under fire from investors amid North America slowdown",
+    "summary": "PepsiCo is facing investor pressure as margins fall and its North American business struggles.",
+    "story_key": "pepsico-investor-pressure-na-margins",
+    "category": "market",
+    "sent_at": "2026-10-09T12:25:26.535490+00:00"
   }
 }
