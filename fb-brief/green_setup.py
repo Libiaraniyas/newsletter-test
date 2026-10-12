@@ -21,7 +21,13 @@ import requests
 
 INSTANCE = os.environ["GREEN_API_INSTANCE"]
 TOKEN = os.environ["GREEN_API_TOKEN"]
-BASE = f"https://api.green-api.com/waInstance{INSTANCE}"
+# The generic host (api.green-api.com) became unreliable; use the instance's
+# DEDICATED host (apiUrl in the console), e.g. https://7107.api.greenapi.com.
+# Override with GREEN_API_HOST if ever needed.
+_HOST = (os.environ.get("GREEN_API_HOST", "").strip().rstrip("/")
+         or (f"https://{INSTANCE[:4]}.api.greenapi.com" if INSTANCE[:4].isdigit()
+             else "https://api.green-api.com"))
+BASE = f"{_HOST}/waInstance{INSTANCE}"
 MODE = os.environ.get("MODE", "set").lower()
 
 KEEP = ("incomingWebhook", "outgoingWebhook", "stateWebhook", "webhookUrl")
@@ -99,7 +105,7 @@ def history():
     getChatHistory / lastIncomingMessages. Prints raw entries so we can learn
     the reaction shape and rebuild the poller on top of a read that works."""
     chat = os.environ.get("GREEN_API_CHAT_ID", "")
-    base = f"https://api.green-api.com/waInstance{INSTANCE}"
+    base = BASE
     if not chat:
         print("⚠️  GREEN_API_CHAT_ID not set — cannot read chat history.")
         return
@@ -146,7 +152,7 @@ def history():
 def groups():
     """List the WhatsApp GROUPS this instance can see (id + name), so we can pick
     the right group chatId (…@g.us) to send the daily brief to."""
-    base = f"https://api.green-api.com/waInstance{INSTANCE}"
+    base = BASE
     try:
         r = requests.get(f"{base}/getContacts/{TOKEN}", timeout=60)
         data = r.json()
@@ -180,7 +186,7 @@ def sendtest():
         if digits.startswith("0"):
             digits = "972" + digits[1:]
         chat = digits + "@c.us"
-    base = f"https://api.green-api.com/waInstance{INSTANCE}"
+    base = BASE
     try:
         st = requests.get(f"{base}/getStateInstance/{TOKEN}", timeout=40).json()
         print("state:", json.dumps(st, ensure_ascii=False))

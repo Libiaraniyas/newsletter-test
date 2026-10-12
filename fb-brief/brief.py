@@ -573,11 +573,37 @@ def format_article(a, add_url=""):
 
 
 # ----- 5. send via Green API ----------------------------------------------
+# Green API host. The generic host (api.green-api.com) became unreliable from
+# the runners (connection errors); each instance has a DEDICATED host shown as
+# apiUrl in the console, e.g. https://7107.api.greenapi.com (greenapi.com, no
+# hyphen). We try the dedicated host first and fall back to the generic one, and
+# remember whichever answered so sending reuses it. Override via GREEN_API_HOST.
+_GREEN_BASE = None  # resolved at runtime by whatsapp_state()
+
+
+def _green_hosts():
+    inst = os.environ.get("GREEN_API_INSTANCE", "")
+    hosts = []
+    override = os.environ.get("GREEN_API_HOST", "").strip().rstrip("/")
+    if override:
+        hosts.append(override)
+    if inst[:4].isdigit():
+        hosts.append(f"https://{inst[:4]}.api.greenapi.com")
+    hosts.append("https://api.green-api.com")
+    seen, out = set(), []
+    for h in hosts:
+        if h not in seen:
+            seen.add(h)
+            out.append(h)
+    return out
+
+
 def send_whatsapp(text):
     instance = os.environ["GREEN_API_INSTANCE"]
     token = os.environ["GREEN_API_TOKEN"]
     chat_id = os.environ["GREEN_API_CHAT_ID"]
-    url = f"https://api.green-api.com/waInstance{instance}/sendMessage/{token}"
+    base = _GREEN_BASE or _green_hosts()[0]
+    url = f"{base}/waInstance{instance}/sendMessage/{token}"
     resp = requests.post(url, json={"chatId": chat_id, "message": text}, timeout=60)
     if resp.status_code != 200:
         log(f"  ✗ Green API error {resp.status_code}: {resp.text[:500]}")
@@ -593,17 +619,25 @@ def whatsapp_state():
     """Green API instance state ('authorized' when the WhatsApp link is live).
     A cheap status GET — NOT an Anthropic call, so it costs nothing. Used to fail
     fast BEFORE the paid Claude call on days the instance is disconnected (when
-    messages would silently queue undelivered anyway)."""
+    messages would silently queue undelivered anyway). Tries the dedicated host
+    first, then the generic one, and remembers the host that answered."""
+    global _GREEN_BASE
     instance = os.environ["GREEN_API_INSTANCE"]
     token = os.environ["GREEN_API_TOKEN"]
-    url = f"https://api.green-api.com/waInstance{instance}/getStateInstance/{token}"
-    try:
-        r = requests.get(url, timeout=30)
-        if not r.ok:
-            return f"HTTP {r.status_code}"
-        return str(r.json().get("stateInstance", "") or "unknown")
-    except Exception as e:  # noqa: BLE001
-        return f"error: {str(e)[:80]}"
+    last = "unknown"
+    for base in _green_hosts():
+        url = f"{base}/waInstance{instance}/getStateInstance/{token}"
+        try:
+            r = requests.get(url, timeout=30)
+            if not r.ok:
+                last = f"HTTP {r.status_code}"
+                continue
+            _GREEN_BASE = base  # this host answered — reuse it for sending
+            return str(r.json().get("stateInstance", "") or "unknown")
+        except Exception as e:  # noqa: BLE001
+            last = f"error: {str(e)[:80]}"
+            continue
+    return last
 
 
 # ----- 6. memory -----------------------------------------------------------
