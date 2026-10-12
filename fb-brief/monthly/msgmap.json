@@ -1542,5 +1542,37 @@
     "story_key": "dudu-ezra-stop-market-acquisition",
     "category": "mna",
     "sent_at": "2026-10-12T14:08:52.206495+00:00"
+  },
+  "3EB07929A26A7B5BFD243D": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/12/ethiopias-coffee-sector-could-conflict-threaten-production/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Could conflict in Ethiopia threaten coffee?",
+    "summary": "Ethiopia is Africa's largest coffee producer and the fifth largest in the world. Renewed conflict in the country's northern regions raises concerns about potential impacts on coffee production.",
+    "story_key": "ethiopia-conflict-coffee-threat",
+    "category": "macro",
+    "sent_at": "2026-10-12T19:36:16.493231+00:00"
+  },
+  "3EB097642CDCDB624B3939": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/12/big-foods-c-suite-shake-up-signals-industry-in-transformation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Big Food's C-suite shake-up signals new era",
+    "summary": "Big Food is undergoing its biggest leadership shake-up in decades, with Coca-Cola, Nestle, Kraft Heinz and Hershey replacing CEOs and executives. New leaders are focused on reinvention, digital transformation and portfolio strategy.",
+    "story_key": "big-food-csuite-shakeup-2026",
+    "category": "market",
+    "sent_at": "2026-10-12T19:36:16.493231+00:00"
+  },
+  "3EB0989181665EB24C0F9B": {
+    "url": "https://www.fooddive.com/news/pepsico-soda-business-turnaround-poppi-mountain-dew/832737/",
+    "title": "PepsiCo puts 'all the urgency' into turning around soft drinks",
+    "summary": "PepsiCo is planning to add more functional benefits to Poppi, its newly acquired better-for-you soda brand, as it prioritizes turning around its soft drinks business.",
+    "story_key": "pepsico-poppi-functional-turnaround",
+    "category": "market",
+    "sent_at": "2026-10-12T19:36:16.493231+00:00"
+  },
+  "3EB0904C06E37CF0E2B978": {
+    "url": "https://www.themarker.com/wallstreet/2026-10-12/ty-article/.premium/000001a1-30b1-dbe9-ade9-72ffbcec0000",
+    "title": "מחירי הגז באירופה זינקו ביותר מ–150% מתחילת השנה — ולא צפויים לרדת ב–2027",
+    "summary": "המלחמה באיראן וסגירת מצר הורמוז החריפו את התחרות בשוק הגז הגלובלי, ומאגרי הגז של אירופה צנחו לרמות קרובות לשפל היסטורי. התחזיות צופות כי המחירים רק יעלו בשנה הבאה.",
+    "story_key": "europe-gas-prices-surge-2026",
+    "category": "macro",
+    "sent_at": "2026-10-12T19:36:16.493231+00:00"
   }
 }
