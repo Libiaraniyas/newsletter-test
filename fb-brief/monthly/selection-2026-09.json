@@ -53,23 +53,13 @@
     },
     {
       "url": "https://www.fooddive.com/news/sleepytime-tea-owner-hain-celestial-selling-international-business-organic-natural/830263/",
-      "title": "Sleepytime Tea Owner Hain Celestial To Sell International Business For $323M",
+      "title": "Hain Celestial To Sell International Business For $323M",
       "summary": "Hain Celestial's sale of its international business for $323 million represents a strategic portfolio optimization to focus resources on higher-priority markets or core brands. This divestiture signals a shift in the company's geographic priorities and capital allocation strategy within the competitive functional tea and natural foods sector.",
       "category": "mna",
       "story_key": "hain-celestial-international-business-sale",
       "image": "https://imgproxy.divecdn.com/Oq9wrsuUhGEafoFVBdrDzYhnNDILoIWK2gg9VLhJ4Z0/g:nowe:843:245/c:1172:662/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUdfMTYxNy5qcGc=.webp",
       "month": "2026-09",
       "added_at": "2026-09-22T07:48:46.159Z"
-    },
-    {
-      "url": "https://www.reuters.com/world/africa/south-africas-shoprite-annual-earnings-rise-122-2026-09-01/",
-      "title": "Shoprite Acquires Vida E Caffe And Stakes In R&A Amid 12.2% Earnings Growth",
-      "summary": "This strategic acquisition expands Shoprite's retail and food-service footprint in South Africa, consolidating assets and leveraging strong operational performance to grow its share of the coffee and beverage segment.",
-      "category": "mna",
-      "story_key": "",
-      "image": "",
-      "month": "2026-09",
-      "added_at": "2026-10-07T06:16:55.775Z"
     },
     {
       "url": "https://pulse2.com/kinetico-acquires-cielter-and-enki-water-to-expand-in-france-and-italy/amp/",
@@ -197,8 +187,6 @@
     "https://www.foodmanufacture.co.uk/Article/2026/10/05/sun-bear-biofuture-develops-fat-derived-from-yeast-cells-which-shows-promise-as-an-alternative-to-cocoa-butter/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Tech & Innovation",
     "https://www.fooddive.com/news/folgers-functional-coffee-protein-fiber/830509/": "Tech & Innovation"
   },
-  "hidden": [
-    "https://www.reuters.com/world/africa/south-africas-shoprite-annual-earnings-rise-122-2026-09-01/"
-  ],
-  "updated_at": "2026-10-13T08:11:31.830Z"
+  "hidden": [],
+  "updated_at": "2026-10-13T08:12:51.457Z"
 }
