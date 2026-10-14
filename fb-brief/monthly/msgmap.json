@@ -1630,5 +1630,29 @@
     "story_key": "france-supermarket-fridge-cyberattack",
     "category": "market",
     "sent_at": "2026-10-14T10:59:54.128514+00:00"
+  },
+  "3EB06945FEEFFDFBF9529E": {
+    "url": "https://www.fooddive.com/news/bg-foods-sale-divesitures-green-giant-serial-buyer/832939/",
+    "title": "B&G Foods sells bean brands amid push to sharpen business",
+    "summary": "B&G Foods sold its B&M and Joan of Arc bean brands to McCall Farms, continuing its divestiture push to focus on core brands and pay down debt.",
+    "story_key": "bg-foods-bean-brands-divestiture",
+    "category": "mna",
+    "sent_at": "2026-10-14T14:52:32.930032+00:00"
+  },
+  "3EB023AFCF5BA531F8762A": {
+    "url": "https://www.ynet.co.il/economy/article/bkqgoepsfe",
+    "title": "האינפלציה השנתית בארה\"ב בספטמבר עלתה במפתיע ב-3.7%",
+    "summary": "מדד המחירים לצרכן בארה\"ב עלה בספטמבר ב-3.7% בחישוב שנתי, מעל הצפי של 3.6%, ומדד הליבה עלה ב-2.6% מעל התחזיות. הנתונים מקרבים את הפד להעלאת ריבית נוספת.",
+    "story_key": "us-cpi-september-3.7pct",
+    "category": "macro",
+    "sent_at": "2026-10-14T14:52:32.930032+00:00"
+  },
+  "3EB07A26D288940CB934D3": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/13/creatine-gains-ground-in-functional-foods-and-beverages/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Creatine as a food ingredient remains popular with steady stream of new products",
+    "summary": "Creatine is expanding beyond sports nutrition into protein bars, gummies and drink mixes from brands like Jimmybar and Ritual, targeting everyday wellness consumers.",
+    "story_key": "creatine-functional-food-expansion",
+    "category": "tech",
+    "sent_at": "2026-10-14T14:52:32.930032+00:00"
   }
 }
