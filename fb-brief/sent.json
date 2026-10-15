@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.fooddive.com/news/hormel-expands-deeper-protein-purchase-chicken-brakebush-brothers/831750/",
-    "story_key": "hormel-brakebush-brothers-acquisition",
-    "title": "Hormel expands deeper into protein with $1B purchase of chicken processor",
-    "sent_at": "2026-09-30T16:14:39.433766+00:00"
-  },
-  {
-    "url": "https://www.ynet.co.il/economy/article/hky3jmcqgg",
-    "story_key": "italy-espresso-bars-decline-home-brewing",
-    "title": "הסמל האיטלקי מתייבש: בתי הקפה נסגרים, והאספרסו עובר הביתה",
-    "sent_at": "2026-09-30T16:14:39.433766+00:00"
-  },
-  {
-    "url": "https://www.fooddive.com/news/General-mills-ceo-leadership-change-cereal/831741/",
-    "story_key": "general-mills-ceo-succession-mcnabb",
-    "title": "General Mills appoints current COO Dana McNabb to CEO role",
-    "sent_at": "2026-09-30T16:14:39.433766+00:00"
-  },
-  {
     "url": "https://www.foodmanufacture.co.uk/Article/2026/10/01/arla-to-invest-63m-into-high-protein-options/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "story_key": "arla-high-protein-dairy-investment",
     "title": "Arla to pump €63M into high-protein dairy production",
@@ -406,5 +388,35 @@
     "story_key": "creatine-functional-food-expansion",
     "title": "Creatine as a food ingredient remains popular with steady stream of new products",
     "sent_at": "2026-10-14T14:52:40.101094+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/nestle-investment-mexico-coffee-pet-food-emerging-markets/832996/",
+    "story_key": "nestle-mexico-investment-2b",
+    "title": "Nestlé doubles investment in Mexico to $2B",
+    "sent_at": "2026-10-15T10:42:20.805684+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/fda-salt-substitutes-sodium-reduction-food/832970/",
+    "story_key": "fda-salt-substitute-rule",
+    "title": "FDA paves the way for salt reduction in dozens of food categories",
+    "sent_at": "2026-10-15T10:42:20.805684+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/monster-energy-returns-protein-drinks/832954/",
+    "story_key": "monster-protein-shakes-reentry",
+    "title": "Monster tries again on protein shakes",
+    "sent_at": "2026-10-15T10:42:20.805684+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/justin-timberlake-jessica-biel-protein-soda-proda/832787/",
+    "story_key": "proda-celebrity-protein-soda-launch",
+    "title": "Justin Timberlake, Jessica Biel enter protein soda market",
+    "sent_at": "2026-10-15T10:42:20.805684+00:00"
+  },
+  {
+    "url": "https://www.ynet.co.il/economy/article/yokra14926687",
+    "story_key": "israel-turkish-coffee-market-new-entrants",
+    "title": "מה קשור ועידן עמדי התגייסו למטרה: הדחת מותג ששולט בשוק הישראלי 60 שנה",
+    "sent_at": "2026-10-15T10:42:20.805684+00:00"
   }
 ]
