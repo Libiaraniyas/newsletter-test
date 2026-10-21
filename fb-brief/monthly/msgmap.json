@@ -1,12 +1,4 @@
 {
-  "3EB0FE219826FEBC664DA1": {
-    "url": "https://www.themarker.com/consumer/2026-09-06/ty-article/.premium/000001a0-70fb-ddf3-a1e9-79fb502f0000",
-    "title": "החזקים מתחזקים: זה האפקט שמאפשר לחברות המזון הגדולות לפגוע במתחרים — ובצרכן",
-    "summary": "סקירה של רשות התחרות מציגה את פוטנציאל הנזק לצרכן מקיום תאגידי מזון גדולים, ומתמקדת ב\"אפקט הסל\" - היכולת של תאגידים למנף דומיננטיות בקטגוריה אחת לטובת קטגוריות אחרות. הרשות מבהירה שהשווקים יכולים להתנהג כאילו בוצעה קשירה בין מוצרים גם בלי הסכם בפועל.",
-    "story_key": "israel-antitrust-basket-effect-food-giants",
-    "category": "macro",
-    "sent_at": "2026-09-06T07:34:53.276529+00:00"
-  },
   "3EB0A01C5795D3F888EC6D": {
     "url": "https://www.foodnavigator.com/Article/2026/09/08/nestle-coffee-sustainability-key-to-avoiding-cocoa-like-crisis/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "title": "Nestlé: Coffee sustainability key to avoiding cocoa-like crisis",
@@ -1470,5 +1462,61 @@
     "story_key": "israel-flour-price-hike-russia-wheat",
     "category": "macro",
     "sent_at": "2026-10-21T06:42:22.176274+00:00"
+  },
+  "3EB041B29F5D8CDF0A9024": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/21/how-heatwaves-are-reshaping-the-future-of-chocolate/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Chocolate has a new problem. And it’s not cocoa prices",
+    "summary": "Rising temperatures are reshaping the chocolate industry, impacting cocoa supplies and consumer demand. Manufacturers are adapting formats, product strategies and retail approaches to protect sales in a warming world.",
+    "story_key": "chocolate-heatwave-climate-impact",
+    "category": "tech",
+    "sent_at": "2026-10-21T14:50:42.448255+00:00"
+  },
+  "3EB02F7381D4DAA0A2B86E": {
+    "url": "https://www.fooddive.com/news/Lindt-fires-ceo-Ghirardelli-inflation-cocoa/833506/",
+    "title": "Ghirardelli parent ousts CEO as growth slows",
+    "summary": "Lindt & Sprüngli said Adalbert Lechner will leave the company, with former chief Dieter Weisskopf taking over on an interim basis.",
+    "story_key": "lindt-ceo-ouster-growth-slowdown",
+    "category": "mna",
+    "sent_at": "2026-10-21T14:50:42.448255+00:00"
+  },
+  "3EB087BF9B56037D84FECE": {
+    "url": "https://www.foodmanufacture.co.uk/Article/2026/10/21/allplants-sold-to-french-food-manufacturer-fleury-michon/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Allplants sold to French food manufacturer",
+    "summary": "Plant-based food company Allplants has been sold to French food manufacturer Fleury Michon.",
+    "story_key": "allplants-fleury-michon-acquisition",
+    "category": "mna",
+    "sent_at": "2026-10-21T14:50:42.448255+00:00"
+  },
+  "3EB0905B81D1B96D4CDC90": {
+    "url": "https://www.fooddive.com/news/danone-yogurt-ohio-renewable-energy-biogas/833572/",
+    "title": "Danone partners on $40M facility turning yogurt waste to renewable energy",
+    "summary": "The project, commissioned by PurposeEnergy, comes as Danone boosts production to meet accelerating demand for high-protein yogurt.",
+    "story_key": "danone-yogurt-waste-renewable-energy",
+    "category": "tech",
+    "sent_at": "2026-10-21T14:50:42.448255+00:00"
+  },
+  "3EB09247DD453B50921B4D": {
+    "url": "https://www.fooddive.com/news/texas-sues-nestles-gerber-over-alleged-heavy-metals-in-baby-food/833365/",
+    "title": "Texas sues Nestlé's Gerber over alleged heavy metals in baby food",
+    "summary": "Texas Attorney General Ken Paxton is seeking more than $10 million in penalties from Nestlé's Gerber over alleged heavy metals in baby food.",
+    "story_key": "texas-gerber-heavy-metals-lawsuit",
+    "category": "market",
+    "sent_at": "2026-10-21T14:50:42.448255+00:00"
+  },
+  "3EB0A40CA8B11B554CA565": {
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUVc4aEgzYlZ2YThsWVh1V3FEd01vbnpfTlR4V25RWHMxLWVfWlJMcURvcXAzaFVEa01pSWZIWGk5ZkgxY1NSSndaTzlWSDR0bnlvbENObUhFcE9maE9hTjl3ZkJzTUFXQXVMbk5JUDlfelpPYUVIRVNvOGVGYjZEeFBoT21GWEpOZ2V4d2xob1h2RXVBSVBNNUNtZER5UkVSYm84N3RyWS1HSl9WVFE?oc=5",
+    "title": "Heineken ordered to pay MTB €111m in competition case",
+    "summary": "Heineken has been ordered to pay €111m to competitor MTB following a competition law case.",
+    "story_key": "heineken-mtb-competition-penalty",
+    "category": "mna",
+    "sent_at": "2026-10-21T14:50:42.448255+00:00"
+  },
+  "3EB09E1F897D5F461C4616": {
+    "url": "https://en.globes.co.il/en/article-1001560338#utm_source=RSS",
+    "title": "Bank of Israel keeps rate unchanged",
+    "summary": "The Bank of Israel has kept its interest rate unchanged at 3.25% and has also revised its growth forecast upwards for 2026 and 2027.",
+    "story_key": "israel-boi-rate-unchanged-oct2026",
+    "category": "macro",
+    "sent_at": "2026-10-21T14:50:42.448255+00:00"
   }
 }
