@@ -1566,5 +1566,37 @@
     "story_key": "oil-price-spike-iran-tension-oct2026",
     "category": "macro",
     "sent_at": "2026-10-22T10:58:58.208117+00:00"
+  },
+  "3EB0333E216651BA9DE746": {
+    "url": "https://www.fooddive.com/news/food-beverage-industry-layoffs-closures-increase/833710/",
+    "title": "Food and beverage layoffs accelerate",
+    "summary": "The food and beverage sector has slashed close to 30,000 jobs as of September, up 76% from the same period last year.",
+    "story_key": "fb-industry-layoffs-2026",
+    "category": "macro",
+    "sent_at": "2026-10-22T19:00:25.100918+00:00"
+  },
+  "3EB03B239F8F157C14CBBD": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/21/kroger-plans-5-billion-value-push-through-2029/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Kroger bets on lower prices and simpler deals to drive growth",
+    "summary": "Kroger plans a $5 billion investment in customer value through 2029, including lower prices, simpler promotions and more store brands.",
+    "story_key": "kroger-5bn-value-investment-2029",
+    "category": "market",
+    "sent_at": "2026-10-22T19:00:25.100918+00:00"
+  },
+  "3EB0588F37710B0B3C3FC6": {
+    "url": "https://www.fooddive.com/news/halloween-candy-inflation-2026-hershey-mondelez/833754/",
+    "title": "Why candy prices are scary high ahead of Halloween",
+    "summary": "Rising ingredient costs in the confectionery industry have prompted giants such as Hershey to rethink innovation and broaden trick-or-treating options to include salty snacks.",
+    "story_key": "halloween-candy-inflation-2026",
+    "category": "macro",
+    "sent_at": "2026-10-22T19:00:25.100918+00:00"
+  },
+  "3EB0849B298FD54E81999D": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/21/10-ingredients-concentred-in-one-region/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "10 big ingredients concentrated in a single region",
+    "summary": "To protect against disasters, diversification of supply is often crucial, but many of the world's biggest food ingredients have much of their production concentrated in a single country or region.",
+    "story_key": "ingredient-supply-concentration-risk",
+    "category": "macro",
+    "sent_at": "2026-10-22T19:00:25.100918+00:00"
   }
 }
