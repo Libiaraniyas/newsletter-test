@@ -1,22 +1,4 @@
 {
-  "bc5eec35cf": {
-    "url": "https://en.globes.co.il/en/article-1001552775#utm_source=RSS",
-    "title": "Bank of Israel Governor sees inflation rising",
-    "summary": "Bank of Israel Governor Amir Yaron hinted in a Bloomberg TV interview that there will be no rate cut next month, indicating inflation will rise.",
-    "category": "macro",
-    "story_key": "boi-governor-inflation-rising",
-    "month": "2026-08",
-    "image": "https://res.cloudinary.com/globes/image/upload/t_800X392/v1781174120/direct/IMG_20260609_101911_fqw8vc.jpg"
-  },
-  "0e81018d7c": {
-    "url": "https://www.themarker.com/consumer/2026-08-20/ty-article/.premium/000001a0-194c-df40-afe2-99ff27970000",
-    "title": "משרד האוצר לא מוותר ונערך עם רפורמות חקלאיות שנכשלו בעבר לממשלה הבאה",
-    "summary": "משרד האוצר פועל מאחורי הקלעים להחזיר לשולחן רפורמות בענפים החקלאיים לממשלה הבאה, בהן פתיחת משק החלב, יבוא פירות וירקות וביטול המכס על הדבש.",
-    "category": "macro",
-    "story_key": "israel-treasury-agriculture-reforms-next-government",
-    "month": "2026-08",
-    "image": "https://img.haarets.co.il/bs/000001a0-194c-df40-afe2-99ff27970000/03/aa/e84369954989983b0bd89b3ee5b7/836878.jpg?precrop=2400,1395,x0,y197&amp;width=1200&amp;height=630&amp;cmsprod"
-  },
   "53ed5e91b5": {
     "url": "https://www.foodmanufacture.co.uk/Article/2026/08/20/danone-granted-greenlight-for-860-million-huel-acquisition/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "title": "Danone granted greenlight for £860M Huel acquisition",
@@ -2620,5 +2602,23 @@
     "story_key": "upwind-datadog-offer-reject",
     "month": "2026-09",
     "image": "https://res.cloudinary.com/globes/image/upload/t_800X392/v1693923688/direct/Amiram_Shachar_Credit_Upwind_xdshed_ty1xam.jpg"
+  },
+  "25dc2bbadc": {
+    "url": "https://www.beveragedaily.com/Article/2026/10/23/glp-1-drugs-raise-questions-over-future-alcohol-sales/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "GLP-1 drugs put alcohol sales in focus as Heineken warns of impact",
+    "summary": "Heineken has warned that GLP-1 weight-loss drugs are starting to affect alcohol consumption patterns, prompting the industry to assess the long-term impact on sales.",
+    "category": "tech",
+    "story_key": "glp1-alcohol-sales-heineken",
+    "month": "2026-09",
+    "image": "https://www.beveragedaily.com/resizer/v2/CUL27MRPQVDYRJS3QD43CRC4LU.jpg?auth=c4ff74a5c0406a4ce50ade846416cc0a8c38a8222549a25bdd7c0a058355830d&width=1200&height=630&smart=true"
+  },
+  "8c8e994cc9": {
+    "url": "https://www.themarker.com/wallstreet/2026-10-23/ty-article-live/000001a1-525b-d9e4-a1bd-575b1cd10000",
+    "title": "דאו ג'ונס נסוג בכ-1%; מחיר הנפט מזנק",
+    "summary": "חוזי נפט ברנט עלו ב-3.5% ל-117 דולר לחבית על רקע מתיחות גיאופוליטית, כשמדדי מניות מרכזיים באירופה ובארה\"ב נסוגים ומדדי מנהלי הרכש מצביעים על האטה.",
+    "category": "macro",
+    "story_key": "oil-price-spike-geopolitical-oct2026",
+    "month": "2026-09",
+    "image": "https://img.haarets.co.il/bs/000001a1-525b-d9e4-a1bd-575b1cd10000/35/6a/9a48a16842c4927468bfabbed9b6/884722.jpg?&width=1200&height=630&cmsprod"
   }
 }

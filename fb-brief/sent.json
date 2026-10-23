@@ -1,17 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5BSWlGNjZNYm54aGNrcEkzckhJZFNNV1dlSmYzcU52SGpqVnV3YjctdUhTSEZOMjgyemNlYzQ2R1VJZ0pBZXIybTJCNG9ZZU1JTE1iM000dTFXdWg3Qy1fdERxbFdJdk10aEFHdUpMcDMzNkctT1hvOVNxaHRvQQ?oc=5",
-    "story_key": "coca-cola-costa-coffee-sale-explore",
-    "title": "Coca-Cola Seeks to Unwind $5 Billion Costa Coffee Acquisition",
-    "sent_at": "2026-10-09T16:47:44.046852+00:00"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQXRKVnloZEwzM2hEVU9GNXA3Zm9jLXhhUlRMOG8tX0xIeUgzLTNWY0FqVFYwN1dLc005Q0lLLTg0WmxUandsckhIYnp3aEF6Vi0xODU0c2djMEQtbDh3UUZOakZrcUUxa0k2Y1NDclYwbXd1cVAwbXBlUGlsaFdGalhFUmpiQnlr?oc=5",
-    "story_key": "jde-peets-kdp-merger-close",
-    "title": "JDE Peet's shareholders to transfer to KDP before deadline",
-    "sent_at": "2026-10-09T16:47:44.046852+00:00"
-  },
-  {
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQc0lkdnM0SU8xd25laHVrSW1WeU1JNHNkRDZ2OWZZSHR5RHpPOEw1YWR1R1A4RGotUEN4MGRSeklhSHk0RndSdmN3X1VYU1ZEZDRUVlg0OUVkLXZOaGMxMGl6cVhXNEhZZmhfUzlaNGlDTmczTldSQ3JaX3g5bEZrZk4xcV82a0t6eDQ5c0dmOHFhX2xVYnFZeWxDQ1ZKdE9BMUd4bkdPVkw?oc=5",
     "story_key": "coca-cola-costa-coffee-sale-explore",
     "title": "Coca-Cola looks to sell Costa Coffee, Semafor reports",
@@ -400,5 +388,17 @@
     "story_key": "upwind-datadog-offer-reject",
     "title": "Upwind rejects $4b acquisition offer - report",
     "sent_at": "2026-10-23T14:39:28.314519+00:00"
+  },
+  {
+    "url": "https://www.beveragedaily.com/Article/2026/10/23/glp-1-drugs-raise-questions-over-future-alcohol-sales/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "glp1-alcohol-sales-heineken",
+    "title": "GLP-1 drugs put alcohol sales in focus as Heineken warns of impact",
+    "sent_at": "2026-10-23T18:49:57.925339+00:00"
+  },
+  {
+    "url": "https://www.themarker.com/wallstreet/2026-10-23/ty-article-live/000001a1-525b-d9e4-a1bd-575b1cd10000",
+    "story_key": "oil-price-spike-geopolitical-oct2026",
+    "title": "דאו ג'ונס נסוג בכ-1%; מחיר הנפט מזנק",
+    "sent_at": "2026-10-23T18:49:57.925339+00:00"
   }
 ]
