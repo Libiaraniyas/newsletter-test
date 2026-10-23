@@ -1,12 +1,4 @@
 {
-  "3EB0A01C5795D3F888EC6D": {
-    "url": "https://www.foodnavigator.com/Article/2026/09/08/nestle-coffee-sustainability-key-to-avoiding-cocoa-like-crisis/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "Nestlé: Coffee sustainability key to avoiding cocoa-like crisis",
-    "summary": "Nestlé outlines its strategy to secure coffee supply and boost sustainability in order to avoid the kind of sharp price hikes seen in cocoa, aiming to protect major brands like Nescafe.",
-    "story_key": "nestle-coffee-sustainability-strategy-cocoa-crisis",
-    "category": "tech",
-    "sent_at": "2026-09-08T10:26:14.053088+00:00"
-  },
   "3EB0B7978DF422D2B7E8EA": {
     "url": "https://www.fooddive.com/news/california-non-upf-label-food/829797/",
     "title": "California approves first statewide non-ultraprocessed food label",
@@ -1598,5 +1590,61 @@
     "story_key": "ingredient-supply-concentration-risk",
     "category": "macro",
     "sent_at": "2026-10-22T19:00:25.100918+00:00"
+  },
+  "3EB0EB993C015F24F67EDE": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/23/general-mills-archer-and-conagra-expand-meat-snacks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "General Mills, Archer and Conagra beef up their meat snack portfolios",
+    "summary": "General Mills, Archer and Conagra are expanding their meat stick portfolios with new products like Epic Wagyu beef, oven-roasted chicken and Slim Jim Cheese Mode.",
+    "story_key": "meat-snack-protein-expansion-2026",
+    "category": "market",
+    "sent_at": "2026-10-23T14:39:08.306507+00:00"
+  },
+  "3EB0A600FB7EBCC50FC063": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/23/wilde-lands-fresh-funding-amid-surging-demand-for-protein-rich-snacks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Protein chips attract funding amid competitive protein-snackscape",
+    "summary": "Wilde, known for turning chicken into protein chips, landed a $40 million investment from S2G Investments as competition intensifies in the protein-snacking category.",
+    "story_key": "wilde-protein-chips-funding",
+    "category": "tech",
+    "sent_at": "2026-10-23T14:39:08.306507+00:00"
+  },
+  "3EB0B47A85403FAAB94CDE": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/23/upf-labeling-could-cost-142bn-annually-study-finds/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "UPF labeling could cost $14.2bn annually, study estimates",
+    "summary": "A new study estimates mandatory UPF labeling could cost $14.2bn annually and affect 72% of packaged foods, with industry warning of added costs and legal risks.",
+    "story_key": "upf-labeling-cost-study",
+    "category": "macro",
+    "sent_at": "2026-10-23T14:39:08.306507+00:00"
+  },
+  "3EB00C57CB4D26486F4D3D": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/23/danone-joins-nestle-and-coca-cola-in-labelling-changes/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Danone joins Nestlé and Coca-Cola in labelling changes",
+    "summary": "Danone joins Nestlé and Coca-Cola in revising plastic bottle recycling claims following a European Commission crackdown on potential greenwashing.",
+    "story_key": "eu-plastic-label-greenwashing-crackdown",
+    "category": "macro",
+    "sent_at": "2026-10-23T14:39:08.306507+00:00"
+  },
+  "3EB0534CFBC0B06EB12BD2": {
+    "url": "https://www.fooddive.com/news/hersheys-dots-brand-targets-snacks-growth-beyond-pretzels/831292/",
+    "title": "Right on the Dot's: Why the pretzel brand is key to Hershey's salty snack ambitions",
+    "summary": "Hershey is aiming for $1 billion in sales for its Dot's Pretzels brand by expanding into other salty snack categories like snack mixes.",
+    "story_key": "hershey-dots-salty-snacks-expansion",
+    "category": "mna",
+    "sent_at": "2026-10-23T14:39:08.306507+00:00"
+  },
+  "3EB09D2E4EFCAFF95B94E9": {
+    "url": "https://www.fooddive.com/news/Pepsico-snacking-protein-bars-good-warrior-doritos/833574/",
+    "title": "PepsiCo's Good Warrior enters protein bar space",
+    "summary": "PepsiCo is boosting protein content across several brands via its Good Warrior line, with more than half of consumers prioritizing protein during snacking occasions.",
+    "story_key": "pepsico-good-warrior-protein-bars",
+    "category": "tech",
+    "sent_at": "2026-10-23T14:39:08.306507+00:00"
+  },
+  "3EB0E8C41181CCDC570BC4": {
+    "url": "https://en.globes.co.il/en/article-1001560598#utm_source=RSS",
+    "title": "Upwind rejects $4b acquisition offer - report",
+    "summary": "Israeli cybersecurity company Upwind reportedly received a $4 billion acquisition offer from Datadog but decided on a fundraising round instead.",
+    "story_key": "upwind-datadog-offer-reject",
+    "category": "mna",
+    "sent_at": "2026-10-23T14:39:08.306507+00:00"
   }
 }
