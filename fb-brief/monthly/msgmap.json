@@ -1646,5 +1646,29 @@
     "story_key": "oil-price-spike-geopolitical-oct2026",
     "category": "macro",
     "sent_at": "2026-10-23T18:49:53.302021+00:00"
+  },
+  "3EB028672F96134231AF64": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/23/high-protein-trend-will-not-last-forever/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "High protein won’t last forever",
+    "summary": "The high protein trend has spread across nearly every corner of the food industry, but trends come and go. Food companies are being urged to prepare for a time when the trend is no longer so dominant.",
+    "story_key": "high-protein-trend-peak-warning",
+    "category": "tech",
+    "sent_at": "2026-10-24T10:06:16.548052+00:00"
+  },
+  "3EB0A4397E5338A30F3F82": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/23/nestle-to-close-solon-factory-amid-manufacturing-consolidation-drive/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Nestlé factory closure signals new era of industry consolidation",
+    "summary": "Nestlé's Solon, Ohio factory closure reflects a wider industry trend toward consolidating production and improving manufacturing efficiency amid changing consumer demand.",
+    "story_key": "nestle-ohio-factory-closure",
+    "category": "mna",
+    "sent_at": "2026-10-24T10:06:16.548052+00:00"
+  },
+  "3EB0CFDA2E2F1EA456F1E1": {
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNY1BXLXpsOFV2Z29wTjBYcmFEQmowNDJvalBSRkJTZ2RKeWtHWDVPa0FyakZ0MVdxQldIak05a2RrbGs3a1BTM3ZZRER4SmFGdFFoVmpvcVdxRUFMTlJJVDZTVnZDMEs5QzVLV1FHMzdCVk9qMmhfZWFmbjhxNEFNNDR1Sng1bXpfbXgyOXg0VVdZTy1ZOG1Ya3pn?oc=5",
+    "title": "Keurig faces jury trial in long-running coffee pod antitrust case",
+    "summary": "Keurig is heading to a jury trial in a long-running antitrust case concerning its coffee pod business practices.",
+    "story_key": "keurig-pod-antitrust-jury-trial",
+    "category": "mna",
+    "sent_at": "2026-10-24T10:06:16.548052+00:00"
   }
 }

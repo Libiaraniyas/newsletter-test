@@ -1,11 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQc0lkdnM0SU8xd25laHVrSW1WeU1JNHNkRDZ2OWZZSHR5RHpPOEw1YWR1R1A4RGotUEN4MGRSeklhSHk0RndSdmN3X1VYU1ZEZDRUVlg0OUVkLXZOaGMxMGl6cVhXNEhZZmhfUzlaNGlDTmczTldSQ3JaX3g5bEZrZk4xcV82a0t6eDQ5c0dmOHFhX2xVYnFZeWxDQ1ZKdE9BMUd4bkdPVkw?oc=5",
-    "story_key": "coca-cola-costa-coffee-sale-explore",
-    "title": "Coca-Cola looks to sell Costa Coffee, Semafor reports",
-    "sent_at": "2026-10-09T19:58:05.603888+00:00"
-  },
-  {
     "url": "https://www.themarker.com/podcasts/2026-10-12/ty-article-podcast/000001a1-2fe7-d456-a5f1-efe7af580000",
     "story_key": "israel-food-prices-20pct-4years",
     "title": "מחירי המזון זינקו ב-20% בארבע השנים האחרונות. בכמה אשמה הממשלה?",
@@ -400,5 +394,23 @@
     "story_key": "oil-price-spike-geopolitical-oct2026",
     "title": "דאו ג'ונס נסוג בכ-1%; מחיר הנפט מזנק",
     "sent_at": "2026-10-23T18:49:57.925339+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/10/23/high-protein-trend-will-not-last-forever/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "high-protein-trend-peak-warning",
+    "title": "High protein won’t last forever",
+    "sent_at": "2026-10-24T10:06:25.682154+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/10/23/nestle-to-close-solon-factory-amid-manufacturing-consolidation-drive/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "nestle-ohio-factory-closure",
+    "title": "Nestlé factory closure signals new era of industry consolidation",
+    "sent_at": "2026-10-24T10:06:25.682154+00:00"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNY1BXLXpsOFV2Z29wTjBYcmFEQmowNDJvalBSRkJTZ2RKeWtHWDVPa0FyakZ0MVdxQldIak05a2RrbGs3a1BTM3ZZRER4SmFGdFFoVmpvcVdxRUFMTlJJVDZTVnZDMEs5QzVLV1FHMzdCVk9qMmhfZWFmbjhxNEFNNDR1Sng1bXpfbXgyOXg0VVdZTy1ZOG1Ya3pn?oc=5",
+    "story_key": "keurig-pod-antitrust-jury-trial",
+    "title": "Keurig faces jury trial in long-running coffee pod antitrust case",
+    "sent_at": "2026-10-24T10:06:25.682154+00:00"
   }
 ]

@@ -1,31 +1,4 @@
 {
-  "53ed5e91b5": {
-    "url": "https://www.foodmanufacture.co.uk/Article/2026/08/20/danone-granted-greenlight-for-860-million-huel-acquisition/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "Danone granted greenlight for £860M Huel acquisition",
-    "summary": "Danone has received regulatory approval to complete its £860 million acquisition of meal-replacement brand Huel.",
-    "category": "mna",
-    "story_key": "danone-huel-acquisition-approval",
-    "month": "2026-08",
-    "image": "https://www.foodmanufacture.co.uk/resizer/v2/NIB3JUWPEFCA3MJEAIKRZN5T5M.jpeg?auth=4ec140e285f46c1d295d26f26b361d8e3dad3c8ab4e02725298272bce790c87e&amp;width=1200&amp;height=630&amp;smart=true"
-  },
-  "3dce3d10bf": {
-    "url": "https://www.foodnavigator.com/Article/2026/08/20/lipton-ice-tea-to-remain-co-owned-by-unilever/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "Unilever is offloading its food businesses – but keeping ice tea",
-    "summary": "Unilever is selling its food brands to McCormick but will retain co-ownership of Lipton Ice Tea through its Pepsi Lipton joint venture with PepsiCo.",
-    "category": "mna",
-    "story_key": "unilever-mccormick-food-divestiture-lipton-retained",
-    "month": "2026-08",
-    "image": "https://www.foodnavigator.com/resizer/v2/OOCLYOFNZBETJO4STBAPLORWYU.jpg?auth=665fecb166d0db0eabc589aee2dc9516634aea037cf3b87979d3e2e12b1f5eb0&amp;width=1200&amp;height=630&amp;smart=true"
-  },
-  "c87d9a0ffc": {
-    "url": "https://www.foodnavigator.com/Article/2026/08/19/fda-weighs-petitions-for-natural-food-colors/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "FDA considers new natural food color petitions as synthetic dye phaseout looms",
-    "summary": "The FDA is weighing petitions for safflower yellow, expanded gardenia blue uses and carrot oil changes as food makers move away from synthetic dyes.",
-    "category": "tech",
-    "story_key": "fda-natural-color-petitions",
-    "month": "2026-08",
-    "image": "https://www.foodnavigator.com/resizer/v2/SXGMQGDGUNNWBM6D6LXVC7QSFM.jpg?auth=9d6ca01297c660a584f653f31d76fca5cd8d064bb5fe5eabc8c08eed99dbcbfb&amp;width=1200&amp;height=630&amp;smart=true"
-  },
   "7dc5e2e79b": {
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRm9oNkEySnNYQmpoemRwdWpReURRYmNPc1U0NnR1V3lLRlVlR2hTem12dWZTR2NrQTdqbFpGaXU0Q0pfSmhIVmN0S0pkU0UwUFBsNlpZUi1WaEZCWlIwTjdMZnVmUS1MNlp5MzZNdmYzQ2hqdTRMNWdqWWRKbkNBdmMyZ2ZlbUdNcWVFVHVBYm1JZC1IbFRPRmdwTC1uQnFzR3lwOE02aTVTc1daRXdwSjlXNDBRdUUxenItYS04blFPNmtPZ1dKUA?oc=5",
     "title": "Canada's Competition Bureau moves to block Nortera's acquisition of Green Giant and Le Sieur business",
@@ -2620,5 +2593,31 @@
     "story_key": "oil-price-spike-geopolitical-oct2026",
     "month": "2026-09",
     "image": "https://img.haarets.co.il/bs/000001a1-525b-d9e4-a1bd-575b1cd10000/35/6a/9a48a16842c4927468bfabbed9b6/884722.jpg?&width=1200&height=630&cmsprod"
+  },
+  "78eb8b21b3": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/23/high-protein-trend-will-not-last-forever/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "High protein won’t last forever",
+    "summary": "The high protein trend has spread across nearly every corner of the food industry, but trends come and go. Food companies are being urged to prepare for a time when the trend is no longer so dominant.",
+    "category": "tech",
+    "story_key": "high-protein-trend-peak-warning",
+    "month": "2026-09",
+    "image": "https://www.foodnavigator.com/resizer/v2/4IY66GPVUBARNNHYTVU7CET2S4.jpg?auth=4e547698f9f9f50c7fe52537be9f6661568b51c195de5c9ce3752fc56c7a5b16&width=1200&height=630&smart=true"
+  },
+  "d548fab970": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/23/nestle-to-close-solon-factory-amid-manufacturing-consolidation-drive/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Nestlé factory closure signals new era of industry consolidation",
+    "summary": "Nestlé's Solon, Ohio factory closure reflects a wider industry trend toward consolidating production and improving manufacturing efficiency amid changing consumer demand.",
+    "category": "mna",
+    "story_key": "nestle-ohio-factory-closure",
+    "month": "2026-09",
+    "image": "https://www.foodnavigator.com/resizer/v2/WUE6ZCRIUZH65ECFGYVW3MBNRQ.jpg?auth=7c8e99280a0e961472d26c6041eddfd62ea028a8f52b647e83ca40899de04bf2&width=1200&height=630&smart=true"
+  },
+  "7e7eb1a1ae": {
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNY1BXLXpsOFV2Z29wTjBYcmFEQmowNDJvalBSRkJTZ2RKeWtHWDVPa0FyakZ0MVdxQldIak05a2RrbGs3a1BTM3ZZRER4SmFGdFFoVmpvcVdxRUFMTlJJVDZTVnZDMEs5QzVLV1FHMzdCVk9qMmhfZWFmbjhxNEFNNDR1Sng1bXpfbXgyOXg0VVdZTy1ZOG1Ya3pn?oc=5",
+    "title": "Keurig faces jury trial in long-running coffee pod antitrust case",
+    "summary": "Keurig is heading to a jury trial in a long-running antitrust case concerning its coffee pod business practices.",
+    "category": "mna",
+    "story_key": "keurig-pod-antitrust-jury-trial",
+    "month": "2026-09"
   }
 }
