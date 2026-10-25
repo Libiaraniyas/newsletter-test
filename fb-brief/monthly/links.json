@@ -1,12 +1,4 @@
 {
-  "dc4da76d2f": {
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRzdmN29mM2d1SUR2ZUFoaU52N2dEX0xxRHo2T1JmMFFaU1doZW9RWFhVbkxrQUVZQklaWG1LcG5tMno3Um9vOGFlYU9YU2tQNWJIUV8yWmNBaE5NM0RPQ0IweXF3WVhJbHNBZFQzdzVUcHk5cG83TGdaODZ3MWExUzA3MnY3c2JEYTNMa3N1S2tUSnNWRC1LVGpvZXBnc3c?oc=5",
-    "title": "Vandemoortele must sell Worcester pastry facility after CMA ruling",
-    "summary": "UK's Competition and Markets Authority has ordered Vandemoortele to divest its Worcester pastry manufacturing facility following an antitrust review.",
-    "category": "mna",
-    "story_key": "vandemoortele-worcester-divestiture-cma",
-    "month": "2026-08"
-  },
   "c1d8d09ea3": {
     "url": "https://www.fooddive.com/news/jbs-bid-pilgrims-pride-ownership-chicken/828265/",
     "title": "JBS makes bid for remainder of Pilgrim's Pride",
@@ -2619,5 +2611,14 @@
     "category": "mna",
     "story_key": "nestle-q3-2026-turnaround",
     "month": "2026-09"
+  },
+  "b0e5f02599": {
+    "url": "https://www.dairyreporter.com/Article/2026/10/25/us-dairy-industry-investing-15bn-in-new-processing-capacity-across-23-states/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "US dairy industry invests $15bn in new processing capacity across 23 states",
+    "summary": "The US dairy industry is investing $15 billion in new processing capacity across 23 states, according to a new report.",
+    "category": "macro",
+    "story_key": "us-dairy-15bn-processing-investment",
+    "month": "2026-09",
+    "image": "https://www.dairyreporter.com/resizer/v2/LLYHTBZCO5FL3ERQJL4HSGVEH4.jpg?auth=1b0e1d06f560cdfd66f8036e1a8c745153b7a5f3e9d80bc12365a0ae0b691ca9&width=1200&height=630&smart=true"
   }
 }
