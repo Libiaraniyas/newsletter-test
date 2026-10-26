@@ -1,36 +1,4 @@
 {
-  "3EB0DE5726A513C2D96986": {
-    "url": "https://www.foodnavigator.com/Article/2026/09/10/cpg-input-costs-rise-in-august/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "Food inflation may look tame, but rising CPG input costs suggest otherwise",
-    "summary": "August PPI data show food prices holding steady, but grains, oilseeds, packaging, diesel and freight costs are rising, creating potential margin pressure for CPG food and beverage companies.",
-    "story_key": "cpg-input-costs-rise-august-2026",
-    "category": "macro",
-    "sent_at": "2026-09-11T10:25:39.942268+00:00"
-  },
-  "3EB07919F88734FC78F925": {
-    "url": "https://www.fooddive.com/news/general-mills-mars-lawsuit-sugar-price-fixing/830079/",
-    "title": "General Mills, Mars sue sugar producers for alleged price-fixing",
-    "summary": "Food giants claim suppliers coordinated on sensitive pricing information and pushed costs for the sweetener to a record high.",
-    "story_key": "general-mills-mars-sugar-price-fixing-lawsuit",
-    "category": "macro",
-    "sent_at": "2026-09-11T10:25:39.942268+00:00"
-  },
-  "3EB0387EA925EE89E6B835": {
-    "url": "https://www.fooddive.com/news/beyond-new-protein-bars-poweders-plant-based/829554/",
-    "title": "Beyond adds protein bars, powders in portfolio expansion",
-    "summary": "The plant-based meat company is entering adjacent categories to tap into more lucrative opportunities within protein.",
-    "story_key": "beyond-meat-protein-bars-powders-expansion",
-    "category": "market",
-    "sent_at": "2026-09-11T10:25:39.942268+00:00"
-  },
-  "3EB0532261E7C3BF5874A7": {
-    "url": "https://www.foodnavigator.com/Article/2026/09/09/as-brands-lean-into-glp-1-messaging-consumers-get-more-selective/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "GLP-1 users look past marketing claims, focus on nutrition facts",
-    "summary": "As food manufacturers race to simplify their appeal through GLP-1-focused branding, consumers taking the medications appear to be scrutinizing products more closely, paying attention to specific nutritional metrics rather than broad wellness messaging.",
-    "story_key": "glp1-consumers-scrutinize-nutrition-facts",
-    "category": "tech",
-    "sent_at": "2026-09-11T10:25:39.942268+00:00"
-  },
   "3EB06A3A591E1829287416": {
     "url": "https://www.foodnavigator.com/Article/2026/09/11/folgers-functional-coffee-launches-with-protein-prebiotic-blends/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "title": "Folgers enters functional coffee with protein, prebiotic and focus blends",
@@ -1534,5 +1502,13 @@
     "story_key": "us-dairy-15bn-processing-investment",
     "category": "macro",
     "sent_at": "2026-10-25T18:01:16.565408+00:00"
+  },
+  "3EB09324B7DBB9D47CE591": {
+    "url": "https://www.themarker.com/markets/2026-10-26/ty-article/.premium/000001a1-7751-d222-a3e3-7f7939e60000",
+    "title": "רגע לפני הבחירות: שטראוס בהימור של 2 מיליארד שקל על השוק המקומי",
+    "summary": "שטראוס מתכננת להשקיע 2 מיליארד שקל בפעילות בישראל — בתשתיות, במפעלים ובשרשרת האספקה, בדגש על הגדלת קיבולת הייצור במחלבות. החברה שואפת לצמיחה ממוצעת של 7%-9% בשנה, ומניית שטראוס נופלת 7% בין היתר על רקע תוצאות הבחירות בברזיל.",
+    "story_key": "strauss-israel-2bn-investment-brazil-elections",
+    "category": "mna",
+    "sent_at": "2026-10-26T12:04:31.436525+00:00"
   }
 }
