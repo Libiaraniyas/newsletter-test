@@ -1,21 +1,4 @@
 {
-  "577bd0c2fc": {
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNXlvUjBKbWhOcmZtdTlaSjQ3N2haTG1pQnVhdHNTQlhOTkt4bnQzNHVLTTZhYTRaWlN0R0RkbVpzbmtoejhuZWNqVDl2WDhPVGRVRExkOVZhWTRZdTFTTVBEd204U2ctcE15NHZpUjVLVWVUX25Dbm5TU0VYekxVX0swRWFfTEpuRG1EYXJjRHh5ck9sNHZZ?oc=5",
-    "title": "Häagen-Dazs to exit Brazilian market after almost 30 years",
-    "summary": "Häagen-Dazs is exiting the Brazilian market after nearly three decades of operations there.",
-    "category": "mna",
-    "story_key": "haagen-dazs-brazil-exit",
-    "month": "2026-08"
-  },
-  "df3b9b40b1": {
-    "url": "https://www.fooddive.com/news/magnum-ice-cream-innovation-post-unilever-split/825094/",
-    "title": "With 'shackles off' after Unilever split, Magnum Ice Cream takes new approach to innovation",
-    "summary": "The Ben & Jerry's maker is expanding the reach of its brands by positioning them against other snacks such as candy and chips rather than just ice cream.",
-    "category": "market",
-    "story_key": "magnum-post-unilever-split-innovation",
-    "month": "2026-08",
-    "image": "https://imgproxy.divecdn.com/lqieUi5Eraiv8vDPgIO5jtnR4mN4ve3ot54o7UdWHwg/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMzE5MDkyODk1XzUtZm90b3ItMjAyNjA4MDQxMTQ5MTIuanBn.webp"
-  },
   "3663108847": {
     "url": "https://www.fooddive.com/news/constellation-brands-modelo-100m-farm-profitability/828594/",
     "title": "Beer giant Constellation Brands invests $100M in US farm profitability",
@@ -2614,5 +2597,22 @@
     "story_key": "israel-shekel-weakens-election-stalemate-2026",
     "month": "2026-09",
     "image": "https://res.cloudinary.com/globes/image/upload/t_800X392/v1694433468/COT_Pic/800_sapeic.jpg"
+  },
+  "2170b30a8d": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/28/those-vegan-cowboys-get-fda-letter-for-animal-free-casein/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "No cows, no questions: FDA greenlights animal-free casein",
+    "summary": "Those Vegan Cowboys and Formo receive an FDA no-questions letter for precision-fermented casein, advancing plans for US food and nutrition products.",
+    "category": "tech",
+    "story_key": "fda-animal-free-casein-approval",
+    "month": "2026-09",
+    "image": "https://www.foodnavigator.com/resizer/v2/AXCK4TGK3NH4HMFB3BKP5X54GY.png?auth=820fba3478ff54638479fd0df692801a2df201f171c642c3bc6d761fa8788d80&width=1200&height=630&smart=true"
+  },
+  "aac6ae8800": {
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVmZJSzFyZzhLMm9UYjM1dWg5N0tSbjFfMGYtZDNUY3hnc1BJWTdCNVR4Q19DVGsydmZSWU9NQlBMZkdjQUxON2w3dDN0aWlJVjYyUlF3QlRnQW50dlMxVWdtUTAwZXVOOFM5bFZpcTBranIyMENodEZYTUY0bkV1SmhINWM4TkpRNmxQakNUcG1PZmZOU2FGWXR4OExickVKd05mcEJQNA?oc=5",
+    "title": "Danone reports 4% sales growth in third quarter; COO Vikram Agarwal to retire",
+    "summary": "Danone reported 4% sales growth in its third quarter results, while also announcing that COO Vikram Agarwal will retire.",
+    "category": "mna",
+    "story_key": "danone-q3-2026-sales-growth",
+    "month": "2026-09"
   }
 }
