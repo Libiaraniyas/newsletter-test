@@ -1534,5 +1534,53 @@
     "story_key": "zwanenberg-unox-deal-blocked",
     "category": "mna",
     "sent_at": "2026-10-27T15:42:15.512788+00:00"
+  },
+  "3EB0FE5A8E9653BE387103": {
+    "url": "https://www.dairyreporter.com/Article/2026/10/28/danone-q3-sales-rise-4-as-health-focused-brands-and-price-increases-drive-growth/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Danone sales rise as health-focused brands and price increases drive growth",
+    "summary": "Danone reported Q3 sales growth of 4%, driven by health-focused brands and price increases.",
+    "story_key": "danone-q3-2026-sales-growth",
+    "category": "market",
+    "sent_at": "2026-10-28T11:57:42.779639+00:00"
+  },
+  "3EB075D2682718F8D494AD": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/27/coca-cola-q3-growth-sets-high-bar-for-2027/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Coca-Cola Co's growth strategy delivered in Q3, but can it last?",
+    "summary": "Coca-Cola's Q3 volume and organic revenue growth highlight its strategy's success, but inflation, destocking and affordability pressures could challenge 2027 gains.",
+    "story_key": "coca-cola-q3-2026-growth",
+    "category": "market",
+    "sent_at": "2026-10-28T11:57:42.779639+00:00"
+  },
+  "3EB0CDA56245B22551C610": {
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFhxR3FNd1Q1QkQ5V3JqSm5wSDB5d3dhdEt6bW5xUnFfSXRoY0tiUkxnSVh4Q2I5Vjlob0ZlQTdMTTh4bnQwNklzX2ItMUFtTV9FZU1kOXZkRUJWb1Zqdjg3ODNHbXI4YTBFc3ZKdlgwSkNjb3BZOExGSk13bVhMNUx2LV92R0VoWFl6cE4tT0V6VG1Cb0gtcFF6c1I?oc=5",
+    "title": "Brazil election results put ag commodities under pressure",
+    "summary": "Sugar and coffee prices diverged following Brazil's election results as the Brazilian real weakened, with ag commodity markets reacting broadly to the political outcome.",
+    "story_key": "brazil-lula-election-currency-coffee-sugar",
+    "category": "macro",
+    "sent_at": "2026-10-28T11:57:42.779639+00:00"
+  },
+  "3EB0488539BE020EF95D6C": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/26/kraft-heinz-gerber-once-upon-a-farm-are-pouring-into-kids-hydration/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Kraft Heinz, Gerber, Once Upon a Farm are pouring into kids' hydration",
+    "summary": "Major brands including Capri Sun, Gerber and Once Upon a Farm are expanding into functional kids' hydration drinks with electrolytes and nutrients, as parents seek lower-sugar options.",
+    "story_key": "kraft-heinz-gerber-kids-hydration",
+    "category": "tech",
+    "sent_at": "2026-10-28T11:57:42.779639+00:00"
+  },
+  "3EB036C92C32F8C4EE4DF1": {
+    "url": "https://www.fooddive.com/news/ultraprocessed-foods-cost-label-definition-research/872888/",
+    "title": "Ultraprocessed food labels could cost industry $14B a year",
+    "summary": "A proposed labeling mandate would apply to 72% of packaged foods and lead to higher reformulation and ingredient costs, according to a University of Chicago study.",
+    "story_key": "upf-labeling-cost-study",
+    "category": "macro",
+    "sent_at": "2026-10-28T11:57:42.779639+00:00"
+  },
+  "3EB0A3E6B7CB317F1C960F": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/26/the-future-of-chocolate-how-cocoa-alternatives-are-reshaping-confectionery/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Beyond cocoa: The race to futureproof chocolate",
+    "summary": "Cocoa alternatives, AI and new ingredient solutions are helping chocolate manufacturers navigate price volatility, affordability pressures and supply challenges.",
+    "story_key": "cocoa-alternatives-futureproof-chocolate",
+    "category": "tech",
+    "sent_at": "2026-10-28T11:57:42.779639+00:00"
   }
 }
