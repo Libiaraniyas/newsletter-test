@@ -1,47 +1,5 @@
 [
   {
-    "url": "https://www.fooddive.com/news/nestle-investment-mexico-coffee-pet-food-emerging-markets/832996/",
-    "story_key": "nestle-mexico-investment-2b",
-    "title": "Nestlé doubles investment in Mexico to $2B",
-    "sent_at": "2026-10-15T10:42:20.805684+00:00"
-  },
-  {
-    "url": "https://www.fooddive.com/news/fda-salt-substitutes-sodium-reduction-food/832970/",
-    "story_key": "fda-salt-substitute-rule",
-    "title": "FDA paves the way for salt reduction in dozens of food categories",
-    "sent_at": "2026-10-15T10:42:20.805684+00:00"
-  },
-  {
-    "url": "https://www.fooddive.com/news/monster-energy-returns-protein-drinks/832954/",
-    "story_key": "monster-protein-shakes-reentry",
-    "title": "Monster tries again on protein shakes",
-    "sent_at": "2026-10-15T10:42:20.805684+00:00"
-  },
-  {
-    "url": "https://www.fooddive.com/news/justin-timberlake-jessica-biel-protein-soda-proda/832787/",
-    "story_key": "proda-celebrity-protein-soda-launch",
-    "title": "Justin Timberlake, Jessica Biel enter protein soda market",
-    "sent_at": "2026-10-15T10:42:20.805684+00:00"
-  },
-  {
-    "url": "https://www.ynet.co.il/economy/article/yokra14926687",
-    "story_key": "israel-turkish-coffee-market-new-entrants",
-    "title": "מה קשור ועידן עמדי התגייסו למטרה: הדחת מותג ששולט בשוק הישראלי 60 שנה",
-    "sent_at": "2026-10-15T10:42:20.805684+00:00"
-  },
-  {
-    "url": "https://www.ynet.co.il/economy/article/sj7f0040sgx",
-    "story_key": "mcdonalds-israel-franchise-wiz-founders",
-    "title": "ארבעת מייסדי וויז בדרך לקבל את זיכיון מקדונלד'ס בישראל",
-    "sent_at": "2026-10-15T14:39:12.965414+00:00"
-  },
-  {
-    "url": "https://www.ynet.co.il/economy/article/hjqasaajfg",
-    "story_key": "israel-dollar-surge-us-inflation-oct2026",
-    "title": "לראשונה מזה חצי שנה: הדולר מזנק ונסחר סביב 3.10 שקל",
-    "sent_at": "2026-10-15T14:39:12.965414+00:00"
-  },
-  {
     "url": "https://www.foodmanufacture.co.uk/Article/2026/10/15/why-has-saputo-exited-the-uk-dairy-market/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "story_key": "saputo-uk-dairy-exit",
     "title": "Why is Saputo saying farewell to UK dairy?",
@@ -418,5 +376,53 @@
     "story_key": "danone-q3-2026-sales-growth",
     "title": "Danone reports 4% sales growth in third quarter; COO Vikram Agarwal to retire",
     "sent_at": "2026-10-28T20:02:05.717799+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/10/29/the-magnum-ice-cream-company-q3-trading-update/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "magnum-ice-cream-q3-2026",
+    "title": "European summer gives the Magnum Ice Cream Company a boost in Q3",
+    "sent_at": "2026-10-29T16:35:23.575057+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/10/29/futureshop-why-did-the-albertsons-kroger-merger-fail/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "albertsons-kroger-merger-lawsuit",
+    "title": "Albertsons argues executive greed at Kroger killed the deal",
+    "sent_at": "2026-10-29T16:35:23.575057+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/10/29/planet-a-foods-launches-cocoa-booster-replacer/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "planet-a-foods-cocoa-booster",
+    "title": "New cocoa powder alternative targets GLP-1 trends and supply risks",
+    "sent_at": "2026-10-29T16:35:23.575057+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/hershey-halloween-candy-sales-inflation/873196/",
+    "story_key": "hershey-halloween-consumer-stress",
+    "title": "Hershey warns consumer financial stress could weigh on Halloween sales",
+    "sent_at": "2026-10-29T16:35:23.575057+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/Danone-US-protein-glp1-oikos-production-customer-service-disruption/873125/",
+    "story_key": "danone-us-leadership-change",
+    "title": "Danone changes US leadership in 'offensive phase' of its turnaround",
+    "sent_at": "2026-10-29T16:35:23.575057+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/consumer-embrace-caffeine-alternatives-decaf-ltheanine/831936/",
+    "story_key": "decaf-caffeine-alternatives-trend",
+    "title": "Why decaf coffee, alternative energy drinks are buzzing",
+    "sent_at": "2026-10-29T16:35:23.575057+00:00"
+  },
+  {
+    "url": "https://www.ynet.co.il/economy/article/skh04f1tge",
+    "story_key": "us-food-inflation-trump-midterms",
+    "title": "האמריקנים משלמים ביוקר בגלל טראמפ - עכשיו הם באים איתו חשבון",
+    "sent_at": "2026-10-29T16:35:23.575057+00:00"
+  },
+  {
+    "url": "https://www.themarker.com/consumer/2026-10-29/ty-article/.highlight/000001a1-8767-dceb-abfd-bf7f27cf0000",
+    "story_key": "kfc-israel-franchise-insolvency",
+    "title": "הסנקציות על רוסיה הגיעו ל-KFC: זכיינית הרשת בישראל ביקשה צו חדלות פירעון",
+    "sent_at": "2026-10-29T16:35:23.575057+00:00"
   }
 ]

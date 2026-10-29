@@ -1,28 +1,4 @@
 {
-  "3EB0641B90CC3A78D384F0": {
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2VThTbDk1T0RfbkJrODc1S2tKRVBXLVhuQXRnQ0x5OVhOR2tRbkxGN0diR0xLUzRFXzI2YmxkQThBX3NEWjZNT0JZMjBFOUpzWEhkNFJUSE1PT2F0bXdTcWdSR2ROZXZjZXpWb1ljSHQ?oc=5",
-    "title": "Supply concerns fuel coffee price rally",
-    "summary": "Global coffee prices are rallying on renewed supply concerns, according to industry reporting.",
-    "story_key": "coffee-price-rally-supply-concerns-sept2026",
-    "category": "macro",
-    "sent_at": "2026-09-14T11:29:10.041186+00:00"
-  },
-  "3EB09DCFBD88B3F2CEA69F": {
-    "url": "https://www.themarker.com/magazine/2026-09-14/ty-article/000001a0-517d-d649-a7be-dd7fbe9e0000",
-    "title": "האם השוקולד שובר סוף סוף את החומה הסינית",
-    "summary": "שוקולטיירים עולים בסין מגלים לאוכלוסייה המקומית את הטראפלז והפונדנט, במגמה של פריצת שוק השוקולד הפרימיום בסין.",
-    "story_key": "china-premium-chocolate-market-entry",
-    "category": "market",
-    "sent_at": "2026-09-14T11:29:10.041186+00:00"
-  },
-  "3EB0DFB8BE8D898102216B": {
-    "url": "https://www.beveragedaily.com/Article/2026/09/14/mahou-san-miguel-expands-coffee-business-as-it-continues-to-diversify-beyond-beer/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "Mahou San Miguel expands coffee business as it continues to diversify beyond beer",
-    "summary": "Spanish brewer Mahou San Miguel is expanding its coffee business as part of its diversification strategy beyond beer.",
-    "story_key": "mahou-san-miguel-coffee-expansion",
-    "category": "market",
-    "sent_at": "2026-09-14T11:29:10.041186+00:00"
-  },
   "3EB07F2D322EDF47371F30": {
     "url": "https://www.fooddive.com/news/sleepytime-tea-owner-hain-celestial-selling-international-business-organic-natural/830263/",
     "title": "Sleepytime Tea owner Hain Celestial to sell international business for $323M",
@@ -1638,5 +1614,69 @@
     "story_key": "danone-q3-2026-sales-growth",
     "category": "mna",
     "sent_at": "2026-10-28T20:02:01.089550+00:00"
+  },
+  "3EB07666B482AF39F30791": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/29/the-magnum-ice-cream-company-q3-trading-update/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "European summer gives the Magnum Ice Cream Company a boost in Q3",
+    "summary": "The Magnum Ice Cream Company reported strong Q3 results boosted by an extended European summer, with Magnum and Heartbrand seeing double-digit growth.",
+    "story_key": "magnum-ice-cream-q3-2026",
+    "category": "market",
+    "sent_at": "2026-10-29T16:35:01.004942+00:00"
+  },
+  "3EB085A830A8CDF56D90AA": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/29/futureshop-why-did-the-albertsons-kroger-merger-fail/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Albertsons argues executive greed at Kroger killed the deal",
+    "summary": "Albertsons alleges Kroger's $400 million executive incentive plan undermined their merger attempt, as detailed in a $9 billion lawsuit over the failed deal.",
+    "story_key": "albertsons-kroger-merger-lawsuit",
+    "category": "mna",
+    "sent_at": "2026-10-29T16:35:01.004942+00:00"
+  },
+  "3EB0C5ABC2A14B26AD82F4": {
+    "url": "https://www.foodnavigator.com/Article/2026/10/29/planet-a-foods-launches-cocoa-booster-replacer/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "New cocoa powder alternative targets GLP-1 trends and supply risks",
+    "summary": "Planet A Foods launched Cocoa Booster, a high-fiber cocoa powder replacer able to substitute up to 100% of cocoa in select applications amid rising costs and GLP-1-driven demand shifts.",
+    "story_key": "planet-a-foods-cocoa-booster",
+    "category": "tech",
+    "sent_at": "2026-10-29T16:35:01.004942+00:00"
+  },
+  "3EB0A64CC9C3923ADD9902": {
+    "url": "https://www.fooddive.com/news/hershey-halloween-candy-sales-inflation/873196/",
+    "title": "Hershey warns consumer financial stress could weigh on Halloween sales",
+    "summary": "Hershey CEO Kirk Tanner said the final days leading up to Halloween will be critical as consumer financial stress threatens candy sales.",
+    "story_key": "hershey-halloween-consumer-stress",
+    "category": "macro",
+    "sent_at": "2026-10-29T16:35:01.004942+00:00"
+  },
+  "3EB092BDB0025129A57A95": {
+    "url": "https://www.fooddive.com/news/Danone-US-protein-glp1-oikos-production-customer-service-disruption/873125/",
+    "title": "Danone changes US leadership in 'offensive phase' of its turnaround",
+    "summary": "Danone named Francois Lacombe as president of Danone U.S. to improve performance amid surging demand for its products and lagging customer service.",
+    "story_key": "danone-us-leadership-change",
+    "category": "mna",
+    "sent_at": "2026-10-29T16:35:01.004942+00:00"
+  },
+  "3EB0311A7A642F0B3FB71B": {
+    "url": "https://www.fooddive.com/news/consumer-embrace-caffeine-alternatives-decaf-ltheanine/831936/",
+    "title": "Why decaf coffee, alternative energy drinks are buzzing",
+    "summary": "Lower-caffeinated options are becoming mainstream as consumers rethink the daytime caffeine habit, according to industry experts.",
+    "story_key": "decaf-caffeine-alternatives-trend",
+    "category": "tech",
+    "sent_at": "2026-10-29T16:35:01.004942+00:00"
+  },
+  "3EB0E1D6B1FC49C248FFD4": {
+    "url": "https://www.ynet.co.il/economy/article/skh04f1tge",
+    "title": "האמריקנים משלמים ביוקר בגלל טראמפ - עכשיו הם באים איתו חשבון",
+    "summary": "מחירי המזון בעלייה, הדלק זינק והמלחמה עם איראן עלתה למשק הבית האמריקני הממוצע למעלה מ-2,000 דולר, לקראת בחירות האמצע בארה\"ב.",
+    "story_key": "us-food-inflation-trump-midterms",
+    "category": "macro",
+    "sent_at": "2026-10-29T16:35:01.004942+00:00"
+  },
+  "3EB0FD7CC2F3DA002AD3BD": {
+    "url": "https://www.themarker.com/consumer/2026-10-29/ty-article/.highlight/000001a1-8767-dceb-abfd-bf7f27cf0000",
+    "title": "הסנקציות על רוסיה הגיעו ל-KFC: זכיינית הרשת בישראל ביקשה צו חדלות פירעון",
+    "summary": "זכיינית KFC בישראל, המפעילה 12 סניפים, מדווחת על חובות של כ-50 מיליון שקל בעיקר לבעלי מניות רוסים שאינם יכולים להזרים כסף נוסף בשל הסנקציות. בשישה סניפים כבר בוטלו הסכמי שכירות.",
+    "story_key": "kfc-israel-franchise-insolvency",
+    "category": "mna",
+    "sent_at": "2026-10-29T16:35:01.004942+00:00"
   }
 }
