@@ -1,124 +1,4 @@
 {
-  "3EB07F2D322EDF47371F30": {
-    "url": "https://www.fooddive.com/news/sleepytime-tea-owner-hain-celestial-selling-international-business-organic-natural/830263/",
-    "title": "Sleepytime Tea owner Hain Celestial to sell international business for $323M",
-    "summary": "Hain Celestial is selling its international business to Aurelius for $323 million, marking its second major divestiture this year following the sale of its North American snacks business.",
-    "story_key": "hain-celestial-international-business-sale",
-    "category": "mna",
-    "sent_at": "2026-09-16T08:45:14.691109+00:00"
-  },
-  "3EB04830C371457A790EDF": {
-    "url": "https://www.fooddive.com/news/coca-cola-us-manufacturing-10-billion-investment/830468/",
-    "title": "Coca-Cola to spend $10B on US manufacturing by 2030",
-    "summary": "Coca-Cola and its bottlers are planning to invest $10 billion to expand production and distribution capacity in the US, its largest market, by 2030.",
-    "story_key": "coca-cola-us-manufacturing-investment-2030",
-    "category": "mna",
-    "sent_at": "2026-09-16T08:45:14.691109+00:00"
-  },
-  "3EB014391CC672896B3988": {
-    "url": "https://www.fooddive.com/news/snacking-mondelez-relaunch-oreo-2027-chips-ahoy/830320/",
-    "title": "Mondelēz set to relaunch 'star brand' Oreo in 2027",
-    "summary": "Mondelez announced an overhaul of its 100-year-old Oreo brand, worth nearly $5 billion in sales, including new packaging, price points and formulas set for 2027.",
-    "story_key": "mondelez-oreo-relaunch-2027",
-    "category": "market",
-    "sent_at": "2026-09-16T08:45:14.691109+00:00"
-  },
-  "3EB0A682D414613F48F2A0": {
-    "url": "https://www.fooddive.com/news/nestle-not-happy-with-performance-north-america-frozen-coffee/830304/",
-    "title": "Nestlé 'not happy' with food giant's performance in North America",
-    "summary": "Nestlé CFO Anna Manz said more needs to be done to improve execution in North America, particularly for creamers and its Gerber brand, including frozen and coffee categories.",
-    "story_key": "nestle-north-america-performance-concerns",
-    "category": "market",
-    "sent_at": "2026-09-16T08:45:14.691109+00:00"
-  },
-  "3EB07E9B06C2402BD9EE9F": {
-    "url": "https://www.fooddive.com/news/kraft-heinz-oscar-mayer-turnaround/830286/",
-    "title": "Kraft Heinz looks to 'fix' Oscar Mayer after sales losses",
-    "summary": "Kraft Heinz's CEO said a resealability issue in Oscar Mayer's packaging was responsible for the vast majority of the brand's recent sales losses.",
-    "story_key": "kraft-heinz-oscar-mayer-packaging-issue",
-    "category": "market",
-    "sent_at": "2026-09-16T08:45:14.691109+00:00"
-  },
-  "3EB00E873B09B87755C490": {
-    "url": "https://www.ynet.co.il/economy/article/abv5jmgrl",
-    "title": "מדד אוגוסט עלה ב-0.7%, קצב האינפלציה השנתי נותר על 1.5%",
-    "summary": "מדד המחירים לצרכן עלה באוגוסט ב-0.7%, עם עליות בולטות בירקות טריים, תחבורה, דיור ותרבות ובידור, וקצב האינפלציה השנתי נותר על 1.5%.",
-    "story_key": "israel-cpi-august-2026",
-    "category": "macro",
-    "sent_at": "2026-09-16T08:45:14.691109+00:00"
-  },
-  "3EB0C07AE8EEBA84DD94B1": {
-    "url": "https://www.ynet.co.il/economy/article/hjezxsitmx",
-    "title": "ראש השנה: הישראלים התנפלו על טיסות ושילמו יותר על מזון",
-    "summary": "לפני החג עלתה ההוצאה על מזון ב-3.3% בכרטיסי אשראי לעומת השנה שעברה, כשהישראלים קנו פחות מוצרים אך המחירים עלו.",
-    "story_key": "israel-rosh-hashana-food-spending-2026",
-    "category": "macro",
-    "sent_at": "2026-09-16T08:45:14.691109+00:00"
-  },
-  "3EB0980E6545D8D9BDF23B": {
-    "url": "https://www.fooddive.com/news/mars-startups-unreasonable-fiber-gut-health/830410/",
-    "title": "Mars zeroes in on gut health with startup partnerships",
-    "summary": "Mars announced the latest cohort for its Unreasonable Group accelerator program, prioritizing startups advancing solutions in fiber, protein and gut-health nutrition.",
-    "story_key": "mars-gut-health-startup-accelerator",
-    "category": "tech",
-    "sent_at": "2026-09-16T08:45:14.691109+00:00"
-  },
-  "3EB02A9A3A389F8AB83B09": {
-    "url": "https://www.foodnavigator.com/Article/2026/09/16/general-mills-mars-kellanova-and-mckee-accuse-big-sugar-of-price-fixing/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "General Mills, Kellanova, Mars and McKee Foods sue sugar producers over alleged price-fixing",
-    "summary": "General Mills, Kellanova, Mars and McKee Foods allege US sugar producers coordinated sensitive information to inflate granulated-sugar prices.",
-    "story_key": "general-mills-mars-sugar-price-fixing-lawsuit",
-    "category": "macro",
-    "sent_at": "2026-09-16T14:35:00.210887+00:00"
-  },
-  "3EB00C4E8572540ED85068": {
-    "url": "https://www.fooddive.com/news/folgers-functional-coffee-protein-fiber/830509/",
-    "title": "Folgers launches functional coffee line featuring protein, fiber",
-    "summary": "J.M. Smucker-owned Folgers is entering the functional coffee space with a new line highlighting ingredients to boost energy, focus and digestion.",
-    "story_key": "folgers-functional-coffee-launch",
-    "category": "tech",
-    "sent_at": "2026-09-16T18:36:51.404580+00:00"
-  },
-  "3EB0CD8625E9871000A3EB": {
-    "url": "https://www.fooddive.com/news/kroger-private-label-second-quarter-2026/830517/",
-    "title": "Kroger records strong private label growth as shoppers stay focused on savings",
-    "summary": "Kroger's own brands outperformed national brands in Q2 as shoppers sought value, according to CEO Greg Foran.",
-    "story_key": "kroger-private-label-growth-q2-2026",
-    "category": "market",
-    "sent_at": "2026-09-16T18:36:51.404580+00:00"
-  },
-  "3EB0FAC729C5BBAA4F5CFA": {
-    "url": "https://www.fooddive.com/news/pepsico-layoffs-maryland-bottling-plant-manufacturing-operations/830548/",
-    "title": "PepsiCo to end manufacturing operations at Maryland bottling plant",
-    "summary": "PepsiCo will lay off 143 workers and close manufacturing operations at its Maryland bottling plant, citing shifts in consumer preferences and technology.",
-    "story_key": "pepsico-maryland-plant-closure",
-    "category": "market",
-    "sent_at": "2026-09-16T18:36:51.404580+00:00"
-  },
-  "3EB0876952C43E83BC0BF2": {
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRmhUa2psSTE4SG1vaFRtX2U2cUdjSUJaTU5LVEE3dEIzdXhvSUJYRmFOczRjdDZ3S01WRnF4YkFwUHlxWTczelB5aHh3MzhSazlVRGY0cHlPaUw1bElTQl91V3UycmIwY0tZbUxiX0FhT3JwcXJxczdXUGlkcnZqZU9jVUJUdy1iR01fdHdDV0luQmZjZXNMa3VOY1dVLWJCRmdFMkR3U2pNc3ZNZ2JTWDhhUUQzaTJmYTVlMlZJaw?oc=5",
-    "title": "Arabica coffee hits 10-week low on Brazil weather and exports",
-    "summary": "Arabica coffee prices fell to a 10-week low as favorable Brazil weather and strong export volumes eased supply concerns.",
-    "story_key": "brazil-arabica-coffee-10week-low-sept2026",
-    "category": "macro",
-    "sent_at": "2026-09-16T18:36:51.404580+00:00"
-  },
-  "3EB01E51DD4C9731C7B0FD": {
-    "url": "https://www.ynet.co.il/economy/article/hjc2tldtml",
-    "title": "לראשונה מ-2023: הפד העלה את הריבית מ-3.75% ל-4%",
-    "summary": "הבנק הפדרלי בארה\"ב העלה את הריבית ב-0.25%, בהעלאה ריבית ראשונה מזה שלוש שנים, תחת יו\"ר חדש קווין וורש המודאג מאינפלציה גבוהה.",
-    "story_key": "fed-rate-hike-sept-2026",
-    "category": "macro",
-    "sent_at": "2026-09-16T18:36:51.404580+00:00"
-  },
-  "3EB03AA6AFA79E87611161": {
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRGtVa2pCbzcwTGZGSjdqbUEzN2RZOXhwWnJOVlZOYUZTOFNnSkliTzI3NkhSamMyMHZMeFp3T2pHRkRwakhwR0JmVXU2ZDN2NjQ4akZjaUV6NlVJc1dXak5feEJYUGY3VU1Nb1FmSUMyY2Fkd2Nkc3Fwby1oZGV3cllWejI4NE5qV0NtQm1UOFlsSTF5U2xWVkhtRQ?oc=5",
-    "title": "Abbott agrees $385m settlement over US infant formula investigation",
-    "summary": "Abbott has agreed to a $385 million settlement related to a US investigation into its infant formula business.",
-    "story_key": "abbott-infant-formula-settlement",
-    "category": "mna",
-    "sent_at": "2026-09-16T18:36:51.404580+00:00"
-  },
   "3EB050177D476E84ED1DE7": {
     "url": "https://www.foodnavigator.com/Article/2026/09/17/cma-probes-unilever-mccormick-foods-mega-deal/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "title": "Unilever McCormick deal faces scrutiny",
@@ -1742,5 +1622,29 @@
     "story_key": "super-el-nino-agriculture-impact",
     "category": "macro",
     "sent_at": "2026-10-30T11:58:38.551380+00:00"
+  },
+  "3EB095CC820F2D342A3802": {
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbXdPdmgtYVd4dTFvOU5LZVR1dFpoNFBTbWlkbVBWMmppeXZNbmgtZ1FQZXpmaXhtZjM0UWpZQnlCR2Ztb1FiZEZ6NHNfSE9ETUV3a3RxcW5HQkdLUjA0eTludHFiSElNWkYtVXBsV0xPdXlJZ0RJWGEySlJmMFB3SlBsdlJVajJLQVdZbzRTUlZvQ2hTRnlPTVNEQkNfYVJiaEUzQ1BNQkgzV1B1NVFFbQ?oc=5",
+    "title": "Mondelēz reports third-quarter growth and agrees to acquire Undercover Snacks",
+    "summary": "Mondelēz reported strong third-quarter growth and announced it has agreed to acquire the Undercover Snacks brand.",
+    "story_key": "mondelez-undercover-snacks-acquisition",
+    "category": "mna",
+    "sent_at": "2026-10-31T18:59:22.511814+00:00"
+  },
+  "3EB009A422BAFADF6767FB": {
+    "url": "https://www.fooddive.com/news/hersheys-salty-snacks-cant-keep-up-with-demand/873296/",
+    "title": "Hershey's salty snacks can't keep up with demand",
+    "summary": "The Dot's and LesserEvil maker is boosting production and packaging capacity by adding manufacturing lines and investing in automation to meet strong salty snack demand.",
+    "story_key": "hershey-dots-salty-snacks-expansion",
+    "category": "market",
+    "sent_at": "2026-10-31T18:59:22.511814+00:00"
+  },
+  "3EB0030E1C3A582EF9031A": {
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMWVQSmpNRXZETkozU3ViRU5Ddy15RjVEMzhkdldVN1ZSVnBtWDFwQ0d3MWEyakN3NEw0MXh6ZXN0NUZGQ2RVMGQzem9tS0ZPQzljN0YwTS0weVU5eUtUNVhUX0haQXhMRXhuRHhrS0VlU1c4aEVHem5uem40cnkyZDFNTkhwdnpFUWEtMDNEOFNsZko0UjlCcjE3V1Q3VlB3YmJzeWJtY2xzY0NEcmRrMmIybGFMaklDbmZyUzlVSQ?oc=5",
+    "title": "Colombian Peso Breaks COP4,000 Peso Threshold, Local Coffee Price at Highest Since 2011",
+    "summary": "The Colombian peso has crossed the COP4,000 threshold against the dollar, pushing local coffee prices to their highest level since 2011.",
+    "story_key": "colombia-peso-coffee-price-2011-high",
+    "category": "macro",
+    "sent_at": "2026-10-31T18:59:22.511814+00:00"
   }
 }
