@@ -160,6 +160,16 @@
       "image": "",
       "month": "2026-09",
       "added_at": "2026-10-21T14:53:47.908Z"
+    },
+    {
+      "url": "https://www.foodnavigator.com/Article/2026/11/02/cyber-attacks-raise-supermarket-fridge-temperatures/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+      "title": "European supermarket fridges hit with suspected cyber attack",
+      "summary": "A suspected cyber attack hit supermarket refrigeration systems across Europe, raising fridge and freezer temperatures and renewing concerns over food-sector cyber resilience.",
+      "category": "market",
+      "story_key": "europe-supermarket-fridge-cyberattack",
+      "image": "https://www.foodnavigator.com/resizer/v2/CHFGFAD32FGDBOON3MBX7OOZVM.jpg?auth=50c0acea09e8090b2795fbe7d372294b9dafaec5bcf6180c8bfa21bdabb13dfa&width=1200&height=630&smart=true",
+      "month": "2026-09",
+      "added_at": "2026-11-02T14:33:02.717Z"
     }
   ],
   "starred": [
@@ -178,7 +188,8 @@
     "https://www.foodnavigator.com/Article/2026/09/10/coca-cola-ceo-henrique-braun-outlines-new-innovation-strategy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.foodmanufacture.co.uk/Article/2026/10/05/sun-bear-biofuture-develops-fat-derived-from-yeast-cells-which-shows-promise-as-an-alternative-to-cocoa-butter/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.fooddive.com/news/folgers-functional-coffee-protein-fiber/830509/",
-    "https://www.fooddive.com/news/danone-yogurt-ohio-renewable-energy-biogas/833572/"
+    "https://www.fooddive.com/news/danone-yogurt-ohio-renewable-energy-biogas/833572/",
+    "https://www.foodnavigator.com/Article/2026/11/02/cyber-attacks-raise-supermarket-fridge-temperatures/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS"
   ],
   "category_names": {},
   "category_overrides": {
