@@ -170,6 +170,16 @@
       "image": "https://www.foodnavigator.com/resizer/v2/CHFGFAD32FGDBOON3MBX7OOZVM.jpg?auth=50c0acea09e8090b2795fbe7d372294b9dafaec5bcf6180c8bfa21bdabb13dfa&width=1200&height=630&smart=true",
       "month": "2026-09",
       "added_at": "2026-11-02T14:33:02.717Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/mondelez-acquisition-undercover-snacking-better-for-you-oreo/873344/",
+      "title": "Mondelēz to acquire Undercover Snacks in expansion of better-for-you portfolio",
+      "summary": "Mondelēz is acquiring the quinoa crisps brand Undercover Snacks as CEO Dirk Van de Put says the Oreo maker's portfolio needs to evolve towards healthier snacks.",
+      "category": "mna",
+      "story_key": "mondelez-undercover-snacks-acquisition",
+      "image": "",
+      "month": "2026-09",
+      "added_at": "2026-11-02T19:58:34.864Z"
     }
   ],
   "starred": [
@@ -189,7 +199,8 @@
     "https://www.foodmanufacture.co.uk/Article/2026/10/05/sun-bear-biofuture-develops-fat-derived-from-yeast-cells-which-shows-promise-as-an-alternative-to-cocoa-butter/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.fooddive.com/news/folgers-functional-coffee-protein-fiber/830509/",
     "https://www.fooddive.com/news/danone-yogurt-ohio-renewable-energy-biogas/833572/",
-    "https://www.foodnavigator.com/Article/2026/11/02/cyber-attacks-raise-supermarket-fridge-temperatures/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS"
+    "https://www.foodnavigator.com/Article/2026/11/02/cyber-attacks-raise-supermarket-fridge-temperatures/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "https://www.fooddive.com/news/mondelez-acquisition-undercover-snacking-better-for-you-oreo/873344/"
   ],
   "category_names": {},
   "category_overrides": {
