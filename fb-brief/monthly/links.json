@@ -1,46 +1,4 @@
 {
-  "3cce3bf4f5": {
-    "url": "https://www.themarker.com/wallstreet/2026-09-01/ty-article/.premium/000001a0-5206-d649-a7be-df664ee90000",
-    "title": "החיטה צומחת הרבה פחות, ומלחמת אוקראינה רוסיה מחמירה את האיום על האספקה",
-    "summary": "אוקראינה ורוסיה אחראיות יחד לכמעט שליש מיצוא החיטה העולמי, והתקיפות ההדדיות ביניהן מאיימות על יצוא הדגנים ומעלות את המחירים בשוק העולמי.",
-    "category": "macro",
-    "story_key": "ukraine-russia-wheat-supply-threat",
-    "month": "2026-08",
-    "image": "https://img.haarets.co.il/bs/000001a0-5206-d649-a7be-df664ee90000/6f/8e/d102a5224acc8dfcecc2999c63eb/785290.jpg?&width=1200&height=630&cmsprod"
-  },
-  "8f35439263": {
-    "url": "https://www.ice.co.il/consumerism/news/article/1128109",
-    "title": "בזמן שרשתות המזון צונחות בנתונים: זו היחידה שהצליחה להפתיע",
-    "summary": "דוחות רשתות המזון לרבעון השני מראים חולשה, עם ירידות חדות בשופרסל וויקטורי, בעוד רשת אחת מצליחה להפתיע לטובה.",
-    "category": "market",
-    "story_key": "israel-food-retail-chains-q2-2026-weakness",
-    "month": "2026-08",
-    "image": "https://img.ice.co.il/giflib/news/22ice17072025.jpg"
-  },
-  "b5f3abb18e": {
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTGNDWVNNZ3hzQkxQS2p3YTNKcWx4bktOYnhyX1JMcDI3aC0wa3BIRWZ2WGpqM2JNODVLb2x5ekRPV1F6UEVQeDZya25KRENzMnVsYy1tYTdrTXBVVWYyU1p3YWdzY0k5VXVXMGZkbXh4Z2dGTXRqSDhWS1hLWEhZd0FPeG1KWjdKVTcxZ0pXLWZhM1gxMUNSQ3NjWmJ3OFd0?oc=5",
-    "title": "Keurig Dr Pepper to sell Chobani stake and facility for $925 million",
-    "summary": "Keurig Dr Pepper agreed to sell its stake in Chobani along with a related facility for $925 million.",
-    "category": "mna",
-    "story_key": "kdp-chobani-stake-sale",
-    "month": "2026-08"
-  },
-  "724f5143e6": {
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYUlDTlBPN0VhR3pWOTN1Rk9kdndzRUNGa09wVy0wdTRMS2NVaUx4VGJ2Mlc5bW5mVk5TQWFVQkFVVzFkR2dDNjlSb0dQNnFrWTZzbzNYZWZXdGJrUEVSQzE4cF91N1BKT09ZZmlIYXNDd2FXNDhBMVQ1Z2NRVFlLdS1Ua2Y1WnE0MFB1dFdpZFJwZG9XX2ZKZ0UzNk9ucGZmSjhDVjdLQTc4aWEzV1BYQzlZd1NTYXFKaTlrWGw0Rk9mSDlGaGg4MnZ3WnBxZw?oc=5",
-    "title": "Nestlé and PAI's European Pizza Group reportedly 'closing in on deal' to buy Crosta Mollica",
-    "summary": "Nestlé and PAI Partners' European Pizza Group are reportedly close to a deal to acquire the Crosta Mollica pizza and flatbread brand.",
-    "category": "mna",
-    "story_key": "nestle-crosta-mollica-acquisition",
-    "month": "2026-08"
-  },
-  "cad6904208": {
-    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQamFsVDlJaHhjelFnZ2NsYkJucThoMzNMaVFRZXN3QUNhSDR5a21RY3NqV2lEZ0QxWWdKSnp5MkJUTTdlTktXR19fWXZqNkFLWlhPZjJYTEFTYkt0Z1VhQWpSUktDNzdGNTYza08wbUR5NzhNM18zdkZ6dWk3RUh2bmFUY2EyZTQ3S3VJMUdCM0FUMEtEcmtVSzV5UDJlLWl1ekpuZG9JQ05EbS1fTTJBZXVMU09lQl84UWVvWUNqT1FHQXBYbWp2NlFOVkh5aWRXYzFfRVdHRU14RjEyY1duSUdLMjhVZw?oc=5",
-    "title": "Shoprite puts in offer to buy local coffee success story Vida e Caffè, hoping to brew new growth",
-    "summary": "South African retailer Shoprite has made an offer to acquire the Vida e Caffè coffee chain, which operates around 400 stores in the country.",
-    "category": "mna",
-    "story_key": "shoprite-vida-e-caffe-acquisition",
-    "month": "2026-08"
-  },
   "8573dd5dbf": {
     "url": "https://www.foodnavigator.com/Article/2026/09/01/california-passes-non-upf-food-certification-bill/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "title": "California passes non-UPF food seal, setting potential blueprint for other states",
@@ -2613,5 +2571,47 @@
     "category": "mna",
     "story_key": "perrigo-infant-formula-sale-meridianmade",
     "month": "2026-09"
+  },
+  "27351585aa": {
+    "url": "https://www.fooddive.com/news/mondelez-acquisition-undercover-snacking-better-for-you-oreo/873344/",
+    "title": "Mondelēz to acquire Undercover Snacks in expansion of better-for-you portfolio",
+    "summary": "Mondelēz is acquiring the quinoa crisps brand Undercover Snacks as CEO Dirk Van de Put says the Oreo maker's portfolio needs to evolve towards healthier snacks.",
+    "category": "mna",
+    "story_key": "mondelez-undercover-snacks-acquisition",
+    "month": "2026-09"
+  },
+  "cd1b6c6e7d": {
+    "url": "https://www.dairyreporter.com/Article/2026/11/02/perrigo-exits-infant-formula-sector-with-sale-to-meridianmade-worth-up-to-175m/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Perrigo exits infant formula sector with sale to MeridianMade worth up to $175m",
+    "summary": "Perrigo is selling its infant formula business to MeridianMade for up to $175 million, exiting the category entirely.",
+    "category": "mna",
+    "story_key": "perrigo-infant-formula-sale-meridianmade",
+    "month": "2026-09",
+    "image": "https://www.dairyreporter.com/resizer/v2/R7C43E4QJBFOBD4XWXKW5SA4QU.jpg?auth=7673c0931639a52209382c631b45179092840c6a3311a9d952f0dad7c791b923&width=1200&height=630&smart=true"
+  },
+  "7231b52209": {
+    "url": "https://www.fooddive.com/news/oatly-fiber-plant-based-milk-us-turnaround/873450/",
+    "title": "Oatly bets on fiber drinks to fuel plant-based turnaround",
+    "summary": "Oatly is positioning itself as a functional beverage company focused on fiber, aiming to be among the leaders in reducing the fiber gap rather than just a milk alternative brand.",
+    "category": "tech",
+    "story_key": "oatly-fiber-functional-beverage-pivot",
+    "month": "2026-09"
+  },
+  "65c3146f8e": {
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQX3lFbzhNME1WRkhYbm5BazRKOUhPX293UmlMZWs1dnNTenBOQ09MMnZNLTVOdVU2Rk1NX285UnktTzVIeW5aajFxblBMaTFTRUFRVjMxSHV0SlpheUJuVW5Lc1pkRzJMTmlaQ0F5YXhYblVIU0RIUVBlVDNralZzang0N05GSmZtcUtBcUpsUXQtSVpJMWZCYlJpZjFWNEt0MnFib2lLYk5oRllXVTlxZTZIOE8yZUgyZ19KdA?oc=5",
+    "title": "Weather Concerns Ignite Coffee Rally as Market Shifts Focus to Brazil's Next Crop",
+    "summary": "Coffee futures rallied as traders shifted focus to weather risks facing Brazil's upcoming crop cycle.",
+    "category": "market",
+    "story_key": "brazil-weather-coffee-rally-nov2026",
+    "month": "2026-09"
+  },
+  "f1024a8c77": {
+    "url": "https://www.ice.co.il/digital-140/news/article/1136131",
+    "title": "אזהרה חמורה לסופרמרקטים בישראל: מערכות הקירור בסכנת מתקפה",
+    "summary": "בעקבות גל מתקפות סייבר באירופה על מערכות קירור בסופרמרקטים שגרמו להשמדת מזון, מערך הסייבר הלאומי דורש מרשתות השיווק בישראל לבדוק את מערכות הבקרה שלהן ולהקשיח את ההגנה.",
+    "category": "market",
+    "story_key": "europe-supermarket-fridge-cyberattack",
+    "month": "2026-09",
+    "image": "https://img.ice.co.il/giflib/news/F250403YS55_pr.jpg"
   }
 }
