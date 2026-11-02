@@ -1,92 +1,4 @@
 {
-  "3EB050177D476E84ED1DE7": {
-    "url": "https://www.foodnavigator.com/Article/2026/09/17/cma-probes-unilever-mccormick-foods-mega-deal/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "Unilever McCormick deal faces scrutiny",
-    "summary": "The UK's CMA has launched a Phase 1 antitrust probe into McCormick's proposed acquisition of the majority of Unilever's foods business, citing competition concerns.",
-    "story_key": "unilever-mccormick-foods-deal-cma-probe",
-    "category": "mna",
-    "sent_at": "2026-09-17T10:48:24.558009+00:00"
-  },
-  "3EB0027E6E44FC178BBB70": {
-    "url": "https://www.foodnavigator.com/Article/2026/09/16/hershey-turns-to-innovation-for-year-round-growth/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "From fun to function: Hershey's adopts innovation strategy to drive year-round engagement",
-    "summary": "Hershey is accelerating innovation in functional snacks and cultural moments to drive year-round growth as consumer spending and candy sales face pressure.",
-    "story_key": "hershey-functional-snacks-innovation-strategy",
-    "category": "market",
-    "sent_at": "2026-09-17T10:48:24.558009+00:00"
-  },
-  "3EB02B5A87BFE3FF6AE134": {
-    "url": "https://www.fooddive.com/news/antitrust-unilever-mccormick-merger-UK-review/830525/",
-    "title": "McCormick and Unilever’s $45B merger under investigation in UK",
-    "summary": "The companies, which expect to close their transaction in 2027, are already looking to sell Colman's mustard to address potential competition concerns.",
-    "story_key": "unilever-mccormick-foods-deal-cma-probe",
-    "category": "mna",
-    "sent_at": "2026-09-17T14:40:20.503901+00:00"
-  },
-  "3EB03BFF6CB8AC058DEF3A": {
-    "url": "https://www.fooddive.com/news/glp-1-drugs-snacking-pepsico-reeses-kellogg-cheetos-doritos/830551/",
-    "title": "GLP-1 drugs put $73B in global food value at risk, report finds",
-    "summary": "PepsiCo's Lay's is the most exposed food brand, with Doritos, Hershey's, Cheetos, Kellogg's and Reese's also vulnerable, Brand Finance determined.",
-    "story_key": "glp1-food-value-at-risk-brandfinance",
-    "category": "tech",
-    "sent_at": "2026-09-17T14:40:20.503901+00:00"
-  },
-  "3EB01D220753364EA3B0A3": {
-    "url": "https://www.confectionerynews.com/Article/2026/09/15/ferrero-bets-on-wonka-to-boost-autumn-confectionery-sales/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "Ferrero bets on Wonka to boost autumn sales",
-    "summary": "Ferrero revives the Wonka confectionery brand with a new UK-developed range, backed by a £35m investment in its Alfreton Centre of Excellence.",
-    "story_key": "ferrero-wonka-relaunch-2026",
-    "category": "mna",
-    "sent_at": "2026-09-17T14:40:20.503901+00:00"
-  },
-  "3EB097F63AD865A59B7754": {
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNS2paLTVyazI5WFN4R05WYXBfWWZTcU1lMEc5SW5nVDBybldlRE8xZDNyZ2Q2MnB5Q1VNMTBxNFliRTRiem9zSkJ4c2QtWVFUaFY5aXJ3TFZVU3o5cDR6R0FvVXV6bzdpR2xQVzhDRFFFZnZ0dUI0QW9YSjl5a0IySTFhQlNsU00?oc=5",
-    "title": "Coca-Cola to invest $10bn into US operations by 2030",
-    "summary": "Coca-Cola announced a $10 billion investment plan for US manufacturing operations through 2030.",
-    "story_key": "coca-cola-us-manufacturing-investment-2030",
-    "category": "mna",
-    "sent_at": "2026-09-17T14:40:20.503901+00:00"
-  },
-  "3EB0A3D0AFD8D0836B6FF7": {
-    "url": "https://www.foodnavigator.com/Article/2026/09/18/nestle-russia-under-state-administration-following-kremlin-decree/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "Nestlé Russia falls under Kremlin control",
-    "summary": "The Kremlin has placed Nestlé's Russian business under temporary administration, prompting the Swiss food and beverage giant to assess its options and legal rights.",
-    "story_key": "nestle-russia-kremlin-seizure",
-    "category": "macro",
-    "sent_at": "2026-09-18T10:24:09.164397+00:00"
-  },
-  "3EB0A76238CF639382AAC5": {
-    "url": "https://www.fooddive.com/news/ingredion-tate-lyle-health-wellness-reformulation/830693/",
-    "title": "How Ingredion aims to capitalize on 'reformulation boom' with Tate & Lyle deal",
-    "summary": "Ingredion's acquisition of Tate & Lyle is set to position it as a leading provider of texture and healthful solutions for the food and beverage industry, according to its CEO.",
-    "story_key": "ingredion-tate-lyle-acquisition",
-    "category": "mna",
-    "sent_at": "2026-09-18T10:24:09.164397+00:00"
-  },
-  "3EB05BC750377DD2511557": {
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTVlPeFV6MGxJSDN5b2VWcENqbmN1bFhNaDFaUEE4ZjJYa1ZsQW9kRGE3Q2dWc3FfdVVjc0pyUWEtejhyX0tvbE8xWHRGTEo0ZXJmV20zSllEdmpDdlFuMnRCRndzM2tDZXNSanZleG85c252aWk3SW1IRl9maXJZT24zWlNFSTRlX2tyRmpJU0VNdTdZU2hvaTBZOXFzdWxoOTFHUTZScHFLVGxCUE1mdHZwMXhMdFRrMnF2RGJGblExQm5ILXR6cS0tLVk?oc=5",
-    "title": "Nestle weighing all options after Kremlin moves to seize Russia business",
-    "summary": "Nestle said it is considering all options after the Kremlin moved to place its Russia business under temporary state control. The move follows a decree allowing Russia to seize assets of companies from 'unfriendly' countries.",
-    "story_key": "nestle-russia-kremlin-seizure",
-    "category": "mna",
-    "sent_at": "2026-09-18T14:05:12.481198+00:00"
-  },
-  "3EB0A6083087CD7A22F99C": {
-    "url": "https://www.foodnavigator.com/Article/2026/09/18/mars-cocoa-strategy-centers-around-new-tech-and-cloning/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "Mars' cocoa strategy centers around new tech and cloning",
-    "summary": "Mars says it has largely delivered on sustainability targets set seven years ago and is now shifting its cocoa strategy toward farmer livelihoods, productivity gains and climate resilience as threats to global cocoa supplies intensify.",
-    "story_key": "mars-cocoa-strategy-tech-cloning",
-    "category": "tech",
-    "sent_at": "2026-09-18T14:05:12.481198+00:00"
-  },
-  "3EB00A30EFC5E5DCA28E99": {
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TNkh2cW9fcnlzeEE5Q0taVkdXdFZtUGozRFoxMnJYRWQ3WVhyWl9EaFkydVRtZWJ1S3N0OFhoenU3TU5RYjhyYkRkOGpPSTNyTXVMMVRUblg4OFV4amtHS2xSblozWGFRTWVuMWd1UVRoSXlE?oc=5",
-    "title": "Why Is Arabica Coffee Near a 10-Week Low Despite 27-Year-Low ICE Stocks?",
-    "summary": "Arabica coffee futures are trading near a 10-week low even as ICE certified stocks sit at their lowest level in 27 years, driven by improving supply expectations from Brazil.",
-    "story_key": "brazil-arabica-coffee-10week-low-sept2026",
-    "category": "macro",
-    "sent_at": "2026-09-18T14:05:12.481198+00:00"
-  },
   "3EB002FB59898928E5725A": {
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS0pBbUdBdFJoRE4tcXc3LUp4RmpfQ0VyeWo1ZzN0dXN5d1RBNFhkQmZzLVFJV19nQVpJM3JWb2lUYWtZc011aEVtOUppVXhWeU5PYUJSVFFZcE5EZjB0MjhzYk1qYmotOWxSSG04bGNiNzF1azBhM3d4Q1JFYWZUZHZzUXdOWUZZOUZiS3Y4NlV0VzRKNGc3cEhtenFHam1paWtBVlEwSnBFdXgxRjFOVDFyR2w?oc=5",
     "title": "Nestlé weighs action after Russia places its business under temporary control",
@@ -1646,5 +1558,61 @@
     "story_key": "colombia-peso-coffee-price-2011-high",
     "category": "macro",
     "sent_at": "2026-10-31T18:59:22.511814+00:00"
+  },
+  "3EB0E533F23951A212909D": {
+    "url": "https://www.foodnavigator.com/Article/2026/11/02/cyber-attacks-raise-supermarket-fridge-temperatures/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "European supermarket fridges hit with suspected cyber attack",
+    "summary": "A suspected cyber attack hit supermarket refrigeration systems across Europe, raising fridge and freezer temperatures and renewing concerns over food-sector cyber resilience.",
+    "story_key": "europe-supermarket-fridge-cyberattack",
+    "category": "market",
+    "sent_at": "2026-11-02T14:30:08.668277+00:00"
+  },
+  "3EB07CDF3CEC75C37F15BD": {
+    "url": "https://www.foodnavigator.com/Article/2026/11/02/oatly-to-raise-us-prices-in-2027-weighs-europe-hikes/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Oatly to raise US prices in 2027, weighs increases in Europe",
+    "summary": "Oatly plans US price increases in 2027 and is considering hikes in Europe as higher fuel costs squeeze profits, alongside a US fiber drink launch set for January.",
+    "story_key": "oatly-2027-price-increase",
+    "category": "macro",
+    "sent_at": "2026-11-02T14:30:08.668277+00:00"
+  },
+  "3EB0875B0D04946CC22191": {
+    "url": "https://www.foodnavigator.com/Article/2026/11/02/the-race-to-replace-artificial-colours-is-on/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "The race to replace artificial colours intensifies",
+    "summary": "Major manufacturers including Nestlé and Mars are reformulating products with natural colours, though matching the performance of synthetic dyes remains a challenge.",
+    "story_key": "natural-colours-reformulation-race",
+    "category": "tech",
+    "sent_at": "2026-11-02T14:30:08.668277+00:00"
+  },
+  "3EB060AA7F0C91C602A595": {
+    "url": "https://www.nutraingredients.com/Article/2026/11/02/danone-advances-health-span-early-life-nutrition-in-new-china-lab/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Gut as core: Danone advances health span, early life nutrition in new China lab",
+    "summary": "Danone has built a new research and innovation center in Shanghai to advance product solutions focused on gut microbiome, healthspan, and early-life nutrition for Chinese consumers.",
+    "story_key": "danone-shanghai-rd-lab",
+    "category": "tech",
+    "sent_at": "2026-11-02T14:30:08.668277+00:00"
+  },
+  "3EB067C5ED94AA93E2FDA9": {
+    "url": "https://www.foodnavigator.com/Article/2026/11/02/coca-cola-pepsi-lose-brand-value-as-nongfu-spring-surges/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Coca-Cola, Pepsi lose brand value as Nongfu Spring surges",
+    "summary": "Coca-Cola and Pepsi retain the top beverage brand value spots globally, but China's Nongfu Spring is rapidly gaining brand value and closing the gap.",
+    "story_key": "nongfu-spring-brand-value-surge",
+    "category": "market",
+    "sent_at": "2026-11-02T14:30:08.668277+00:00"
+  },
+  "3EB0761D7227CF8AEA0DCF": {
+    "url": "https://www.dairyreporter.com/Article/2026/11/02/fonterra-raises-202627-milk-price-forecast-on-stronger-global-dairy-demand/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Fonterra raises 2026/27 milk price forecast on stronger global dairy demand",
+    "summary": "Fonterra has raised its 2026/27 farmgate milk price forecast, citing stronger global dairy demand.",
+    "story_key": "fonterra-milk-price-forecast-raise",
+    "category": "macro",
+    "sent_at": "2026-11-02T14:30:08.668277+00:00"
+  },
+  "3EB0FCDD7A113D9D65E53B": {
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQM0pBY1MtYk9wYUs1OUdHOF9aa2p0VlVPWEtDZHdGdDFnekVabmQ3T29wWnZJM1pBSVQyY1pVWWFzMktGMWhadEVnY2JTSGhiOWhhZEM5dFpfQ1M2eklBaDVsTXdDU1FWQ3JZM2g0NkIydFFiQ21HaUVXSlNlbXNfZzFqV2hpYUE4NHRDNUl0RHYzWjBnQnFVdkRYOFFxOGZX?oc=5",
+    "title": "Perrigo to sell infant formula business to MeridianMade for up to $175m",
+    "summary": "Perrigo has agreed to sell its infant formula business to MeridianMade in a deal worth up to $175 million.",
+    "story_key": "perrigo-infant-formula-sale-meridianmade",
+    "category": "mna",
+    "sent_at": "2026-11-02T14:30:08.668277+00:00"
   }
 }
