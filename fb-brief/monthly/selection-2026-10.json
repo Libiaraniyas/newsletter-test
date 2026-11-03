@@ -230,6 +230,16 @@
       "image": "https://www.foodnavigator.com/resizer/v2/BI6POJBGKVGT5LXMJRW4K4I4ZY.jpg?auth=d1205b5b5449ca2d342934e69b23552ee1479d4a84da1a1cf3e933dc98a915d6&width=1200&height=630&smart=true",
       "month": "2026-10",
       "added_at": "2026-11-03T12:39:21.562Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/food-safety-consumer-confidence-gallup/832856/",
+      "title": "US consumer trust in food safety falls to record low",
+      "summary": "A Cyclospora outbreak and a series of food recalls has shaken consumer confidence and led to a shift in buying habits, according to Gallup.",
+      "category": "macro",
+      "story_key": "us-food-safety-trust-record-low",
+      "image": "https://imgproxy.divecdn.com/53fi2nlQd0Bj_P29G-kSZ63uHVHOTMz7-n-ys69HoHI/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjg2NDM5ODM4LmpwZw==.webp",
+      "month": "2026-10",
+      "added_at": "2026-11-03T12:39:40.621Z"
     }
   ],
   "starred": [
@@ -255,7 +265,8 @@
     "https://www.fooddive.com/news/monster-energy-returns-protein-drinks/832954/",
     "https://www.fooddive.com/news/nestle-investment-mexico-coffee-pet-food-emerging-markets/832996/",
     "https://www.ynet.co.il/economy/article/bkqgoepsfe",
-    "https://www.foodnavigator.com/Article/2026/10/13/china-india-and-middle-east-dairy-brands-outperform-global-rivals/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS"
+    "https://www.foodnavigator.com/Article/2026/10/13/china-india-and-middle-east-dairy-brands-outperform-global-rivals/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "https://www.fooddive.com/news/food-safety-consumer-confidence-gallup/832856/"
   ],
   "category_names": {},
   "category_overrides": {}
