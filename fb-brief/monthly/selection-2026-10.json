@@ -130,6 +130,16 @@
       "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/06/08/BkzKLhQbfl/BkzKLhQbfl_0_0_850_479_0_large.jpg",
       "month": "2026-10",
       "added_at": "2026-11-03T12:31:33.582Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/texas-sues-nestles-gerber-over-alleged-heavy-metals-in-baby-food/833365/",
+      "title": "Texas sues Nestlé's Gerber over alleged heavy metals in baby food",
+      "summary": "Texas Attorney General Ken Paxton is seeking more than $10 million in penalties from Nestlé's Gerber over alleged heavy metals in baby food.",
+      "category": "market",
+      "story_key": "texas-gerber-heavy-metals-lawsuit",
+      "image": "",
+      "month": "2026-10",
+      "added_at": "2026-11-03T12:33:24.780Z"
     }
   ],
   "starred": [
@@ -145,7 +155,8 @@
     "https://www.foodnavigator.com/Article/2026/10/28/those-vegan-cowboys-get-fda-letter-for-animal-free-casein/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFhxR3FNd1Q1QkQ5V3JqSm5wSDB5d3dhdEt6bW5xUnFfSXRoY0tiUkxnSVh4Q2I5Vjlob0ZlQTdMTTh4bnQwNklzX2ItMUFtTV9FZU1kOXZkRUJWb1Zqdjg3ODNHbXI4YTBFc3ZKdlgwSkNjb3BZOExGSk13bVhMNUx2LV92R0VoWFl6cE4tT0V6VG1Cb0gtcFF6c1I?oc=5",
     "https://www.fooddive.com/news/Pepsico-snacking-protein-bars-good-warrior-doritos/833574/",
-    "https://www.ynet.co.il/economy/article/hjzhpbphzl"
+    "https://www.ynet.co.il/economy/article/hjzhpbphzl",
+    "https://www.fooddive.com/news/texas-sues-nestles-gerber-over-alleged-heavy-metals-in-baby-food/833365/"
   ],
   "category_names": {},
   "category_overrides": {}
