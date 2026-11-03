@@ -160,6 +160,16 @@
       "image": "https://www.foodnavigator.com/resizer/v2/A7I3XDJWTVE2PANMUX3ROYUZNQ.jpg?auth=634b065238865454a0a4fb25aab5ea53e23574c186ac0f3426c346eb7e7638ce&width=1200&height=630&smart=true",
       "month": "2026-10",
       "added_at": "2026-11-03T12:34:47.064Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/nestle-plant-closure-ohio/833464/",
+      "title": "Nestlé to close Ohio factory by end of 2027",
+      "summary": "Nestlé will shut its Ohio factory and shift production to South Carolina, citing it as the most sustainable path forward as consumer needs and volumes shift.",
+      "category": "mna",
+      "story_key": "nestle-ohio-factory-closure",
+      "image": "",
+      "month": "2026-10",
+      "added_at": "2026-11-03T12:35:11.612Z"
     }
   ],
   "starred": [
@@ -178,7 +188,8 @@
     "https://www.ynet.co.il/economy/article/hjzhpbphzl",
     "https://www.fooddive.com/news/texas-sues-nestles-gerber-over-alleged-heavy-metals-in-baby-food/833365/",
     "https://www.fooddive.com/news/danone-yogurt-ohio-renewable-energy-biogas/833572/",
-    "https://www.foodnavigator.com/Article/2026/10/20/whey-protein-shortage-drives-interest-in-plant-proteins/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS"
+    "https://www.foodnavigator.com/Article/2026/10/20/whey-protein-shortage-drives-interest-in-plant-proteins/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "https://www.fooddive.com/news/nestle-plant-closure-ohio/833464/"
   ],
   "category_names": {},
   "category_overrides": {}
