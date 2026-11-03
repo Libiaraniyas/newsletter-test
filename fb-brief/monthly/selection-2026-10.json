@@ -20,11 +20,22 @@
       "image": "",
       "month": "2026-10",
       "added_at": "2026-11-03T12:18:12.990Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/mondelez-acquisition-undercover-snacking-better-for-you-oreo/873344/",
+      "title": "Mondelēz to acquire Undercover Snacks in expansion of better-for-you portfolio",
+      "summary": "Mondelēz is acquiring the quinoa crisps brand Undercover Snacks as CEO Dirk Van de Put says the Oreo maker's portfolio needs to evolve towards healthier snacks.",
+      "category": "mna",
+      "story_key": "mondelez-undercover-snacks-acquisition",
+      "image": "",
+      "month": "2026-10",
+      "added_at": "2026-11-03T12:18:18.852Z"
     }
   ],
   "starred": [
     "https://www.ice.co.il/digital-140/news/article/1136131",
-    "https://www.fooddive.com/news/oatly-fiber-plant-based-milk-us-turnaround/873450/"
+    "https://www.fooddive.com/news/oatly-fiber-plant-based-milk-us-turnaround/873450/",
+    "https://www.fooddive.com/news/mondelez-acquisition-undercover-snacking-better-for-you-oreo/873344/"
   ],
   "category_names": {},
   "category_overrides": {}
