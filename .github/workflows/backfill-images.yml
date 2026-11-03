@@ -1,7 +1,7 @@
 name: Backfill Article Images
 
-# Fetch og:image for articles missing a picture in a monthly selection, and
-# commit the updated data to main (so the newsletter builder shows them).
+# Fetch og:image for articles missing a picture in a monthly selection and
+# commit the updated data to main, so the newsletter builder shows them.
 # Runs on the GitHub runner because the cloud session can't reach news hosts.
 on:
   workflow_dispatch:
@@ -19,26 +19,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Backfill images on main
+      - name: Backfill images
         env:
           MONTH: ${{ inputs.month }}
         run: |
           set -e
-          cp fb-brief/backfill_images.py "$RUNNER_TEMP/bf.py"
-          git fetch origin main
-          git checkout -B main-work origin/main
-          python "$RUNNER_TEMP/bf.py" "$MONTH"
+          python fb-brief/backfill_images.py "$MONTH"
           if [ -n "$(git status --porcelain fb-brief/monthly)" ]; then
             git config user.name  "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git add fb-brief/monthly/selection-*.json fb-brief/monthly/links.json
             git commit -m "chore: backfill article images for $MONTH [skip ci]"
-            git push origin main-work:main
+            git push
             echo "✓ pushed image backfill to main"
           else
             echo "No image changes to commit."
