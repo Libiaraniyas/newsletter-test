@@ -42,16 +42,65 @@ OG_PATTERNS = [
 
 
 def _fetch(url, timeout=18):
-    """GET a URL following redirects; return (final_url, html_text)."""
+    """GET a URL following redirects; return (final_url, html_text).
+    Sends a full set of browser headers — many publishers (e.g. fooddive)
+    return 403 to a bare urllib User-Agent."""
     req = urllib.request.Request(url, headers={
         "User-Agent": UA,
-        "Accept": "text/html,application/xhtml+xml",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "en-US,en;q=0.9,he;q=0.8",
+        "Accept-Encoding": "identity",
+        "Referer": "https://www.google.com/",
+        "Sec-Ch-Ua": '"Chromium";v="122", "Not(A:Brand";v="24"',
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": '"Windows"',
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "cross-site",
+        "Upgrade-Insecure-Requests": "1",
     })
     with urllib.request.urlopen(req, timeout=timeout) as r:
         final = r.geturl()
         raw = r.read(1_500_000)  # cap: og tags live in the <head>
     return final, raw.decode("utf-8", "ignore")
+
+
+_ICON_HINTS = ("logo", "icon", "favicon", "sprite", "avatar", "placeholder",
+               "1x1", "pixel", "spacer", "/ads/", "doubleclick")
+
+
+def _good_img(u):
+    u = (u or "").strip().rstrip(").,;'\"")
+    if not u.startswith("http"):
+        return ""
+    low = u.lower()
+    if low.endswith(".svg") or low.endswith(".gif"):
+        return ""
+    if any(h in low for h in _ICON_HINTS):
+        return ""
+    return u
+
+
+def _jina_image(url, timeout=28):
+    """Fallback: ask the r.jina.ai reader (its own fetcher + redirect follow)
+    for the page and pull the best image out of what it returns. Recovers
+    bot-blocked publishers and Google News redirect wrappers."""
+    try:
+        req = urllib.request.Request("https://r.jina.ai/" + url, headers={
+            "User-Agent": UA,
+            "X-With-Images-Summary": "true",
+            "X-Return-Format": "markdown",
+        })
+        txt = urllib.request.urlopen(req, timeout=timeout).read().decode("utf-8", "ignore")
+    except Exception:  # noqa: BLE001
+        return ""
+    cands = re.findall(r'!\[[^\]]*\]\((https?://[^)\s]+)', txt)
+    cands += re.findall(r'https?://[^\s)"\']+\.(?:jpg|jpeg|png|webp)(?:\?[^\s)"\']*)?', txt)
+    for c in cands:
+        g = _good_img(c)
+        if g:
+            return g
+    return ""
 
 
 def _abs_image(src, page_url):
@@ -79,26 +128,31 @@ def _extract_og(html, page_url):
 
 
 def resolve_image(url):
-    """Best-effort image for an article URL. Handles Google News redirect
-    wrappers by following redirects to the real publisher page. Returns an
+    """Best-effort image for an article URL. Tries a direct fetch + og:image
+    first (handling Google News redirect wrappers), then falls back to the
+    r.jina.ai reader for bot-blocked pages and unresolved wrappers. Returns an
     image URL or "" (caller skips on "")."""
-    final, html = _fetch(url)
-    host = re.sub(r"^https?://", "", final).split("/")[0].lower()
-
-    # Google News wrapper that didn't bounce to a publisher: try to find the
-    # real article link inside, else give up (skip).
-    if "news.google.com" in host or "google.com" in host:
-        m = re.search(r'<a[^>]+href=["\'](https?://(?!news\.google|www\.google|google\.)[^"\']+)', html, re.I)
-        if not m:
-            m = re.search(r'data-n-au=["\'](https?://[^"\']+)', html, re.I)
-        if m:
-            try:
+    try:
+        final, html = _fetch(url)
+        host = re.sub(r"^https?://", "", final).split("/")[0].lower()
+        if "news.google.com" in host or "google.com" in host:
+            # Wrapper page: look for the real publisher link inside.
+            m = re.search(r'<a[^>]+href=["\'](https?://(?!news\.google|www\.google|google\.)[^"\']+)', html, re.I)
+            if not m:
+                m = re.search(r'data-n-au=["\'](https?://[^"\']+)', html, re.I)
+            if m:
                 final, html = _fetch(m.group(1))
-            except Exception:
-                return ""
+                img = _extract_og(html, final)
+                if img:
+                    return img
         else:
-            return ""
-    return _extract_og(html, final)
+            img = _extract_og(html, final)
+            if img:
+                return img
+    except Exception:  # noqa: BLE001  (403s, timeouts → fall through to reader)
+        pass
+    # Fallback: reader service (follows redirects, bypasses most bot walls).
+    return _jina_image(url)
 
 
 def main():
