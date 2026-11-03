@@ -200,6 +200,16 @@
       "image": "https://img.ice.co.il/giflib/news/F250403YS55_pr.jpg",
       "month": "2026-09",
       "added_at": "2026-11-02T19:59:22.075Z"
+    },
+    {
+      "url": "https://www.fooddive.com/news/oatly-fiber-plant-based-milk-us-turnaround/873450/",
+      "title": "Oatly bets on fiber drinks to fuel plant-based turnaround",
+      "summary": "Oatly is positioning itself as a functional beverage company focused on fiber, aiming to be among the leaders in reducing the fiber gap rather than just a milk alternative brand.",
+      "category": "tech",
+      "story_key": "oatly-fiber-functional-beverage-pivot",
+      "image": "",
+      "month": "2026-09",
+      "added_at": "2026-11-03T11:38:31.726Z"
     }
   ],
   "starred": [
@@ -222,7 +232,8 @@
     "https://www.foodnavigator.com/Article/2026/11/02/cyber-attacks-raise-supermarket-fridge-temperatures/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.fooddive.com/news/mondelez-acquisition-undercover-snacking-better-for-you-oreo/873344/",
     "https://news.google.com/rss/articles/CBMivAFBVV95cUxQX3lFbzhNME1WRkhYbm5BazRKOUhPX293UmlMZWs1dnNTenBOQ09MMnZNLTVOdVU2Rk1NX285UnktTzVIeW5aajFxblBMaTFTRUFRVjMxSHV0SlpheUJuVW5Lc1pkRzJMTmlaQ0F5YXhYblVIU0RIUVBlVDNralZzang0N05GSmZtcUtBcUpsUXQtSVpJMWZCYlJpZjFWNEt0MnFib2lLYk5oRllXVTlxZTZIOE8yZUgyZ19KdA?oc=5",
-    "https://www.ice.co.il/digital-140/news/article/1136131"
+    "https://www.ice.co.il/digital-140/news/article/1136131",
+    "https://www.fooddive.com/news/oatly-fiber-plant-based-milk-us-turnaround/873450/"
   ],
   "category_names": {},
   "category_overrides": {
