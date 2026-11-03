@@ -17,7 +17,7 @@
       "summary": "Oatly is positioning itself as a functional beverage company focused on fiber, aiming to be among the leaders in reducing the fiber gap rather than just a milk alternative brand.",
       "category": "tech",
       "story_key": "oatly-fiber-functional-beverage-pivot",
-      "image": "",
+      "image": "https://imgproxy.divecdn.com/7mPsSIt5HzySDoZLceRT8Cd9ODMJ__bjs6oHnFQ0r8s/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9Qb3dlclBvaW50X1ByZXNlbnRhdGlvbl9wYWdlLTAwMDFfMS5qcGc=.webp",
       "month": "2026-10",
       "added_at": "2026-11-03T12:18:12.990Z"
     },
@@ -27,7 +27,7 @@
       "summary": "Mondelēz is acquiring the quinoa crisps brand Undercover Snacks as CEO Dirk Van de Put says the Oreo maker's portfolio needs to evolve towards healthier snacks.",
       "category": "mna",
       "story_key": "mondelez-undercover-snacks-acquisition",
-      "image": "",
+      "image": "https://imgproxy.divecdn.com/kvs8Ft0Siu5XqQmHbG2tDChcTUgcfL4BGpIVWn5T4xQ/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9hc3NldHNfTVMyMDI0NDc4XzAwMDAwMV9VbmRlcmNvdmVyU25hY2tzX3J5YW5jc2lkZXNfX0RTQzgzNzJfMS1mb3Rvci0yMDI2MTEwMjk1ODQ3XzEuanBn.webp",
       "month": "2026-10",
       "added_at": "2026-11-03T12:18:18.852Z"
     },
@@ -117,7 +117,7 @@
       "summary": "PepsiCo is boosting protein content across several brands via its Good Warrior line, with more than half of consumers prioritizing protein during snacking occasions.",
       "category": "tech",
       "story_key": "pepsico-good-warrior-protein-bars",
-      "image": "",
+      "image": "https://imgproxy.divecdn.com/KvgYLmzQLHWDvX2SzBcVuzRKGkKkiDuBhU7xFiSZ6hM/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9hc3NldHNfTVMyMDE2NDAwXzAwMDAwMV8xOTIwLXgtMTA4MF8zLnBuZw==.webp",
       "month": "2026-10",
       "added_at": "2026-11-03T12:30:15.769Z"
     },
@@ -137,7 +137,7 @@
       "summary": "Texas Attorney General Ken Paxton is seeking more than $10 million in penalties from Nestlé's Gerber over alleged heavy metals in baby food.",
       "category": "market",
       "story_key": "texas-gerber-heavy-metals-lawsuit",
-      "image": "",
+      "image": "https://imgproxy.divecdn.com/Ic3DGIkwQxTLI0iK-7xx7VtnwFY0m5IKR-5Vu45ElAo/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMDE4OTE3MjgwLmpwZw==.webp",
       "month": "2026-10",
       "added_at": "2026-11-03T12:33:24.780Z"
     },
@@ -147,7 +147,7 @@
       "summary": "The project, commissioned by PurposeEnergy, comes as Danone boosts production to meet accelerating demand for high-protein yogurt.",
       "category": "tech",
       "story_key": "danone-yogurt-waste-renewable-energy",
-      "image": "",
+      "image": "https://imgproxy.divecdn.com/_QvJEDuMEbYKpzpBjlzPI4g-VWnSn6ddxepdOsMZsUI/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9hc3NldHNfTVMyMDE0NTYwXzAwMDAwMV9QdXJwb3NlRW5lcmd5LW1pbnN0ZXItYWVyaWFsLTIwMjYuanBn.webp",
       "month": "2026-10",
       "added_at": "2026-11-03T12:33:38.396Z"
     },
@@ -167,7 +167,7 @@
       "summary": "Nestlé will shut its Ohio factory and shift production to South Carolina, citing it as the most sustainable path forward as consumer needs and volumes shift.",
       "category": "mna",
       "story_key": "nestle-ohio-factory-closure",
-      "image": "",
+      "image": "https://imgproxy.divecdn.com/zMHrBkv63z_uG7kRTAz-geNhnrXQtUVeLsizV-DLr18/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy03MTI0MDM5NS5qcGc=.webp",
       "month": "2026-10",
       "added_at": "2026-11-03T12:35:11.612Z"
     },
@@ -302,5 +302,6 @@
     "https://www.foodnavigator.com/Article/2026/10/06/egg-and-milk-quality-impacted-by-climate-change/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS"
   ],
   "category_names": {},
-  "category_overrides": {}
+  "category_overrides": {},
+  "updated_at": "2026-11-03T13:22:14.141032Z"
 }
