@@ -1,0 +1,20 @@
+{
+  "month": "2026-10",
+  "added": [
+    {
+      "url": "https://www.ice.co.il/digital-140/news/article/1136131",
+      "title": "אזהרה חמורה לסופרמרקטים בישראל: מערכות הקירור בסכנת מתקפה",
+      "summary": "בעקבות גל מתקפות סייבר באירופה על מערכות קירור בסופרמרקטים שגרמו להשמדת מזון, מערך הסייבר הלאומי דורש מרשתות השיווק בישראל לבדוק את מערכות הבקרה שלהן ולהקשיח את ההגנה.",
+      "category": "market",
+      "story_key": "europe-supermarket-fridge-cyberattack",
+      "image": "https://img.ice.co.il/giflib/news/F250403YS55_pr.jpg",
+      "month": "2026-10",
+      "added_at": "2026-11-03T12:18:01.045Z"
+    }
+  ],
+  "starred": [
+    "https://www.ice.co.il/digital-140/news/article/1136131"
+  ],
+  "category_names": {},
+  "category_overrides": {}
+}
