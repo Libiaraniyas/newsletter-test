@@ -180,6 +180,16 @@
       "image": "https://www.beveragedaily.com/resizer/v2/DE4R3SNBFRFKVMQRKRCGOYUR54.jpg?auth=d9aeaa6bb0777234ea75665fd65122df5bea68bd7568d6a0faa47b85f96f9bf6&width=1200&height=630&smart=true",
       "month": "2026-10",
       "added_at": "2026-11-03T12:35:55.449Z"
+    },
+    {
+      "url": "https://www.ynet.co.il/economy/article/hjqasaajfg",
+      "title": "לראשונה מזה חצי שנה: הדולר מזנק ונסחר סביב 3.10 שקל",
+      "summary": "על רקע נתוני האינפלציה הרעים שפורסמו אתמול בארה\"ב, המטבע האמריקני עולה בצורה משמעותית מול השקל, כשגם האירו מתחזק. במקביל, הבורסות באסיה צונחות.",
+      "category": "macro",
+      "story_key": "israel-dollar-surge-us-inflation-oct2026",
+      "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2023/09/07/B1edMvFvAn/B1edMvFvAn_0_0_1000_563_0_large.jpg",
+      "month": "2026-10",
+      "added_at": "2026-11-03T12:36:26.164Z"
     }
   ],
   "starred": [
@@ -200,7 +210,8 @@
     "https://www.fooddive.com/news/danone-yogurt-ohio-renewable-energy-biogas/833572/",
     "https://www.foodnavigator.com/Article/2026/10/20/whey-protein-shortage-drives-interest-in-plant-proteins/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.fooddive.com/news/nestle-plant-closure-ohio/833464/",
-    "https://www.beveragedaily.com/Article/2026/10/15/what-germanys-proposed-sugar-tax-means-for-drinks-brands/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS"
+    "https://www.beveragedaily.com/Article/2026/10/15/what-germanys-proposed-sugar-tax-means-for-drinks-brands/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "https://www.ynet.co.il/economy/article/hjqasaajfg"
   ],
   "category_names": {},
   "category_overrides": {}
