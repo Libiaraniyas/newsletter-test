@@ -100,6 +100,16 @@
       "image": "https://www.foodnavigator.com/resizer/v2/AXCK4TGK3NH4HMFB3BKP5X54GY.png?auth=820fba3478ff54638479fd0df692801a2df201f171c642c3bc6d761fa8788d80&width=1200&height=630&smart=true",
       "month": "2026-10",
       "added_at": "2026-11-03T12:24:03.988Z"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFhxR3FNd1Q1QkQ5V3JqSm5wSDB5d3dhdEt6bW5xUnFfSXRoY0tiUkxnSVh4Q2I5Vjlob0ZlQTdMTTh4bnQwNklzX2ItMUFtTV9FZU1kOXZkRUJWb1Zqdjg3ODNHbXI4YTBFc3ZKdlgwSkNjb3BZOExGSk13bVhMNUx2LV92R0VoWFl6cE4tT0V6VG1Cb0gtcFF6c1I?oc=5",
+      "title": "Brazil election results put ag commodities under pressure",
+      "summary": "Sugar and coffee prices diverged following Brazil's election results as the Brazilian real weakened, with ag commodity markets reacting broadly to the political outcome.",
+      "category": "macro",
+      "story_key": "brazil-lula-election-currency-coffee-sugar",
+      "image": "",
+      "month": "2026-10",
+      "added_at": "2026-11-03T12:25:52.087Z"
     }
   ],
   "starred": [
@@ -112,7 +122,8 @@
     "https://www.foodnavigator.com/Article/2026/10/30/aleph-farms-among-bezos-backed-protein-innovators-targeting-scale/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.themarker.com/consumer/2026-10-29/ty-article/.highlight/000001a1-8767-dceb-abfd-bf7f27cf0000",
     "https://www.foodnavigator.com/Article/2026/10/29/planet-a-foods-launches-cocoa-booster-replacer/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "https://www.foodnavigator.com/Article/2026/10/28/those-vegan-cowboys-get-fda-letter-for-animal-free-casein/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS"
+    "https://www.foodnavigator.com/Article/2026/10/28/those-vegan-cowboys-get-fda-letter-for-animal-free-casein/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFhxR3FNd1Q1QkQ5V3JqSm5wSDB5d3dhdEt6bW5xUnFfSXRoY0tiUkxnSVh4Q2I5Vjlob0ZlQTdMTTh4bnQwNklzX2ItMUFtTV9FZU1kOXZkRUJWb1Zqdjg3ODNHbXI4YTBFc3ZKdlgwSkNjb3BZOExGSk13bVhMNUx2LV92R0VoWFl6cE4tT0V6VG1Cb0gtcFF6c1I?oc=5"
   ],
   "category_names": {},
   "category_overrides": {}
