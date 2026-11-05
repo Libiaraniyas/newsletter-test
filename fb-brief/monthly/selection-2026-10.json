@@ -195,7 +195,6 @@
   "starred": [
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFhxR3FNd1Q1QkQ5V3JqSm5wSDB5d3dhdEt6bW5xUnFfSXRoY0tiUkxnSVh4Q2I5Vjlob0ZlQTdMTTh4bnQwNklzX2ItMUFtTV9FZU1kOXZkRUJWb1Zqdjg3ODNHbXI4YTBFc3ZKdlgwSkNjb3BZOExGSk13bVhMNUx2LV92R0VoWFl6cE4tT0V6VG1Cb0gtcFF6c1I?oc=5",
     "https://www.fooddive.com/news/mondelez-acquisition-undercover-snacking-better-for-you-oreo/873344/",
-    "https://www.themarker.com/consumer/2026-10-29/ty-article/.highlight/000001a1-8767-dceb-abfd-bf7f27cf0000",
     "https://www.fooddive.com/news/nestle-investment-mexico-coffee-pet-food-emerging-markets/832996/",
     "https://www.fooddive.com/news/Pepsico-snacking-protein-bars-good-warrior-doritos/833574/",
     "https://www.fooddive.com/news/texas-sues-nestles-gerber-over-alleged-heavy-metals-in-baby-food/833365/",
@@ -212,7 +211,6 @@
   "category_overrides": {
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFhxR3FNd1Q1QkQ5V3JqSm5wSDB5d3dhdEt6bW5xUnFfSXRoY0tiUkxnSVh4Q2I5Vjlob0ZlQTdMTTh4bnQwNklzX2ItMUFtTV9FZU1kOXZkRUJWb1Zqdjg3ODNHbXI4YTBFc3ZKdlgwSkNjb3BZOExGSk13bVhMNUx2LV92R0VoWFl6cE4tT0V6VG1Cb0gtcFF6c1I?oc=5": "Macro Environment",
     "https://www.fooddive.com/news/mondelez-acquisition-undercover-snacking-better-for-you-oreo/873344/": "M&A and Divestitures",
-    "https://www.themarker.com/consumer/2026-10-29/ty-article/.highlight/000001a1-8767-dceb-abfd-bf7f27cf0000": "M&A and Divestitures",
     "https://www.fooddive.com/news/nestle-investment-mexico-coffee-pet-food-emerging-markets/832996/": "M&A and Divestitures",
     "https://www.fooddive.com/news/Pepsico-snacking-protein-bars-good-warrior-doritos/833574/": "Market Dynamics",
     "https://www.fooddive.com/news/texas-sues-nestles-gerber-over-alleged-heavy-metals-in-baby-food/833365/": "Market Dynamics",
@@ -230,7 +228,8 @@
     "https://www.beveragedaily.com/Article/2026/10/15/what-germanys-proposed-sugar-tax-means-for-drinks-brands/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.fooddive.com/news/food-safety-consumer-confidence-gallup/832856/",
     "https://www.ynet.co.il/economy/article/bkqgoepsfe",
-    "https://www.ynet.co.il/economy/article/hjqasaajfg"
+    "https://www.ynet.co.il/economy/article/hjqasaajfg",
+    "https://www.themarker.com/consumer/2026-10-29/ty-article/.highlight/000001a1-8767-dceb-abfd-bf7f27cf0000"
   ],
-  "updated_at": "2026-11-05T10:02:06.358Z"
+  "updated_at": "2026-11-05T10:02:39.246Z"
 }
