@@ -2,16 +2,6 @@
   "month": "2026-10",
   "added": [
     {
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFhxR3FNd1Q1QkQ5V3JqSm5wSDB5d3dhdEt6bW5xUnFfSXRoY0tiUkxnSVh4Q2I5Vjlob0ZlQTdMTTh4bnQwNklzX2ItMUFtTV9FZU1kOXZkRUJWb1Zqdjg3ODNHbXI4YTBFc3ZKdlgwSkNjb3BZOExGSk13bVhMNUx2LV92R0VoWFl6cE4tT0V6VG1Cb0gtcFF6c1I?oc=5",
-      "title": "Brazil Election Results Put Ag Commodities Under Pressure",
-      "summary": "Brazilian electoral outcomes introduce policy uncertainty affecting agricultural commodity pricing and supply dynamics, with significant implications for global food input costs and procurement strategies.",
-      "category": "macro",
-      "story_key": "brazil-lula-election-currency-coffee-sugar",
-      "image": "",
-      "month": "2026-10",
-      "added_at": "2026-11-03T12:25:52.087Z"
-    },
-    {
       "url": "https://www.foodnavigator.com/Article/2026/11/02/cyber-attacks-raise-supermarket-fridge-temperatures/",
       "title": "European Supermarket Fridges Hit With Suspected Cyber Attack",
       "summary": "A cyber attack targeting European supermarket refrigeration systems poses significant operational and supply chain risks to major retailers, highlighting critical vulnerabilities in food retail infrastructure and cold chain management.",
@@ -22,6 +12,16 @@
       "added_at": "2026-11-05T10:56:21.077Z"
     },
     {
+      "url": "https://www.farmprogress.com/marketing/brazil-election-results-put-ag-commodities-under-pressure",
+      "title": "Brazil Election Results Put Ag Commodities Under Pressure",
+      "summary": "Brazil's election outcome creates market uncertainty for agricultural commodity prices, as political shifts may influence trade policies, production incentives, and export competitiveness in a sector critical to global supply chains. Investors should monitor regulatory changes and their potential impact on commodity valuations and portfolio exposure to agricultural markets.",
+      "category": "macro",
+      "story_key": "",
+      "image": "",
+      "month": "2026-10",
+      "added_at": "2026-11-05T11:42:33.046Z"
+    },
+    {
       "url": "https://www.themarker.com/wallstreet/2026-10-12/ty-article/.premium/000001a1-30b1-dbe9-ade9-72ffbcec0000",
       "title": "European Natural Gas Prices Surged More Than 150% Since The Beginning Of The Year",
       "summary": "The dramatic surge in European gas prices since year-start reflects severe energy market volatility and supply constraints, creating substantial cost pressures across manufacturing, utilities, and consumer sectors while reshaping energy procurement strategies.",
@@ -30,16 +30,6 @@
       "image": "",
       "month": "2026-10",
       "added_at": "2026-11-05T11:04:14.837Z"
-    },
-    {
-      "url": "https://www.foodnavigator.com/Article/2026/10/21/how-heatwaves-are-reshaping-the-future-of-chocolate/",
-      "title": "Rising Temperatures Are Hitting Chocolate Demand",
-      "summary": "Climate-driven temperature increases are negatively impacting chocolate consumption patterns, presenting a structural headwind for confectionery manufacturers and signaling shifting consumer demand dynamics tied to environmental factors.",
-      "category": "macro",
-      "story_key": "",
-      "image": "",
-      "month": "2026-10",
-      "added_at": "2026-11-05T11:03:11.386Z"
     },
     {
       "url": "https://www.fooddive.com/news/mondelez-acquisition-undercover-snacking-better-for-you-oreo/873344/",
@@ -140,19 +130,11 @@
       "image": "https://imgproxy.divecdn.com/_lFMcCJCqwcNdFunFdUbKM22zMx7p686P3xB4KIsUzo/g:nowe:0:0/c:1946:1099/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS93aWR0aDE5NjAuanBn.webp",
       "month": "2026-10",
       "added_at": "2026-11-03T12:45:21.501Z"
-    },
-    {
-      "url": "https://www.farmprogress.com/marketing/brazil-election-results-put-ag-commodities-under-pressure",
-      "title": "Brazil election results put ag commodities under pressure",
-      "summary": "",
-      "category": "macro",
-      "story_key": "",
-      "image": "",
-      "added_at": "2026-11-05T11:42:33.046Z"
     }
   ],
   "starred": [
     "https://www.foodnavigator.com/Article/2026/11/02/cyber-attacks-raise-supermarket-fridge-temperatures/",
+    "https://www.farmprogress.com/marketing/brazil-election-results-put-ag-commodities-under-pressure",
     "https://www.themarker.com/wallstreet/2026-10-12/ty-article/.premium/000001a1-30b1-dbe9-ade9-72ffbcec0000",
     "https://www.fooddive.com/news/mondelez-acquisition-undercover-snacking-better-for-you-oreo/873344/",
     "https://www.fooddive.com/news/danone-yogurt-ohio-renewable-energy-biogas/833572/",
@@ -163,12 +145,12 @@
     "https://www.fooddive.com/news/texas-sues-nestles-gerber-over-alleged-heavy-metals-in-baby-food/833365/",
     "https://www.foodnavigator.com/Article/2026/10/28/those-vegan-cowboys-get-fda-letter-for-animal-free-casein/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.nutraingredients.com/Article/2026/11/02/danone-advances-health-span-early-life-nutrition-in-new-china-lab/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/",
-    "https://www.farmprogress.com/marketing/brazil-election-results-put-ag-commodities-under-pressure"
+    "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/"
   ],
   "category_names": {},
   "category_overrides": {
     "https://www.foodnavigator.com/Article/2026/11/02/cyber-attacks-raise-supermarket-fridge-temperatures/": "Macro Environment",
+    "https://www.farmprogress.com/marketing/brazil-election-results-put-ag-commodities-under-pressure": "Macro Environment",
     "https://www.themarker.com/wallstreet/2026-10-12/ty-article/.premium/000001a1-30b1-dbe9-ade9-72ffbcec0000": "Macro Environment",
     "https://www.fooddive.com/news/mondelez-acquisition-undercover-snacking-better-for-you-oreo/873344/": "M&A and Divestitures",
     "https://www.fooddive.com/news/danone-yogurt-ohio-renewable-energy-biogas/833572/": "M&A and Divestitures",
@@ -181,9 +163,6 @@
     "https://www.nutraingredients.com/Article/2026/11/02/danone-advances-health-span-early-life-nutrition-in-new-china-lab/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Tech & Innovation",
     "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/": "Tech & Innovation"
   },
-  "hidden": [
-    "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFhxR3FNd1Q1QkQ5V3JqSm5wSDB5d3dhdEt6bW5xUnFfSXRoY0tiUkxnSVh4Q2I5Vjlob0ZlQTdMTTh4bnQwNklzX2ItMUFtTV9FZU1kOXZkRUJWb1Zqdjg3ODNHbXI4YTBFc3ZKdlgwSkNjb3BZOExGSk13bVhMNUx2LV92R0VoWFl6cE4tT0V6VG1Cb0gtcFF6c1I?oc=5",
-    "https://www.foodnavigator.com/Article/2026/10/21/how-heatwaves-are-reshaping-the-future-of-chocolate/"
-  ],
-  "updated_at": "2026-11-05T11:42:35.641Z"
+  "hidden": [],
+  "updated_at": "2026-11-05T11:44:47.268Z"
 }
