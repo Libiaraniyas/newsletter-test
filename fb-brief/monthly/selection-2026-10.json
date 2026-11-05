@@ -194,7 +194,6 @@
   ],
   "starred": [
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFhxR3FNd1Q1QkQ5V3JqSm5wSDB5d3dhdEt6bW5xUnFfSXRoY0tiUkxnSVh4Q2I5Vjlob0ZlQTdMTTh4bnQwNklzX2ItMUFtTV9FZU1kOXZkRUJWb1Zqdjg3ODNHbXI4YTBFc3ZKdlgwSkNjb3BZOExGSk13bVhMNUx2LV92R0VoWFl6cE4tT0V6VG1Cb0gtcFF6c1I?oc=5",
-    "https://www.beveragedaily.com/Article/2026/10/15/what-germanys-proposed-sugar-tax-means-for-drinks-brands/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.ynet.co.il/economy/article/hjqasaajfg",
     "https://www.ynet.co.il/economy/article/bkqgoepsfe",
     "https://www.fooddive.com/news/food-safety-consumer-confidence-gallup/832856/",
@@ -215,7 +214,6 @@
   "category_names": {},
   "category_overrides": {
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFhxR3FNd1Q1QkQ5V3JqSm5wSDB5d3dhdEt6bW5xUnFfSXRoY0tiUkxnSVh4Q2I5Vjlob0ZlQTdMTTh4bnQwNklzX2ItMUFtTV9FZU1kOXZkRUJWb1Zqdjg3ODNHbXI4YTBFc3ZKdlgwSkNjb3BZOExGSk13bVhMNUx2LV92R0VoWFl6cE4tT0V6VG1Cb0gtcFF6c1I?oc=5": "Macro Environment",
-    "https://www.beveragedaily.com/Article/2026/10/15/what-germanys-proposed-sugar-tax-means-for-drinks-brands/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Macro Environment",
     "https://www.ynet.co.il/economy/article/hjqasaajfg": "Macro Environment",
     "https://www.ynet.co.il/economy/article/bkqgoepsfe": "Macro Environment",
     "https://www.fooddive.com/news/food-safety-consumer-confidence-gallup/832856/": "Macro Environment",
@@ -234,7 +232,8 @@
     "https://www.fooddive.com/news/danone-yogurt-ohio-renewable-energy-biogas/833572/": "Tech & Innovation"
   },
   "hidden": [
-    "https://www.ice.co.il/digital-140/news/article/1136131"
+    "https://www.ice.co.il/digital-140/news/article/1136131",
+    "https://www.beveragedaily.com/Article/2026/10/15/what-germanys-proposed-sugar-tax-means-for-drinks-brands/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS"
   ],
-  "updated_at": "2026-11-05T10:01:14.757Z"
+  "updated_at": "2026-11-05T10:01:56.987Z"
 }
