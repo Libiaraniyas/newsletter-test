@@ -1,29 +1,5 @@
 [
   {
-    "url": "https://www.fooddive.com/news/food-beverage-industry-layoffs-closures-increase/833710/",
-    "story_key": "fb-industry-layoffs-2026",
-    "title": "Food and beverage layoffs accelerate",
-    "sent_at": "2026-10-22T19:00:38.276355+00:00"
-  },
-  {
-    "url": "https://www.foodnavigator.com/Article/2026/10/21/kroger-plans-5-billion-value-push-through-2029/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "kroger-5bn-value-investment-2029",
-    "title": "Kroger bets on lower prices and simpler deals to drive growth",
-    "sent_at": "2026-10-22T19:00:38.276355+00:00"
-  },
-  {
-    "url": "https://www.fooddive.com/news/halloween-candy-inflation-2026-hershey-mondelez/833754/",
-    "story_key": "halloween-candy-inflation-2026",
-    "title": "Why candy prices are scary high ahead of Halloween",
-    "sent_at": "2026-10-22T19:00:38.276355+00:00"
-  },
-  {
-    "url": "https://www.foodnavigator.com/Article/2026/10/21/10-ingredients-concentred-in-one-region/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "ingredient-supply-concentration-risk",
-    "title": "10 big ingredients concentrated in a single region",
-    "sent_at": "2026-10-22T19:00:38.276355+00:00"
-  },
-  {
     "url": "https://www.foodnavigator.com/Article/2026/10/23/general-mills-archer-and-conagra-expand-meat-snacks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "story_key": "meat-snack-protein-expansion-2026",
     "title": "General Mills, Archer and Conagra beef up their meat snack portfolios",
@@ -454,5 +430,41 @@
     "story_key": "tnuva-tase-ipo-10bn-valuation",
     "title": "Tnuva readies flotation at over NIS 10b valuation",
     "sent_at": "2026-11-05T13:51:18.202391+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/kraft-heinz-sell-coffee-maxwellhouse-private-equit/873720/",
+    "story_key": "kraft-heinz-coffee-business-sale-onerock",
+    "title": "Kraft Heinz to sell North American coffee business to private equity firm",
+    "sent_at": "2026-11-05T21:18:12.011344+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/11/04/pepsicos-poppi-reassessment-puts-spotlight-on-prebiotic-soda-growth/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "pepsico-poppi-earnout-devaluation",
+    "title": "PepsiCo's Poppi devaluation raises questions about prebiotic soda's next chapter",
+    "sent_at": "2026-11-05T21:18:12.011344+00:00"
+  },
+  {
+    "url": "https://www.beveragedaily.com/Article/2026/11/04/modern-sodas-rise-the-third-pillar-of-us-carbonates/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "modern-soda-third-pillar-carbonates",
+    "title": "Has modern soda become the third pillar of America's carbonates market?",
+    "sent_at": "2026-11-05T21:18:12.011344+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/11/05/5-ingredients-that-could-become-foods-next-supply-chain-headache/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "five-ingredients-supply-chain-risk-2026",
+    "title": "5 ingredients that could become food's next supply-chain headache",
+    "sent_at": "2026-11-05T21:18:12.011344+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/celsius-energy-drinks-executive/873754/",
+    "story_key": "celsius-business-restructure-divisions",
+    "title": "Celsius creates new business structure to accelerate energy drink growth",
+    "sent_at": "2026-11-05T21:18:12.011344+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/11/04/midterm-elections-put-grocery-affordability-in-focus/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "us-grocery-affordability-midterms-2026",
+    "title": "Democrats face grocery affordability test as one-third of shoppers cut meals",
+    "sent_at": "2026-11-05T21:18:12.011344+00:00"
   }
 ]
