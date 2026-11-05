@@ -2,16 +2,6 @@
   "month": "2026-10",
   "added": [
     {
-      "url": "https://www.ice.co.il/digital-140/news/article/1136131",
-      "title": "Severe Warning For Israeli Supermarkets: Refrigeration Systems At Risk Of Attack",
-      "summary": "Critical infrastructure vulnerabilities in Israeli retail cold chain operations pose significant supply chain and product integrity risks, with potential implications for perishable goods availability and food safety compliance.",
-      "category": "macro",
-      "story_key": "europe-supermarket-fridge-cyberattack",
-      "image": "https://img.ice.co.il/giflib/news/F250403YS55_pr.jpg",
-      "month": "2026-10",
-      "added_at": "2026-11-03T12:18:01.045Z"
-    },
-    {
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFhxR3FNd1Q1QkQ5V3JqSm5wSDB5d3dhdEt6bW5xUnFfSXRoY0tiUkxnSVh4Q2I5Vjlob0ZlQTdMTTh4bnQwNklzX2ItMUFtTV9FZU1kOXZkRUJWb1Zqdjg3ODNHbXI4YTBFc3ZKdlgwSkNjb3BZOExGSk13bVhMNUx2LV92R0VoWFl6cE4tT0V6VG1Cb0gtcFF6c1I?oc=5",
       "title": "Brazil Election Results Put Ag Commodities Under Pressure",
       "summary": "Brazilian electoral outcomes introduce policy uncertainty affecting agricultural commodity pricing and supply dynamics, with significant implications for global food input costs and procurement strategies.",
@@ -22,48 +12,38 @@
       "added_at": "2026-11-03T12:25:52.087Z"
     },
     {
-      "url": "https://www.beveragedaily.com/Article/2026/10/15/what-germanys-proposed-sugar-tax-means-for-drinks-brands/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-      "title": "Germany Approves Draft Sugar Tax On Soft Drinks – What This Means For Manufacturers",
-      "summary": "German sugar tax implementation creates regulatory compliance pressures for beverage manufacturers, accelerating formulation reformulation investments and geographic pricing strategy adjustments across European markets.",
+      "url": "https://www.foodnavigator.com/Article/2026/11/02/cyber-attacks-raise-supermarket-fridge-temperatures/",
+      "title": "European Supermarket Fridges Hit With Suspected Cyber Attack",
+      "summary": "A cyber attack targeting European supermarket refrigeration systems poses significant operational and supply chain risks to major retailers, highlighting critical vulnerabilities in food retail infrastructure and cold chain management.",
       "category": "macro",
-      "story_key": "germany-sugar-tax-soft-drinks",
-      "image": "https://www.beveragedaily.com/resizer/v2/DE4R3SNBFRFKVMQRKRCGOYUR54.jpg?auth=d9aeaa6bb0777234ea75665fd65122df5bea68bd7568d6a0faa47b85f96f9bf6&width=1200&height=630&smart=true",
+      "story_key": "",
+      "image": "",
       "month": "2026-10",
-      "added_at": "2026-11-03T12:35:55.449Z"
+      "added_at": "2026-11-05T10:56:21.077Z"
     },
     {
-      "url": "https://www.ynet.co.il/economy/article/hjqasaajfg",
-      "title": "For The First Time In Half A Year: Dollar Surges And Trades Around 3.10 Shekel",
-      "summary": "Significant currency fluctuation in the Israeli shekel-dollar exchange rate impacts pricing dynamics and procurement costs for Israeli food and beverage manufacturers with import-dependent supply chains.",
+      "url": "https://www.themarker.com/wallstreet/2026-10-12/ty-article/.premium/000001a1-30b1-dbe9-ade9-72ffbcec0000",
+      "title": "European Natural Gas Prices Surged More Than 150% Since The Beginning Of The Year",
+      "summary": "The dramatic surge in European gas prices since year-start reflects severe energy market volatility and supply constraints, creating substantial cost pressures across manufacturing, utilities, and consumer sectors while reshaping energy procurement strategies.",
       "category": "macro",
-      "story_key": "israel-dollar-surge-us-inflation-oct2026",
-      "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2023/09/07/B1edMvFvAn/B1edMvFvAn_0_0_1000_563_0_large.jpg",
+      "story_key": "",
+      "image": "",
       "month": "2026-10",
-      "added_at": "2026-11-03T12:36:26.164Z"
+      "added_at": "2026-11-05T11:04:14.837Z"
     },
     {
-      "url": "https://www.ynet.co.il/economy/article/bkqgoepsfe",
-      "title": "Annual Inflation In The US In September Rose Unexpectedly By 3.7%",
-      "summary": "Persistent inflation above consensus expectations creates margin pressure for food manufacturers and retailers, necessitating strategic pricing adjustments and cost management initiatives.",
+      "url": "https://www.foodnavigator.com/Article/2026/10/21/how-heatwaves-are-reshaping-the-future-of-chocolate/",
+      "title": "Rising Temperatures Are Hitting Chocolate Demand",
+      "summary": "Climate-driven temperature increases are negatively impacting chocolate consumption patterns, presenting a structural headwind for confectionery manufacturers and signaling shifting consumer demand dynamics tied to environmental factors.",
       "category": "macro",
-      "story_key": "us-cpi-september-3.7pct",
-      "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2024/12/11/By6I5fP4Jg/By6I5fP4Jg_0_44_800_451_0_large.jpg",
+      "story_key": "",
+      "image": "",
       "month": "2026-10",
-      "added_at": "2026-11-03T12:38:07.293Z"
-    },
-    {
-      "url": "https://www.fooddive.com/news/food-safety-consumer-confidence-gallup/832856/",
-      "title": "US Consumer Trust In Food Safety Falls To Record Low",
-      "summary": "Declining consumer confidence in food safety systems presents reputational and market risk for the industry, requiring enhanced transparency, traceability, and communication strategies to rebuild stakeholder trust.",
-      "category": "macro",
-      "story_key": "us-food-safety-trust-record-low",
-      "image": "https://imgproxy.divecdn.com/53fi2nlQd0Bj_P29G-kSZ63uHVHOTMz7-n-ys69HoHI/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjg2NDM5ODM4LmpwZw==.webp",
-      "month": "2026-10",
-      "added_at": "2026-11-03T12:39:40.621Z"
+      "added_at": "2026-11-05T11:03:11.386Z"
     },
     {
       "url": "https://www.fooddive.com/news/mondelez-acquisition-undercover-snacking-better-for-you-oreo/873344/",
-      "title": "MondelēZ To Acquire Undercover Snacks In Expansion Of Better-For-You Portfolio",
+      "title": "Mondelēz To Acquire Undercover Snacks In Expansion Of Better-For-You Portfolio",
       "summary": "This acquisition strengthens Mondelēz's competitive positioning in the high-growth better-for-you snacking category, addressing evolving consumer preferences for healthier indulgent options.",
       "category": "mna",
       "story_key": "mondelez-undercover-snacks-acquisition",
@@ -72,14 +52,14 @@
       "added_at": "2026-11-03T12:18:18.852Z"
     },
     {
-      "url": "https://www.themarker.com/consumer/2026-10-29/ty-article/.highlight/000001a1-8767-dceb-abfd-bf7f27cf0000",
-      "title": "Sanctions On Russia Reached KFC: Israeli Franchise Operator Requested Insolvency Proceedings",
-      "summary": "Geopolitical sanctions have triggered financial distress for KFC's Israeli franchisee, reflecting broader QSR vulnerabilities to international trade restrictions and supply chain disruptions.",
+      "url": "https://www.fooddive.com/news/danone-yogurt-ohio-renewable-energy-biogas/833572/",
+      "title": "Danone Partners On $40M Facility Turning Yogurt Waste To Renewable Energy",
+      "summary": "Danone's circular economy investment in waste-to-energy infrastructure strengthens ESG positioning while reducing operational costs, establishing competitive differentiation in sustainability-conscious markets.",
       "category": "mna",
-      "story_key": "kfc-israel-franchise-insolvency",
-      "image": "https://img.haarets.co.il/bs/000001a1-8767-dceb-abfd-bf7f27cf0000/33/39/3a371eb84ec59e55b26f82bfc086/535041.jpg?&width=1200&height=630&cmsprod",
+      "story_key": "danone-yogurt-waste-renewable-energy",
+      "image": "https://imgproxy.divecdn.com/_QvJEDuMEbYKpzpBjlzPI4g-VWnSn6ddxepdOsMZsUI/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9hc3NldHNfTVMyMDE0NTYwXzAwMDAwMV9QdXJwb3NlRW5lcmd5LW1pbnN0ZXItYWVyaWFsLTIwMjYuanBn.webp",
       "month": "2026-10",
-      "added_at": "2026-11-03T12:21:30.528Z"
+      "added_at": "2026-11-03T12:33:38.396Z"
     },
     {
       "url": "https://www.fooddive.com/news/nestle-investment-mexico-coffee-pet-food-emerging-markets/832996/",
@@ -92,36 +72,6 @@
       "added_at": "2026-11-03T12:37:36.252Z"
     },
     {
-      "url": "https://www.fooddive.com/news/Pepsico-snacking-protein-bars-good-warrior-doritos/833574/",
-      "title": "PepsiCo's Good Warrior Enters Protein Bar Space",
-      "summary": "PepsiCo's protein bar launch under the Good Warrior brand capitalizes on the high-growth functional nutrition segment, expanding the company's presence in consumer-preferred better-for-you categories.",
-      "category": "market",
-      "story_key": "pepsico-good-warrior-protein-bars",
-      "image": "https://imgproxy.divecdn.com/KvgYLmzQLHWDvX2SzBcVuzRKGkKkiDuBhU7xFiSZ6hM/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9hc3NldHNfTVMyMDE2NDAwXzAwMDAwMV8xOTIwLXgtMTA4MF8zLnBuZw==.webp",
-      "month": "2026-10",
-      "added_at": "2026-11-03T12:30:15.769Z"
-    },
-    {
-      "url": "https://www.fooddive.com/news/texas-sues-nestles-gerber-over-alleged-heavy-metals-in-baby-food/833365/",
-      "title": "Texas Sues Nestlé's Gerber Over Alleged Heavy Metals In Baby Food",
-      "summary": "Regulatory litigation against Gerber intensifies industry scrutiny on heavy metal contaminants in infant nutrition products, potentially triggering supply chain reformulation requirements and increased compliance costs.",
-      "category": "market",
-      "story_key": "texas-gerber-heavy-metals-lawsuit",
-      "image": "https://imgproxy.divecdn.com/Ic3DGIkwQxTLI0iK-7xx7VtnwFY0m5IKR-5Vu45ElAo/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMDE4OTE3MjgwLmpwZw==.webp",
-      "month": "2026-10",
-      "added_at": "2026-11-03T12:33:24.780Z"
-    },
-    {
-      "url": "https://www.fooddive.com/news/monster-energy-returns-protein-drinks/832954/",
-      "title": "Monster Tries Again On Protein Shakes",
-      "summary": "Monster Energy's renewed focus on protein beverages positions the company to capture market share in the performance nutrition segment, leveraging brand equity to compete in rapidly growing categories.",
-      "category": "market",
-      "story_key": "monster-protein-shakes-reentry",
-      "image": "https://imgproxy.divecdn.com/TsDZVrv6casoyRpET9whkTAr4eNtu0K0Af3jw692qHI/g:nowe:0:185/c:2500:1412/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjEwNjE1MTY2X3BHZlNCQ20uanBn.webp",
-      "month": "2026-10",
-      "added_at": "2026-11-03T12:37:07.506Z"
-    },
-    {
       "url": "https://www.foodnavigator.com/Article/2026/10/13/china-india-and-middle-east-dairy-brands-outperform-global-rivals/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
       "title": "China, India And Middle East Dairy Brands Outperform Global Rivals",
       "summary": "Regional dairy brands' outperformance reflects shifting market dynamics favoring localized product strategies and emerging market consumer preferences, challenging established global dairy incumbents.",
@@ -132,44 +82,34 @@
       "added_at": "2026-11-03T12:39:21.562Z"
     },
     {
-      "url": "https://www.fooddive.com/news/oatly-fiber-plant-based-milk-us-turnaround/873450/",
-      "title": "Oatly Bets On Fiber Drinks To Fuel Plant-Based Turnaround",
-      "summary": "Oatly's strategic pivot toward functional fiber beverages positions the company to capitalize on growing health-conscious consumer demand and potentially reverse recent market performance challenges in the plant-based sector.",
-      "category": "tech",
-      "story_key": "oatly-fiber-functional-beverage-pivot",
-      "image": "https://imgproxy.divecdn.com/7mPsSIt5HzySDoZLceRT8Cd9ODMJ__bjs6oHnFQ0r8s/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9Qb3dlclBvaW50X1ByZXNlbnRhdGlvbl9wYWdlLTAwMDFfMS5qcGc=.webp",
+      "url": "https://www.globes.co.il/news/article.aspx?did=1001561647",
+      "title": "Electra Returns To The Water Beverage Market",
+      "summary": "Electra's re-entry into the water beverage sector signals a strategic expansion move to capitalize on growing consumer demand for hydration products, potentially reshaping competitive dynamics in the Israeli beverages market.",
+      "category": "market",
+      "story_key": "",
+      "image": "",
       "month": "2026-10",
-      "added_at": "2026-11-03T12:18:12.990Z"
+      "added_at": "2026-11-05T10:58:23.580Z"
     },
     {
-      "url": "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/",
-      "title": "Coca-Cola Steps Into Better-For-You Soda Market With Prebiotics",
-      "summary": "Coca-Cola's entry into the functional soda segment with prebiotic formulations represents a strategic response to declining traditional soft drink consumption and growing consumer demand for health-oriented beverages.",
-      "category": "tech",
-      "story_key": "coca-cola-prebiotic-soda-entry",
-      "image": "https://imgproxy.divecdn.com/_lFMcCJCqwcNdFunFdUbKM22zMx7p686P3xB4KIsUzo/g:nowe:0:0/c:1946:1099/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS93aWR0aDE5NjAuanBn.webp",
+      "url": "https://www.foodnavigator.com/Article/2026/11/03/how-nestle-builds-billion-dollar-brands/?utm_source=newsletter_daily&utm_medium=email&utm_campaign=05-Nov-2026&cid=DM1304631&bid=1114605159",
+      "title": "Inside Nestlé's Brand-Building Machine",
+      "summary": "Nestlé's systematic approach to brand development and portfolio management demonstrates how diversified consumer goods companies leverage operational excellence and consumer insights to maintain market leadership across multiple categories. This strategic capability enables the company to sustain competitive advantages and drive shareholder value through coordinated brand investments and market positioning.",
+      "category": "market",
+      "story_key": "",
+      "image": "",
       "month": "2026-10",
-      "added_at": "2026-11-03T12:45:21.501Z"
+      "added_at": "2026-11-05T10:04:21.380Z"
     },
     {
-      "url": "https://www.nutraingredients.com/Article/2026/11/02/danone-advances-health-span-early-life-nutrition-in-new-china-lab/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-      "title": "Gut As Core: Danone Advances Health Span, Early Life Nutrition In New China Lab",
-      "summary": "Danone's R&D investment in China-based gut health and early-life nutrition research signals strategic focus on emerging market growth opportunities and the lucrative functional nutrition segment.",
-      "category": "tech",
-      "story_key": "danone-shanghai-rd-lab",
-      "image": "https://www.nutraingredients.com/resizer/v2/KZDHR53BDZGWREW7OKU73HIQQI.jpg?auth=4ecf5fbc9de4484bd0363615ecbe9bf57039ef970b9cd019dada5cdea3ec63ee&width=1200&height=630&smart=true",
+      "url": "https://www.fooddive.com/news/texas-sues-nestles-gerber-over-alleged-heavy-metals-in-baby-food/833365/",
+      "title": "Lawsuit Against Nestlé's Gerber Alleges Heavy Metals In Baby Food",
+      "summary": "Regulatory litigation against Gerber intensifies industry scrutiny on heavy metal contaminants in infant nutrition products, potentially triggering supply chain reformulation requirements and increased compliance costs.",
+      "category": "market",
+      "story_key": "texas-gerber-heavy-metals-lawsuit",
+      "image": "https://imgproxy.divecdn.com/Ic3DGIkwQxTLI0iK-7xx7VtnwFY0m5IKR-5Vu45ElAo/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMDE4OTE3MjgwLmpwZw==.webp",
       "month": "2026-10",
-      "added_at": "2026-11-03T12:18:37.590Z"
-    },
-    {
-      "url": "https://www.foodnavigator.com/Article/2026/10/29/planet-a-foods-launches-cocoa-booster-replacer/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-      "title": "New Cocoa Powder Alternative Targets GLP-1 Trends And Supply Risks",
-      "summary": "Innovation in cocoa alternatives addresses dual market opportunities from GLP-1 medication trends and structural cocoa supply constraints, presenting significant competitive positioning advantages.",
-      "category": "tech",
-      "story_key": "planet-a-foods-cocoa-booster",
-      "image": "https://www.foodnavigator.com/resizer/v2/IKIRDFA6KFCZBH4FBKJPATPUFU.jpg?auth=d012fa9a43f5ce26c6e9cb2dc9ba81c83e6aa5e30bb3747e1caad0bd1cf2056a&width=1200&height=630&smart=true",
-      "month": "2026-10",
-      "added_at": "2026-11-03T12:22:48.590Z"
+      "added_at": "2026-11-03T12:33:24.780Z"
     },
     {
       "url": "https://www.foodnavigator.com/Article/2026/10/28/those-vegan-cowboys-get-fda-letter-for-animal-free-casein/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
@@ -182,102 +122,59 @@
       "added_at": "2026-11-03T12:24:03.988Z"
     },
     {
-      "url": "https://www.fooddive.com/news/danone-yogurt-ohio-renewable-energy-biogas/833572/",
-      "title": "Danone Partners On $40M Facility Turning Yogurt Waste To Renewable Energy",
-      "summary": "Danone's circular economy investment in waste-to-energy infrastructure strengthens ESG positioning while reducing operational costs, establishing competitive differentiation in sustainability-conscious markets.",
+      "url": "https://www.nutraingredients.com/Article/2026/11/02/danone-advances-health-span-early-life-nutrition-in-new-china-lab/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+      "title": "Gut As Core: Danone Advances Health Span, Early Life Nutrition In New China Lab",
+      "summary": "Danone's R&D investment in China-based gut health and early-life nutrition research signals strategic focus on emerging market growth opportunities and the lucrative functional nutrition segment.",
       "category": "tech",
-      "story_key": "danone-yogurt-waste-renewable-energy",
-      "image": "https://imgproxy.divecdn.com/_QvJEDuMEbYKpzpBjlzPI4g-VWnSn6ddxepdOsMZsUI/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9hc3NldHNfTVMyMDE0NTYwXzAwMDAwMV9QdXJwb3NlRW5lcmd5LW1pbnN0ZXItYWVyaWFsLTIwMjYuanBn.webp",
+      "story_key": "danone-shanghai-rd-lab",
+      "image": "https://www.nutraingredients.com/resizer/v2/KZDHR53BDZGWREW7OKU73HIQQI.jpg?auth=4ecf5fbc9de4484bd0363615ecbe9bf57039ef970b9cd019dada5cdea3ec63ee&width=1200&height=630&smart=true",
       "month": "2026-10",
-      "added_at": "2026-11-03T12:33:38.396Z"
+      "added_at": "2026-11-03T12:18:37.590Z"
     },
     {
-      "url": "https://www.foodnavigator.com/Article/2026/11/03/how-nestle-builds-billion-dollar-brands/?utm_source=newsletter_daily&utm_medium=email&utm_campaign=05-Nov-2026&cid=DM1304631&bid=1114605159",
-      "title": "Inside Nestlé’s brand-building machine",
-      "summary": "",
-      "category": "macro",
-      "story_key": "",
-      "image": "",
-      "added_at": "2026-11-05T10:04:21.380Z"
-    },
-    {
-      "url": "https://www.foodnavigator.com/Article/2026/11/02/cyber-attacks-raise-supermarket-fridge-temperatures/",
-      "title": "European supermarket fridges hit with suspected cyber attack",
-      "summary": "",
-      "category": "macro",
-      "story_key": "",
-      "image": "",
-      "added_at": "2026-11-05T10:56:21.077Z"
-    },
-    {
-      "url": "https://www.globes.co.il/news/article.aspx?did=1001561647",
-      "title": "אלקטרה חוזרת לשוק ברי המים",
-      "summary": "",
-      "category": "macro",
-      "story_key": "",
-      "image": "",
-      "added_at": "2026-11-05T10:58:23.580Z"
-    },
-    {
-      "url": "https://www.foodnavigator.com/Article/2026/10/21/how-heatwaves-are-reshaping-the-future-of-chocolate/",
-      "title": "Rising temperatures are hitting chocolate demand",
-      "summary": "",
-      "category": "macro",
-      "story_key": "",
-      "image": "",
-      "added_at": "2026-11-05T11:03:11.386Z"
-    },
-    {
-      "url": "https://www.themarker.com/wallstreet/2026-10-12/ty-article/.premium/000001a1-30b1-dbe9-ade9-72ffbcec0000",
-      "title": "מחירי הגז באירופה זינקו ביותר מ–150% מתחילת השנה",
-      "summary": "",
-      "category": "macro",
-      "story_key": "",
-      "image": "",
-      "added_at": "2026-11-05T11:04:14.837Z"
+      "url": "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/",
+      "title": "Coca-Cola Steps Into Better-For-You Soda Market With Prebiotics",
+      "summary": "Coca-Cola's entry into the functional soda segment with prebiotic formulations represents a strategic response to declining traditional soft drink consumption and growing consumer demand for health-oriented beverages.",
+      "category": "tech",
+      "story_key": "coca-cola-prebiotic-soda-entry",
+      "image": "https://imgproxy.divecdn.com/_lFMcCJCqwcNdFunFdUbKM22zMx7p686P3xB4KIsUzo/g:nowe:0:0/c:1946:1099/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS93aWR0aDE5NjAuanBn.webp",
+      "month": "2026-10",
+      "added_at": "2026-11-03T12:45:21.501Z"
     }
   ],
   "starred": [
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFhxR3FNd1Q1QkQ5V3JqSm5wSDB5d3dhdEt6bW5xUnFfSXRoY0tiUkxnSVh4Q2I5Vjlob0ZlQTdMTTh4bnQwNklzX2ItMUFtTV9FZU1kOXZkRUJWb1Zqdjg3ODNHbXI4YTBFc3ZKdlgwSkNjb3BZOExGSk13bVhMNUx2LV92R0VoWFl6cE4tT0V6VG1Cb0gtcFF6c1I?oc=5",
-    "https://www.fooddive.com/news/mondelez-acquisition-undercover-snacking-better-for-you-oreo/873344/",
-    "https://www.fooddive.com/news/nestle-investment-mexico-coffee-pet-food-emerging-markets/832996/",
-    "https://www.fooddive.com/news/texas-sues-nestles-gerber-over-alleged-heavy-metals-in-baby-food/833365/",
-    "https://www.foodnavigator.com/Article/2026/10/13/china-india-and-middle-east-dairy-brands-outperform-global-rivals/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/",
-    "https://www.nutraingredients.com/Article/2026/11/02/danone-advances-health-span-early-life-nutrition-in-new-china-lab/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "https://www.foodnavigator.com/Article/2026/10/28/those-vegan-cowboys-get-fda-letter-for-animal-free-casein/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "https://www.fooddive.com/news/danone-yogurt-ohio-renewable-energy-biogas/833572/",
-    "https://www.foodnavigator.com/Article/2026/11/03/how-nestle-builds-billion-dollar-brands/?utm_source=newsletter_daily&utm_medium=email&utm_campaign=05-Nov-2026&cid=DM1304631&bid=1114605159",
     "https://www.foodnavigator.com/Article/2026/11/02/cyber-attacks-raise-supermarket-fridge-temperatures/",
-    "https://www.globes.co.il/news/article.aspx?did=1001561647",
+    "https://www.themarker.com/wallstreet/2026-10-12/ty-article/.premium/000001a1-30b1-dbe9-ade9-72ffbcec0000",
     "https://www.foodnavigator.com/Article/2026/10/21/how-heatwaves-are-reshaping-the-future-of-chocolate/",
-    "https://www.themarker.com/wallstreet/2026-10-12/ty-article/.premium/000001a1-30b1-dbe9-ade9-72ffbcec0000"
+    "https://www.fooddive.com/news/mondelez-acquisition-undercover-snacking-better-for-you-oreo/873344/",
+    "https://www.fooddive.com/news/danone-yogurt-ohio-renewable-energy-biogas/833572/",
+    "https://www.fooddive.com/news/nestle-investment-mexico-coffee-pet-food-emerging-markets/832996/",
+    "https://www.foodnavigator.com/Article/2026/10/13/china-india-and-middle-east-dairy-brands-outperform-global-rivals/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "https://www.globes.co.il/news/article.aspx?did=1001561647",
+    "https://www.foodnavigator.com/Article/2026/11/03/how-nestle-builds-billion-dollar-brands/?utm_source=newsletter_daily&utm_medium=email&utm_campaign=05-Nov-2026&cid=DM1304631&bid=1114605159",
+    "https://www.fooddive.com/news/texas-sues-nestles-gerber-over-alleged-heavy-metals-in-baby-food/833365/",
+    "https://www.foodnavigator.com/Article/2026/10/28/those-vegan-cowboys-get-fda-letter-for-animal-free-casein/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "https://www.nutraingredients.com/Article/2026/11/02/danone-advances-health-span-early-life-nutrition-in-new-china-lab/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/"
   ],
   "category_names": {},
   "category_overrides": {
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFhxR3FNd1Q1QkQ5V3JqSm5wSDB5d3dhdEt6bW5xUnFfSXRoY0tiUkxnSVh4Q2I5Vjlob0ZlQTdMTTh4bnQwNklzX2ItMUFtTV9FZU1kOXZkRUJWb1Zqdjg3ODNHbXI4YTBFc3ZKdlgwSkNjb3BZOExGSk13bVhMNUx2LV92R0VoWFl6cE4tT0V6VG1Cb0gtcFF6c1I?oc=5": "Macro Environment",
+    "https://www.foodnavigator.com/Article/2026/11/02/cyber-attacks-raise-supermarket-fridge-temperatures/": "Macro Environment",
+    "https://www.themarker.com/wallstreet/2026-10-12/ty-article/.premium/000001a1-30b1-dbe9-ade9-72ffbcec0000": "Macro Environment",
+    "https://www.foodnavigator.com/Article/2026/10/21/how-heatwaves-are-reshaping-the-future-of-chocolate/": "Macro Environment",
     "https://www.fooddive.com/news/mondelez-acquisition-undercover-snacking-better-for-you-oreo/873344/": "M&A and Divestitures",
-    "https://www.fooddive.com/news/nestle-investment-mexico-coffee-pet-food-emerging-markets/832996/": "M&A and Divestitures",
-    "https://www.fooddive.com/news/texas-sues-nestles-gerber-over-alleged-heavy-metals-in-baby-food/833365/": "Market Dynamics",
-    "https://www.foodnavigator.com/Article/2026/10/13/china-india-and-middle-east-dairy-brands-outperform-global-rivals/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Market Dynamics",
-    "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/": "Tech & Innovation",
-    "https://www.nutraingredients.com/Article/2026/11/02/danone-advances-health-span-early-life-nutrition-in-new-china-lab/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Tech & Innovation",
-    "https://www.foodnavigator.com/Article/2026/10/28/those-vegan-cowboys-get-fda-letter-for-animal-free-casein/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Tech & Innovation",
     "https://www.fooddive.com/news/danone-yogurt-ohio-renewable-energy-biogas/833572/": "M&A and Divestitures",
+    "https://www.fooddive.com/news/nestle-investment-mexico-coffee-pet-food-emerging-markets/832996/": "M&A and Divestitures",
+    "https://www.foodnavigator.com/Article/2026/10/13/china-india-and-middle-east-dairy-brands-outperform-global-rivals/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Market Dynamics",
+    "https://www.globes.co.il/news/article.aspx?did=1001561647": "Market Dynamics",
     "https://www.foodnavigator.com/Article/2026/11/03/how-nestle-builds-billion-dollar-brands/?utm_source=newsletter_daily&utm_medium=email&utm_campaign=05-Nov-2026&cid=DM1304631&bid=1114605159": "Market Dynamics",
-    "https://www.globes.co.il/news/article.aspx?did=1001561647": "Market Dynamics"
+    "https://www.fooddive.com/news/texas-sues-nestles-gerber-over-alleged-heavy-metals-in-baby-food/833365/": "Market Dynamics",
+    "https://www.foodnavigator.com/Article/2026/10/28/those-vegan-cowboys-get-fda-letter-for-animal-free-casein/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Tech & Innovation",
+    "https://www.nutraingredients.com/Article/2026/11/02/danone-advances-health-span-early-life-nutrition-in-new-china-lab/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Tech & Innovation",
+    "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/": "Tech & Innovation"
   },
-  "hidden": [
-    "https://www.ice.co.il/digital-140/news/article/1136131",
-    "https://www.beveragedaily.com/Article/2026/10/15/what-germanys-proposed-sugar-tax-means-for-drinks-brands/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "https://www.fooddive.com/news/food-safety-consumer-confidence-gallup/832856/",
-    "https://www.ynet.co.il/economy/article/bkqgoepsfe",
-    "https://www.ynet.co.il/economy/article/hjqasaajfg",
-    "https://www.themarker.com/consumer/2026-10-29/ty-article/.highlight/000001a1-8767-dceb-abfd-bf7f27cf0000",
-    "https://www.fooddive.com/news/Pepsico-snacking-protein-bars-good-warrior-doritos/833574/",
-    "https://www.fooddive.com/news/monster-energy-returns-protein-drinks/832954/",
-    "https://www.fooddive.com/news/oatly-fiber-plant-based-milk-us-turnaround/873450/",
-    "https://www.foodnavigator.com/Article/2026/10/29/planet-a-foods-launches-cocoa-booster-replacer/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS"
-  ],
-  "updated_at": "2026-11-05T11:04:17.580Z"
+  "hidden": [],
+  "updated_at": "2026-11-05T11:13:07.139Z"
 }
