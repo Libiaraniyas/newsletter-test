@@ -199,6 +199,15 @@
       "story_key": "",
       "image": "",
       "added_at": "2026-11-05T10:04:21.380Z"
+    },
+    {
+      "url": "https://www.foodnavigator.com/Article/2026/11/02/cyber-attacks-raise-supermarket-fridge-temperatures/",
+      "title": "European supermarket fridges hit with suspected cyber attack",
+      "summary": "",
+      "category": "macro",
+      "story_key": "",
+      "image": "",
+      "added_at": "2026-11-05T10:56:21.077Z"
     }
   ],
   "starred": [
@@ -211,7 +220,8 @@
     "https://www.nutraingredients.com/Article/2026/11/02/danone-advances-health-span-early-life-nutrition-in-new-china-lab/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.foodnavigator.com/Article/2026/10/28/those-vegan-cowboys-get-fda-letter-for-animal-free-casein/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.fooddive.com/news/danone-yogurt-ohio-renewable-energy-biogas/833572/",
-    "https://www.foodnavigator.com/Article/2026/11/03/how-nestle-builds-billion-dollar-brands/?utm_source=newsletter_daily&utm_medium=email&utm_campaign=05-Nov-2026&cid=DM1304631&bid=1114605159"
+    "https://www.foodnavigator.com/Article/2026/11/03/how-nestle-builds-billion-dollar-brands/?utm_source=newsletter_daily&utm_medium=email&utm_campaign=05-Nov-2026&cid=DM1304631&bid=1114605159",
+    "https://www.foodnavigator.com/Article/2026/11/02/cyber-attacks-raise-supermarket-fridge-temperatures/"
   ],
   "category_names": {},
   "category_overrides": {
@@ -238,5 +248,5 @@
     "https://www.fooddive.com/news/oatly-fiber-plant-based-milk-us-turnaround/873450/",
     "https://www.foodnavigator.com/Article/2026/10/29/planet-a-foods-launches-cocoa-booster-replacer/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS"
   ],
-  "updated_at": "2026-11-05T10:52:43.064Z"
+  "updated_at": "2026-11-05T10:56:23.160Z"
 }
