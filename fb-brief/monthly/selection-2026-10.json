@@ -130,6 +130,15 @@
       "image": "https://imgproxy.divecdn.com/_lFMcCJCqwcNdFunFdUbKM22zMx7p686P3xB4KIsUzo/g:nowe:0:0/c:1946:1099/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS93aWR0aDE5NjAuanBn.webp",
       "month": "2026-10",
       "added_at": "2026-11-03T12:45:21.501Z"
+    },
+    {
+      "url": "https://www.foodnavigator.com/Article/2026/11/04/kraft-heinz-to-sell-coffee-business-in-650m-deal/",
+      "title": "Kraft Heinz to sell North American coffee business for $650M",
+      "summary": "",
+      "category": "macro",
+      "story_key": "",
+      "image": "",
+      "added_at": "2026-11-05T12:48:32.177Z"
     }
   ],
   "starred": [
@@ -145,7 +154,8 @@
     "https://www.fooddive.com/news/texas-sues-nestles-gerber-over-alleged-heavy-metals-in-baby-food/833365/",
     "https://www.foodnavigator.com/Article/2026/10/28/those-vegan-cowboys-get-fda-letter-for-animal-free-casein/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.nutraingredients.com/Article/2026/11/02/danone-advances-health-span-early-life-nutrition-in-new-china-lab/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/"
+    "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/",
+    "https://www.foodnavigator.com/Article/2026/11/04/kraft-heinz-to-sell-coffee-business-in-650m-deal/"
   ],
   "category_names": {},
   "category_overrides": {
@@ -164,5 +174,5 @@
     "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/": "Tech & Innovation"
   },
   "hidden": [],
-  "updated_at": "2026-11-05T12:31:00.011Z"
+  "updated_at": "2026-11-05T12:48:34.688Z"
 }
