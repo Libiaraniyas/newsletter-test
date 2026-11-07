@@ -1,31 +1,4 @@
 {
-  "b00ca60460": {
-    "url": "https://www.foodnavigator.com/Article/2026/09/03/allulose-zero-sugar-claims-face-litigation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "Allulose-containing products claiming zero sugar threatened with growing litigation",
-    "summary": "Products with the sweetener allulose face a wave of lawsuits challenging \"zero sugar\" and \"sugar free\" claims, following a key Seventh Circuit ruling involving Chobani.",
-    "category": "tech",
-    "story_key": "allulose-zero-sugar-lawsuits",
-    "month": "2026-08",
-    "image": "https://www.foodnavigator.com/resizer/v2/KM55O57JRFPUZD5EPDYJLGHOGI.jpg?auth=6cde3e1b258589534f808d8c92b58899653f3d99383636e395182bf34d7df84a&width=1200&height=630&smart=true"
-  },
-  "c716369af1": {
-    "url": "https://www.fooddive.com/news/campbells-spending-cuts-workforce-reduction-snacking/829547/",
-    "title": "Campbell's slashes 13% of salaried workforce as part of $500M cost-cutting plan",
-    "summary": "The soup maker will also close two snack plants and cut its dividend as CEO Mick Beekhuizen said the company needs to take \"decisive action.\"",
-    "category": "market",
-    "story_key": "campbells-cost-cutting-plant-closures",
-    "month": "2026-08",
-    "image": "https://imgproxy.divecdn.com/sFj0UM1rS_I5X_HxB7n1pDWaaMJU7NEYyd95kT8Lla0/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUdfNDM3Ni5qcGc=.webp"
-  },
-  "d9b8ac109e": {
-    "url": "https://www.fooddive.com/news/protein-demand-us-circana/829589/",
-    "title": "GLP-1s are pushing protein demand to new heights",
-    "summary": "A new report from Circana found that protein is the second most sought after ingredient Americans want in their diets, behind vegetables.",
-    "category": "tech",
-    "story_key": "glp1-protein-demand-circana",
-    "month": "2026-08",
-    "image": "https://imgproxy.divecdn.com/vgSYgIJpLfNUa0yoAnuono4lEWB5Z0seRhB-MRC8gBE/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjgzOTEwNjcyLmpwZw==.webp"
-  },
   "9fc57ced6d": {
     "url": "https://www.fooddive.com/news/Pepsico-fresh-food-innovation-strategy-processed/827254/",
     "title": "PepsiCo puts fresh foods in focus as consumers move away from processed snacks",
@@ -2616,5 +2589,30 @@
     "story_key": "israel-tase-rally-government-formation",
     "month": "2026-10",
     "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2024/09/29/HJ7MWiU0A/HJ7MWiU0A_0_312_3000_1689_0_large.jpg"
+  },
+  "57b78969d3": {
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOckNXMWw0N3Q0M0ZjZjJTU0FZZlRKY3luR0FkcHVaekNFVnFMc2lzM2N3OFVIM1poakRKMlcyOFJrc0ZSd2N4R2sxNE15RjlsM0J4bUFKZTBPT0JXS1Jxc0VMTEUycExmamV2Sll6RWltdUF3aEU0SDFia0M2bWhyNW03SHBHLXdNYjFmQXItb2F5QVA2aTJGbmg0RnpacXJWRnR2MzNjcF8yRl9OdjFDMTZSQko3YVNwd1E?oc=5",
+    "title": "Brazil coffee exports hit record in October, government data shows",
+    "summary": "Brazil's coffee exports reached a record level in October according to government data, putting downward pressure on arabica prices as supply expands.",
+    "category": "market",
+    "story_key": "brazil-coffee-exports-record-oct2026",
+    "month": "2026-10"
+  },
+  "35bba39eab": {
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPV2pJcFhQYlo3QVRNWUdkd1pISDZhQTVaemRDRGpoTlQ5NnZ5SHRScE1XdkR4REtob0tJTVp1NVFjcmtZb2g5RV9UbzNaOHhVdEhwdldOeW9CTWV3NGFZLVZBaVNwbFNJeHNESFRadmJZaUdvMmNMczVsa21IYmFEbmxlVTlZa3ZMell4d2t0TC1QcjBSUFU5MUtNSmdCV3BoaUFRZmdyZDN2WTNRMVdBWlVlQnNEUktGRDlEaXRiZFlLd0xsUGFnNQ?oc=5",
+    "title": "Pladis targets GLP-1-friendly nutrition and climate-resilient ingredients with second accelerator programme",
+    "summary": "Pladis has launched a second accelerator programme focused on GLP-1-friendly nutrition products and climate-resilient ingredient sourcing.",
+    "category": "tech",
+    "story_key": "pladis-glp1-accelerator-program",
+    "month": "2026-10"
+  },
+  "965c083010": {
+    "url": "https://www.dairyreporter.com/Article/2026/11/05/danone-backed-research-reveals-health-and-digestion-as-key-plant-based-dairy-drivers/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Danone: Health, taste and digestive comfort drive plant-based dairy alternative consumption",
+    "summary": "Danone-backed research finds that health benefits, taste and digestive comfort are the key drivers behind consumer uptake of plant-based dairy alternatives.",
+    "category": "tech",
+    "story_key": "danone-plant-based-dairy-drivers-research",
+    "month": "2026-10",
+    "image": "https://www.dairyreporter.com/resizer/v2/YMAE45XEAFA4HGH7A3IGVDNEBA.jpg?auth=8e8d3bf6702d7d9a28524e50a557fc5abea0960a0b7eaa3aaf0f253a6b1ad1d0&width=1200&height=630&smart=true"
   }
 }
