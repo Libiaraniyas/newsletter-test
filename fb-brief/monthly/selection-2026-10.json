@@ -149,6 +149,15 @@
       "image": "https://www.foodmanufacture.co.uk/resizer/v2/TI3UYDTR4RGTLLRJQYWQH7LP7Y.jpg?auth=a9094c33981243508047a6ff433bcf663952bf5628822d0b8e2233d66fcddba0&width=1200&height=630&smart=true",
       "month": "2026-10",
       "added_at": "2026-11-06T14:09:01.795Z"
+    },
+    {
+      "url": "https://www.just-food.com/news/ferrero-eyes-first-romania-factory/?utm_source=&utm_medium=28-213568&utm_campaign=recommended-articles-pi",
+      "title": "Ferrero eyes deal for first Romania factory",
+      "summary": "",
+      "category": "macro",
+      "story_key": "",
+      "image": "",
+      "added_at": "2026-11-08T09:49:46.107Z"
     }
   ],
   "starred": [
@@ -164,7 +173,8 @@
     "https://www.foodnavigator.com/Article/2026/10/28/those-vegan-cowboys-get-fda-letter-for-animal-free-casein/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.nutraingredients.com/Article/2026/11/02/danone-advances-health-span-early-life-nutrition-in-new-china-lab/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/",
-    "https://www.foodnavigator.com/Article/2026/11/04/kraft-heinz-to-sell-coffee-business-in-650m-deal/"
+    "https://www.foodnavigator.com/Article/2026/11/04/kraft-heinz-to-sell-coffee-business-in-650m-deal/",
+    "https://www.just-food.com/news/ferrero-eyes-first-romania-factory/?utm_source=&utm_medium=28-213568&utm_campaign=recommended-articles-pi"
   ],
   "category_names": {},
   "category_overrides": {
@@ -185,5 +195,5 @@
   "hidden": [
     "https://www.fooddive.com/news/texas-sues-nestles-gerber-over-alleged-heavy-metals-in-baby-food/833365/"
   ],
-  "updated_at": "2026-11-08T09:48:48.532Z"
+  "updated_at": "2026-11-08T09:49:48.042Z"
 }
