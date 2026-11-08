@@ -140,6 +140,15 @@
       "image": "https://imgproxy.divecdn.com/_lFMcCJCqwcNdFunFdUbKM22zMx7p686P3xB4KIsUzo/g:nowe:0:0/c:1946:1099/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS93aWR0aDE5NjAuanBn.webp",
       "month": "2026-10",
       "added_at": "2026-11-03T12:45:21.501Z"
+    },
+    {
+      "url": "https://www.globes.co.il/news/article.aspx?did=1001559044",
+      "title": "תנובה נכנסת לתחום תוספי התזונה: משיקה את המותג הוליס",
+      "summary": "",
+      "category": "macro",
+      "story_key": "",
+      "image": "",
+      "added_at": "2026-11-08T14:11:52.349Z"
     }
   ],
   "starred": [
@@ -156,7 +165,8 @@
     "https://www.foodnavigator.com/Article/2026/11/03/how-nestle-builds-billion-dollar-brands/?utm_source=newsletter_daily&utm_medium=email&utm_campaign=05-Nov-2026&cid=DM1304631&bid=1114605159",
     "https://www.foodnavigator.com/Article/2026/10/28/those-vegan-cowboys-get-fda-letter-for-animal-free-casein/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.nutraingredients.com/Article/2026/11/02/danone-advances-health-span-early-life-nutrition-in-new-china-lab/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/"
+    "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/",
+    "https://www.globes.co.il/news/article.aspx?did=1001559044"
   ],
   "category_names": {},
   "category_overrides": {
@@ -176,5 +186,5 @@
     "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/": "Tech & Innovation"
   },
   "hidden": [],
-  "updated_at": "2026-11-08T09:55:42.038Z"
+  "updated_at": "2026-11-08T14:11:54.332Z"
 }
