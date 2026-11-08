@@ -175,7 +175,6 @@
     "https://www.farmprogress.com/marketing/brazil-election-results-put-ag-commodities-under-pressure",
     "https://www.themarker.com/wallstreet/2026-10-12/ty-article/.premium/000001a1-30b1-dbe9-ade9-72ffbcec0000",
     "https://www.foodnavigator.com/Article/2026/11/04/kraft-heinz-to-sell-coffee-business-in-650m-deal/",
-    "https://www.fooddive.com/news/danone-yogurt-ohio-renewable-energy-biogas/833572/",
     "https://www.fooddive.com/news/mondelez-acquisition-undercover-snacking-better-for-you-oreo/873344/",
     "https://www.fooddive.com/news/nestle-investment-mexico-coffee-pet-food-emerging-markets/832996/",
     "https://www.just-food.com/news/ferrero-eyes-first-romania-factory/?utm_source=&utm_medium=28-213568&utm_campaign=recommended-articles-pi",
@@ -194,7 +193,6 @@
     "https://www.farmprogress.com/marketing/brazil-election-results-put-ag-commodities-under-pressure": "Macro Environment",
     "https://www.themarker.com/wallstreet/2026-10-12/ty-article/.premium/000001a1-30b1-dbe9-ade9-72ffbcec0000": "Macro Environment",
     "https://www.foodnavigator.com/Article/2026/11/04/kraft-heinz-to-sell-coffee-business-in-650m-deal/": "M&A and Divestitures",
-    "https://www.fooddive.com/news/danone-yogurt-ohio-renewable-energy-biogas/833572/": "M&A and Divestitures",
     "https://www.fooddive.com/news/mondelez-acquisition-undercover-snacking-better-for-you-oreo/873344/": "M&A and Divestitures",
     "https://www.fooddive.com/news/nestle-investment-mexico-coffee-pet-food-emerging-markets/832996/": "M&A and Divestitures",
     "https://www.just-food.com/news/ferrero-eyes-first-romania-factory/?utm_source=&utm_medium=28-213568&utm_campaign=recommended-articles-pi": "M&A and Divestitures",
@@ -208,7 +206,8 @@
     "https://en.globes.co.il/en/article-1001561990#utm_source=RSS": "Market Dynamics"
   },
   "hidden": [
-    "https://www.calcalist.co.il/market/article/bktxuodpfe"
+    "https://www.calcalist.co.il/market/article/bktxuodpfe",
+    "https://www.fooddive.com/news/danone-yogurt-ohio-renewable-energy-biogas/833572/"
   ],
-  "updated_at": "2026-11-08T14:21:29.050Z"
+  "updated_at": "2026-11-08T14:24:05.260Z"
 }
