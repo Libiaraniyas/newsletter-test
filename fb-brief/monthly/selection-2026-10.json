@@ -149,6 +149,15 @@
       "story_key": "",
       "image": "",
       "added_at": "2026-11-08T14:11:52.349Z"
+    },
+    {
+      "url": "https://www.calcalist.co.il/market/article/bktxuodpfe",
+      "title": "תנובה מכינה תשקיף חדש להנפקה במחצית 2027 - לפי שווי של כ־13 מיליארד שקל השווי שאותו תבקש החברה, ש",
+      "summary": "",
+      "category": "macro",
+      "story_key": "",
+      "image": "",
+      "added_at": "2026-11-08T14:17:28.510Z"
     }
   ],
   "starred": [
@@ -166,7 +175,8 @@
     "https://www.foodnavigator.com/Article/2026/10/28/those-vegan-cowboys-get-fda-letter-for-animal-free-casein/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.nutraingredients.com/Article/2026/11/02/danone-advances-health-span-early-life-nutrition-in-new-china-lab/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/",
-    "https://www.globes.co.il/news/article.aspx?did=1001559044"
+    "https://www.globes.co.il/news/article.aspx?did=1001559044",
+    "https://www.calcalist.co.il/market/article/bktxuodpfe"
   ],
   "category_names": {},
   "category_overrides": {
@@ -187,5 +197,5 @@
     "https://www.globes.co.il/news/article.aspx?did=1001559044": "Market Dynamics"
   },
   "hidden": [],
-  "updated_at": "2026-11-08T14:14:00.024Z"
+  "updated_at": "2026-11-08T14:17:30.468Z"
 }
