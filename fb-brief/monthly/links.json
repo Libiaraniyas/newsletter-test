@@ -1,22 +1,4 @@
 {
-  "9fc57ced6d": {
-    "url": "https://www.fooddive.com/news/Pepsico-fresh-food-innovation-strategy-processed/827254/",
-    "title": "PepsiCo puts fresh foods in focus as consumers move away from processed snacks",
-    "summary": "The CPG giant is taking aim at the fast-growing $271 billion store perimeter with healthier fare such as guacamole, hummus and gazpacho.",
-    "category": "mna",
-    "story_key": "pepsico-fresh-foods-perimeter-strategy",
-    "month": "2026-08",
-    "image": "https://imgproxy.divecdn.com/3mWToQXyj2a99OhEPyE1DeBRh-7AMO_ozdkacEFqIY4/g:nowe:140:633/c:2959:1671/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9Ub3N0aXRvc19HdWFjX1BSMTA4MF8xLWZvdG9yLTIwMjYwODI3MTEzMTI5XzEuanBn.webp"
-  },
-  "6583fd6309": {
-    "url": "https://www.fooddive.com/news/Ferrero-snacking-acquisition-power-crunch-bar-protein/829433/",
-    "title": "Ferrero looks to turn around Power Crunch with relaunch",
-    "summary": "The wafer-based protein bar, which the Nutella maker bought in 2025, is \"rebalancing\" its ingredients and touting a crispier texture.",
-    "category": "mna",
-    "story_key": "ferrero-power-crunch-relaunch",
-    "month": "2026-08",
-    "image": "https://imgproxy.divecdn.com/I9ZeOxmyyiYHFhfTXp1yfUSY_iCvQK91pT-oXd8kY_o/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9lbmRmcmFtZV9UTS1jb3B5VmFuaWxsYS1mb3Rvci0yMDI2MDkwMjEwNDI0MC5qcGc=.webp"
-  },
   "6010e8e3ac": {
     "url": "https://www.ynet.co.il/economy/article/bjqyhnvofe",
     "title": "וונדר וומן גם בעסקים: מותג המקרוני של גל גדות נרכש ע\"י חברת הפסטה הגדולה בעולם",
@@ -2614,5 +2596,23 @@
     "story_key": "danone-plant-based-dairy-drivers-research",
     "month": "2026-10",
     "image": "https://www.dairyreporter.com/resizer/v2/YMAE45XEAFA4HGH7A3IGVDNEBA.jpg?auth=8e8d3bf6702d7d9a28524e50a557fc5abea0960a0b7eaa3aaf0f253a6b1ad1d0&width=1200&height=630&smart=true"
+  },
+  "0c19d50a3b": {
+    "url": "https://www.ynet.co.il/economy/article/ryacvhaafx",
+    "title": "לילית רוכשת את חברת מדבקות הוויטמינים My Patch",
+    "summary": "קבוצת לילית, יבואנית נארס, אסנס וקטריס, רוכשת תמורת 4 מיליון שקל 51% מחברת My Patch, שמשווקת מדבקות וולנס שמעבירות ויטמינים, משככי כאבים ומדכאי תיאבון לדם. החברה צפויה להיכנס לרשתות הפארם.",
+    "category": "mna",
+    "story_key": "lilit-mypatch-vitamin-patches-acquisition",
+    "month": "2026-10",
+    "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/08/BJgSs2a6Me/BJgSs2a6Me_0_723_1996_1124_0_large.jpg"
+  },
+  "642d3c7c36": {
+    "url": "https://www.themarker.com/consumer/2026-11-08/ty-article/.premium/000001a1-ba9f-d146-ada9-fabf774d0000",
+    "title": "יאנגו דלי משתפת פעולה עם סיטי מרקט: תבצע משלוחים מסניפי הרשת",
+    "summary": "זו הפעם הראשונה שבה יאנגו דלי תספק הזמנות שלא באמצעות החנויות החשוכות (Dark Stores) שלה. יאנגו דלי רוצה להגיע ל-30 נקודות פעילות ברחבי הארץ עד סוף 2027.",
+    "category": "market",
+    "story_key": "yango-deli-city-market-delivery-partnership",
+    "month": "2026-10",
+    "image": "https://img.haarets.co.il/bs/000001a1-ba9f-d146-ada9-fabf774d0000/a9/d2/5d73117c4303a5d997a7cc4c98a2/760910.jpg?precrop=2400,1395,x0,y74&width=1200&height=630&cmsprod"
   }
 }

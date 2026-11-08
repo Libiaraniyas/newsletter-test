@@ -1,17 +1,5 @@
 [
   {
-    "url": "https://www.fooddive.com/news/Nestle-turnaround-ceo-frozen-coffee-snacking/833742/",
-    "story_key": "nestle-q3-2026-turnaround",
-    "title": "Nestlé turnaround taking shape a year after new CEO",
-    "sent_at": "2026-10-25T10:31:27.909388+00:00"
-  },
-  {
-    "url": "https://www.dairyreporter.com/Article/2026/10/25/us-dairy-industry-investing-15bn-in-new-processing-capacity-across-23-states/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "us-dairy-15bn-processing-investment",
-    "title": "US dairy industry invests $15bn in new processing capacity across 23 states",
-    "sent_at": "2026-10-25T18:01:18.098138+00:00"
-  },
-  {
     "url": "https://www.themarker.com/markets/2026-10-26/ty-article/.premium/000001a1-7751-d222-a3e3-7f7939e60000",
     "story_key": "strauss-israel-2bn-investment-brazil-elections",
     "title": "רגע לפני הבחירות: שטראוס בהימור של 2 מיליארד שקל על השוק המקומי",
@@ -460,5 +448,17 @@
     "story_key": "danone-plant-based-dairy-drivers-research",
     "title": "Danone: Health, taste and digestive comfort drive plant-based dairy alternative consumption",
     "sent_at": "2026-11-07T12:16:37.121311+00:00"
+  },
+  {
+    "url": "https://www.ynet.co.il/economy/article/ryacvhaafx",
+    "story_key": "lilit-mypatch-vitamin-patches-acquisition",
+    "title": "לילית רוכשת את חברת מדבקות הוויטמינים My Patch",
+    "sent_at": "2026-11-08T19:16:44.549540+00:00"
+  },
+  {
+    "url": "https://www.themarker.com/consumer/2026-11-08/ty-article/.premium/000001a1-ba9f-d146-ada9-fabf774d0000",
+    "story_key": "yango-deli-city-market-delivery-partnership",
+    "title": "יאנגו דלי משתפת פעולה עם סיטי מרקט: תבצע משלוחים מסניפי הרשת",
+    "sent_at": "2026-11-08T19:16:44.549540+00:00"
   }
 ]
