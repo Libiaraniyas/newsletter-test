@@ -168,6 +168,15 @@
       "image": "https://res.cloudinary.com/globes/image/upload/t_800X392/v1657615758/direct/%D7%9E%D7%A8%D7%9C%D7%95%D7%92_%D7%9E%D7%95%D7%93%D7%99%D7%A2%D7%99%D7%9F_%D7%AA%D7%A0%D7%95%D7%91%D7%94_jmgutt.jpg",
       "month": "2026-10",
       "added_at": "2026-11-08T14:19:52.667Z"
+    },
+    {
+      "url": "https://theinsightinternational.com/world-food-prices-dip-in-october-as-sugar-hits-highest-level-since-2024/",
+      "title": "World food prices dip in October as sugar hits highest level since 2024",
+      "summary": "",
+      "category": "macro",
+      "story_key": "",
+      "image": "",
+      "added_at": "2026-11-08T14:29:24.575Z"
     }
   ],
   "starred": [
@@ -185,7 +194,8 @@
     "https://www.nutraingredients.com/Article/2026/11/02/danone-advances-health-span-early-life-nutrition-in-new-china-lab/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/",
     "https://www.globes.co.il/news/article.aspx?did=1001559044",
-    "https://en.globes.co.il/en/article-1001561990#utm_source=RSS"
+    "https://en.globes.co.il/en/article-1001561990#utm_source=RSS",
+    "https://theinsightinternational.com/world-food-prices-dip-in-october-as-sugar-hits-highest-level-since-2024/"
   ],
   "category_names": {},
   "category_overrides": {
@@ -209,5 +219,5 @@
     "https://www.calcalist.co.il/market/article/bktxuodpfe",
     "https://www.fooddive.com/news/danone-yogurt-ohio-renewable-energy-biogas/833572/"
   ],
-  "updated_at": "2026-11-08T14:24:05.260Z"
+  "updated_at": "2026-11-08T14:29:26.683Z"
 }
