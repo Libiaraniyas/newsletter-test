@@ -186,7 +186,6 @@
     "https://www.nutraingredients.com/Article/2026/11/02/danone-advances-health-span-early-life-nutrition-in-new-china-lab/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/",
     "https://www.globes.co.il/news/article.aspx?did=1001559044",
-    "https://www.calcalist.co.il/market/article/bktxuodpfe",
     "https://en.globes.co.il/en/article-1001561990#utm_source=RSS"
   ],
   "category_names": {},
@@ -206,9 +205,10 @@
     "https://www.nutraingredients.com/Article/2026/11/02/danone-advances-health-span-early-life-nutrition-in-new-china-lab/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Tech & Innovation",
     "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/": "Tech & Innovation",
     "https://www.globes.co.il/news/article.aspx?did=1001559044": "Market Dynamics",
-    "https://www.calcalist.co.il/market/article/bktxuodpfe": "Market Dynamics",
     "https://en.globes.co.il/en/article-1001561990#utm_source=RSS": "Market Dynamics"
   },
-  "hidden": [],
-  "updated_at": "2026-11-08T14:21:25.439Z"
+  "hidden": [
+    "https://www.calcalist.co.il/market/article/bktxuodpfe"
+  ],
+  "updated_at": "2026-11-08T14:21:29.050Z"
 }
