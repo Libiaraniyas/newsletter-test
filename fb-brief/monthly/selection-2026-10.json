@@ -32,6 +32,16 @@
       "added_at": "2026-11-08T14:29:24.575Z"
     },
     {
+      "url": "https://www.reuters.com/business/environment/el-nio-could-be-strongest-40-years-un-weather-agency-chief-says-2026-10-21/",
+      "title": "El Nino 'Wrecking Ball' Could Cause Record Pacific Temperature Rise, UN Says",
+      "summary": "El Niño weather patterns threaten unprecedented Pacific temperature spikes, disrupting global supply chains and agricultural productivity, and requiring strategic adaptation for weather-exposed businesses.",
+      "category": "macro",
+      "story_key": "",
+      "image": "",
+      "month": "2026-10",
+      "added_at": "2026-11-09T09:45:41.734Z"
+    },
+    {
       "url": "https://www.themarker.com/wallstreet/2026-10-12/ty-article/.premium/000001a1-30b1-dbe9-ade9-72ffbcec0000",
       "title": "European Natural Gas Prices Surged More Than 150% Since The Beginning Of The Year",
       "summary": "The dramatic surge in European gas prices since year-start reflects severe energy market volatility and supply constraints, creating substantial cost pressures across manufacturing, utilities, and consumer sectors while reshaping energy procurement strategies.",
@@ -160,21 +170,13 @@
       "image": "https://imgproxy.divecdn.com/_lFMcCJCqwcNdFunFdUbKM22zMx7p686P3xB4KIsUzo/g:nowe:0:0/c:1946:1099/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS93aWR0aDE5NjAuanBn.webp",
       "month": "2026-10",
       "added_at": "2026-11-03T12:45:21.501Z"
-    },
-    {
-      "url": "https://www.reuters.com/business/environment/el-nio-could-be-strongest-40-years-un-weather-agency-chief-says-2026-10-21/",
-      "title": "El Nino 'wrecking ball' could cause record Pacific temperature rise, UN says",
-      "summary": "",
-      "category": "macro",
-      "story_key": "",
-      "image": "",
-      "added_at": "2026-11-09T09:45:41.734Z"
     }
   ],
   "starred": [
     "https://www.foodnavigator.com/Article/2026/11/02/cyber-attacks-raise-supermarket-fridge-temperatures/",
     "https://www.farmprogress.com/marketing/brazil-election-results-put-ag-commodities-under-pressure",
     "https://theinsightinternational.com/world-food-prices-dip-in-october-as-sugar-hits-highest-level-since-2024/",
+    "https://www.reuters.com/business/environment/el-nio-could-be-strongest-40-years-un-weather-agency-chief-says-2026-10-21/",
     "https://www.themarker.com/wallstreet/2026-10-12/ty-article/.premium/000001a1-30b1-dbe9-ade9-72ffbcec0000",
     "https://www.foodnavigator.com/Article/2026/11/04/kraft-heinz-to-sell-coffee-business-in-650m-deal/",
     "https://www.just-food.com/news/ferrero-eyes-first-romania-factory/?utm_source=&utm_medium=28-213568&utm_campaign=recommended-articles-pi",
@@ -187,14 +189,14 @@
     "https://www.foodnavigator.com/Article/2026/11/03/how-nestle-builds-billion-dollar-brands/?utm_source=newsletter_daily&utm_medium=email&utm_campaign=05-Nov-2026&cid=DM1304631&bid=1114605159",
     "https://www.foodnavigator.com/Article/2026/10/28/those-vegan-cowboys-get-fda-letter-for-animal-free-casein/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.nutraingredients.com/Article/2026/11/02/danone-advances-health-span-early-life-nutrition-in-new-china-lab/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/",
-    "https://www.reuters.com/business/environment/el-nio-could-be-strongest-40-years-un-weather-agency-chief-says-2026-10-21/"
+    "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/"
   ],
   "category_names": {},
   "category_overrides": {
     "https://www.foodnavigator.com/Article/2026/11/02/cyber-attacks-raise-supermarket-fridge-temperatures/": "Macro Environment",
     "https://www.farmprogress.com/marketing/brazil-election-results-put-ag-commodities-under-pressure": "Macro Environment",
     "https://theinsightinternational.com/world-food-prices-dip-in-october-as-sugar-hits-highest-level-since-2024/": "Macro Environment",
+    "https://www.reuters.com/business/environment/el-nio-could-be-strongest-40-years-un-weather-agency-chief-says-2026-10-21/": "Macro Environment",
     "https://www.themarker.com/wallstreet/2026-10-12/ty-article/.premium/000001a1-30b1-dbe9-ade9-72ffbcec0000": "Macro Environment",
     "https://www.foodnavigator.com/Article/2026/11/04/kraft-heinz-to-sell-coffee-business-in-650m-deal/": "M&A and Divestitures",
     "https://www.just-food.com/news/ferrero-eyes-first-romania-factory/?utm_source=&utm_medium=28-213568&utm_campaign=recommended-articles-pi": "M&A and Divestitures",
@@ -210,5 +212,5 @@
     "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/": "Tech & Innovation"
   },
   "hidden": [],
-  "updated_at": "2026-11-09T09:45:44.670Z"
+  "updated_at": "2026-11-09T09:48:11.050Z"
 }
