@@ -160,6 +160,15 @@
       "image": "https://imgproxy.divecdn.com/_lFMcCJCqwcNdFunFdUbKM22zMx7p686P3xB4KIsUzo/g:nowe:0:0/c:1946:1099/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS93aWR0aDE5NjAuanBn.webp",
       "month": "2026-10",
       "added_at": "2026-11-03T12:45:21.501Z"
+    },
+    {
+      "url": "https://www.reuters.com/business/environment/el-nio-could-be-strongest-40-years-un-weather-agency-chief-says-2026-10-21/",
+      "title": "El Nino 'wrecking ball' could cause record Pacific temperature rise, UN says",
+      "summary": "",
+      "category": "macro",
+      "story_key": "",
+      "image": "",
+      "added_at": "2026-11-09T09:45:41.734Z"
     }
   ],
   "starred": [
@@ -178,7 +187,8 @@
     "https://www.foodnavigator.com/Article/2026/11/03/how-nestle-builds-billion-dollar-brands/?utm_source=newsletter_daily&utm_medium=email&utm_campaign=05-Nov-2026&cid=DM1304631&bid=1114605159",
     "https://www.foodnavigator.com/Article/2026/10/28/those-vegan-cowboys-get-fda-letter-for-animal-free-casein/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "https://www.nutraingredients.com/Article/2026/11/02/danone-advances-health-span-early-life-nutrition-in-new-china-lab/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/"
+    "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/",
+    "https://www.reuters.com/business/environment/el-nio-could-be-strongest-40-years-un-weather-agency-chief-says-2026-10-21/"
   ],
   "category_names": {},
   "category_overrides": {
@@ -200,5 +210,5 @@
     "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/": "Tech & Innovation"
   },
   "hidden": [],
-  "updated_at": "2026-11-08T14:46:53.170Z"
+  "updated_at": "2026-11-09T09:45:44.670Z"
 }
