@@ -1,29 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZlpySTBiZEJLOGxzS3FFQ1pGSVJnY3R2d2hkelZLaWJkYXJ0aE5HUXA0bGpPYm5FcUNURXp2ZUExNGw1OWczWWFaM3lOSmpTci1DVzRXQXotWFdxSXd0SWlLbnNXUzd2TGw4YWMyT2Vrc08xdWVsYWF1NmRWTElqalBXcFo3bjFqSWpjX2JmelIzLTN6MTV0WkRTQXZPVHRsMlEtQm14Vk52SmJFWC1hWWVpVlJWSHlMNXhfWlRBeF9wRTJFZnc4VVdJUFljaXhH?oc=5",
-    "story_key": "brazil-lula-election-currency-coffee-sugar",
-    "title": "Sugar, coffee drop more than 4% as Brazil's real slumps on Lula win",
-    "sent_at": "2026-10-26T16:27:34.853100+00:00"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTjlZMUYwY3A4RVYyWVdndUQ1RThWaGhrYnV2SkhZRXNGQUxKV0FiTEJPWjhlTlZoSWFrSEdiNEVUZF9nVXEzNnh3R0R5RjFJOXdZY21BQ2pWSVVkTTZsNlEyZ2F6Ym5wSFdXc0hNQVpJdDRpMzdPZFN4cGFnYVlzd0xhMk9COFU?oc=5",
-    "story_key": "pip-nut-100m-sale-exploration",
-    "title": "Pip & Nut reportedly exploring £100m sale – The Times",
-    "sent_at": "2026-10-26T16:27:34.853100+00:00"
-  },
-  {
-    "url": "https://www.foodmanufacture.co.uk/Article/2026/10/26/arla-pulls-protein-puddings-over-potential-glass-contamination/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "arla-protein-pudding-glass-recall",
-    "title": "Arla withdraws protein puddings over glass contamination risk",
-    "sent_at": "2026-10-26T16:27:34.853100+00:00"
-  },
-  {
-    "url": "https://www.ynet.co.il/economy/article/r1w1ftn2ge",
-    "story_key": "starbucks-china-seating-policy",
-    "title": "האם מותר לשבת בבית קפה בלי לקנות כלום? לסטארבקס יש תשובה ברורה",
-    "sent_at": "2026-10-26T16:27:34.853100+00:00"
-  },
-  {
     "url": "https://www.confectionerynews.com/Article/2026/10/26/lindt-chairman-rejects-resignation-speculation-following-ceo-shake-up/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "story_key": "lindt-ceo-ouster-growth-slowdown",
     "title": "Lindt chairman rules out resignation following shock CEO exit",
@@ -490,5 +466,35 @@
     "story_key": "nestle-israel-icecream-price-hike",
     "title": "קראנץ' וטילון אקסטרים מתייקרים: גלידות נסטלה מעלה מחירים",
     "sent_at": "2026-11-09T14:55:04.885767+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/utz-ceo-merger-snacking/874104/",
+    "story_key": "utz-go-private-ceo-change",
+    "title": "Utz names new CEO ahead of $2.9B go-private deal",
+    "sent_at": "2026-11-09T20:23:23.579117+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/kraft-heinz-adds-nordstrom-cfo-kroger-board-kellanova-investment/874100/",
+    "story_key": "kraft-heinz-coffee-business-sale-onerock",
+    "title": "Kraft Heinz adds Nordstrom CFO, ex-Kroger finance chief to board",
+    "sent_at": "2026-11-09T20:23:23.579117+00:00"
+  },
+  {
+    "url": "https://www.dairyreporter.com/Article/2026/11/09/cream-cheese-losing-to-cottage-cheese-as-protein-trend-reshapes-us-dairy-market/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "cottage-cheese-protein-trend-us-dairy",
+    "title": "Cream cheese 'losing' to cottage cheese as protein trend reshapes US dairy market",
+    "sent_at": "2026-11-09T20:23:23.579117+00:00"
+  },
+  {
+    "url": "https://www.dairyreporter.com/Article/2026/11/09/climate-change-poses-growing-threat-to-competitiveness-of-europes-dairy-sector/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "europe-dairy-climate-competitiveness",
+    "title": "Climate change poses growing threat to competitiveness of Europe's dairy sector",
+    "sent_at": "2026-11-09T20:23:23.579117+00:00"
+  },
+  {
+    "url": "https://www.ynet.co.il/economy/article/rknx8rk0fl",
+    "story_key": "nestle-israel-icecream-price-hike",
+    "title": "קראנץ' וטילון אקסטרים מתייקרים: גלידות נסטלה מעלה מחירים",
+    "sent_at": "2026-11-09T20:23:23.579117+00:00"
   }
 ]
