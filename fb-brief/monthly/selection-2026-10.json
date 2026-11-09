@@ -175,7 +175,6 @@
   "starred": [
     "https://www.foodnavigator.com/Article/2026/11/02/cyber-attacks-raise-supermarket-fridge-temperatures/",
     "https://www.farmprogress.com/marketing/brazil-election-results-put-ag-commodities-under-pressure",
-    "https://theinsightinternational.com/world-food-prices-dip-in-october-as-sugar-hits-highest-level-since-2024/",
     "https://www.reuters.com/business/environment/el-nio-could-be-strongest-40-years-un-weather-agency-chief-says-2026-10-21/",
     "https://www.themarker.com/wallstreet/2026-10-12/ty-article/.premium/000001a1-30b1-dbe9-ade9-72ffbcec0000",
     "https://www.foodnavigator.com/Article/2026/11/04/kraft-heinz-to-sell-coffee-business-in-650m-deal/",
@@ -194,7 +193,6 @@
   "category_overrides": {
     "https://www.foodnavigator.com/Article/2026/11/02/cyber-attacks-raise-supermarket-fridge-temperatures/": "Macro Environment",
     "https://www.farmprogress.com/marketing/brazil-election-results-put-ag-commodities-under-pressure": "Macro Environment",
-    "https://theinsightinternational.com/world-food-prices-dip-in-october-as-sugar-hits-highest-level-since-2024/": "Macro Environment",
     "https://www.reuters.com/business/environment/el-nio-could-be-strongest-40-years-un-weather-agency-chief-says-2026-10-21/": "Macro Environment",
     "https://www.themarker.com/wallstreet/2026-10-12/ty-article/.premium/000001a1-30b1-dbe9-ade9-72ffbcec0000": "Macro Environment",
     "https://www.foodnavigator.com/Article/2026/11/04/kraft-heinz-to-sell-coffee-business-in-650m-deal/": "M&A and Divestitures",
@@ -210,7 +208,8 @@
     "https://www.nutraingredients.com/Article/2026/11/02/danone-advances-health-span-early-life-nutrition-in-new-china-lab/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS": "Tech & Innovation"
   },
   "hidden": [
-    "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/"
+    "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/",
+    "https://theinsightinternational.com/world-food-prices-dip-in-october-as-sugar-hits-highest-level-since-2024/"
   ],
-  "updated_at": "2026-11-09T12:44:17.153Z"
+  "updated_at": "2026-11-09T12:44:28.365Z"
 }
