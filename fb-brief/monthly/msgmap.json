@@ -1774,5 +1774,61 @@
     "story_key": "us-cpi-october-rate-hike-expectations",
     "category": "macro",
     "sent_at": "2026-11-10T14:07:08.026837+00:00"
+  },
+  "3EB07AB9ECF2B39F27A50A": {
+    "url": "https://www.foodmanufacture.co.uk/Article/2026/11/10/pepsico-to-cut-1000-amid-north-america-struggles/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "PepsiCo to cut 1,000 jobs as North America woes continue",
+    "summary": "PepsiCo is cutting around 1,000 jobs in North America as part of a restructuring effort amid ongoing struggles in the region.",
+    "story_key": "pepsico-na-layoffs-1000-restructuring",
+    "category": "mna",
+    "sent_at": "2026-11-10T21:09:06.594870+00:00"
+  },
+  "3EB0C8B4066A9EB63D037F": {
+    "url": "https://www.foodnavigator.com/Article/2026/11/10/us-grocery-prices-jump-as-october-food-inflation-rises/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Grocery prices jump in October as food affordability remains political flashpoint",
+    "summary": "US grocery prices rose in October, keeping food affordability a politically sensitive issue as inflation pressures continue to weigh on consumers.",
+    "story_key": "us-cpi-october-rate-hike-expectations",
+    "category": "macro",
+    "sent_at": "2026-11-10T21:09:06.594870+00:00"
+  },
+  "3EB0B688CACC613B666B8D": {
+    "url": "https://www.fooddive.com/news/general-mills-restructures-new-ceo-cereal-snacking/874236/",
+    "title": "General Mills streamlines business structure amid CEO change",
+    "summary": "General Mills is reorganizing into three operating segments as it looks to enhance its focus and accelerate growth, coinciding with a change in CEO leadership.",
+    "story_key": "general-mills-restructure-ceo-change",
+    "category": "mna",
+    "sent_at": "2026-11-10T21:09:06.594870+00:00"
+  },
+  "3EB0C21B109DBAC9D4FDFA": {
+    "url": "https://www.fooddive.com/news/mars-invest-us-manufacturing-operations-snacking-kellanova-acquisition/874254/",
+    "title": "Mars to invest $1.4B in US manufacturing, operations in 2027",
+    "summary": "Mars will invest $1.4 billion in US manufacturing and operations in 2027, its largest single-year investment, to grow its snacking portfolio following the $36 billion Kellanova acquisition.",
+    "story_key": "mars-us-manufacturing-investment-2027",
+    "category": "mna",
+    "sent_at": "2026-11-10T21:09:06.594870+00:00"
+  },
+  "3EB08B96494FF7C624B1EB": {
+    "url": "https://www.fooddive.com/news/ferrara-closing-chicago-plant-jobs-snacking/874294/",
+    "title": "Ferrara to shutter Chicago plant, impacting more than 150 workers",
+    "summary": "Ferrara will close its Chicago plant in April 2027, affecting more than 150 workers, as the Laffy Taffy and Jelly Belly maker reassesses market conditions and long-term innovation plans.",
+    "story_key": "ferrara-chicago-plant-closure",
+    "category": "mna",
+    "sent_at": "2026-11-10T21:09:06.594870+00:00"
+  },
+  "3EB0EB1E0C8A5A47D72ECD": {
+    "url": "https://www.foodnavigator.com/Article/2026/11/09/clear-protein-expands-potential-of-high-protein-drinks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "How clear protein boosted the functional drinks category",
+    "summary": "Clear protein technology allows manufacturers to produce high-protein drinks without the category's traditional milky, thick texture, expanding its use into soft drinks and waters.",
+    "story_key": "clear-protein-functional-drinks",
+    "category": "tech",
+    "sent_at": "2026-11-10T21:09:06.594870+00:00"
+  },
+  "3EB04CE701B4405A2B8E32": {
+    "url": "https://www.foodnavigator.com/Article/2026/11/10/global-conflict-impact-on-food-industry/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "The cost of conflict: Food supply chains under pressure",
+    "summary": "Wars in Ukraine, Sudan and Iran are significantly impacting food production, restricting imports/exports of agricultural products like fertiliser and affecting regionally concentrated ingredients such as saffron and acacia gum.",
+    "story_key": "global-conflict-food-supply-chains",
+    "category": "macro",
+    "sent_at": "2026-11-10T21:09:06.594870+00:00"
   }
 }
