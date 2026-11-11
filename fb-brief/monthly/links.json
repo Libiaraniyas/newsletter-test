@@ -1,22 +1,4 @@
 {
-  "7d6ff229ad": {
-    "url": "https://www.foodnavigator.com/Article/2026/09/10/cpg-input-costs-rise-in-august/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "Food inflation may look tame, but rising CPG input costs suggest otherwise",
-    "summary": "August PPI data show food prices holding steady, but grains, oilseeds, packaging, diesel and freight costs are rising, creating potential margin pressure for CPG food and beverage companies.",
-    "category": "macro",
-    "story_key": "cpg-input-costs-rise-august-2026",
-    "month": "2026-09",
-    "image": "https://www.foodnavigator.com/resizer/v2/ZHGVVJVM7ZE45OHF3FUQG2RCI4.jpg?auth=018591755f68efc5bc5cfa1687ba9eb9c977534c5704ea8ef14a81d47cea1a3f&width=1200&height=630&smart=true"
-  },
-  "ecf880916c": {
-    "url": "https://www.fooddive.com/news/general-mills-mars-lawsuit-sugar-price-fixing/830079/",
-    "title": "General Mills, Mars sue sugar producers for alleged price-fixing",
-    "summary": "Food giants claim suppliers coordinated on sensitive pricing information and pushed costs for the sweetener to a record high.",
-    "category": "macro",
-    "story_key": "general-mills-mars-sugar-price-fixing-lawsuit",
-    "month": "2026-09",
-    "image": "https://imgproxy.divecdn.com/PPS0Q7RTlovfM-cYaTDBafIO6f87QzGCflDbMedHPXo/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy01MTk3NDMxODAuanBn.webp"
-  },
   "82dcf5a410": {
     "url": "https://www.fooddive.com/news/beyond-new-protein-bars-poweders-plant-based/829554/",
     "title": "Beyond adds protein bars, powders in portfolio expansion",
@@ -2609,5 +2591,22 @@
     "story_key": "eu-caged-egg-farming-bans",
     "month": "2026-10",
     "image": "https://www.foodnavigator.com/resizer/v2/OTZQOMTGGNH65INCGAWVKBLETI.jpg?auth=af6bce236226acb1043eab7fd341e74a9813b372ace387d7e894b47a6667bc4e&width=1200&height=630&smart=true"
+  },
+  "b2e34fe9e4": {
+    "url": "https://www.fooddive.com/news/mccormick-unilever-antitrust-review-merger-UK/874361/",
+    "title": "McCormick and Unilever’s $45B food merger hits antitrust snag in UK",
+    "summary": "A UK regulator ruled the McCormick-Unilever Foods tie-up could harm competition, requiring the companies to address concerns or face a phase 2 investigation.",
+    "category": "mna",
+    "story_key": "unilever-mccormick-cma-phase2",
+    "month": "2026-10"
+  },
+  "1d1bcac772": {
+    "url": "https://www.foodnavigator.com/Article/2026/11/11/nestle-growth-strategy-coffee-petcare-and-nutrition-drive-growth/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Nestlé gears up for next phase of growth",
+    "summary": "Nestlé is sharpening its focus on Coffee, Petcare, Nutrition, and Food and Snacks as it shifts back to volume-led growth.",
+    "category": "market",
+    "story_key": "nestle-growth-strategy-2027",
+    "month": "2026-10",
+    "image": "https://www.foodnavigator.com/resizer/v2/LPIM2WHU5NCCVLD4FVVP4PPVPQ.jpg?auth=8e942eda84408e7781db4c6b847a13dcc2b03bf86e79f3eb6954efbc4d5e64b2&width=1200&height=630&smart=true"
   }
 }
