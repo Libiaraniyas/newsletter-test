@@ -1,12 +1,4 @@
 {
-  "e6432908bb": {
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2VThTbDk1T0RfbkJrODc1S2tKRVBXLVhuQXRnQ0x5OVhOR2tRbkxGN0diR0xLUzRFXzI2YmxkQThBX3NEWjZNT0JZMjBFOUpzWEhkNFJUSE1PT2F0bXdTcWdSR2ROZXZjZXpWb1ljSHQ?oc=5",
-    "title": "Supply concerns fuel coffee price rally",
-    "summary": "Global coffee prices are rallying on renewed supply concerns, according to industry reporting.",
-    "category": "macro",
-    "story_key": "coffee-price-rally-supply-concerns-sept2026",
-    "month": "2026-09"
-  },
   "97d0db7c08": {
     "url": "https://www.themarker.com/magazine/2026-09-14/ty-article/000001a0-517d-d649-a7be-dd7fbe9e0000",
     "title": "האם השוקולד שובר סוף סוף את החומה הסינית",
@@ -2610,5 +2602,13 @@
     "story_key": "ofra-strauss-topgum-board-join",
     "month": "2026-10",
     "image": "https://img.haarets.co.il/bs/000001a1-cfe1-d608-a1a7-eff5f6de0000/48/5f/44712acd41d0a53ac840bc025075/ofra-strauss-photo-nir-keydar.jpg?precrop=8192,4763,x0,y0&width=1200&height=630&cmsprod"
+  },
+  "a329d99e9d": {
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQU1JsQ1d3Mi1fb1pXempldXhnM2JoOWFpQ3VBWEpUaEdvcjdXb25Wa3I0cVc3ZXUyeWFBbm13OEJPYldfNmE2amhCOUxwU0QxcXFQVWxwbDhFNXA5U1NZOE1pQTFIdllITFVlMFJ5Y3FTMGVCUmRtaVNkT3lwNVgtN0owY19NR2tqalVmYWZOTGFlRVZVX1I0UDY0TXMyOVhTWHpFZVlTSQ?oc=5",
+    "title": "CMA raises competition concerns over McCormick’s Unilever Foods acquisition",
+    "summary": "The UK's Competition and Markets Authority has flagged competition concerns over McCormick's proposed acquisition of Unilever's foods business, pushing the deal into a phase 2 investigation.",
+    "category": "mna",
+    "story_key": "unilever-mccormick-cma-phase2",
+    "month": "2026-10"
   }
 }
