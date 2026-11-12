@@ -1,55 +1,4 @@
 {
-  "82dcf5a410": {
-    "url": "https://www.fooddive.com/news/beyond-new-protein-bars-poweders-plant-based/829554/",
-    "title": "Beyond adds protein bars, powders in portfolio expansion",
-    "summary": "The plant-based meat company is entering adjacent categories to tap into more lucrative opportunities within protein.",
-    "category": "market",
-    "story_key": "beyond-meat-protein-bars-powders-expansion",
-    "month": "2026-09",
-    "image": "https://imgproxy.divecdn.com/D7cGcPX4sbbHnbOku0gO_7VQOt3dmeiGse9QTQTP6JU/g:nowe:0:0/c:2500:1412/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9QaHl0b3NwaGVyZV9IZXJvLmpwZw==.webp"
-  },
-  "391555d858": {
-    "url": "https://www.foodnavigator.com/Article/2026/09/09/as-brands-lean-into-glp-1-messaging-consumers-get-more-selective/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "GLP-1 users look past marketing claims, focus on nutrition facts",
-    "summary": "As food manufacturers race to simplify their appeal through GLP-1-focused branding, consumers taking the medications appear to be scrutinizing products more closely, paying attention to specific nutritional metrics rather than broad wellness messaging.",
-    "category": "tech",
-    "story_key": "glp1-consumers-scrutinize-nutrition-facts",
-    "month": "2026-09",
-    "image": "https://www.foodnavigator.com/resizer/v2/7XU2KUEOCNGITNXD5PJPSP2354.jpg?auth=a4eb6c1e84624573f52a2ceb529d010d21f8b18ced20a985c198efdb863f2295&width=1200&height=630&smart=true"
-  },
-  "4da3567108": {
-    "url": "https://www.foodnavigator.com/Article/2026/09/11/folgers-functional-coffee-launches-with-protein-prebiotic-blends/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "Folgers enters functional coffee with protein, prebiotic and focus blends",
-    "summary": "JM Smucker will introduce Folgers Functional instant coffee in November, with protein, focus, energy and prebiotic varieties aimed at health-conscious consumers.",
-    "category": "tech",
-    "story_key": "folgers-functional-coffee-launch",
-    "month": "2026-09",
-    "image": "https://www.foodnavigator.com/resizer/v2/EWKEQLEUG5HIPP6GJTK4Y4XQZA.png?auth=2c0abb8f77563b73baa7b091bbd21b2954ee8d7a2f2ee6a01c04f31ed3a58a46&width=1200&height=630&smart=true"
-  },
-  "5aaa15c246": {
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQ3dlYTBUaHVZQmJSa3ZGb3hpRUFWOWdpcVpsWnpkM3RSeXlsczNWcFdTUHR6cjNldkR2OUZmaVV0aDNZQ1kxbzJibERzUTdhSVNlVkloTXo5OTUyajFRYnNvaTNkcmRSQ0FnVzdmWjZrTm1uelhxdDRqQnFnU1l0NnE3Tk43QXhheE9VWlVXWFFoQUl1dDNsbEFXeFVSclpwQTIybURnMmhHMllzQVRGWVFGU28ydw?oc=5",
-    "title": "Tesco restricts 114 additives in own-label range as supermarket steps up UPF crackdown",
-    "summary": "Tesco has restricted 114 additives across its own-label range as part of a wider crackdown on ultra-processed food ingredients.",
-    "category": "tech",
-    "story_key": "tesco-additive-restriction-upf",
-    "month": "2026-09"
-  },
-  "b643b1f736": {
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOG1RQnJYUmFJMzMzMlJzejFJT0h1Zkg3eDNmYmtqcWJQOVQ0LVEyallTc3BSTDZwc3hCOGdKbGxlTzBjN3B0LXllaTlvNUZaZkdDYzBaUDdKb1ctUEFlYUFva2xoUXpnQTBUa2ZCRkQ5RExzZzRQdjVaY3p2U2NkcDJqOWtLUzBGMERXMy11VUdJcjdDX2FuQmRWdDZRZkVXVGtNQTJvSGc5ZVRVb1pZdkozY0MzUVZUekhKOVRqelVWSjVYWHBhWHBmbFZtLXFw?oc=5",
-    "title": "Arabica Coffee Falls Sharply on ICO Projections for Record Coffee Production",
-    "summary": "Arabica coffee prices dropped sharply after the International Coffee Organization projected record global coffee production. The forecast signals easing supply pressure after months of high prices.",
-    "category": "macro",
-    "story_key": "ico-record-production-arabica-drop-sept2026",
-    "month": "2026-09"
-  },
-  "c5cad2cad3": {
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRjI1eXczNGNJRnZYMnlMT2NpTW51MFh2SFJXaklFckxSWmJoZG85eHFkOWVyTWZOdDVqb0tPMTRyTUhORHl0RDFhckswdzBuMENWNXEzaDQ3OU5VVUViX29VS0VadWZiTGo3elcwc1hmd1VnakxJRWZKN2lfZ0N4T0IzeG1wd055cGZ0Y3lRVThPT19ib3VzN3VFWnozaGJyNzZBUFBwVEVPcW1wLVdjNjVWNFctSjB6YmlhU0NYajZhZw?oc=5",
-    "title": "Brazil's green coffee exports hit record for August, industry group says",
-    "summary": "Brazil's green coffee exports reached a record high for the month of August, according to an industry group. The surge reflects strong output despite earlier concerns over harvest conditions.",
-    "category": "macro",
-    "story_key": "brazil-record-green-coffee-exports-august2026",
-    "month": "2026-09"
-  },
   "e6432908bb": {
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2VThTbDk1T0RfbkJrODc1S2tKRVBXLVhuQXRnQ0x5OVhOR2tRbkxGN0diR0xLUzRFXzI2YmxkQThBX3NEWjZNT0JZMjBFOUpzWEhkNFJUSE1PT2F0bXdTcWdSR2ROZXZjZXpWb1ljSHQ?oc=5",
     "title": "Supply concerns fuel coffee price rally",
@@ -2608,5 +2557,58 @@
     "story_key": "nestle-growth-strategy-2027",
     "month": "2026-10",
     "image": "https://www.foodnavigator.com/resizer/v2/LPIM2WHU5NCCVLD4FVVP4PPVPQ.jpg?auth=8e942eda84408e7781db4c6b847a13dcc2b03bf86e79f3eb6954efbc4d5e64b2&width=1200&height=630&smart=true"
+  },
+  "406027b452": {
+    "url": "https://www.foodnavigator.com/Article/2026/11/11/mars-invests-14-billion-across-snacks-and-petcare/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Mars' $1.4 billion investment targets snack growth amid industry-wide consolidations",
+    "summary": "Mars is investing $1.4 billion across its snack and pet care portfolios, reflecting a broader industry shift towards production consolidation and expansion for key categories.",
+    "category": "mna",
+    "story_key": "mars-us-manufacturing-investment-2027",
+    "month": "2026-10",
+    "image": "https://www.foodnavigator.com/resizer/v2/NO4KI44WDRF4HHSUX4CVOL7A6U.jpg?auth=b0cfdf94294c485aa3cd325c1471eba824b091ae9413c2300b0367327ee8bf11&width=1200&height=630&smart=true"
+  },
+  "e43097291b": {
+    "url": "https://www.confectionerynews.com/Article/2026/11/11/lindt-accelerates-retail-expansion-with-new-store-openings/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Inside Lindt's ambitious retail expansion strategy",
+    "summary": "Lindt & Sprüngli is expanding its direct-to-consumer retail strategy, investing in brand-owned stores to boost shopper engagement, loyalty and premium experiences.",
+    "category": "market",
+    "story_key": "lindt-retail-expansion-strategy",
+    "month": "2026-10",
+    "image": "https://www.confectionerynews.com/resizer/v2/QTBUAG4OAZE3ZEQUNYSKUEB5EI.jpg?auth=c69f498019d9b4e51a96babd5ff2a819d2e965e82aec73a335dcebbb6b7dc35c&width=1200&height=630&smart=true"
+  },
+  "2c1def6183": {
+    "url": "https://www.foodnavigator.com/Article/2026/11/11/glp-1-in-apac-what-food-firms-need-to-watch-as-adoption-grows/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "GLP-1 in APAC: What food firms need to watch as adoption grows",
+    "summary": "GLP-1 adoption in APAC remains slow but significant opportunities are emerging for food manufacturers as the market develops.",
+    "category": "tech",
+    "story_key": "glp1-apac-food-industry-impact",
+    "month": "2026-10",
+    "image": "https://www.foodnavigator.com/resizer/v2/Q6MVFGFNPJC7PGYNRWJPXJAHN4.png?auth=b0bd84bd4b9fcb62bb7a227eb456b5b91ea1ba2001c5802b1867125dd8f61a9c&width=1200&height=630&smart=true"
+  },
+  "61c5d4e047": {
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNV1NNUndvcUttazdMaUFsVzhQRTk1MmdnRTBnVHd6eC11SlY0RzdaWWZnOVpsdG1DTzNXaVFCZk5IUHVzWllqcVZQNWJGSmMtbUVtS0RNREhGRFhLVUNtdW1tNnhUb2VUVzM1WjVFcmFyVDBYdEpXV0tFODhaRjJzRk90aXd2WkZ0ckJ3dmxpZEMwcl9MRG1xZUxGVUVvYlJTWXFqZHJR?oc=5",
+    "title": "Brazil's largest coffee chain gearing up for international debut",
+    "summary": "Brazil's largest coffee chain is preparing to expand internationally for the first time, according to World Coffee Portal.",
+    "category": "market",
+    "story_key": "brazil-coffee-chain-international-debut",
+    "month": "2026-10"
+  },
+  "1fdcbaa6cd": {
+    "url": "https://www.confectionerynews.com/Article/2026/11/10/nestle-scraps-quality-street-paper-tubs-but-does-not-rule-out-return/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Quality Street scraps paper tubs... for now",
+    "summary": "Nestlé has paused its Quality Street paper tub trial, switching back to previous packaging while it refines the design, but has not ruled out a return at scale.",
+    "category": "tech",
+    "story_key": "nestle-quality-street-paper-tub-pause",
+    "month": "2026-10",
+    "image": "https://www.confectionerynews.com/resizer/v2/CFJWIOLWNZIBTP67AEYDBCEPJI.jpg?auth=43268c141693773b094cb0d3eb7b8bd6c1a6ab4e97a2f99886cbb0f08e523c5d&width=1200&height=630&smart=true"
+  },
+  "6d8aa3b227": {
+    "url": "https://www.themarker.com/markets/2026-11-12/ty-article/.premium/000001a1-cfe1-d608-a1a7-eff5f6de0000",
+    "title": "בדרך להשקעה אסטרטגית? עופרה שטראוס מצטרפת לטופ גאם",
+    "summary": "עופרה שטראוס מצטרפת לדירקטוריון טופ גאם, ששוויה ירד בכ-35% השנה לכ-1.1 מיליארד שקל. שטראוס מתרחבת מחוץ למוצרי החלב והמזון המסורתיים, וטופ גאם תוכל לספק לה ידע וחדשנות.",
+    "category": "mna",
+    "story_key": "ofra-strauss-topgum-board-join",
+    "month": "2026-10",
+    "image": "https://img.haarets.co.il/bs/000001a1-cfe1-d608-a1a7-eff5f6de0000/48/5f/44712acd41d0a53ac840bc025075/ofra-strauss-photo-nir-keydar.jpg?precrop=8192,4763,x0,y0&width=1200&height=630&cmsprod"
   }
 }
