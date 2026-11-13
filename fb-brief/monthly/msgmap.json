@@ -1934,5 +1934,61 @@
     "story_key": "unilever-mccormick-cma-phase2",
     "category": "mna",
     "sent_at": "2026-11-12T17:54:17.932277+00:00"
+  },
+  "3EB0EF353FDCA0974E56DC": {
+    "url": "https://www.foodnavigator.com/Article/2026/11/13/glp-1-halo-effect-a-2-billion-demand-pool/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "How wide is the GLP-1 halo?",
+    "summary": "A new analysis finds the 'GLP-1 halo effect' — consumers mimicking GLP-1-style eating habits without taking the drugs — creates a demand pool far larger than the actual user base of the medications.",
+    "story_key": "glp1-halo-effect-demand-pool",
+    "category": "tech",
+    "sent_at": "2026-11-13T13:46:27.920031+00:00"
+  },
+  "3EB0D3CE982BE340B42A77": {
+    "url": "https://www.foodnavigator.com/Article/2026/11/13/microsoft-outage-impact-on-global-food-and-drink/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Microsoft outage hits global food and drink",
+    "summary": "A major global Microsoft outage disrupted operations and sales across food and drink suppliers worldwide.",
+    "story_key": "microsoft-outage-food-drink-impact",
+    "category": "market",
+    "sent_at": "2026-11-13T13:46:27.920031+00:00"
+  },
+  "3EB0E3050DAEF2C37DA7BC": {
+    "url": "https://www.foodnavigator.com/Article/2026/11/12/cisa-warns-food-retailers-of-refrigeration-cyberattacks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "It's time to get serious about cyber security",
+    "summary": "CISA and the FBI have warned of rising cyber threats targeting refrigeration systems at grocers and CPG companies, urging stronger protective measures for inventory and operations.",
+    "story_key": "cisa-refrigeration-cyberattack-warning",
+    "category": "market",
+    "sent_at": "2026-11-13T13:46:27.920031+00:00"
+  },
+  "3EB0E6436EF5C70D527FF5": {
+    "url": "https://www.foodnavigator.com/Article/2026/11/12/mondelez-vision-for-the-future-of-confectionery-and-snacking/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Mondelēz vision for the future of confectionery and snacking",
+    "summary": "Mondelēz outlined how it is using innovation, AI, acquisitions and brand heritage to drive growth and navigate changing consumer preferences in global confectionery and snacking.",
+    "story_key": "mondelez-confectionery-snacking-vision",
+    "category": "mna",
+    "sent_at": "2026-11-13T13:46:27.920031+00:00"
+  },
+  "3EB03239D6435DDB818395": {
+    "url": "https://www.foodmanufacture.co.uk/Article/2026/11/12/magnum-sues-aldi-for-copyright-infringement/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Magnum sues Aldi over copycat products",
+    "summary": "Unilever's Magnum ice cream brand has filed a lawsuit against discount retailer Aldi alleging copyright infringement over copycat products.",
+    "story_key": "magnum-aldi-copycat-lawsuit",
+    "category": "market",
+    "sent_at": "2026-11-13T13:46:27.920031+00:00"
+  },
+  "3EB0CB2C3F533B1DBE1D82": {
+    "url": "https://www.fooddive.com/news/fda-revoke-food-dye-chemicals-methylene-chloride/874542/",
+    "title": "FDA revokes authorization of some chemicals used in food dye production",
+    "summary": "The FDA is banning three solvents used in food dye production, though consumer groups warn that technicalities could still allow carcinogenic substances into the food supply.",
+    "story_key": "fda-food-dye-solvent-ban",
+    "category": "macro",
+    "sent_at": "2026-11-13T13:46:27.920031+00:00"
+  },
+  "3EB01B5730CA820499CEEF": {
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUzhaUE13VHZKSWVmRHN5bUF0SHdBS0lFUmE5WEFxTzhGS1ZjYWk0UWtXcWthaS1YZXpiTm04MDhDaDljMUcybzA4UUhsNW80RDh2TkNzYnNGanI0MFJaVlVjc29fNm5LZWZEcno3TG5CZ0NhVUVuUGsxRG02Ymo0OXRHNzFidFpqeE1RX0hLNzFWdVBIRmtFQ2JlbVU2aHVnYS1qX3dYT1ZiNTNpLUhLeXJwWVZPajBMOVcyY21pMEJINk1hNVJoamZvaG42a3VrV3NYVFNHME1LdnM?oc=5",
+    "title": "Brazil's coffee shipments set October record at 5.3 million bags, but year-to-date volumes remain well below 2024 peak",
+    "summary": "Brazil's coffee exports reached a record 5.3 million bags in October, though cumulative shipments for the year remain significantly below the 2024 peak.",
+    "story_key": "brazil-coffee-exports-record-oct2026",
+    "category": "macro",
+    "sent_at": "2026-11-13T13:46:27.920031+00:00"
   }
 }
