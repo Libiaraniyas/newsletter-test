@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbXdPdmgtYVd4dTFvOU5LZVR1dFpoNFBTbWlkbVBWMmppeXZNbmgtZ1FQZXpmaXhtZjM0UWpZQnlCR2Ztb1FiZEZ6NHNfSE9ETUV3a3RxcW5HQkdLUjA0eTludHFiSElNWkYtVXBsV0xPdXlJZ0RJWGEySlJmMFB3SlBsdlJVajJLQVdZbzRTUlZvQ2hTRnlPTVNEQkNfYVJiaEUzQ1BNQkgzV1B1NVFFbQ?oc=5",
-    "story_key": "mondelez-undercover-snacks-acquisition",
-    "title": "Mondelēz reports third-quarter growth and agrees to acquire Undercover Snacks",
-    "sent_at": "2026-10-31T18:59:28.346196+00:00"
-  },
-  {
-    "url": "https://www.fooddive.com/news/hersheys-salty-snacks-cant-keep-up-with-demand/873296/",
-    "story_key": "hershey-dots-salty-snacks-expansion",
-    "title": "Hershey's salty snacks can't keep up with demand",
-    "sent_at": "2026-10-31T18:59:28.346196+00:00"
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMWVQSmpNRXZETkozU3ViRU5Ddy15RjVEMzhkdldVN1ZSVnBtWDFwQ0d3MWEyakN3NEw0MXh6ZXN0NUZGQ2RVMGQzem9tS0ZPQzljN0YwTS0weVU5eUtUNVhUX0haQXhMRXhuRHhrS0VlU1c4aEVHem5uem40cnkyZDFNTkhwdnpFUWEtMDNEOFNsZko0UjlCcjE3V1Q3VlB3YmJzeWJtY2xzY0NEcmRrMmIybGFMaklDbmZyUzlVSQ?oc=5",
-    "story_key": "colombia-peso-coffee-price-2011-high",
-    "title": "Colombian Peso Breaks COP4,000 Peso Threshold, Local Coffee Price at Highest Since 2011",
-    "sent_at": "2026-10-31T18:59:28.346196+00:00"
-  },
-  {
     "url": "https://www.foodnavigator.com/Article/2026/11/02/cyber-attacks-raise-supermarket-fridge-temperatures/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "story_key": "europe-supermarket-fridge-cyberattack",
     "title": "European supermarket fridges hit with suspected cyber attack",
@@ -568,5 +550,11 @@
     "story_key": "danone-made-group-acquisition",
     "title": "Danone completes acquisition of Australia's Made Group",
     "sent_at": "2026-11-13T21:08:01.814288+00:00"
+  },
+  {
+    "url": "https://www.ynet.co.il/economy/article/sqm15han4",
+    "story_key": "israel-october-cpi-inflation-drop-1-1pct",
+    "title": "מדד אוקטובר הפתיע והאינפלציה השנתית צנחה ל-1.1%; ירידה גם במחירי הדירות",
+    "sent_at": "2026-11-15T16:46:45.421507+00:00"
   }
 ]

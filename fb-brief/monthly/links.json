@@ -1,13 +1,4 @@
 {
-  "4d6126ed18": {
-    "url": "https://www.ynet.co.il/economy/article/hjc2tldtml",
-    "title": "לראשונה מ-2023: הפד העלה את הריבית מ-3.75% ל-4%",
-    "summary": "הבנק הפדרלי בארה\"ב העלה את הריבית ב-0.25%, בהעלאה ריבית ראשונה מזה שלוש שנים, תחת יו\"ר חדש קווין וורש המודאג מאינפלציה גבוהה.",
-    "category": "macro",
-    "story_key": "fed-rate-hike-sept-2026",
-    "month": "2026-09",
-    "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/08/29/HJUHQ3edze/HJUHQ3edze_0_0_800_534_0_large.jpg"
-  },
   "6c165f06e9": {
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRGtVa2pCbzcwTGZGSjdqbUEzN2RZOXhwWnJOVlZOYUZTOFNnSkliTzI3NkhSamMyMHZMeFp3T2pHRkRwakhwR0JmVXU2ZDN2NjQ4akZjaUV6NlVJc1dXak5feEJYUGY3VU1Nb1FmSUMyY2Fkd2Nkc3Fwby1oZGV3cllWejI4NE5qV0NtQm1UOFlsSTF5U2xWVkhtRQ?oc=5",
     "title": "Abbott agrees $385m settlement over US infant formula investigation",
@@ -2605,5 +2596,14 @@
     "category": "mna",
     "story_key": "danone-made-group-acquisition",
     "month": "2026-10"
+  },
+  "20ffd1ed1e": {
+    "url": "https://www.ynet.co.il/economy/article/sqm15han4",
+    "title": "מדד אוקטובר הפתיע והאינפלציה השנתית צנחה ל-1.1%; ירידה גם במחירי הדירות",
+    "summary": "מדד המחירים לצרכן של חודש אוקטובר ירד ב-0.1%, בניגוד לתחזיות שצפו עלייה. קצב האינפלציה השנתי נקבע על 1.1%, הנמוך ביותר מאז אפריל 2021.",
+    "category": "macro",
+    "story_key": "israel-october-cpi-inflation-drop-1-1pct",
+    "month": "2026-10",
+    "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2022/08/15/rJus3ydR5/rJus3ydR5_0_0_850_479_0_large.jpg"
   }
 }
