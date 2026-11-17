@@ -1,21 +1,4 @@
 {
-  "cddd3cfe04": {
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRDBRcF9rVjQ2VW1uVTFqdndPVDlvbldteTRFYl81d091SG43NzNGU3VXemZTVk5fSGpZUFJISHktRU1zM0hKTzU0OWYwelowZEVaUDVmMGpHbEh2Uk9ud244SVJRTmtnMVFUMnZpYVNRNDB2dGRPNnkwSnJIWk5lczQwLUtWdTJtek1Va2U1MjM5Vk9ycmw2ek5oazhGaGFFbGViaTJGZkVJeWZlQkE?oc=5",
-    "title": "Kikkoman opens $560m Wisconsin production facility as North American demand grows",
-    "summary": "Kikkoman has opened a $560 million production facility in Wisconsin to meet growing North American demand for its products.",
-    "category": "market",
-    "story_key": "kikkoman-wisconsin-facility-investment",
-    "month": "2026-09"
-  },
-  "23f4c37702": {
-    "url": "https://www.fooddive.com/news/non-gmo-upf-label-expands-chomps-blue-diamond/830894/",
-    "title": "Non-GMO Project's non-ultraprocessed label expands to over 300 products",
-    "summary": "Chomps, Simple Mills and Blue Diamond are among 23 brands that have received certification under the Non-GMO Project's non-ultraprocessed label as the program sees growing demand.",
-    "category": "tech",
-    "story_key": "non-gmo-project-non-upf-label-expansion",
-    "month": "2026-09",
-    "image": "https://imgproxy.divecdn.com/s-o3l3ePJ1hDRfdEQpihDY5aKOQ5_CQRYIGJVXodXec/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xOTczNDEwODE4LmpwZw==.webp"
-  },
   "20caa68a16": {
     "url": "https://www.foodnavigator.com/Article/2026/09/22/nestle-russia-to-continue-operations-despite-state-takeover/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "title": "Nestlé Russia vows to continue despite state intervention",
@@ -2607,5 +2590,21 @@
     "story_key": "sibus-splendo-acquisition-gifts-market",
     "month": "2026-10",
     "image": "https://img.haarets.co.il/bs/000001a1-e8d5-d848-abeb-fadda4580000/29/76/5969dc9e4f8ab0ba9089dc1f6057/599254.jpg?&width=1200&height=630&cmsprod"
+  },
+  "0fc81d0f88": {
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQX2dTZXEzSUFhWGZMNmYtVGI4STNsWi1HMF80d1dBNV92WVhSV3Q4MGJNSVJfYnVYbkRUbmxPYktEaEg3VkJPbUtnRkxHVVdHVXBTTElQVzdQbmRFTkF2ZXpJWlREX1NxbGQtenhuMm04bVpLWURBVHJEOERwSUFKN2dncW9rbGhTeVR4MzUzVDFnYmZ6eUUySUlCOGJpd2ExMEZZOTEwYUV4UVQ5MGw0QXBmZzBOQy1yM2dKMg?oc=5",
+    "title": "New Culture receives ‘world-first’ approval from CDFA to produce animal-free dairy mozzarella",
+    "summary": "New Culture received first-of-its-kind approval from California regulators to produce precision fermentation-derived animal-free mozzarella. The approval marks a milestone for cell-free dairy alternative production in the US.",
+    "category": "tech",
+    "story_key": "new-culture-precision-fermentation-mozzarella-approval",
+    "month": "2026-10"
+  },
+  "0d6fcdcd2a": {
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdGVBZ0MydkR1OTNZRFhTaDdPSjliYU5LNHNQZ21VRm9ja08wYWFMeTRUVzFvYUJmTTE3UWdQZC1rQ2ZOd2dnU1J4X2Z3X3VCWEhZUWJ2U1ZqOXprQ3hsakh2TnRHTGlOazFhZU1tdUlqc0Q3aGxXSTJ3SEJHbklidDdHQWpEUWpNUFNGR0pDX2lWQmR0OGRaN3o4WTVJeENPZkZyQ1dfbDlraE53?oc=5",
+    "title": "Princes Group agrees deal to acquire four French food brands from Mondelēz",
+    "summary": "Princes Group has agreed to acquire four French food brands from Mondelēz as part of a portfolio divestiture. The deal expands Princes' presence in the French packaged food market.",
+    "category": "mna",
+    "story_key": "princes-group-mondelez-bread-substitutes-sale",
+    "month": "2026-10"
   }
 }
