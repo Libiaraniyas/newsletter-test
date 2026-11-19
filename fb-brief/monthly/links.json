@@ -1,12 +1,4 @@
 {
-  "d856dd934b": {
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPX3RsYUJaM3NreTZxN2IzZ1ZmTldxdVlvcHZLM21nb1FuSGFuaE1MVng0Yldha3gtTnBlNVFjMmJ0M0prV1U3S25mM2Mtc1FOM0IwaTJiTnRtMUh6eGpQc2h1YWZOMVdWMVltbndKMkoxb0VRUy1DN01HRUwyTkZ0anNGUy1hdFliUkNsYU5LQm11TXA4ZkJ2ZkJSa0dDeldKUUJZ?oc=5",
-    "title": "Abundant Supplies and Brazil Rains Weigh on Coffee Prices",
-    "summary": "Coffee prices are under pressure as abundant global supplies and favorable rains in Brazil boost expectations for a large crop.",
-    "category": "macro",
-    "story_key": "brazil-coffee-supply-price-pressure-sept2026",
-    "month": "2026-09"
-  },
   "9ccec26297": {
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMmhDYWFNcExIUHZpSXhRTnR3LXZ3RlY4a1RLYnJTdmFVM3cxN3VMUmEtdTNwM0FwQWUxOTVDZ0RydW1Bb0ZrOExFSTc0RFZvRWhJdkgwN1lXSGtMRU8yQUFwTGxHYVYtVWRCME1YSWpBQUJfUXdMLW5nbk1qNGE1LXBrbllHRGJUc25GT2x1dHk5RC02UG5mSnNzU0sxZThPMXBkSG83YVMwWDhyanVBV2pQYnRlVnM?oc=5",
     "title": "Abic, Brazil: domestic coffee consumption up by 2.3% in the first eight months of the year",
@@ -2604,5 +2596,14 @@
     "story_key": "victory-carrefour-israel-merger",
     "month": "2026-10",
     "image": "https://img.haarets.co.il/bs/000001a1-ef0c-d9ff-a7b5-ffaea4920000/12/dd/5864ca284307b16c85669fee4caa/54710358.JPG?&width=1200&height=630&cmsprod"
+  },
+  "5e1777ce32": {
+    "url": "https://www.ynet.co.il/economy/article/s1va0gjagl",
+    "title": "תחרות ל-Mutti ופגיעה בחקלאות מקומית: תנובה שוקלת לייבא שימורי עגבניות",
+    "summary": "תנובה בוחנת ייבוא שימורי עגבניות מאירופה וסין במחירים נמוכים, מה שעלול לפגוע בייצור המקומי שכבר נשחק משמעותית בשנים האחרונות. תעשיינים מזהירים כי יותר מחצי מהגידול התעשייתי בישראל נמחק בשלוש השנים האחרונות.",
+    "category": "mna",
+    "story_key": "tnuva-tomato-cans-import-consideration",
+    "month": "2026-10",
+    "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/18/H10o7QoCfg/H10o7QoCfg_0_375_2000_1126_0_large.jpg"
   }
 }

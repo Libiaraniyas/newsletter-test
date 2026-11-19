@@ -1,36 +1,4 @@
 {
-  "3EB08ED9B17C2CF3619D17": {
-    "url": "https://www.foodnavigator.com/Article/2026/10/05/creatine-enters-weight-management-space-as-research-reveals-fat-loss-potential/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "Creatine moves into weight management",
-    "summary": "New research links creatine supplementation to lower body fat and increased lean mass, opening new opportunities for food and beverage brands in the weight management space.",
-    "story_key": "creatine-weight-management-trend",
-    "category": "tech",
-    "sent_at": "2026-10-05T13:18:39.333163+00:00"
-  },
-  "3EB0E953B93B955892A2F5": {
-    "url": "https://www.foodmanufacture.co.uk/Article/2026/10/05/sun-bear-biofuture-develops-fat-derived-from-yeast-cells-which-shows-promise-as-an-alternative-to-cocoa-butter/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "Yeast-derived fat fools consumers in cocoa butter test",
-    "summary": "Sun Bear Biofuture has developed a fat derived from yeast cells that shows promise as an alternative to cocoa butter, with consumer tests unable to distinguish it from the real ingredient.",
-    "story_key": "yeast-derived-cocoa-butter-alternative",
-    "category": "tech",
-    "sent_at": "2026-10-05T13:18:39.333163+00:00"
-  },
-  "3EB0FFC2710B78872B20E4": {
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM2VXLW1YREtmajZMZzZobnZkaUh0cWhjd1h3SUZZdFNpM3VjX2pHa1dFTnItLTF3TTR4ZDg3dGw1OTZ6UHFibEdvS0dUYWI3ZjZKV2RBRURGWTRNOTg4aGtwS0U4QzBGal8xb1UyVnZ0cDYybHJDWUNUR3JOMW5lTVY1MnFWa2JQVlFsTTVpUUZnLVlzOFBGVFVfSVJRTWJMelE?oc=5",
-    "title": "Carlsberg expands PepsiCo bottling partnership into Georgia and Armenia",
-    "summary": "Carlsberg is expanding its bottling partnership with PepsiCo to cover Georgia and Armenia, broadening the geographic scope of their existing agreement.",
-    "story_key": "carlsberg-pepsico-bottling-expansion-caucasus",
-    "category": "mna",
-    "sent_at": "2026-10-05T13:18:39.333163+00:00"
-  },
-  "3EB012834BFC5FC2B2E489": {
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYVVCbThXTl82NjZaZi00S3JxbmRuWVNjSEtXM3UxM0VGMm1URE5CMjBFdzEycFFzNy1lckNqdFNHbmltYXZaTUNTT0FNWWJ1SzFrM1VQWlBrN2g5ZVNONXhKaTdwYkFReXMxcmpwcEpqRkJ1cWltdUFDMkhWNzFpNmVBemR5MTdheVNWeloxcjRvTFNfdUMzb1VwWEZqc29rNmNvWGdKdGNBckJYT2ozSXh3SzdibjJxSFE?oc=5",
-    "title": "Kerry opens Pennsylvania coffee extraction facility as demand for premium coffee grows",
-    "summary": "Kerry has opened a new coffee extraction facility in Pennsylvania to meet rising demand for premium coffee ingredients.",
-    "story_key": "kerry-pennsylvania-coffee-extraction-plant",
-    "category": "tech",
-    "sent_at": "2026-10-05T13:18:39.333163+00:00"
-  },
   "3EB038BC5BD6A5B9C5FA92": {
     "url": "https://www.foodnavigator.com/Article/2026/10/06/the-future-of-cocoa-climate-change-supply-risks-and-the-new-era-of-volatility/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "title": "The future of cocoa: Why volatility's here to stay",
@@ -2110,5 +2078,13 @@
     "story_key": "victory-carrefour-israel-merger",
     "category": "mna",
     "sent_at": "2026-11-18T14:56:28.490053+00:00"
+  },
+  "3EB061628EAB56737DE2D7": {
+    "url": "https://www.ynet.co.il/economy/article/s1va0gjagl",
+    "title": "תחרות ל-Mutti ופגיעה בחקלאות מקומית: תנובה שוקלת לייבא שימורי עגבניות",
+    "summary": "תנובה בוחנת ייבוא שימורי עגבניות מאירופה וסין במחירים נמוכים, מה שעלול לפגוע בייצור המקומי שכבר נשחק משמעותית בשנים האחרונות. תעשיינים מזהירים כי יותר מחצי מהגידול התעשייתי בישראל נמחק בשלוש השנים האחרונות.",
+    "story_key": "tnuva-tomato-cans-import-consideration",
+    "category": "mna",
+    "sent_at": "2026-11-19T15:02:12.417435+00:00"
   }
 }
