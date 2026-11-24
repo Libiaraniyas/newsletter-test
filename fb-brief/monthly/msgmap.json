@@ -1,12 +1,4 @@
 {
-  "3EB090DB60218A22BA5BE6": {
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQc0lkdnM0SU8xd25laHVrSW1WeU1JNHNkRDZ2OWZZSHR5RHpPOEw1YWR1R1A4RGotUEN4MGRSeklhSHk0RndSdmN3X1VYU1ZEZDRUVlg0OUVkLXZOaGMxMGl6cVhXNEhZZmhfUzlaNGlDTmczTldSQ3JaX3g5bEZrZk4xcV82a0t6eDQ5c0dmOHFhX2xVYnFZeWxDQ1ZKdE9BMUd4bkdPVkw?oc=5",
-    "title": "Coca-Cola looks to sell Costa Coffee, Semafor reports",
-    "summary": "Coca-Cola is reportedly exploring a sale of its Costa Coffee chain, according to a Semafor report.",
-    "story_key": "coca-cola-costa-coffee-sale-explore",
-    "category": "mna",
-    "sent_at": "2026-10-09T19:58:03.916574+00:00"
-  },
   "3EB0A5F5D1BD450F1BA573": {
     "url": "https://www.themarker.com/podcasts/2026-10-12/ty-article-podcast/000001a1-2fe7-d456-a5f1-efe7af580000",
     "title": "מחירי המזון זינקו ב-20% בארבע השנים האחרונות. בכמה אשמה הממשלה?",
@@ -1958,5 +1950,45 @@
     "story_key": "boi-rate-decision-nov2026",
     "category": "macro",
     "sent_at": "2026-11-23T17:05:32.931372+00:00"
+  },
+  "3EB09A0CA0D6B43119C813": {
+    "url": "https://www.foodnavigator.com/Article/2026/11/24/eu-launches-antitrust-probe-into-coca-cola-bottler-ccep/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Coca-Cola bottler placed under EU antitrust investigation",
+    "summary": "The European Commission has launched an in-depth antitrust investigation into Coca-Cola Europacific Partners (CCEP) over concerns it may have restricted cross-border trade in Europe's soft drinks market.",
+    "story_key": "ccep-eu-antitrust-probe",
+    "category": "mna",
+    "sent_at": "2026-11-24T16:50:46.153424+00:00"
+  },
+  "3EB0D514FB90E98A45D1AE": {
+    "url": "https://www.foodnavigator.com/Article/2026/11/24/walmart-and-target-grocery-strategies-drive-q3-growth/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Walmart rolls back prices as Target remakes the food aisle",
+    "summary": "Target's food and beverage sales hit $6.4 billion in Q3, while Walmart reported mid-single-digit grocery growth and strong market-share gains.",
+    "story_key": "walmart-target-grocery-q3-2026",
+    "category": "market",
+    "sent_at": "2026-11-24T16:50:46.153424+00:00"
+  },
+  "3EB08EC7D6E533F59C0423": {
+    "url": "https://www.dairyreporter.com/Article/2026/11/24/fonterra-lifts-milk-price-forecast-again-on-strong-china-demand/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Fonterra lifts milk price forecast again on strong China demand",
+    "summary": "Fonterra raised its milk price forecast once more, citing robust Chinese demand supporting dairy commodity prices.",
+    "story_key": "fonterra-milk-price-forecast-china-demand",
+    "category": "macro",
+    "sent_at": "2026-11-24T16:50:46.153424+00:00"
+  },
+  "3EB075CCD0D364E00E5B78": {
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU2xxQ25TT0NVTzZacEI4R1JNX3ZvZlBMSnVud0tWdzlxanRWU0Z3bTNRVmVZZUZoQzJ0OHdyNDduVTM4WVdtYVN6Und1V1JwdXZpU19qSmhheTBHUUtlUjNPQzhhQ0hKSDZGS1VqWlowamJMeXlZaG9qczVHRW1XSS1FeXFZMzAzcGZpeVMwd3N2bVlBUDcweDhobkVGaDBoZmc?oc=5",
+    "title": "Verlinvest increases Oatly stake as China Resources prepares to exit",
+    "summary": "Investment firm Verlinvest is increasing its stake in plant-based drinks maker Oatly as China Resources prepares to exit its shareholding.",
+    "story_key": "verlinvest-oatly-stake-increase",
+    "category": "mna",
+    "sent_at": "2026-11-24T16:50:46.153424+00:00"
+  },
+  "3EB02FDB2402AB33F4F899": {
+    "url": "https://www.themarker.com/wallstreet/2026-11-24/ty-article/000001a2-0de9-d8a8-afea-1df9152d0000",
+    "title": "דיווח: ממשל טראמפ יציג חבילת מכסים נרחבת חדשה",
+    "summary": "מקור המעורה בתוכניות הבית הלבן אמר לבלומברג כי הכרזה על מכסים חדשים צפויה לצאת בקרוב, בהתבסס על חוק משנת 1974, כנגד יותר מתריסר מדינות ובהן סין והאיחוד האירופי.",
+    "story_key": "trump-new-tariffs-package-nov2026",
+    "category": "macro",
+    "sent_at": "2026-11-24T16:50:46.153424+00:00"
   }
 }
