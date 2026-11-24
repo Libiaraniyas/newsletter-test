@@ -1990,5 +1990,21 @@
     "story_key": "trump-new-tariffs-package-nov2026",
     "category": "macro",
     "sent_at": "2026-11-24T16:50:46.153424+00:00"
+  },
+  "3EB0FF599F08D59430AC75": {
+    "url": "https://www.dairyreporter.com/Article/2026/11/23/saputo-to-invest-600-million-to-target-fast-expanding-dairy-categories/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Saputo to invest $600 million to target fast-expanding dairy categories",
+    "summary": "Saputo announced a $600 million investment to expand capacity in high-growth dairy categories such as high-protein products.",
+    "story_key": "saputo-600m-dairy-capacity-expansion",
+    "category": "market",
+    "sent_at": "2026-11-24T20:28:56.197024+00:00"
+  },
+  "3EB05C0D38F7CB92DED531": {
+    "url": "https://www.ynet.co.il/economy/article/hyzub7xjmx",
+    "title": "Trump prepares new tariff package; Wall Street reacts with sharp declines",
+    "summary": "Three weeks after Republicans lost their congressional majority in elections dominated by cost-of-living concerns, the President is preparing to raise tariffs on China and dozens of other countries, with EU, Japan and South Korea potentially facing tariffs up to 15% and China up to 20%.",
+    "story_key": "trump-new-tariffs-package-nov2026",
+    "category": "macro",
+    "sent_at": "2026-11-24T20:28:56.197024+00:00"
   }
 }

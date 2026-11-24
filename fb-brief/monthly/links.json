@@ -1,22 +1,4 @@
 {
-  "1f1747e7e1": {
-    "url": "https://www.foodnavigator.com/Article/2026/09/28/california-is-the-first-state-to-pass-a-voluntary-non-upf-label-program/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "California signs voluntary non-UPF label into law",
-    "summary": "California became the first US state to pass a voluntary non-ultraprocessed food label, aiming to help consumers identify healthier products amid growing debate over how such claims should be certified.",
-    "category": "macro",
-    "story_key": "california-non-upf-label-law",
-    "month": "2026-09",
-    "image": "https://www.foodnavigator.com/resizer/v2/LT4MSFTBDNEC5FTFEJJZFWJCMA.jpg?auth=bc439454295fa63dc01dfd353075755f367967569af94d680a3965a8a83842b2&width=1200&height=630&smart=true"
-  },
-  "b5b21f7e18": {
-    "url": "https://www.fooddive.com/news/molson-coors-nonalcoholic-expanded-distrubiton-beyond-beer/831636/",
-    "title": "Molson Coors bets on nonalcoholic drinks with national expansion",
-    "summary": "The Coors owner plans to further scale its Coors 0.0 brand and launch a nonalcoholic version of Leinenkugel's summer shandy as part of a national expansion.",
-    "category": "market",
-    "story_key": "molson-coors-nonalcoholic-expansion",
-    "month": "2026-09",
-    "image": "https://imgproxy.divecdn.com/Y9JxngAsGKeH-qhpg7CKd8i5oYDuyfLuOxjHUD2C5Fg/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9OQUhFUk9fUGVyb25pLmpwZw==.webp"
-  },
   "c1f706baff": {
     "url": "https://www.fooddive.com/news/nestle-plastic-reduction-strategy-2030/831372/",
     "title": "Nestlé breaks down its path to 2030 for virgin plastic reduction",
@@ -2601,5 +2583,23 @@
     "story_key": "trump-new-tariffs-package-nov2026",
     "month": "2026-10",
     "image": "https://img.haarets.co.il/bs/000001a2-0de9-d8a8-afea-1df9152d0000/11/0a/8318016d41ac9bc557b9b77fb630/292131-2.jpg?precrop=2400,1395,x0,y6&width=1200&height=630&cmsprod"
+  },
+  "aca85e2ad4": {
+    "url": "https://www.dairyreporter.com/Article/2026/11/23/saputo-to-invest-600-million-to-target-fast-expanding-dairy-categories/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "title": "Saputo to invest $600 million to target fast-expanding dairy categories",
+    "summary": "Saputo announced a $600 million investment to expand capacity in high-growth dairy categories such as high-protein products.",
+    "category": "market",
+    "story_key": "saputo-600m-dairy-capacity-expansion",
+    "month": "2026-10",
+    "image": "https://www.dairyreporter.com/resizer/v2/3NFOPQQY7ZG7JPLJAEDEYEDWY4.jpg?auth=c2080b7a80e05a46e27a29b9bf01d1df1cb27ea82f0b14d1e4210f363813a914&width=1200&height=630&smart=true"
+  },
+  "cd06cf321c": {
+    "url": "https://www.ynet.co.il/economy/article/hyzub7xjmx",
+    "title": "Trump prepares new tariff package; Wall Street reacts with sharp declines",
+    "summary": "Three weeks after Republicans lost their congressional majority in elections dominated by cost-of-living concerns, the President is preparing to raise tariffs on China and dozens of other countries, with EU, Japan and South Korea potentially facing tariffs up to 15% and China up to 20%.",
+    "category": "macro",
+    "story_key": "trump-new-tariffs-package-nov2026",
+    "month": "2026-10",
+    "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2025/04/02/SJEcy7j6kl/SJEcy7j6kl_0_251_3000_1689_0_large.jpg"
   }
 }
