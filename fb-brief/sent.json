@@ -1,17 +1,5 @@
 [
   {
-    "url": "https://www.fooddive.com/news/mccormick-unilever-antitrust-review-merger-UK/874361/",
-    "story_key": "unilever-mccormick-cma-phase2",
-    "title": "McCormick and Unilever’s $45B food merger hits antitrust snag in UK",
-    "sent_at": "2026-11-11T17:40:36.259341+00:00"
-  },
-  {
-    "url": "https://www.foodnavigator.com/Article/2026/11/11/nestle-growth-strategy-coffee-petcare-and-nutrition-drive-growth/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "story_key": "nestle-growth-strategy-2027",
-    "title": "Nestlé gears up for next phase of growth",
-    "sent_at": "2026-11-11T17:40:36.259341+00:00"
-  },
-  {
     "url": "https://www.foodnavigator.com/Article/2026/11/11/mars-invests-14-billion-across-snacks-and-petcare/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "story_key": "mars-us-manufacturing-investment-2027",
     "title": "Mars' $1.4 billion investment targets snack growth amid industry-wide consolidations",
@@ -490,5 +478,53 @@
     "story_key": "trump-new-tariffs-package-nov2026",
     "title": "חששות מתחום ה-AI מפילות את נאסד\"ק ב-4%",
     "sent_at": "2026-11-25T16:39:34.999081+00:00"
+  },
+  {
+    "url": "https://www.foodnavigator.com/Article/2026/11/25/five-food-and-drink-trends-emerging-from-glp-1-use/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "glp1-grocery-spending-trends-nielseniq",
+    "title": "5 emerging GLP-1 trends that F&B needs to know about",
+    "sent_at": "2026-11-25T19:45:12.127962+00:00"
+  },
+  {
+    "url": "https://www.beveragedaily.com/Article/2026/11/24/beyond-the-gym-creatines-move-into-everyday-drinks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "creatine-functional-beverages-trend",
+    "title": "Beyond the gym: Why creatine is finding its way into everyday beverages",
+    "sent_at": "2026-11-25T19:45:12.127962+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/Dole-closing-plants-california-fruit-layoffs/875787/",
+    "story_key": "dole-california-plant-closures-layoffs",
+    "title": "Dole Packaged Foods to lay off over 400 workers amid plant closures",
+    "sent_at": "2026-11-25T19:45:12.127962+00:00"
+  },
+  {
+    "url": "https://www.fooddive.com/news/nestle-grows-artificial-intelligence-robotics-innovation/875604/",
+    "story_key": "nestle-deep-tech-center-ai-robotics",
+    "title": "Nestlé turns to AI and robotics to stoke growth",
+    "sent_at": "2026-11-25T19:45:12.127962+00:00"
+  },
+  {
+    "url": "https://www.dairyreporter.com/Article/2026/11/24/americans-eating-more-cottage-cheese-cheese-and-yogurt-as-dairy-demand-strengthens/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "us-dairy-consumption-growth-cottage-cheese",
+    "title": "Americans eating more cottage cheese, cheese and yogurt as dairy demand strengthens",
+    "sent_at": "2026-11-25T19:45:12.127962+00:00"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSGFXMFRDN2VzNHo2LVh0dVB2eVhuUl9jdDdvZlZlVlc4aGVBYy15XzZ5cDhkcU1oSm91cTFGRGpMNnhlT0k5MGlZNGxZQ0RLcHhDQm1kamVfXzJSTWE1NTBfYW5uSGVXWjRHTDgwczdIQS1UZWFHNDhpRWFSM1d6REg5UlJEYXZuMnVtLTNRODNvQjMtcmNYWnczNTdtcUZaY1I3TU1HNzlyeC1lYXc4?oc=5",
+    "story_key": "brazil-rain-arabica-price-rally-nov2026",
+    "title": "Arabica Coffee Recovers as Heavy Brazil Rains Spark Short Covering",
+    "sent_at": "2026-11-25T19:45:12.127962+00:00"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMjJGMDNGNDB3M2JMQU5HRVhneFg1b09pcDczTXB5aVVsZENCUzJUN0Qya0doRERiaHJ5Tno0TUl4eTVqMk1hUi1lVXp5QlZ1SWdKaFlfd3poODZXSjlkUFlEZWNjaE8wUUlGdXNodkNvdVRUaTFHTnlWV1pLVUhRNFdXU1JCcDgxUmZ5VU0zWW5yRVlQbjE5VTFXVkl2andrM0xwR21XMzd4RUprVjV4a29jZjZJNlNpT1pmYnVFM2F3N1Bvdjg4dDNZNEtnZw?oc=5",
+    "story_key": "vietnam-brazil-supply-coffee-price-ethiopia",
+    "title": "Coffee Prices Ease on Vietnam and Brazil Supply, but Arabica Shortage Opens a Door for Ethiopian Exporters",
+    "sent_at": "2026-11-25T19:45:12.127962+00:00"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOV2F6RnVfQU1HcThTYUtqUm9QWDNQMzZXWmFzZ1FaWk0yQXEtV1p3OVRPNmFZTmNHLWhBMUxuTW1vVWtFS2w5QWdUSk5uYzNkeTFrNkZ0eTZUbDEza3lXS0pWRlJpNmhGRnM1NHhjLS1vMWJHb2ZjNEw4N25ncEIwSndTdXpWZEg5eGk0aC1SR3FIbjRwbENmcC1xWlZwWnVSOC1iM1AyWTRTSzlGWnF1QU9aQkNKbW8?oc=5",
+    "story_key": "unilever-mccormick-cma-phase2",
+    "title": "McCormick proposes Colman's sale to address CMA's competition concerns in Unilever deal",
+    "sent_at": "2026-11-25T19:45:12.127962+00:00"
   }
 ]
