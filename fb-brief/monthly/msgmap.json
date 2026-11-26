@@ -1,36 +1,4 @@
 {
-  "3EB07929A26A7B5BFD243D": {
-    "url": "https://www.foodnavigator.com/Article/2026/10/12/ethiopias-coffee-sector-could-conflict-threaten-production/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "Could conflict in Ethiopia threaten coffee?",
-    "summary": "Ethiopia is Africa's largest coffee producer and the fifth largest in the world. Renewed conflict in the country's northern regions raises concerns about potential impacts on coffee production.",
-    "story_key": "ethiopia-conflict-coffee-threat",
-    "category": "macro",
-    "sent_at": "2026-10-12T19:36:16.493231+00:00"
-  },
-  "3EB097642CDCDB624B3939": {
-    "url": "https://www.foodnavigator.com/Article/2026/10/12/big-foods-c-suite-shake-up-signals-industry-in-transformation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "Big Food's C-suite shake-up signals new era",
-    "summary": "Big Food is undergoing its biggest leadership shake-up in decades, with Coca-Cola, Nestle, Kraft Heinz and Hershey replacing CEOs and executives. New leaders are focused on reinvention, digital transformation and portfolio strategy.",
-    "story_key": "big-food-csuite-shakeup-2026",
-    "category": "market",
-    "sent_at": "2026-10-12T19:36:16.493231+00:00"
-  },
-  "3EB0989181665EB24C0F9B": {
-    "url": "https://www.fooddive.com/news/pepsico-soda-business-turnaround-poppi-mountain-dew/832737/",
-    "title": "PepsiCo puts 'all the urgency' into turning around soft drinks",
-    "summary": "PepsiCo is planning to add more functional benefits to Poppi, its newly acquired better-for-you soda brand, as it prioritizes turning around its soft drinks business.",
-    "story_key": "pepsico-poppi-functional-turnaround",
-    "category": "market",
-    "sent_at": "2026-10-12T19:36:16.493231+00:00"
-  },
-  "3EB0904C06E37CF0E2B978": {
-    "url": "https://www.themarker.com/wallstreet/2026-10-12/ty-article/.premium/000001a1-30b1-dbe9-ade9-72ffbcec0000",
-    "title": "מחירי הגז באירופה זינקו ביותר מ–150% מתחילת השנה — ולא צפויים לרדת ב–2027",
-    "summary": "המלחמה באיראן וסגירת מצר הורמוז החריפו את התחרות בשוק הגז הגלובלי, ומאגרי הגז של אירופה צנחו לרמות קרובות לשפל היסטורי. התחזיות צופות כי המחירים רק יעלו בשנה הבאה.",
-    "story_key": "europe-gas-prices-surge-2026",
-    "category": "macro",
-    "sent_at": "2026-10-12T19:36:16.493231+00:00"
-  },
   "3EB08A4BEC1DBA41F25BE8": {
     "url": "https://www.foodnavigator.com/Article/2026/10/13/french-supermarket-fridges-hit-by-cyber-attack/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "title": "French supermarket fridges cyber attack: What it means for F&B",
@@ -2206,5 +2174,37 @@
     "story_key": "arla-ingredients-welsh-protein-investment",
     "category": "market",
     "sent_at": "2026-11-26T19:24:22.144464+00:00"
+  },
+  "3EB0028AEF8835D5B41D9E": {
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSkh5cE14cHhBSFVJRXp3clYyVW5NYldKZ2tPRVlsQ3lDdE5kNnU1TUxmRkJFWUV5WlZpOUtSaldzcmJ5QkZwa0dpaUFfUEd4NzVOc090cHJCcDBtZ0JTNEkyVzlyNlRpSmpEcXlmMGlPbThVT2djZkR5ZW82NzZqelhZcG9CWUE3UnVnQl9R?oc=5",
+    "title": "Julius Meinl completes largest acquisition in company history",
+    "summary": "Julius Meinl has completed the largest acquisition in its history, entering Italy's horeca coffee top five.",
+    "story_key": "julius-meinl-italy-horeca-acquisition",
+    "category": "mna",
+    "sent_at": "2026-11-26T23:26:24.140211+00:00"
+  },
+  "3EB0A6F9BDBAF5C8DC8C0B": {
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWk5vSmplX25GV1VYekl2Y2tvZ01nTHpnYWJ1SlV5QkVBd0szdklaZUJST01reXo3VHhia2V6VXd2MFl2cHpZUHZjNzJWM0xWamI0TWFRWDc4ZHZ6YnZNNHZYNGNNUEQ0SUloZWZJdkpRQnllNTRUSHhfS01Zb283X18wRkZDMTcwX1Fub1ZvNUI3eHNGSUhWaC12d2ZjbVg4LXhIc0lsSHYxWDZr?oc=5",
+    "title": "EU clears coffee giant Lavazza's vending machine acquisition",
+    "summary": "The European Union has cleared Lavazza's acquisition of a vending machine business, allowing the coffee giant to expand its footprint in the vending channel.",
+    "story_key": "lavazza-vending-machine-acquisition-eu",
+    "category": "mna",
+    "sent_at": "2026-11-26T23:26:24.140211+00:00"
+  },
+  "3EB0297708D5D815684561": {
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcFBIdmRUTjRUUDlzNmZLWHRBX0xSSDN2SDB4Z21IcmdCQVE0U3dQZXhWeHBiZ3M0emd4OGRJcXVTQ2otWkI3TjgwQnlXS2VQMnRGQ0h0NHJQOVBlbk0ySDhDQUdrNng1Q2dmcG84eGtGdnV0T0dkLUVseUZaeGRqZ2cxUGNObTBPakgtUzg1UGxyQnc5SnE3Vkhac2taZw?oc=5",
+    "title": "Arla Foods Ingredients invests €95m in Welsh whey protein facility",
+    "summary": "Arla Foods Ingredients is investing €95 million in a whey protein facility in Wales to meet growing demand for high-protein dairy ingredients.",
+    "story_key": "arla-ingredients-welsh-protein-investment",
+    "category": "market",
+    "sent_at": "2026-11-26T23:26:24.140211+00:00"
+  },
+  "3EB0108769C57DDF5A21F2": {
+    "url": "https://www.ynet.co.il/economy/article/by004rprkqx",
+    "title": "שופרסל רשמה ירידה ברווחים: מחזירה את המותג היפר נטו ותפתח 20 סניפים",
+    "summary": "שופרסל מחזירה את המותג הנוסטלגי היפר נטו תחת הסלוגן \"קונים חכם קונים בזול\" ותפתח 20 סניפים של הפורמט שיהיה רשת עירונית מוזלת, זאת על רקע ירידה חדה ברווחיות ברבעון השלישי.",
+    "story_key": "shufersal-hyper-neto-discount-chain-launch",
+    "category": "market",
+    "sent_at": "2026-11-26T23:26:24.140211+00:00"
   }
 }
