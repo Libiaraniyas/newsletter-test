@@ -1,40 +1,4 @@
 {
-  "21a104c554": {
-    "url": "https://www.foodnavigator.com/Article/2026/10/07/mengniu-prepares-for-glp-1-food-era/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "Mengniu prepares for GLP-1 food era with functional dairy products",
-    "summary": "China dairy major Mengniu is preparing for a GLP-1 food era with a focus on functional dairy products.",
-    "category": "tech",
-    "story_key": "mengniu-glp1-functional-dairy",
-    "month": "2026-09",
-    "image": "https://www.foodnavigator.com/resizer/v2/WQNU5YEHGNAQPPFIK5LOCRHKL4.jpg?auth=ec6dddf473f72c667d49056a9f7729c57146f30526e51558cf9653558a482a3e&width=1200&height=630&smart=true"
-  },
-  "5c684975a2": {
-    "url": "https://www.confectionerynews.com/Article/2026/10/06/ferrero-targets-growth-beyond-chocolate-with-power-crunch-refresh/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-    "title": "Ferrero targets protein-led growth beyond chocolate",
-    "summary": "Ferrero is revamping Power Crunch with a lighter, crunchier recipe as competition intensifies in the fast-growing protein snacking market.",
-    "category": "tech",
-    "story_key": "ferrero-protein-power-crunch",
-    "month": "2026-09",
-    "image": "https://www.confectionerynews.com/resizer/v2/VRIQCB4HUZEFVNOQSA4EKIMZ5A.jpg?auth=fa4cc4065d14c3a7c810d4bf14c2479fdb2ae953561ce0b505da901991ce3135&width=1200&height=630&smart=true"
-  },
-  "c1a04cbb3c": {
-    "url": "https://www.fooddive.com/news/ghirardelli-chocolate-packaged-cookies-snacking/832262/",
-    "title": "Ghirardelli brings 174-year-old chocolate brand to packaged cookies",
-    "summary": "Ghirardelli is launching packaged cookies, putting the brand against other premium offerings such as Mondelēz's Tate's and Ferrero's Famous Amos.",
-    "category": "mna",
-    "story_key": "ghirardelli-packaged-cookies-entry",
-    "month": "2026-09",
-    "image": "https://imgproxy.divecdn.com/NWQDyO-NunapjTlCWIo__HFv5fDscXHStx_uR9XlUew/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HSElSQVJERUxMSV9DUklTUFlDT09LSUVTLmpwZw==.webp"
-  },
-  "a6886c0a00": {
-    "url": "https://www.fooddive.com/news/kraft-mac-and-cheese-cheesy-ramen-product-innovation/832222/",
-    "title": "Kraft Mac & Cheese enters first new category in decades with cheesy ramen",
-    "summary": "Kraft Heinz is launching a cheesy ramen product under its Mac & Cheese brand, marking its first new category entry in decades, as it invests $700 million into marketing, sales and R&D.",
-    "category": "mna",
-    "story_key": "kraft-mac-cheese-ramen-category-entry",
-    "month": "2026-09",
-    "image": "https://imgproxy.divecdn.com/U-RrOlwp7GpVptR3NLv91PL6lGTy7SpbuRAoDuqecM4/g:nowe:0:0/c:1911:1080/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9LTUNfUmFtZW5fUGFja19TaG90cy5qcGc=.webp"
-  },
   "9c73728129": {
     "url": "https://www.fooddive.com/news/Ferrero-Nutella-innovation-snacking-Hershey-Mars/832071/",
     "title": "Nutella maker Ferrero building a sweets 'powerhouse' in the US",
@@ -2596,5 +2560,40 @@
     "story_key": "strauss-streamlining-program-q3-2026",
     "month": "2026-10",
     "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2024/01/15/SJ8nnDzY6/SJ8nnDzY6_0_0_850_479_0_large.jpg"
+  },
+  "3ddb1ab426": {
+    "url": "https://en.globes.co.il/en/article-1001565105#utm_source=RSS",
+    "title": "Shufersal to launch new chain as profit falls",
+    "summary": "Shufersal reported a drop in quarterly profit while co-CEO Shlomi Amir announced the launch of the Hyper Neto discount warehouse supermarket chain, with 20 branches planned.",
+    "category": "market",
+    "story_key": "shufersal-hyper-neto-discount-chain-launch",
+    "month": "2026-10",
+    "image": "https://res.cloudinary.com/globes/image/upload/t_800X392/v1784719695/%D7%94%D7%90%D7%97%D7%99%D7%9D-%D7%A9%D7%95%D7%A4%D7%A8%D7%A1%D7%9C_ark963.png"
+  },
+  "e486af1df0": {
+    "url": "https://www.ynet.co.il/economy/article/h1uokkhjxe",
+    "title": "10 שקלים לשישיית פחיות: מותג הקולה המפתיע מירדן שעולה על המדפים ברמי לוי",
+    "summary": "קולה מקס, מותג קולה מירדן, תיכנס ל-23 סניפים של רמי לוי עם כ-100 אלף פחיות של 250 מ\"ל שיתחרו בקוקה-קולה, קולה זירו, ספרייט ופאנטה, במחיר של 1.66 שקלים לפחית.",
+    "category": "market",
+    "story_key": "colamax-jordan-cola-israel-low-price-entry",
+    "month": "2026-10",
+    "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/17/BklGIAFAzg/BklGIAFAzg_0_117_1600_901_0_large.jpg"
+  },
+  "c66deaa9a3": {
+    "url": "https://en.globes.co.il/en/article-1001565069#utm_source=RSS",
+    "title": "Shekel slides to 14-month weakest against dollar",
+    "summary": "Wall Street losses, the global strength of the dollar, political and geopolitical uncertainties and interest rate differentials are all weighing on the Israeli currency.",
+    "category": "macro",
+    "story_key": "israel-shekel-weakening-nov2026",
+    "month": "2026-10",
+    "image": "https://images.globes.co.il/images/NewGlobes/big_image_800/2017/Money2-800px.jpg"
+  },
+  "2617326ad1": {
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTkQxOFlzbGxzMElCRWZyZENHelFmMFROYWFGVnRlMEVPejU4dTNwaGdSTXo1LWgzV3ZHdEkxWjhYT1BydXNjQ1ZWNjNsWFJiV3FqMG9LSWZHejRuaWtkblQtc0RKSUR6VTJjVmFRbnhWM2p3b1pSMFdDdG41dUpWWjVlMHBoam5sbGtvZTVmWXQ0SVBWVmQtSA?oc=5",
+    "title": "Heavy Rains in Brazil Boost Arabica Coffee Prices",
+    "summary": "Heavy rainfall in Brazil's coffee-growing regions has boosted arabica coffee prices, as the market reacts to improved growing conditions for the next crop.",
+    "category": "market",
+    "story_key": "brazil-rain-arabica-price-rally-nov2026",
+    "month": "2026-10"
   }
 }
