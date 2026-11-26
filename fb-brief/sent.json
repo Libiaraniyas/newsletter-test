@@ -1,11 +1,5 @@
 [
   {
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQU1JsQ1d3Mi1fb1pXempldXhnM2JoOWFpQ3VBWEpUaEdvcjdXb25Wa3I0cVc3ZXUyeWFBbm13OEJPYldfNmE2amhCOUxwU0QxcXFQVWxwbDhFNXA5U1NZOE1pQTFIdllITFVlMFJ5Y3FTMGVCUmRtaVNkT3lwNVgtN0owY19NR2tqalVmYWZOTGFlRVZVX1I0UDY0TXMyOVhTWHpFZVlTSQ?oc=5",
-    "story_key": "unilever-mccormick-cma-phase2",
-    "title": "CMA raises competition concerns over McCormick’s Unilever Foods acquisition",
-    "sent_at": "2026-11-12T17:54:18.912856+00:00"
-  },
-  {
     "url": "https://www.foodnavigator.com/Article/2026/11/13/glp-1-halo-effect-a-2-billion-demand-pool/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "story_key": "glp1-halo-effect-demand-pool",
     "title": "How wide is the GLP-1 halo?",
@@ -550,5 +544,23 @@
     "story_key": "brazil-rain-arabica-price-rally-nov2026",
     "title": "Heavy Rains in Brazil Boost Arabica Coffee Prices",
     "sent_at": "2026-11-26T16:12:15.109365+00:00"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPazNwLVNGLWVCazBWWVRqUVRWaUVtY29MRVZyVW1QT0ctendWQmpHLWhkRGhjbENteXljUVNEandUejFrdlNvb2xoRDFSV3ZQOWpiaTNGTExDNnZ1OVVpOVA5VVFHMWxZQzFDSm5SZHJDLVZNbEVwM3JYR01WYzBnQmNFZk5LNlZJRlpZYWR6RWt4RVpKTHdzbzBub296dmFjSUNMMGQxbUJWZEt3VGNqdG9EaWpsdHE2akRHSHRvUQ?oc=5",
+    "story_key": "julius-meinl-italy-horeca-acquisition",
+    "title": "Julius Meinl enters Italy’s horeca coffee top five with the largest acquisition in its history",
+    "sent_at": "2026-11-26T19:24:29.388400+00:00"
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9FcW15aWJnenp1QjNQSzduTGNPQkF3c29WdHJtS2V3bDVsSGdNRjJIV2xHbklidnNkUjJmSW1ySlZMWERXSFg5enNjVjFHOVNGQUJVcExTRUI?oc=5",
+    "story_key": "louisa-coffee-taiwan-price-hike",
+    "title": "Taiwan's Louisa Coffee prepares price hikes",
+    "sent_at": "2026-11-26T19:24:29.388400+00:00"
+  },
+  {
+    "url": "https://www.dairyreporter.com/Article/2026/11/26/arla-foods-ingredients-backs-dairy-protein-growth-with-95m-investment-in-welsh-facility/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
+    "story_key": "arla-ingredients-welsh-protein-investment",
+    "title": "Arla Foods Ingredients backs dairy protein growth with €95m investment in Welsh facility",
+    "sent_at": "2026-11-26T19:24:29.388400+00:00"
   }
 ]
