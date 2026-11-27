@@ -1,12 +1,4 @@
 {
-  "736243b33a": {
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbHRNYjROd0VtMjhBanYzYlBXLXBhQzlmU1VqbzZfSWs3WTJSNThCQjE1cURNNkZTOExyTXROeDRybDE3b1BjYVdJQnNjNVpoWkVNYW5GUTViR1lRRzR2aDdRcXlpaXloaXFWZlFqQ1ZDclV4VzBZRXV2NWR1bzBxTmhRNzV1dzBtcmVySWI5R0U3NVJPWG1saldyUS1mYVRuSE4zaw?oc=5",
-    "title": "Coffee Prices Tumble on Larger Coffee Supplies from Brazil",
-    "summary": "Coffee prices fell as larger supplies from Brazil weighed on the market.",
-    "category": "macro",
-    "story_key": "brazil-coffee-supply-price-drop-oct2026",
-    "month": "2026-09"
-  },
   "c8a1418add": {
     "url": "https://www.foodnavigator.com/Article/2026/10/07/grocery-shoppers-seek-deals-at-clubs-and-mass-merch-retailers/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
     "title": "High grocery prices push shoppers to spread spending across store formats",
@@ -2593,5 +2585,13 @@
     "story_key": "shufersal-hyper-neto-discount-chain-launch",
     "month": "2026-10",
     "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/26/SkFaHDr1mx/SkFaHDr1mx_215_132_1208_680_0_large.jpg"
+  },
+  "5818d31bf4": {
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSkhRM3VXeHJXY3QzTTNZZ3ZYTlExemhYMU9GUHJvbVFhM2t4a3QyQ2Z0WGZ3b2FGaFVIc2tvWF9aa0VZWWlldHpab2loNTRpRnNxSmN0cUZWY0dRbngzN0Z3c21RY3B3SzI3LWJPNExRSnhnZzZpOEZ0VkI0OGExc2VvLVNpWktOOXZWcmV2ZjZ1aWRTUWFyY2I4ZmlIa29MdGdUaG5tbFFNXzRVMVhKSEdwNFpHdFFIRS1kZUlkLUE?oc=5",
+    "title": "Strauss Group reports 3Q net Income of NIS 212 million, Coffee International EBIT slightly down - Comunicaffe International",
+    "summary": "Strauss Group reported third quarter net income of NIS 212 million, with its Coffee International division showing a slight decline in EBIT.",
+    "category": "market",
+    "story_key": "strauss-3q-coffee-international-earnings",
+    "month": "2026-10"
   }
 }
